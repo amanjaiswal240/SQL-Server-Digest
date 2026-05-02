@@ -1,0 +1,23 @@
+[build]
+  # Tell Netlify: the static site lives in the /site folder
+  publish = "site"
+
+  # No build command needed — GitHub Actions builds it before pushing
+  command = ""
+
+[build.environment]
+  # Netlify doesn't need to run Python — GitHub Actions does all the work
+
+[[headers]]
+  for = "/*"
+  [headers.values]
+    X-Frame-Options        = "DENY"
+    X-Content-Type-Options = "nosniff"
+    Referrer-Policy        = "strict-origin-when-cross-origin"
+    Cache-Control          = "public, max-age=3600"
+
+[[headers]]
+  for = "/articles_history.json"
+  [headers.values]
+    Cache-Control          = "public, max-age=1800"
+    Access-Control-Allow-Origin = "*"

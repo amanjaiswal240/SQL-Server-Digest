@@ -1,0 +1,69 @@
+name: SQL Server DBA Digest — Daily Build
+
+on:
+  # ── Run every day at 6:00 AM IST (00:30 UTC) ──────────────────────────────
+  # Adjust the cron time to your preference:
+  #   '30 0 * * *'  = 6:00 AM IST  (India Standard Time)
+  #   '0 2 * * *'   = 7:30 AM IST
+  #   '30 23 * * *' = 5:00 AM IST (next day UTC)
+  schedule:
+    - cron: '30 0 * * *'
+
+  # ── Also allow manual trigger from GitHub Actions UI ──────────────────────
+  workflow_dispatch:
+    inputs:
+      reason:
+        description: 'Reason for manual run (optional)'
+        required: false
+        default: 'Manual trigger'
+
+jobs:
+  build-and-deploy:
+    name: Fetch · Summarize · Deploy
+    runs-on: ubuntu-latest
+    timeout-minutes: 15
+
+    permissions:
+      contents: write   # needed to push site/ back to repo
+
+    steps:
+      # ── 1. Checkout repo ──────────────────────────────────────────────────
+      - name: Checkout repository
+        uses: actions/checkout@v4
+        with:
+          fetch-depth: 0   # full history so we can push back
+
+      # ── 2. Set up Python ──────────────────────────────────────────────────
+      - name: Set up Python 3.11
+        uses: actions/setup-python@v5
+        with:
+          python-version: '3.11'
+          cache: 'pip'
+
+      # ── 3. Install dependencies ───────────────────────────────────────────
+      - name: Install Python dependencies
+        run: pip install -r requirements.txt
+
+      # ── 4. Run the digest builder ─────────────────────────────────────────
+      - name: Build digest site
+        env:
+          GEMINI_API_KEY: ${{ secrets.GEMINI_API_KEY }}
+        run: python scripts/fetch_and_build.py
+
+      # ── 5. Commit updated site/ back to the repo ──────────────────────────
+      #    Netlify watches the repo and auto-deploys on every push.
+      - name: Commit and push updated site
+        run: |
+          git config user.name  "github-actions[bot]"
+          git config user.email "github-actions[bot]@users.noreply.github.com"
+
+          git add site/index.html site/articles_history.json
+
+          # Only commit if there are actual changes
+          if git diff --staged --quiet; then
+            echo "✅ No changes to commit — site is already up to date."
+          else
+            git commit -m "chore: daily digest refresh $(date -u '+%Y-%m-%d %H:%M UTC')"
+            git push
+            echo "✅ Site pushed — Netlify will deploy automatically."
+          fi
