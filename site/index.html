@@ -3,36 +3,734 @@
 <head>
   <meta charset="UTF-8"/>
   <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
-  <title>SQL Server DBA Digest — Coming Soon</title>
-  <link href="https://fonts.googleapis.com/css2?family=Syne:wght@800&family=JetBrains+Mono&display=swap" rel="stylesheet"/>
+  <title>SQL Server DBA Digest</title>
+  <meta name="description" content="Daily curated SQL Server news, features and enhancements for DBAs — summarized by AI."/>
+  <link rel="preconnect" href="https://fonts.googleapis.com"/>
+  <link href="https://fonts.googleapis.com/css2?family=Syne:wght@400;700;800&family=JetBrains+Mono:wght@400;500&family=Lora:ital,wght@0,400;0,600;1,400&display=swap" rel="stylesheet"/>
   <style>
-    body {
-      background: #0d1117;
-      color: #e6edf3;
-      font-family: 'JetBrains Mono', monospace;
-      display: flex;
-      align-items: center;
-      justify-content: center;
-      min-height: 100vh;
-      margin: 0;
-      text-align: center;
+    :root {
+      --bg:       #0d1117;
+      --surface:  #161b22;
+      --surface2: #21262d;
+      --border:   #30363d;
+      --text:     #e6edf3;
+      --muted:    #8b949e;
+      --accent:   #f78166;
+      --gold:     #d4a820;
+      --green:    #3fb950;
+      --font-head: 'Syne', sans-serif;
+      --font-body: 'Lora', serif;
+      --font-mono: 'JetBrains Mono', monospace;
     }
-    h1 {
-      font-family: 'Syne', sans-serif;
-      font-size: 2.5rem;
-      color: #f78166;
+
+    *, *::before, *::after { box-sizing: border-box; margin: 0; padding: 0; }
+
+    body {
+      background: var(--bg);
+      color: var(--text);
+      font-family: var(--font-body);
+      font-size: 1rem;
+      line-height: 1.7;
+      min-height: 100vh;
+    }
+
+    /* ── HERO ── */
+    .hero {
+      position: relative;
+      overflow: hidden;
+      padding: 4rem 2rem 3rem;
+      border-bottom: 1px solid var(--border);
+      background:
+        radial-gradient(ellipse 80% 60% at 50% -10%, rgba(247,129,102,0.12) 0%, transparent 70%),
+        var(--bg);
+    }
+    .hero::before {
+      content: '';
+      position: absolute;
+      inset: 0;
+      background-image:
+        repeating-linear-gradient(0deg, transparent, transparent 39px, rgba(48,54,61,0.35) 40px),
+        repeating-linear-gradient(90deg, transparent, transparent 39px, rgba(48,54,61,0.35) 40px);
+      pointer-events: none;
+    }
+
+    .hero-inner {
+      max-width: 900px;
+      margin: 0 auto;
+      position: relative;
+    }
+    .hero-eyebrow {
+      font-family: var(--font-mono);
+      font-size: 0.72rem;
+      letter-spacing: 0.18em;
+      color: var(--accent);
+      text-transform: uppercase;
       margin-bottom: 1rem;
     }
-    p { color: #8b949e; font-size: 0.9rem; }
-    .dot { animation: blink 1s infinite; }
-    @keyframes blink { 50% { opacity: 0; } }
+    .hero h1 {
+      font-family: var(--font-head);
+      font-size: clamp(2.4rem, 6vw, 4rem);
+      font-weight: 800;
+      line-height: 1.05;
+      letter-spacing: -0.02em;
+    }
+    .hero h1 span { color: var(--accent); }
+    .hero-sub {
+      margin-top: 1rem;
+      color: var(--muted);
+      font-size: 1.05rem;
+      max-width: 520px;
+    }
+    .hero-meta {
+      margin-top: 2rem;
+      display: flex;
+      flex-wrap: wrap;
+      gap: 1.5rem;
+      align-items: center;
+    }
+    .stat {
+      display: flex;
+      flex-direction: column;
+      gap: 0.1rem;
+    }
+    .stat-num {
+      font-family: var(--font-head);
+      font-size: 1.8rem;
+      font-weight: 800;
+      color: var(--text);
+      line-height: 1;
+    }
+    .stat-label {
+      font-family: var(--font-mono);
+      font-size: 0.68rem;
+      color: var(--muted);
+      letter-spacing: 0.1em;
+      text-transform: uppercase;
+    }
+    .divider-v {
+      width: 1px;
+      height: 40px;
+      background: var(--border);
+    }
+    .updated {
+      font-family: var(--font-mono);
+      font-size: 0.72rem;
+      color: var(--muted);
+      margin-left: auto;
+    }
+    .updated span { color: var(--green); }
+
+    /* ── TOOLBAR ── */
+    .toolbar {
+      max-width: 900px;
+      margin: 0 auto;
+      padding: 1.5rem 2rem;
+      display: flex;
+      flex-wrap: wrap;
+      gap: 0.6rem;
+      align-items: center;
+      border-bottom: 1px solid var(--border);
+    }
+    .toolbar-label {
+      font-family: var(--font-mono);
+      font-size: 0.7rem;
+      color: var(--muted);
+      letter-spacing: 0.12em;
+      text-transform: uppercase;
+      margin-right: 0.4rem;
+    }
+    .filter-btn {
+      font-family: var(--font-mono);
+      font-size: 0.72rem;
+      padding: 0.3rem 0.75rem;
+      border-radius: 2rem;
+      border: 1px solid var(--c, #555);
+      background: transparent;
+      color: var(--c, #aaa);
+      cursor: pointer;
+      transition: background 0.15s, color 0.15s;
+      display: flex; gap: 0.4rem; align-items: center;
+    }
+    .filter-btn span {
+      background: var(--c, #555);
+      color: #000;
+      border-radius: 1rem;
+      padding: 0 0.4rem;
+      font-size: 0.65rem;
+      font-weight: 700;
+    }
+    .filter-btn:hover,
+    .filter-btn.active {
+      background: var(--c, #555);
+      color: #fff;
+    }
+    .filter-btn.active span { background: rgba(0,0,0,0.3); color: #fff; }
+
+    /* ── SEARCH ── */
+    .search-wrap {
+      max-width: 900px;
+      margin: 0 auto;
+      padding: 0 2rem 1.5rem;
+    }
+    .search-input {
+      width: 100%;
+      background: var(--surface);
+      border: 1px solid var(--border);
+      border-radius: 8px;
+      padding: 0.75rem 1.1rem 0.75rem 2.8rem;
+      color: var(--text);
+      font-family: var(--font-mono);
+      font-size: 0.85rem;
+      outline: none;
+      transition: border-color 0.15s;
+      background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='16' height='16' fill='%238b949e' viewBox='0 0 16 16'%3E%3Cpath d='M11.742 10.344a6.5 6.5 0 1 0-1.397 1.398h-.001c.03.04.062.078.098.115l3.85 3.85a1 1 0 0 0 1.415-1.414l-3.85-3.85a1.007 1.007 0 0 0-.115-.099zm-5.242 1.656a5.5 5.5 0 1 1 0-11 5.5 5.5 0 0 1 0 11z'/%3E%3C/svg%3E");
+      background-repeat: no-repeat;
+      background-position: 0.9rem center;
+    }
+    .search-input:focus { border-color: var(--accent); }
+    .search-input::placeholder { color: var(--muted); }
+
+    /* ── CARDS ── */
+    .feed {
+      max-width: 900px;
+      margin: 0 auto;
+      padding: 0 2rem 4rem;
+      display: flex;
+      flex-direction: column;
+      gap: 1.25rem;
+    }
+
+    .card {
+      background: var(--surface);
+      border: 1px solid var(--border);
+      border-left: 3px solid var(--accent);
+      border-radius: 10px;
+      padding: 1.5rem 1.75rem;
+      transition: border-color 0.2s, transform 0.15s, box-shadow 0.2s;
+      animation: fadeUp 0.4s ease both;
+      animation-delay: calc(var(--index, 0) * 0.04s);
+    }
+    @keyframes fadeUp {
+      from { opacity: 0; transform: translateY(12px); }
+      to   { opacity: 1; transform: translateY(0); }
+    }
+    .card:hover {
+      border-color: var(--accent);
+      box-shadow: 0 4px 24px rgba(0,0,0,0.4);
+      transform: translateY(-2px);
+    }
+    .card-top {
+      display: flex;
+      flex-wrap: wrap;
+      gap: 0.5rem;
+      align-items: center;
+      margin-bottom: 0.75rem;
+    }
+    .tag {
+      font-family: var(--font-mono);
+      font-size: 0.65rem;
+      letter-spacing: 0.1em;
+      text-transform: uppercase;
+      color: #fff;
+      padding: 0.2rem 0.65rem;
+      border-radius: 2rem;
+      font-weight: 500;
+    }
+    .source {
+      font-family: var(--font-mono);
+      font-size: 0.72rem;
+      color: var(--muted);
+    }
+    .pub-date {
+      font-family: var(--font-mono);
+      font-size: 0.68rem;
+      color: var(--muted);
+      margin-left: auto;
+    }
+
+    .card h2 {
+      font-family: var(--font-head);
+      font-size: 1.15rem;
+      font-weight: 700;
+      line-height: 1.3;
+      margin-bottom: 0.6rem;
+    }
+    .card h2 a {
+      color: var(--text);
+      text-decoration: none;
+      transition: color 0.15s;
+    }
+    .card h2 a:hover { color: var(--accent); }
+
+    .excerpt {
+      color: var(--muted);
+      font-size: 0.9rem;
+      line-height: 1.6;
+      margin-bottom: 0.85rem;
+    }
+
+    /* ── AI SUMMARY ── */
+    .ai-summary {
+      background: var(--surface2);
+      border: 1px solid var(--border);
+      border-radius: 8px;
+      padding: 1rem 1.2rem;
+      margin-bottom: 1rem;
+    }
+    .ai-badge {
+      font-family: var(--font-mono);
+      font-size: 0.65rem;
+      letter-spacing: 0.1em;
+      text-transform: uppercase;
+      color: var(--gold);
+      display: block;
+      margin-bottom: 0.6rem;
+    }
+    .ai-summary ul {
+      list-style: none;
+      padding: 0;
+      display: flex;
+      flex-direction: column;
+      gap: 0.35rem;
+    }
+    .ai-summary li {
+      font-size: 0.88rem;
+      color: var(--text);
+      padding-left: 1.2rem;
+      position: relative;
+      line-height: 1.5;
+    }
+    .ai-summary li::before {
+      content: '›';
+      position: absolute;
+      left: 0;
+      color: var(--gold);
+      font-weight: 700;
+    }
+
+    .read-link {
+      font-family: var(--font-mono);
+      font-size: 0.78rem;
+      color: var(--accent);
+      text-decoration: none;
+      letter-spacing: 0.03em;
+      transition: opacity 0.15s;
+    }
+    .read-link:hover { opacity: 0.7; }
+
+    /* ── EMPTY STATE ── */
+    .no-results {
+      text-align: center;
+      padding: 4rem 2rem;
+      color: var(--muted);
+      font-family: var(--font-mono);
+      font-size: 0.85rem;
+      display: none;
+    }
+
+    /* ── FOOTER ── */
+    footer {
+      border-top: 1px solid var(--border);
+      padding: 2rem;
+      text-align: center;
+      font-family: var(--font-mono);
+      font-size: 0.72rem;
+      color: var(--muted);
+      line-height: 2;
+    }
+    footer a { color: var(--muted); }
+
+    /* ── RESPONSIVE ── */
+    @media (max-width: 600px) {
+      .hero { padding: 2.5rem 1.25rem 2rem; }
+      .toolbar, .search-wrap, .feed { padding-left: 1.25rem; padding-right: 1.25rem; }
+      .hero-meta { gap: 1rem; }
+      .updated { margin-left: 0; }
+    }
   </style>
 </head>
 <body>
-  <div>
-    <h1>SQL Server DBA Digest</h1>
-    <p>First digest building<span class="dot">...</span></p>
-    <p style="margin-top:0.5rem">Check back in a few minutes after GitHub Actions runs.</p>
+
+<!-- HERO -->
+<header class="hero">
+  <div class="hero-inner">
+    <p class="hero-eyebrow">// Daily Intelligence Feed</p>
+    <h1>SQL Server<br/><span>DBA Digest</span></h1>
+    <p class="hero-sub">
+      Curated news, features &amp; enhancements from the top SQL Server experts —
+      summarized by AI, delivered daily.
+    </p>
+    <div class="hero-meta">
+      <div class="stat">
+        <span class="stat-num" id="js-count">19</span>
+        <span class="stat-label">Articles Today</span>
+      </div>
+      <div class="divider-v"></div>
+      <div class="stat">
+        <span class="stat-num">19</span>
+        <span class="stat-label">In Archive</span>
+      </div>
+      <div class="divider-v"></div>
+      <div class="stat">
+        <span class="stat-num">10</span>
+        <span class="stat-label">Trusted Sources</span>
+      </div>
+      <p class="updated">Updated <span>May 02, 2026 — 15:37 UTC</span></p>
+    </div>
   </div>
+</header>
+
+<!-- FILTER TOOLBAR -->
+<div class="toolbar">
+  <span class="toolbar-label">Filter:</span>
+  <button class="filter-btn active" data-tag="all" style="--c:#8b949e">
+    All <span>19</span>
+  </button>
+  <button class="filter-btn" data-tag="Community" style="--c:#27ae60">Community <span>5</span></button><button class="filter-btn" data-tag="Performance" style="--c:#e74c3c">Performance <span>4</span></button><button class="filter-btn" data-tag="DBA Life" style="--c:#d35400">DBA Life <span>4</span></button><button class="filter-btn" data-tag="Deep Dive" style="--c:#16a085">Deep Dive <span>3</span></button><button class="filter-btn" data-tag="Tips" style="--c:#f39c12">Tips <span>3</span></button>
+</div>
+
+<!-- SEARCH -->
+<div class="search-wrap">
+  <input
+    class="search-input"
+    type="search"
+    id="js-search"
+    placeholder="Search articles, topics, sources…"
+    autocomplete="off"
+  />
+</div>
+
+<!-- ARTICLES -->
+<main class="feed" id="js-feed">
+
+    <article class="card" style="--accent:#e74c3c" data-index="0">
+      <div class="card-top">
+        <span class="tag" style="background:#e74c3c">Performance</span>
+        <span class="source">Brent Ozar Unlimited</span>
+        <span class="pub-date">Fri, 01 May 2026</span>
+      </div>
+      <h2><a href="https://www.brentozar.com/archive/2026/05/free-webcast-fixing-parameter-sniffing-with-index-tuning/" target="_blank" rel="noopener">Free Webcast: Fixing Parameter Sniffing with Index Tuning</a></h2>
+      <p class="excerpt">When a query is sometimes fast and sometimes slow, there are a lot of ways you can reduce the effects of parameter sniffing. We&amp;#8217;re always going to have parameter sniffing in SQL Server and Azure…</p>
+      
+      <a class="read-link" href="https://www.brentozar.com/archive/2026/05/free-webcast-fixing-parameter-sniffing-with-index-tuning/" target="_blank" rel="noopener">
+        Read full article →
+      </a>
+    </article>
+
+    <article class="card" style="--accent:#e74c3c" data-index="1">
+      <div class="card-top">
+        <span class="tag" style="background:#e74c3c">Performance</span>
+        <span class="source">Brent Ozar Unlimited</span>
+        <span class="pub-date">Thu, 30 Apr 2026</span>
+      </div>
+      <h2><a href="https://www.brentozar.com/archive/2026/04/so-you-wanna-build-an-app/" target="_blank" rel="noopener">So You Wanna Build an App</a></h2>
+      <p class="excerpt">I get a lot of emails like this: Hi! I built an app. Can you take a look at it, give me your feedback, and then help get the word out to your readers? No. I wish I could, but no. But this happens so o…</p>
+      
+      <a class="read-link" href="https://www.brentozar.com/archive/2026/04/so-you-wanna-build-an-app/" target="_blank" rel="noopener">
+        Read full article →
+      </a>
+    </article>
+
+    <article class="card" style="--accent:#e74c3c" data-index="2">
+      <div class="card-top">
+        <span class="tag" style="background:#e74c3c">Performance</span>
+        <span class="source">Brent Ozar Unlimited</span>
+        <span class="pub-date">Wed, 29 Apr 2026</span>
+      </div>
+      <h2><a href="https://www.brentozar.com/archive/2026/04/you-cant-trust-edit-query-text-in-ssmss-execution-plans/" target="_blank" rel="noopener">You Can’t Trust “Edit Query Text” in SSMS’s Execution Plans.</a></h2>
+      <p class="excerpt">When there are IF branches or conditional logic, &amp;#8220;Edit Query Text&amp;#8221; only shows you the branches that actually executed. It&amp;#8217;s easy to miss whole swaths of code that didn&amp;#8217;t happen…</p>
+      
+      <a class="read-link" href="https://www.brentozar.com/archive/2026/04/you-cant-trust-edit-query-text-in-ssmss-execution-plans/" target="_blank" rel="noopener">
+        Read full article →
+      </a>
+    </article>
+
+    <article class="card" style="--accent:#e74c3c" data-index="3">
+      <div class="card-top">
+        <span class="tag" style="background:#e74c3c">Performance</span>
+        <span class="source">Brent Ozar Unlimited</span>
+        <span class="pub-date">Tue, 28 Apr 2026</span>
+      </div>
+      <h2><a href="https://www.brentozar.com/archive/2026/04/there-are-days-when-i-feel-like-giving-up-on-the-plan-cache-and-query-store/" target="_blank" rel="noopener">There Are Days When I Feel Like Giving Up on the Plan Cache and Query Store.</a></h2>
+      <p class="excerpt">In theory, SQL Server performance monitoring is pretty simple: Review the server&amp;#8217;s top wait types Find the queries causing those wait types Fix those queries, or improve the way the server react…</p>
+      
+      <a class="read-link" href="https://www.brentozar.com/archive/2026/04/there-are-days-when-i-feel-like-giving-up-on-the-plan-cache-and-query-store/" target="_blank" rel="noopener">
+        Read full article →
+      </a>
+    </article>
+
+    <article class="card" style="--accent:#27ae60" data-index="4">
+      <div class="card-top">
+        <span class="tag" style="background:#27ae60">Community</span>
+        <span class="source">SQL Server Central</span>
+        <span class="pub-date">Fri, 01 May 2026</span>
+      </div>
+      <h2><a href="https://www.sqlservercentral.com/articles/understanding-deadlock-victim-selection-in-sql-server" target="_blank" rel="noopener">Understanding Deadlock Victim Selection in SQL Server</a></h2>
+      <p class="excerpt">A short introduction to how deadlocks work and how you can affect their behavior inside your system.
+The post Understanding Deadlock Victim Selection in SQL Server appeared first on SQLServerCentral.</p>
+      
+      <a class="read-link" href="https://www.sqlservercentral.com/articles/understanding-deadlock-victim-selection-in-sql-server" target="_blank" rel="noopener">
+        Read full article →
+      </a>
+    </article>
+
+    <article class="card" style="--accent:#27ae60" data-index="5">
+      <div class="card-top">
+        <span class="tag" style="background:#27ae60">Community</span>
+        <span class="source">SQL Server Central</span>
+        <span class="pub-date">Fri, 01 May 2026</span>
+      </div>
+      <h2><a href="https://www.sqlservercentral.com/articles/net-present-value-and-internal-rate-of-return-in-sql-server" target="_blank" rel="noopener">Net Present Value and Internal Rate of Return in SQL Server</a></h2>
+      <p class="excerpt">Many organizations store cash-flow data inside SQL Server and decision-makers often need metrics like Net Present Value (NPV) and Internal Rate of Return (IRR) to evaluate those cash flows. Is it poss…</p>
+      
+      <a class="read-link" href="https://www.sqlservercentral.com/articles/net-present-value-and-internal-rate-of-return-in-sql-server" target="_blank" rel="noopener">
+        Read full article →
+      </a>
+    </article>
+
+    <article class="card" style="--accent:#27ae60" data-index="6">
+      <div class="card-top">
+        <span class="tag" style="background:#27ae60">Community</span>
+        <span class="source">SQL Server Central</span>
+        <span class="pub-date">Wed, 29 Apr 2026</span>
+      </div>
+      <h2><a href="https://www.sqlservercentral.com/articles/t-sql-trigonometric-functions-in-sql-server" target="_blank" rel="noopener">T-SQL Trigonometric Functions in SQL Server</a></h2>
+      <p class="excerpt">Introduction SQL Server includes several built-in mathematical functions that allow developers to perform complex calculations directly within queries. Among these are trigonometric functions such as …</p>
+      
+      <a class="read-link" href="https://www.sqlservercentral.com/articles/t-sql-trigonometric-functions-in-sql-server" target="_blank" rel="noopener">
+        Read full article →
+      </a>
+    </article>
+
+    <article class="card" style="--accent:#27ae60" data-index="7">
+      <div class="card-top">
+        <span class="tag" style="background:#27ae60">Community</span>
+        <span class="source">SQL Server Central</span>
+        <span class="pub-date">Wed, 29 Apr 2026</span>
+      </div>
+      <h2><a href="https://www.sqlservercentral.com/articles/how-multi-column-statistics-work" target="_blank" rel="noopener">How Multi-Column Statistics Work</a></h2>
+      <p class="excerpt">The short answer: in the real world, only the first column works. When SQL Server needs data about the second column, it builds its own stats on that column instead (assuming they don’t already exist)…</p>
+      
+      <a class="read-link" href="https://www.sqlservercentral.com/articles/how-multi-column-statistics-work" target="_blank" rel="noopener">
+        Read full article →
+      </a>
+    </article>
+
+    <article class="card" style="--accent:#27ae60" data-index="8">
+      <div class="card-top">
+        <span class="tag" style="background:#27ae60">Community</span>
+        <span class="source">SQL Server Central</span>
+        <span class="pub-date">Mon, 27 Apr 2026</span>
+      </div>
+      <h2><a href="https://www.sqlservercentral.com/articles/t-sql-in-sql-server-2025-json_arrayagg" target="_blank" rel="noopener">T-SQL in SQL Server 2025: JSON_ARRAYAGG</a></h2>
+      <p class="excerpt">Learn how the JSON_ARRAYAGG() function works in SQL Server 2025.
+The post T-SQL in SQL Server 2025: JSON_ARRAYAGG appeared first on SQLServerCentral.</p>
+      
+      <a class="read-link" href="https://www.sqlservercentral.com/articles/t-sql-in-sql-server-2025-json_arrayagg" target="_blank" rel="noopener">
+        Read full article →
+      </a>
+    </article>
+
+    <article class="card" style="--accent:#16a085" data-index="9">
+      <div class="card-top">
+        <span class="tag" style="background:#16a085">Deep Dive</span>
+        <span class="source">Simple Talk (Redgate)</span>
+        <span class="pub-date">Fri, 01 May 2026</span>
+      </div>
+      <h2><a href="https://www.red-gate.com/simple-talk/databases/sql-server/what-is-chunking-and-how-does-it-apply-to-vectors-in-sql-server-2025/" target="_blank" rel="noopener">What is chunking, and how does it apply to vectors in SQL Server 2025?</a></h2>
+      <p class="excerpt">Learn what chunking is, why it matters for embeddings, and how SQL Server 2025 enables efficient AI-powered vector search.&amp;#8230;
+The post What is chunking, and how does it apply to vectors in SQL Ser…</p>
+      
+      <a class="read-link" href="https://www.red-gate.com/simple-talk/databases/sql-server/what-is-chunking-and-how-does-it-apply-to-vectors-in-sql-server-2025/" target="_blank" rel="noopener">
+        Read full article →
+      </a>
+    </article>
+
+    <article class="card" style="--accent:#16a085" data-index="10">
+      <div class="card-top">
+        <span class="tag" style="background:#16a085">Deep Dive</span>
+        <span class="source">Simple Talk (Redgate)</span>
+        <span class="pub-date">Wed, 29 Apr 2026</span>
+      </div>
+      <h2><a href="https://www.red-gate.com/simple-talk/databases/postgresql/fillfactor-in-postgresql-what-it-means-and-when-to-adjust-it/" target="_blank" rel="noopener">What is fillfactor in PostgreSQL – and when should you adjust it?</a></h2>
+      <p class="excerpt">Learn how to optimize PostgreSQL performance with fillfactor - including how it affects HOT updates, indexing, and update-heavy workloads.&amp;#8230;
+The post What is fillfactor in PostgreSQL &amp;#8211; and …</p>
+      
+      <a class="read-link" href="https://www.red-gate.com/simple-talk/databases/postgresql/fillfactor-in-postgresql-what-it-means-and-when-to-adjust-it/" target="_blank" rel="noopener">
+        Read full article →
+      </a>
+    </article>
+
+    <article class="card" style="--accent:#16a085" data-index="11">
+      <div class="card-top">
+        <span class="tag" style="background:#16a085">Deep Dive</span>
+        <span class="source">Simple Talk (Redgate)</span>
+        <span class="pub-date">Tue, 28 Apr 2026</span>
+      </div>
+      <h2><a href="https://www.red-gate.com/simple-talk/databases/what-are-the-top-database-platforms-in-2026-a-look-at-the-latest-data/" target="_blank" rel="noopener">What are the top database platforms in 2026? A look at the latest data</a></h2>
+      <p class="excerpt">Explore 2026 database market trends: AWS, Microsoft, Oracle, and Google Cloud Platform remain dominant as MongoDB, Snowflake, and Databricks steadily gain ground. Insights from Gartner and DB-Engines …</p>
+      
+      <a class="read-link" href="https://www.red-gate.com/simple-talk/databases/what-are-the-top-database-platforms-in-2026-a-look-at-the-latest-data/" target="_blank" rel="noopener">
+        Read full article →
+      </a>
+    </article>
+
+    <article class="card" style="--accent:#f39c12" data-index="12">
+      <div class="card-top">
+        <span class="tag" style="background:#f39c12">Tips</span>
+        <span class="source">SQL Authority (Pinal Dave)</span>
+        <span class="pub-date">Wed, 22 Apr 2026</span>
+      </div>
+      <h2><a href="https://blog.sqlauthority.com/2026/04/22/sql-server-monitoring-across-cloud-hybrid-and-on-prem/?utm_source=rss&amp;utm_medium=rss&amp;utm_campaign=sql-server-monitoring-across-cloud-hybrid-and-on-prem" target="_blank" rel="noopener">SQL Server Monitoring Across Cloud, Hybrid, and On-Prem</a></h2>
+      <p class="excerpt">Let us talk about SQL Server Monitoring Across Cloud, Hybrid, and On-Prem. This is not a tooling problem.
+First appeared on SQL Server Monitoring Across Cloud, Hybrid, and On-Prem</p>
+      
+      <a class="read-link" href="https://blog.sqlauthority.com/2026/04/22/sql-server-monitoring-across-cloud-hybrid-and-on-prem/?utm_source=rss&amp;utm_medium=rss&amp;utm_campaign=sql-server-monitoring-across-cloud-hybrid-and-on-prem" target="_blank" rel="noopener">
+        Read full article →
+      </a>
+    </article>
+
+    <article class="card" style="--accent:#f39c12" data-index="13">
+      <div class="card-top">
+        <span class="tag" style="background:#f39c12">Tips</span>
+        <span class="source">SQL Authority (Pinal Dave)</span>
+        <span class="pub-date">Wed, 15 Apr 2026</span>
+      </div>
+      <h2><a href="https://blog.sqlauthority.com/2026/04/15/real-time-performance-views-that-make-troubleshooting-easier/?utm_source=rss&amp;utm_medium=rss&amp;utm_campaign=real-time-performance-views-that-make-troubleshooting-easier" target="_blank" rel="noopener">Real-Time Performance Views That Make Troubleshooting Easier</a></h2>
+      <p class="excerpt">Let us talk about Real-Time Performance Views That Make Troubleshooting Easier. And it is more common than it should be.
+First appeared on Real-Time Performance Views That Make Troubleshooting Easier</p>
+      
+      <a class="read-link" href="https://blog.sqlauthority.com/2026/04/15/real-time-performance-views-that-make-troubleshooting-easier/?utm_source=rss&amp;utm_medium=rss&amp;utm_campaign=real-time-performance-views-that-make-troubleshooting-easier" target="_blank" rel="noopener">
+        Read full article →
+      </a>
+    </article>
+
+    <article class="card" style="--accent:#f39c12" data-index="14">
+      <div class="card-top">
+        <span class="tag" style="background:#f39c12">Tips</span>
+        <span class="source">SQL Authority (Pinal Dave)</span>
+        <span class="pub-date">Wed, 11 Mar 2026</span>
+      </div>
+      <h2><a href="https://blog.sqlauthority.com/2026/03/11/ai-built-sql-server-wait-statistics-dashboard-in-minutes/?utm_source=rss&amp;utm_medium=rss&amp;utm_campaign=ai-built-sql-server-wait-statistics-dashboard-in-minutes" target="_blank" rel="noopener">AI Built SQL Server Wait Statistics Dashboard in Minutes</a></h2>
+      <p class="excerpt">One prompt. Twelve lines of plain English. A complete, production-quality, dark-themed SQL Server Wait Statistics Dashboard. And a feeling I am still not sure how to name.
+First appeared on AI Built S…</p>
+      
+      <a class="read-link" href="https://blog.sqlauthority.com/2026/03/11/ai-built-sql-server-wait-statistics-dashboard-in-minutes/?utm_source=rss&amp;utm_medium=rss&amp;utm_campaign=ai-built-sql-server-wait-statistics-dashboard-in-minutes" target="_blank" rel="noopener">
+        Read full article →
+      </a>
+    </article>
+
+    <article class="card" style="--accent:#d35400" data-index="15">
+      <div class="card-top">
+        <span class="tag" style="background:#d35400">DBA Life</span>
+        <span class="source">Andy Mallon (am2)</span>
+        <span class="pub-date">Fri, 07 Mar 2025</span>
+      </div>
+      <h2><a href="https://am2.co/2025/03/consuming-sql-agent-dates-durations/?utm_source=rss&amp;utm_medium=rss&amp;utm_campaign=consuming-sql-agent-dates-durations" target="_blank" rel="noopener">Consuming SQL Agent dates &amp; durations</a></h2>
+      <p class="excerpt">SQL Agent&amp;#8217;s schema is older than me. It handles dates, times, and durations like it&amp;#8217;s 1980 by using integers instead of date/time data types. My buddy Aaron Bertrand talks more about Datin…</p>
+      
+      <a class="read-link" href="https://am2.co/2025/03/consuming-sql-agent-dates-durations/?utm_source=rss&amp;utm_medium=rss&amp;utm_campaign=consuming-sql-agent-dates-durations" target="_blank" rel="noopener">
+        Read full article →
+      </a>
+    </article>
+
+    <article class="card" style="--accent:#d35400" data-index="16">
+      <div class="card-top">
+        <span class="tag" style="background:#d35400">DBA Life</span>
+        <span class="source">Andy Mallon (am2)</span>
+        <span class="pub-date">Thu, 29 Aug 2024</span>
+      </div>
+      <h2><a href="https://am2.co/2024/08/not-all-stats-should-be-auto-updated/?utm_source=rss&amp;utm_medium=rss&amp;utm_campaign=not-all-stats-should-be-auto-updated" target="_blank" rel="noopener">Not all stats should be auto-updated</a></h2>
+      <p class="excerpt">Statistics auto-updates are generally a good thing&amp;#8211;auto-update of statistics is the default behavior in SQL Server. Having the freshest information about the data &amp;#8220;shape&amp;#8221; helps to in…</p>
+      
+      <a class="read-link" href="https://am2.co/2024/08/not-all-stats-should-be-auto-updated/?utm_source=rss&amp;utm_medium=rss&amp;utm_campaign=not-all-stats-should-be-auto-updated" target="_blank" rel="noopener">
+        Read full article →
+      </a>
+    </article>
+
+    <article class="card" style="--accent:#d35400" data-index="17">
+      <div class="card-top">
+        <span class="tag" style="background:#d35400">DBA Life</span>
+        <span class="source">Andy Mallon (am2)</span>
+        <span class="pub-date">Tue, 13 Feb 2024</span>
+      </div>
+      <h2><a href="https://am2.co/2024/02/the-last-ticket-i-closed/?utm_source=rss&amp;utm_medium=rss&amp;utm_campaign=the-last-ticket-i-closed" target="_blank" rel="noopener">T-SQL Tuesday: The last ticket I closed</a></h2>
+      <p class="excerpt">For this month&amp;#8217;s T-SQL Tuesday, Brent Ozar (blog&amp;#124;Instagram) asks us to describe the most recent ticket we closed. &amp;#8220;We had a pretty significant wait spike&amp;#8230;&amp;#8221; The literal las…</p>
+      
+      <a class="read-link" href="https://am2.co/2024/02/the-last-ticket-i-closed/?utm_source=rss&amp;utm_medium=rss&amp;utm_campaign=the-last-ticket-i-closed" target="_blank" rel="noopener">
+        Read full article →
+      </a>
+    </article>
+
+    <article class="card" style="--accent:#d35400" data-index="18">
+      <div class="card-top">
+        <span class="tag" style="background:#d35400">DBA Life</span>
+        <span class="source">Andy Mallon (am2)</span>
+        <span class="pub-date">Sat, 07 Oct 2023</span>
+      </div>
+      <h2><a href="https://am2.co/2023/10/enforce-a-specific-constraint-to-be-checked-first/?utm_source=rss&amp;utm_medium=rss&amp;utm_campaign=enforce-a-specific-constraint-to-be-checked-first" target="_blank" rel="noopener">Enforce a specific constraint to be checked first?</a></h2>
+      <p class="excerpt">Question I have the following SQL Server table : create table Account( -- column names with their data types and properties Id int not null identity primary key, User varchar(50) not null, Job varchar…</p>
+      
+      <a class="read-link" href="https://am2.co/2023/10/enforce-a-specific-constraint-to-be-checked-first/?utm_source=rss&amp;utm_medium=rss&amp;utm_campaign=enforce-a-specific-constraint-to-be-checked-first" target="_blank" rel="noopener">
+        Read full article →
+      </a>
+    </article>
+  <p class="no-results" id="js-empty">No articles match your search.</p>
+</main>
+
+<!-- FOOTER -->
+<footer>
+  <p>Sources: Brent Ozar Unlimited, SQL Server Central, MSSQLTips, SQLskills (Paul Randal & Erin Stellato), Microsoft SQL Server Blog, Simple Talk (Redgate), SQL Authority (Pinal Dave), Aaron Bertrand, Andy Mallon (am2), Kendra Little</p>
+  <p style="margin-top:0.5rem">
+    Built with Python · GitHub Actions · Gemini AI · Netlify &nbsp;|&nbsp;
+    <a href="articles_history.json">Raw JSON</a>
+  </p>
+</footer>
+
+<script>
+  // ── Filter by tag ──
+  const filterBtns = document.querySelectorAll('.filter-btn');
+  const cards      = document.querySelectorAll('.card');
+  const feed       = document.getElementById('js-feed');
+  const countEl    = document.getElementById('js-count');
+  const emptyEl    = document.getElementById('js-empty');
+  const searchEl   = document.getElementById('js-search');
+
+  let activeTag  = 'all';
+  let searchTerm = '';
+
+  function applyFilters() {
+    let visible = 0;
+    cards.forEach(card => {
+      const tag    = card.querySelector('.tag')?.textContent.trim() || '';
+      const text   = card.textContent.toLowerCase();
+      const tagOk  = activeTag === 'all' || tag === activeTag;
+      const srchOk = !searchTerm || text.includes(searchTerm);
+      const show   = tagOk && srchOk;
+      card.style.display = show ? '' : 'none';
+      if (show) visible++;
+    });
+    countEl.textContent = visible;
+    emptyEl.style.display = visible === 0 ? 'block' : 'none';
+  }
+
+  filterBtns.forEach(btn => {
+    btn.addEventListener('click', () => {
+      filterBtns.forEach(b => b.classList.remove('active'));
+      btn.classList.add('active');
+      activeTag = btn.dataset.tag;
+      applyFilters();
+    });
+  });
+
+  searchEl.addEventListener('input', e => {
+    searchTerm = e.target.value.toLowerCase().trim();
+    applyFilters();
+  });
+
+  // ── Stagger animation ──
+  cards.forEach((card, i) => card.style.setProperty('--index', i));
+</script>
+
 </body>
 </html>

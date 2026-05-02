@@ -1,1 +1,173 @@
-[]
+[
+  {
+    "title": "Free Webcast: Fixing Parameter Sniffing with Index Tuning",
+    "link": "https://www.brentozar.com/archive/2026/05/free-webcast-fixing-parameter-sniffing-with-index-tuning/",
+    "summary": "When a query is sometimes fast and sometimes slow, there are a lot of ways you can reduce the effects of parameter sniffing. We&#8217;re always going to have parameter sniffing in SQL Server and Azure SQL DB &#8211; it&#8217;s just the way the product is built &#8211; but there are a lot of options to reduce...",
+    "source": "Brent Ozar Unlimited",
+    "tag": "Performance",
+    "pub": "Fri, 01 May 2026 13:15:56 +0000",
+    "ai_summary": ""
+  },
+  {
+    "title": "So You Wanna Build an App",
+    "link": "https://www.brentozar.com/archive/2026/04/so-you-wanna-build-an-app/",
+    "summary": "I get a lot of emails like this: Hi! I built an app. Can you take a look at it, give me your feedback, and then help get the word out to your readers? No. I wish I could, but no. But this happens so often that I wanna write a blog post explaining the...",
+    "source": "Brent Ozar Unlimited",
+    "tag": "Performance",
+    "pub": "Thu, 30 Apr 2026 13:15:52 +0000",
+    "ai_summary": ""
+  },
+  {
+    "title": "You Can’t Trust “Edit Query Text” in SSMS’s Execution Plans.",
+    "link": "https://www.brentozar.com/archive/2026/04/you-cant-trust-edit-query-text-in-ssmss-execution-plans/",
+    "summary": "When there are IF branches or conditional logic, &#8220;Edit Query Text&#8221; only shows you the branches that actually executed. It&#8217;s easy to miss whole swaths of code that didn&#8217;t happen to execute one particular time. To demo it, let&#8217;s create a simple stored procedure with an IF branch that sometimes executes, and sometimes doesn&#8217;t: [crayon-69f5bb7cd16cb743161832/]...",
+    "source": "Brent Ozar Unlimited",
+    "tag": "Performance",
+    "pub": "Wed, 29 Apr 2026 13:15:29 +0000",
+    "ai_summary": ""
+  },
+  {
+    "title": "There Are Days When I Feel Like Giving Up on the Plan Cache and Query Store.",
+    "link": "https://www.brentozar.com/archive/2026/04/there-are-days-when-i-feel-like-giving-up-on-the-plan-cache-and-query-store/",
+    "summary": "In theory, SQL Server performance monitoring is pretty simple: Review the server&#8217;s top wait types Find the queries causing those wait types Fix those queries, or improve the way the server reacts to them (indexes, settings, etc.) But in practice, step 2 is awful because: Apps send unparameterized strings to the database server Entity Framework...",
+    "source": "Brent Ozar Unlimited",
+    "tag": "Performance",
+    "pub": "Tue, 28 Apr 2026 13:15:21 +0000",
+    "ai_summary": ""
+  },
+  {
+    "title": "Understanding Deadlock Victim Selection in SQL Server",
+    "link": "https://www.sqlservercentral.com/articles/understanding-deadlock-victim-selection-in-sql-server",
+    "summary": "A short introduction to how deadlocks work and how you can affect their behavior inside your system.\nThe post Understanding Deadlock Victim Selection in SQL Server appeared first on SQLServerCentral.",
+    "source": "SQL Server Central",
+    "tag": "Community",
+    "pub": "Fri, 01 May 2026 00:00:11 +0000",
+    "ai_summary": ""
+  },
+  {
+    "title": "Net Present Value and Internal Rate of Return in SQL Server",
+    "link": "https://www.sqlservercentral.com/articles/net-present-value-and-internal-rate-of-return-in-sql-server",
+    "summary": "Many organizations store cash-flow data inside SQL Server and decision-makers often need metrics like Net Present Value (NPV) and Internal Rate of Return (IRR) to evaluate those cash flows. Is it possible to calculate NPV and IIR values in SQL Server without the use of external tools?\nThe post Net Present Value and Internal Rate of Return in SQL Server appeared first on SQLServerCentral.",
+    "source": "SQL Server Central",
+    "tag": "Community",
+    "pub": "Fri, 01 May 2026 00:00:19 +0000",
+    "ai_summary": ""
+  },
+  {
+    "title": "T-SQL Trigonometric Functions in SQL Server",
+    "link": "https://www.sqlservercentral.com/articles/t-sql-trigonometric-functions-in-sql-server",
+    "summary": "Introduction SQL Server includes several built-in mathematical functions that allow developers to perform complex calculations directly within queries. Among these are trigonometric functions such as SIN(), COS(), and TAN(), which are useful in scenarios involving engineering calculations, geographic data processing, simulations, and analytics. Although these functions are straightforward to use, developers occasionally encounter unexpected results [&#8230;]\nThe post T-SQL Trigonometric Function",
+    "source": "SQL Server Central",
+    "tag": "Community",
+    "pub": "Wed, 29 Apr 2026 00:00:11 +0000",
+    "ai_summary": ""
+  },
+  {
+    "title": "How Multi-Column Statistics Work",
+    "link": "https://www.sqlservercentral.com/articles/how-multi-column-statistics-work",
+    "summary": "The short answer: in the real world, only the first column works. When SQL Server needs data about the second column, it builds its own stats on that column instead (assuming they don’t already exist), and uses those two statistics together – but they’re not really correlated.\nThe post How Multi-Column Statistics Work appeared first on SQLServerCentral.",
+    "source": "SQL Server Central",
+    "tag": "Community",
+    "pub": "Wed, 29 Apr 2026 00:00:44 +0000",
+    "ai_summary": ""
+  },
+  {
+    "title": "T-SQL in SQL Server 2025: JSON_ARRAYAGG",
+    "link": "https://www.sqlservercentral.com/articles/t-sql-in-sql-server-2025-json_arrayagg",
+    "summary": "Learn how the JSON_ARRAYAGG() function works in SQL Server 2025.\nThe post T-SQL in SQL Server 2025: JSON_ARRAYAGG appeared first on SQLServerCentral.",
+    "source": "SQL Server Central",
+    "tag": "Community",
+    "pub": "Mon, 27 Apr 2026 00:00:43 +0000",
+    "ai_summary": ""
+  },
+  {
+    "title": "What is chunking, and how does it apply to vectors in SQL Server 2025?",
+    "link": "https://www.red-gate.com/simple-talk/databases/sql-server/what-is-chunking-and-how-does-it-apply-to-vectors-in-sql-server-2025/",
+    "summary": "Learn what chunking is, why it matters for embeddings, and how SQL Server 2025 enables efficient AI-powered vector search.&#8230;\nThe post What is chunking, and how does it apply to vectors in SQL Server 2025? appeared first on Simple Talk.",
+    "source": "Simple Talk (Redgate)",
+    "tag": "Deep Dive",
+    "pub": "Fri, 01 May 2026 12:00:00 +0000",
+    "ai_summary": ""
+  },
+  {
+    "title": "What is fillfactor in PostgreSQL – and when should you adjust it?",
+    "link": "https://www.red-gate.com/simple-talk/databases/postgresql/fillfactor-in-postgresql-what-it-means-and-when-to-adjust-it/",
+    "summary": "Learn how to optimize PostgreSQL performance with fillfactor - including how it affects HOT updates, indexing, and update-heavy workloads.&#8230;\nThe post What is fillfactor in PostgreSQL &#8211; and when should you adjust it? appeared first on Simple Talk.",
+    "source": "Simple Talk (Redgate)",
+    "tag": "Deep Dive",
+    "pub": "Wed, 29 Apr 2026 13:00:00 +0000",
+    "ai_summary": ""
+  },
+  {
+    "title": "What are the top database platforms in 2026? A look at the latest data",
+    "link": "https://www.red-gate.com/simple-talk/databases/what-are-the-top-database-platforms-in-2026-a-look-at-the-latest-data/",
+    "summary": "Explore 2026 database market trends: AWS, Microsoft, Oracle, and Google Cloud Platform remain dominant as MongoDB, Snowflake, and Databricks steadily gain ground. Insights from Gartner and DB-Engines rankings.&#8230;\nThe post What are the top database platforms in 2026? A look at the latest data appeared first on Simple Talk.",
+    "source": "Simple Talk (Redgate)",
+    "tag": "Deep Dive",
+    "pub": "Tue, 28 Apr 2026 15:16:56 +0000",
+    "ai_summary": ""
+  },
+  {
+    "title": "SQL Server Monitoring Across Cloud, Hybrid, and On-Prem",
+    "link": "https://blog.sqlauthority.com/2026/04/22/sql-server-monitoring-across-cloud-hybrid-and-on-prem/?utm_source=rss&utm_medium=rss&utm_campaign=sql-server-monitoring-across-cloud-hybrid-and-on-prem",
+    "summary": "Let us talk about SQL Server Monitoring Across Cloud, Hybrid, and On-Prem. This is not a tooling problem.\nFirst appeared on SQL Server Monitoring Across Cloud, Hybrid, and On-Prem",
+    "source": "SQL Authority (Pinal Dave)",
+    "tag": "Tips",
+    "pub": "Wed, 22 Apr 2026 01:30:58 +0000",
+    "ai_summary": ""
+  },
+  {
+    "title": "Real-Time Performance Views That Make Troubleshooting Easier",
+    "link": "https://blog.sqlauthority.com/2026/04/15/real-time-performance-views-that-make-troubleshooting-easier/?utm_source=rss&utm_medium=rss&utm_campaign=real-time-performance-views-that-make-troubleshooting-easier",
+    "summary": "Let us talk about Real-Time Performance Views That Make Troubleshooting Easier. And it is more common than it should be.\nFirst appeared on Real-Time Performance Views That Make Troubleshooting Easier",
+    "source": "SQL Authority (Pinal Dave)",
+    "tag": "Tips",
+    "pub": "Wed, 15 Apr 2026 01:30:56 +0000",
+    "ai_summary": ""
+  },
+  {
+    "title": "AI Built SQL Server Wait Statistics Dashboard in Minutes",
+    "link": "https://blog.sqlauthority.com/2026/03/11/ai-built-sql-server-wait-statistics-dashboard-in-minutes/?utm_source=rss&utm_medium=rss&utm_campaign=ai-built-sql-server-wait-statistics-dashboard-in-minutes",
+    "summary": "One prompt. Twelve lines of plain English. A complete, production-quality, dark-themed SQL Server Wait Statistics Dashboard. And a feeling I am still not sure how to name.\nFirst appeared on AI Built SQL Server Wait Statistics Dashboard in Minutes",
+    "source": "SQL Authority (Pinal Dave)",
+    "tag": "Tips",
+    "pub": "Wed, 11 Mar 2026 01:30:07 +0000",
+    "ai_summary": ""
+  },
+  {
+    "title": "Consuming SQL Agent dates & durations",
+    "link": "https://am2.co/2025/03/consuming-sql-agent-dates-durations/?utm_source=rss&utm_medium=rss&utm_campaign=consuming-sql-agent-dates-durations",
+    "summary": "SQL Agent&#8217;s schema is older than me. It handles dates, times, and durations like it&#8217;s 1980 by using integers instead of date/time data types. My buddy Aaron Bertrand talks more about Dating Responsibly so that you can have a good datetime with your own database. ... [Read More]\nThe post Consuming SQL Agent dates &#038; durations appeared first on Andy M Mallon - AM².",
+    "source": "Andy Mallon (am2)",
+    "tag": "DBA Life",
+    "pub": "Fri, 07 Mar 2025 21:17:43 +0000",
+    "ai_summary": null
+  },
+  {
+    "title": "Not all stats should be auto-updated",
+    "link": "https://am2.co/2024/08/not-all-stats-should-be-auto-updated/?utm_source=rss&utm_medium=rss&utm_campaign=not-all-stats-should-be-auto-updated",
+    "summary": "Statistics auto-updates are generally a good thing&#8211;auto-update of statistics is the default behavior in SQL Server. Having the freshest information about the data &#8220;shape&#8221; helps to inform the best selection of an execution plan for queries. Except for when it doesn&#8217;t. Because It Depends™️ Let&#8217;s ... [Read More]\nThe post Not all stats should be auto-updated appeared first on Andy M Mallon - AM².",
+    "source": "Andy Mallon (am2)",
+    "tag": "DBA Life",
+    "pub": "Thu, 29 Aug 2024 15:19:07 +0000",
+    "ai_summary": null
+  },
+  {
+    "title": "T-SQL Tuesday: The last ticket I closed",
+    "link": "https://am2.co/2024/02/the-last-ticket-i-closed/?utm_source=rss&utm_medium=rss&utm_campaign=the-last-ticket-i-closed",
+    "summary": "For this month&#8217;s T-SQL Tuesday, Brent Ozar (blog&#124;Instagram) asks us to describe the most recent ticket we closed. &#8220;We had a pretty significant wait spike&#8230;&#8221; The literal last ticket I closed was &#8220;please run this script in production&#8230;&#8221;, and I don&#8217;t think it would be ... [Read More]\nThe post T-SQL Tuesday: The last ticket I closed appeared first on Andy M Mallon - AM².",
+    "source": "Andy Mallon (am2)",
+    "tag": "DBA Life",
+    "pub": "Tue, 13 Feb 2024 17:41:20 +0000",
+    "ai_summary": null
+  },
+  {
+    "title": "Enforce a specific constraint to be checked first?",
+    "link": "https://am2.co/2023/10/enforce-a-specific-constraint-to-be-checked-first/?utm_source=rss&utm_medium=rss&utm_campaign=enforce-a-specific-constraint-to-be-checked-first",
+    "summary": "Question I have the following SQL Server table : create table Account( -- column names with their data types and properties Id int not null identity primary key, User varchar(50) not null, Job varchar(200) not null, -- table limitations constraint UniqueUserPerAccount unique (User), constraint UniqueJobPerAccount ... [Read More]\nThe post Enforce a specific constraint to be checked first? appeared first on Andy M Mallon - AM².",
+    "source": "Andy Mallon (am2)",
+    "tag": "DBA Life",
+    "pub": "Sat, 07 Oct 2023 01:09:33 +0000",
+    "ai_summary": null
+  }
+]
