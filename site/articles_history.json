@@ -1,5 +1,14 @@
 [
   {
+    "title": "What is New in SQL Server 2025",
+    "link": "https://www.sqlservercentral.com/articles/what-is-new-in-sql-server-2025",
+    "summary": "Learn about the latest version of SQL Server and get help installing it on your system.\nThe post What is New in SQL Server 2025 appeared first on SQLServerCentral.",
+    "source": "SQL Server Central",
+    "tag": "Community",
+    "pub": "Mon, 04 May 2026 00:00:34 +0000",
+    "ai_summary": ""
+  },
+  {
     "title": "Free Webcast: Fixing Parameter Sniffing with Index Tuning",
     "link": "https://www.brentozar.com/archive/2026/05/free-webcast-fixing-parameter-sniffing-with-index-tuning/",
     "summary": "When a query is sometimes fast and sometimes slow, there are a lot of ways you can reduce the effects of parameter sniffing. We&#8217;re always going to have parameter sniffing in SQL Server and Azure SQL DB &#8211; it&#8217;s just the way the product is built &#8211; but there are a lot of options to reduce...",
