@@ -1,5 +1,32 @@
 [
   {
+    "title": "Who’s Hiring Database People? May 2026 Edition",
+    "link": "https://www.brentozar.com/archive/2026/05/whos-hiring-database-people-may-2026-edition/",
+    "summary": "Is your company hiring for a database position as of May 2026? Do you wanna work with the kinds of people who read this blog? Let&#8217;s make a love connection. If your company is hiring, leave a comment. The rules: Your comment must include the job title, and either a link to the full job...",
+    "source": "Brent Ozar Unlimited",
+    "tag": "Performance",
+    "pub": "Tue, 05 May 2026 13:15:34 +0000",
+    "ai_summary": ""
+  },
+  {
+    "title": "SQL Server Table-Valued Parameter Join Issues in Stored Procedures",
+    "link": "https://www.sqlservercentral.com/articles/sql-server-table-valued-parameter-join-issues-in-stored-procedures",
+    "summary": "Learn how table valued parameter joins in SQL Server stored procedures can negatively impact query performance.\nThe post SQL Server Table-Valued Parameter Join Issues in Stored Procedures appeared first on SQLServerCentral.",
+    "source": "SQL Server Central",
+    "tag": "Community",
+    "pub": "Wed, 06 May 2026 00:00:31 +0000",
+    "ai_summary": ""
+  },
+  {
+    "title": "What are managed identities in SQL Server 2025? A complete guide",
+    "link": "https://www.red-gate.com/simple-talk/databases/sql-server/managed-identities-in-sql-server-2025-a-complete-guide/",
+    "summary": "Learn how managed identities in SQL Server 2025 enhance security by eliminating passwords and enabling seamless Microsoft Entra authentication for Azure resources.&#8230;\nThe post What are managed identities in SQL Server 2025? A complete guide appeared first on Simple Talk.",
+    "source": "Simple Talk (Redgate)",
+    "tag": "Deep Dive",
+    "pub": "Tue, 05 May 2026 12:00:00 +0000",
+    "ai_summary": ""
+  },
+  {
     "title": "What is New in SQL Server 2025",
     "link": "https://www.sqlservercentral.com/articles/what-is-new-in-sql-server-2025",
     "summary": "Learn about the latest version of SQL Server and get help installing it on your system.\nThe post What is New in SQL Server 2025 appeared first on SQLServerCentral.",
