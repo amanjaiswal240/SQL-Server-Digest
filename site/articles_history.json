@@ -1,5 +1,23 @@
 [
   {
+    "title": "How to Calculate Distance Between Coordinates in SQL Server",
+    "link": "https://www.sqlservercentral.com/articles/how-to-calculate-distance-between-coordinates-in-sql-server",
+    "summary": "Learn a quick way to calculate distances without resorting to spatial calculations.\nThe post How to Calculate Distance Between Coordinates in SQL Server appeared first on SQLServerCentral.",
+    "source": "SQL Server Central",
+    "tag": "Community",
+    "pub": "Fri, 08 May 2026 00:00:07 +0000",
+    "ai_summary": ""
+  },
+  {
+    "title": "Can SQL Server 2025’s REGEXP_SPLIT_TO_TABLE fix STRING_SPLIT in T-SQL?",
+    "link": "https://www.sqlservercentral.com/articles/can-sql-server-2025s-regexp_split_to_table-fix-string_split-in-t-sql",
+    "summary": "Learn how to split strings efficiently in T-SQL using STRING_SPLIT and the REGEXP_SPLIT_TO_TABLE function in SQL Server 2025. \nThe post Can SQL Server 2025’s REGEXP_SPLIT_TO_TABLE fix STRING_SPLIT in T-SQL? appeared first on SQLServerCentral.",
+    "source": "SQL Server Central",
+    "tag": "Community",
+    "pub": "Fri, 08 May 2026 00:00:48 +0000",
+    "ai_summary": ""
+  },
+  {
     "title": "Free SQL Server Spring Training on Performance Tuning",
     "link": "https://www.brentozar.com/archive/2026/05/free-sql-server-spring-training-on-performance-tuning/",
     "summary": "Times and tech are changing quickly. Let&#8217;s get you up to speed on the latest developments to do your work more quickly with a series of free live webcasts. How to Tune Indexes Faster &#8211; May 12 &#38; 18 &#8211; Brent Ozar will show you how to use the latest features of sp_BlitzIndex to rapidly...",
