@@ -1,5 +1,23 @@
 [
   {
+    "title": "SSRS Is Dead. Here Are Your Real Options",
+    "link": "https://www.sqlservercentral.com/articles/ssrs-is-dead-here-are-your-real-options",
+    "summary": "SQL Server 2025 shipped without SSRS. If you're managing paginated reports, your options just narrowed; but they're not what most people think. I evaluated all 10 realistic migration paths. Here's an honest comparison, including the one I built.\nThe post SSRS Is Dead. Here Are Your Real Options appeared first on SQLServerCentral.",
+    "source": "SQL Server Central",
+    "tag": "Community",
+    "pub": "Mon, 11 May 2026 00:00:55 +0000",
+    "ai_summary": ""
+  },
+  {
+    "title": "SOFTMAX Function in SQL Server",
+    "link": "https://www.sqlservercentral.com/articles/softmax-function-in-sql-server",
+    "summary": "Explore the mechanics of the SOFTMAX function in SQL Server. Transform scores into probabilities with this essential tool.\nThe post SOFTMAX Function in SQL Server appeared first on SQLServerCentral.",
+    "source": "SQL Server Central",
+    "tag": "Community",
+    "pub": "Mon, 11 May 2026 00:00:51 +0000",
+    "ai_summary": ""
+  },
+  {
     "title": "How to Calculate Distance Between Coordinates in SQL Server",
     "link": "https://www.sqlservercentral.com/articles/how-to-calculate-distance-between-coordinates-in-sql-server",
     "summary": "Learn a quick way to calculate distances without resorting to spatial calculations.\nThe post How to Calculate Distance Between Coordinates in SQL Server appeared first on SQLServerCentral.",
