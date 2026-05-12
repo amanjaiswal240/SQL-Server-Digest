@@ -1,5 +1,14 @@
 [
   {
+    "title": "How to ensure success following a cloud migration",
+    "link": "https://www.red-gate.com/simple-talk/cloud/how-to-ensure-success-following-a-cloud-migration/",
+    "summary": "Learn how to optimize performance, reduce costs, improve security, and ensure long-term success after moving from on-prem to the cloud.&#8230;\nThe post How to ensure success following a cloud migration appeared first on Simple Talk.",
+    "source": "Simple Talk (Redgate)",
+    "tag": "Deep Dive",
+    "pub": "Mon, 11 May 2026 13:03:00 +0000",
+    "ai_summary": ""
+  },
+  {
     "title": "SSRS Is Dead. Here Are Your Real Options",
     "link": "https://www.sqlservercentral.com/articles/ssrs-is-dead-here-are-your-real-options",
     "summary": "SQL Server 2025 shipped without SSRS. If you're managing paginated reports, your options just narrowed; but they're not what most people think. I evaluated all 10 realistic migration paths. Here's an honest comparison, including the one I built.\nThe post SSRS Is Dead. Here Are Your Real Options appeared first on SQLServerCentral.",
