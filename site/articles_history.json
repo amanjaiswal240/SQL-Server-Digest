@@ -1,5 +1,23 @@
 [
   {
+    "title": "Turns Out DBAs Use the Consultant Toolkit, Too",
+    "link": "https://www.brentozar.com/archive/2026/05/turns-out-dbas-use-the-consultant-toolkit-too/",
+    "summary": "When I first hired Richie over a decade ago, the very first task I assigned him was to build The Consultant Toolkit. I said, &#8220;Whenever I&#8217;m working with a client, I have to gather the same data over and over. I run scripts like sp_Blitz, sp_BlitzIndex, sp_BlitzFirst, and so on, copy/pasting that data into a...",
+    "source": "Brent Ozar Unlimited",
+    "tag": "Performance",
+    "pub": "Wed, 13 May 2026 13:15:54 +0000",
+    "ai_summary": ""
+  },
+  {
+    "title": "There Are Days When I Feel Like Giving Up on the Plan Cache and Query Store.",
+    "link": "https://www.sqlservercentral.com/articles/there-are-days-when-i-feel-like-giving-up-on-the-plan-cache-and-query-store",
+    "summary": "In theory, SQL Server performance monitoring is pretty simple: 1. Review the server’s top wait types, 2. Find the queries causing those wait types, 3. Fix those queries, or improve the way the server reacts to them (indexes, settings, etc.). But in practice, step 2 is awful because:\nThe post There Are Days When I Feel Like Giving Up on the Plan Cache and Query Store. appeared first on SQLServerCentral.",
+    "source": "SQL Server Central",
+    "tag": "Community",
+    "pub": "Wed, 13 May 2026 00:00:40 +0000",
+    "ai_summary": ""
+  },
+  {
     "title": "New Official Documentation on Forced Parameterization",
     "link": "https://www.brentozar.com/archive/2026/05/new-official-documentation-on-forced-parameterization/",
     "summary": "I love me some documentation. For years, I&#8217;ve pointed folks to the SQL Server 2008 documentation on Forced Parameterization, a really useful tool for reducing plan cache bloat, getting more accurate reusable query plans, and enabling SQL Server 2019 and 2022&#8217;s Intelligent Query Plan features, many of which rely on the same query text coming...",
