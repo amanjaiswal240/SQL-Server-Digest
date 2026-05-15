@@ -1,5 +1,14 @@
 [
   {
+    "title": "[Video] Office Hours in Port",
+    "link": "https://www.brentozar.com/archive/2026/05/video-office-hours-in-port/",
+    "summary": "Our cruise ship pulled into port in Victoria, Canada, so before we head out to the Butchart Gardens, let&#8217;s go through your top-voted questions from https://pollgab.com/room/brento. Here&#8217;s what we covered: 00:00 Start 02:17 Janis: Hey Brent, Deleted million of rows from Azure SQL clustered columnstore ix. Want reclaim free space in shared elastic pool without...",
+    "source": "Brent Ozar Unlimited",
+    "tag": "Performance",
+    "pub": "Thu, 14 May 2026 13:15:12 +0000",
+    "ai_summary": ""
+  },
+  {
     "title": "Turns Out DBAs Use the Consultant Toolkit, Too",
     "link": "https://www.brentozar.com/archive/2026/05/turns-out-dbas-use-the-consultant-toolkit-too/",
     "summary": "When I first hired Richie over a decade ago, the very first task I assigned him was to build The Consultant Toolkit. I said, &#8220;Whenever I&#8217;m working with a client, I have to gather the same data over and over. I run scripts like sp_Blitz, sp_BlitzIndex, sp_BlitzFirst, and so on, copy/pasting that data into a...",
