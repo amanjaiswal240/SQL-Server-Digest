@@ -1,5 +1,23 @@
 [
   {
+    "title": "Designing SQL Server ETL Pipelines That Don't Break at Scale",
+    "link": "https://www.sqlservercentral.com/articles/designing-sql-server-etl-pipelines-that-dont-break-at-scale",
+    "summary": "A few lessons learned in building ETL pipelines and tricks to ensure you can easily maintain these over time.\nThe post Designing SQL Server ETL Pipelines That Don&#039;t Break at Scale appeared first on SQLServerCentral.",
+    "source": "SQL Server Central",
+    "tag": "Community",
+    "pub": "Fri, 15 May 2026 00:00:29 +0000",
+    "ai_summary": ""
+  },
+  {
+    "title": "PostgreSQL is removing MD5 authentication for passwords. Here’s what it means for your databases",
+    "link": "https://www.red-gate.com/simple-talk/databases/postgresql/postgresql-is-removing-md5-authentication-for-passwords-heres-everything-you-need-to-know/",
+    "summary": "PostgreSQL is phasing out MD5 authentication across versions 18–21, replacing it with SCRAM-SHA-256. Here's what it means for your database and applications.&#8230;\nThe post PostgreSQL is removing MD5 authentication for passwords. Here&#8217;s what it means for your databases appeared first on Simple Talk.",
+    "source": "Simple Talk (Redgate)",
+    "tag": "Deep Dive",
+    "pub": "Fri, 15 May 2026 12:00:00 +0000",
+    "ai_summary": ""
+  },
+  {
     "title": "[Video] Office Hours in Port",
     "link": "https://www.brentozar.com/archive/2026/05/video-office-hours-in-port/",
     "summary": "Our cruise ship pulled into port in Victoria, Canada, so before we head out to the Butchart Gardens, let&#8217;s go through your top-voted questions from https://pollgab.com/room/brento. Here&#8217;s what we covered: 00:00 Start 02:17 Janis: Hey Brent, Deleted million of rows from Azure SQL clustered columnstore ix. Want reclaim free space in shared elastic pool without...",
