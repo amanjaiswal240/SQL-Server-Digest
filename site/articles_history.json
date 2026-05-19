@@ -1,5 +1,32 @@
 [
   {
+    "title": "Why Your Index Isn't Being Used? - Reading Execution Plans to Find the Real Culprit",
+    "link": "https://www.sqlservercentral.com/articles/why-your-index-isnt-being-used-reading-execution-plans-to-find-the-real-culprit",
+    "summary": "Built the index, but SQL Server still scans the whole table? Learn how to read execution plans and find exactly why your index is being ignored.\nThe post Why Your Index Isn&#039;t Being Used? - Reading Execution Plans to Find the Real Culprit appeared first on SQLServerCentral.",
+    "source": "SQL Server Central",
+    "tag": "Community",
+    "pub": "Mon, 18 May 2026 00:00:57 +0000",
+    "ai_summary": ""
+  },
+  {
+    "title": "Improve Query Performance in the Fabric Warehouse with Clustering",
+    "link": "https://www.sqlservercentral.com/articles/improve-query-performance-in-the-fabric-warehouse-with-clustering",
+    "summary": "Learn how to improve performance issues in Microsoft Fabric Warehouse and leverage cloud-based data analytics effectively.\nThe post Improve Query Performance in the Fabric Warehouse with Clustering appeared first on SQLServerCentral.",
+    "source": "SQL Server Central",
+    "tag": "Community",
+    "pub": "Mon, 18 May 2026 00:00:54 +0000",
+    "ai_summary": ""
+  },
+  {
+    "title": "SQL Server security vulnerabilities you weren’t aware of: how tampered indexed-view metadata can break cross-database isolation",
+    "link": "https://www.red-gate.com/simple-talk/databases/sql-server/how-tampered-indexed-view-metadata-can-break-cross-database-isolation-in-sql-server/",
+    "summary": "Indexed view tampering in SQL Server backups can expose cross-database data after restore. Learn how restore-boundary attacks work and how to defend against them.&#8230;\nThe post SQL Server security vulnerabilities you weren&#8217;t aware of: how tampered indexed-view metadata can break cross-database isolation appeared first on Simple Talk.",
+    "source": "Simple Talk (Redgate)",
+    "tag": "Deep Dive",
+    "pub": "Mon, 18 May 2026 12:00:00 +0000",
+    "ai_summary": ""
+  },
+  {
     "title": "Designing SQL Server ETL Pipelines That Don't Break at Scale",
     "link": "https://www.sqlservercentral.com/articles/designing-sql-server-etl-pipelines-that-dont-break-at-scale",
     "summary": "A few lessons learned in building ETL pipelines and tricks to ensure you can easily maintain these over time.\nThe post Designing SQL Server ETL Pipelines That Don&#039;t Break at Scale appeared first on SQLServerCentral.",
