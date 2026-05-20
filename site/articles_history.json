@@ -1,5 +1,41 @@
 [
   {
+    "title": "Announcing the SSMS StatisticsParser Extension",
+    "link": "https://www.brentozar.com/archive/2026/05/announcing-the-ssms-statisticsparser-extension/",
+    "summary": "If you do a lot of query tuning, you&#8217;ve probably come across Richie Rump&#8217;s StatisticsParser.com. Now, it&#8217;s even easier to use. Now, it&#8217;s even easier to use. Download &#38; install it, then run your query with SET STATISTICS IO, TIME ON, and after it finishes, right-click in the query window and click Parse Statistics: You...",
+    "source": "Brent Ozar Unlimited",
+    "tag": "Performance",
+    "pub": "Tue, 19 May 2026 13:15:09 +0000",
+    "ai_summary": ""
+  },
+  {
+    "title": "You Can’t Trust “Edit Query Text” in SSMS’s Execution Plans.",
+    "link": "https://www.sqlservercentral.com/articles/you-cant-trust-edit-query-text-in-ssmss-execution-plans",
+    "summary": "When there are IF branches or conditional logic, “Edit Query Text” only shows you the branches that actually executed. It’s easy to miss whole swaths of code that didn’t happen to execute one particular time.\nThe post You Can’t Trust “Edit Query Text” in SSMS’s Execution Plans. appeared first on SQLServerCentral.",
+    "source": "SQL Server Central",
+    "tag": "Community",
+    "pub": "Wed, 20 May 2026 00:00:27 +0000",
+    "ai_summary": ""
+  },
+  {
+    "title": "4 CVEs are affecting Valkey databases. Here’s everything you need to know (and what you should do, right now, to protect yours)",
+    "link": "https://www.red-gate.com/simple-talk/databases/4-cves-are-affecting-valkey-databases-heres-everything-you-need-to-know-and-what-you-should-do-right-now-to-protect-yours/",
+    "summary": "4 CVEs currently affect Valkey databases. Learn what they are, which Valkey versions are vulnerable, and what you should do right now.&#8230;\nThe post 4 CVEs are affecting Valkey databases. Here&#8217;s everything you need to know (and what you should do, right now, to protect yours) appeared first on Simple Talk.",
+    "source": "Simple Talk (Redgate)",
+    "tag": "Deep Dive",
+    "pub": "Tue, 19 May 2026 12:00:00 +0000",
+    "ai_summary": ""
+  },
+  {
+    "title": "In 2026, engineering teams are quietly accepting more risk. Here’s why",
+    "link": "https://www.red-gate.com/simple-talk/security-and-compliance/in-2026-engineering-teams-are-quietly-accepting-more-risk-heres-why/",
+    "summary": "11 takeaways from the Simple Talk podcast on security vs speed in databases: why teams misjudge risk, how AI amplifies bad habits, and what to do about it.&#8230;\nThe post In 2026, engineering teams are quietly accepting more risk. Here&#8217;s why appeared first on Simple Talk.",
+    "source": "Simple Talk (Redgate)",
+    "tag": "Deep Dive",
+    "pub": "Sun, 17 May 2026 12:10:46 +0000",
+    "ai_summary": ""
+  },
+  {
     "title": "Why Your Index Isn't Being Used? - Reading Execution Plans to Find the Real Culprit",
     "link": "https://www.sqlservercentral.com/articles/why-your-index-isnt-being-used-reading-execution-plans-to-find-the-real-culprit",
     "summary": "Built the index, but SQL Server still scans the whole table? Learn how to read execution plans and find exactly why your index is being ignored.\nThe post Why Your Index Isn&#039;t Being Used? - Reading Execution Plans to Find the Real Culprit appeared first on SQLServerCentral.",
