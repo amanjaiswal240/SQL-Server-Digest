@@ -1,5 +1,59 @@
 [
   {
+    "title": "I Hate The Way You’re Using “It Depends.”",
+    "link": "https://www.brentozar.com/archive/2026/05/i-hate-the-way-youre-using-it-depends/",
+    "summary": "Can I be honest with you for a second? It makes my skin crawl when I hear database people smugly answer a question with &#8220;It depends!&#8221; Because most of the time, when they do it, they chuckle as if they know something, and as if what they just said illustrates what an awesome expert they...",
+    "source": "Brent Ozar Unlimited",
+    "tag": "Performance",
+    "pub": "Wed, 20 May 2026 13:15:29 +0000",
+    "ai_summary": ""
+  },
+  {
+    "title": "SQL Server 2016 Build List",
+    "link": "https://www.sqlservercentral.com/articles/sql-server-2016-build-list",
+    "summary": "A list of all builds for SQL Server 2016. Updated with CU2 for SP2 and CU10 for SP1.\nThe post SQL Server 2016 Build List appeared first on SQLServerCentral.",
+    "source": "SQL Server Central",
+    "tag": "Community",
+    "pub": "Wed, 25 Jan 2017 00:00:00 +0000",
+    "ai_summary": ""
+  },
+  {
+    "title": "SQL Server 2017 Build List",
+    "link": "https://www.sqlservercentral.com/articles/sql-server-2017-build-list",
+    "summary": "A list of builds for SQL Server 2017.\nThe post SQL Server 2017 Build List appeared first on SQLServerCentral.",
+    "source": "SQL Server Central",
+    "tag": "Community",
+    "pub": "Tue, 18 Dec 2018 13:42:05 +0000",
+    "ai_summary": ""
+  },
+  {
+    "title": "SQL Server 2019 Build List",
+    "link": "https://www.sqlservercentral.com/articles/sql-server-2019-build-list",
+    "summary": "A list of build versions for SQL Server 2019\nThe post SQL Server 2019 Build List appeared first on SQLServerCentral.",
+    "source": "SQL Server Central",
+    "tag": "Community",
+    "pub": "Thu, 20 Dec 2018 14:36:23 +0000",
+    "ai_summary": ""
+  },
+  {
+    "title": "SQL Server 2022 Build List",
+    "link": "https://www.sqlservercentral.com/articles/sql-server-2022-build-list",
+    "summary": "This is a list of the builds for SQL Server 2022. There are other build lists available here. A list of all the builds that I can find and install on my Build VM. If you find a build not listed here, please let the webmaster know (webmaster at sqlservercentral.com). All builds are listed in reverse [&#8230;]\nThe post SQL Server 2022 Build List appeared first on SQLServerCentral.",
+    "source": "SQL Server Central",
+    "tag": "Community",
+    "pub": "Thu, 01 Sep 2022 16:53:01 +0000",
+    "ai_summary": ""
+  },
+  {
+    "title": "Demystifying PIVOT and UNPIVOT in T-SQL",
+    "link": "https://www.red-gate.com/simple-talk/databases/sql-server/t-sql-programming-sql-server/demystifying-pivot-and-unpivot-in-t-sql/",
+    "summary": "Learn how to use T-SQL PIVOT and UNPIVOT operators with clear examples — from basic row-to-column transforms to dynamic SQL solutions for unknown column lists.\n&#8230;\nThe post Demystifying PIVOT and UNPIVOT in T-SQL appeared first on Simple Talk.",
+    "source": "Simple Talk (Redgate)",
+    "tag": "Deep Dive",
+    "pub": "Wed, 20 May 2026 12:00:00 +0000",
+    "ai_summary": ""
+  },
+  {
     "title": "Announcing the SSMS StatisticsParser Extension",
     "link": "https://www.brentozar.com/archive/2026/05/announcing-the-ssms-statisticsparser-extension/",
     "summary": "If you do a lot of query tuning, you&#8217;ve probably come across Richie Rump&#8217;s StatisticsParser.com. Now, it&#8217;s even easier to use. Now, it&#8217;s even easier to use. Download &#38; install it, then run your query with SET STATISTICS IO, TIME ON, and after it finishes, right-click in the query window and click Parse Statistics: You...",
