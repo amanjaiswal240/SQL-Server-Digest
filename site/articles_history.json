@@ -1,5 +1,41 @@
 [
   {
+    "title": "[Video] How to Tune Indexes Fast",
+    "link": "https://www.brentozar.com/archive/2026/05/video-how-to-tune-indexes-fast/",
+    "summary": "In this 76-minute session, I&#8217;ll show you how to use the latest features of sp_BlitzIndex to rapidly improve performance on an existing database. I&#8217;ll show you how to figure out quickly if you&#8217;ve got too many indexes or not enough, and then demonstrate how to get advice from AI on how to consolidate them in...",
+    "source": "Brent Ozar Unlimited",
+    "tag": "Performance",
+    "pub": "Thu, 21 May 2026 13:15:55 +0000",
+    "ai_summary": ""
+  },
+  {
+    "title": "Database Mail in SQL Server 2022",
+    "link": "https://www.sqlservercentral.com/articles/database-mail-in-sql-server-2022",
+    "summary": "This article covers the basics of getting Database Mail setup in SQL Server.\nThe post Database Mail in SQL Server 2022 appeared first on SQLServerCentral.",
+    "source": "SQL Server Central",
+    "tag": "Community",
+    "pub": "Fri, 22 May 2026 00:00:08 +0000",
+    "ai_summary": ""
+  },
+  {
+    "title": "Local vs remote MCP servers – which should you choose?",
+    "link": "https://www.sqlservercentral.com/articles/local-vs-remote-mcp-servers-which-should-you-choose",
+    "summary": "Should you choose a local or remote MCP server? The best option depends on your security needs, performance goals, and deployment model. This guide explains the differences between local and remote Model Context Protocol (MCP) servers, including privacy, scalability, latency, and integration trade-offs.\nThe post Local vs remote MCP servers – which should you choose? appeared first on SQLServerCentral.",
+    "source": "SQL Server Central",
+    "tag": "Community",
+    "pub": "Fri, 22 May 2026 00:00:09 +0000",
+    "ai_summary": ""
+  },
+  {
+    "title": "SQL Server 2025 Build List",
+    "link": "https://www.sqlservercentral.com/articles/sql-server-2025-build-list",
+    "summary": "This is a list of the builds for SQL Server 2025. There are other build lists available here. A list of all the builds that I can find and install on my Build VM. If you find a build not listed here, please let the webmaster know (webmaster at sqlservercentral.com). All builds are listed in reverse [&#8230;]\nThe post SQL Server 2025 Build List appeared first on SQLServerCentral.",
+    "source": "SQL Server Central",
+    "tag": "Community",
+    "pub": "Mon, 24 Nov 2025 17:20:38 +0000",
+    "ai_summary": ""
+  },
+  {
     "title": "I Hate The Way You’re Using “It Depends.”",
     "link": "https://www.brentozar.com/archive/2026/05/i-hate-the-way-youre-using-it-depends/",
     "summary": "Can I be honest with you for a second? It makes my skin crawl when I hear database people smugly answer a question with &#8220;It depends!&#8221; Because most of the time, when they do it, they chuckle as if they know something, and as if what they just said illustrates what an awesome expert they...",
