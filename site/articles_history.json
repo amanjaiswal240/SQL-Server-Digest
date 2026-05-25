@@ -1,5 +1,23 @@
 [
   {
+    "title": "Stop Prompting Your AI Agent. Give It a Playbook.",
+    "link": "https://www.sqlservercentral.com/articles/stop-prompting-your-ai-agent-give-it-a-playbook",
+    "summary": "Learn about how you can better prompt your AI Assistant in solving problems and producing code.\nThe post Stop Prompting Your AI Agent. Give It a Playbook. appeared first on SQLServerCentral.",
+    "source": "SQL Server Central",
+    "tag": "Community",
+    "pub": "Mon, 25 May 2026 00:00:24 +0000",
+    "ai_summary": ""
+  },
+  {
+    "title": "How to run SQL Server on Amazon Elastic Container Service",
+    "link": "https://www.sqlservercentral.com/articles/how-to-run-sql-server-on-amazon-elastic-container-service",
+    "summary": "Learn how to efficiently run SQL Server using Amazon Elastic Container Service for a hassle-free Docker container experience.\nThe post How to run SQL Server on Amazon Elastic Container Service appeared first on SQLServerCentral.",
+    "source": "SQL Server Central",
+    "tag": "Community",
+    "pub": "Mon, 25 May 2026 00:00:32 +0000",
+    "ai_summary": ""
+  },
+  {
     "title": "[Video] How to Tune Indexes Fast",
     "link": "https://www.brentozar.com/archive/2026/05/video-how-to-tune-indexes-fast/",
     "summary": "In this 76-minute session, I&#8217;ll show you how to use the latest features of sp_BlitzIndex to rapidly improve performance on an existing database. I&#8217;ll show you how to figure out quickly if you&#8217;ve got too many indexes or not enough, and then demonstrate how to get advice from AI on how to consolidate them in...",
