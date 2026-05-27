@@ -1,5 +1,14 @@
 [
   {
+    "title": "Your Database Just Hit One Terabyte: Now What?",
+    "link": "https://www.brentozar.com/archive/2026/05/your-database-just-hit-one-terabyte-now-what/",
+    "summary": "You were minding your own business, and all of a sudden it happened. You glanced at file sizes one day, and your eyes got big. The numbers got a little large while you weren&#8217;t looking. This is a great time to stop and think about a few changes to the way you&#8217;re managing this database....",
+    "source": "Brent Ozar Unlimited",
+    "tag": "Performance",
+    "pub": "Tue, 26 May 2026 13:15:37 +0000",
+    "ai_summary": ""
+  },
+  {
     "title": "Stop Prompting Your AI Agent. Give It a Playbook.",
     "link": "https://www.sqlservercentral.com/articles/stop-prompting-your-ai-agent-give-it-a-playbook",
     "summary": "Learn about how you can better prompt your AI Assistant in solving problems and producing code.\nThe post Stop Prompting Your AI Agent. Give It a Playbook. appeared first on SQLServerCentral.",
