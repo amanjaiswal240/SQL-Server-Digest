@@ -1,5 +1,14 @@
 [
   {
+    "title": "How data scientists work with PostgreSQL from Python (and how to write queries that don’t break at scale)",
+    "link": "https://www.red-gate.com/simple-talk/databases/postgresql/how-data-scientists-work-with-postgresql-from-python-and-how-to-write-queries-that-dont-break-at-scale/",
+    "summary": "In this article, learn how PostgreSQL powers data science workflows, including query execution, performance optimization, indexing, data retrieval, and more.&#8230;\nThe post How data scientists work with PostgreSQL from Python (and how to write queries that don’t break at scale) appeared first on Simple Talk.",
+    "source": "Simple Talk (Redgate)",
+    "tag": "Deep Dive",
+    "pub": "Fri, 29 May 2026 12:00:00 +0000",
+    "ai_summary": ""
+  },
+  {
     "title": "[Video] How to Tune Queries Fast",
     "link": "https://www.brentozar.com/archive/2026/05/video-how-to-tune-queries-fast/",
     "summary": "In this live stream recording, I&#8217;ll show you how to use the latest features of sp_BlitzCache to rapidly improve performance on an existing server. I&#8217;ll show you how to find your server&#8217;s top bottleneck, find the queries causing that bottleneck, and then demonstrate how to get advice from AI on how to tune them in...",
