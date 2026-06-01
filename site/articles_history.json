@@ -1,5 +1,23 @@
 [
   {
+    "title": "Fuzzy String Matching in SQL Server 2025",
+    "link": "https://www.sqlservercentral.com/articles/fuzzy-string-matching-in-sql-server-2025",
+    "summary": "Learn about the new fuzzy matching functions in SQL Server 2025.\nThe post Fuzzy String Matching in SQL Server 2025 appeared first on SQLServerCentral.",
+    "source": "SQL Server Central",
+    "tag": "Community",
+    "pub": "Mon, 01 Jun 2026 00:00:48 +0000",
+    "ai_summary": ""
+  },
+  {
+    "title": "Vibe coding and databases: the hidden risks of AI-generated database code",
+    "link": "https://www.sqlservercentral.com/articles/vibe-coding-and-databases-the-hidden-risks-of-ai-generated-database-code",
+    "summary": "Explore how Andrej Karpathy’s “vibe coding” trend reached databases. Uncover risks, real incidents, and 5 critical failure patterns\nThe post Vibe coding and databases: the hidden risks of AI-generated database code appeared first on SQLServerCentral.",
+    "source": "SQL Server Central",
+    "tag": "Community",
+    "pub": "Mon, 01 Jun 2026 00:00:22 +0000",
+    "ai_summary": ""
+  },
+  {
     "title": "How data scientists work with PostgreSQL from Python (and how to write queries that don’t break at scale)",
     "link": "https://www.red-gate.com/simple-talk/databases/postgresql/how-data-scientists-work-with-postgresql-from-python-and-how-to-write-queries-that-dont-break-at-scale/",
     "summary": "In this article, learn how PostgreSQL powers data science workflows, including query execution, performance optimization, indexing, data retrieval, and more.&#8230;\nThe post How data scientists work with PostgreSQL from Python (and how to write queries that don’t break at scale) appeared first on Simple Talk.",
