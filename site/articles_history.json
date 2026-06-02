@@ -1,5 +1,14 @@
 [
   {
+    "title": "How to host an AI text embeddings model for SQL Server using Ollama",
+    "link": "https://www.red-gate.com/simple-talk/databases/sql-server/how-to-host-an-ai-text-embeddings-model-for-sql-server-using-ollama/",
+    "summary": "Learn how to install Ollama locally to generate text embeddings for SQL Server vector search, plus configure a Caddy proxy for secure HTTPS connections.&#8230;\nThe post How to host an AI text embeddings model for SQL Server using Ollama appeared first on Simple Talk.",
+    "source": "Simple Talk (Redgate)",
+    "tag": "Deep Dive",
+    "pub": "Mon, 01 Jun 2026 12:00:00 +0000",
+    "ai_summary": ""
+  },
+  {
     "title": "Fuzzy String Matching in SQL Server 2025",
     "link": "https://www.sqlservercentral.com/articles/fuzzy-string-matching-in-sql-server-2025",
     "summary": "Learn about the new fuzzy matching functions in SQL Server 2025.\nThe post Fuzzy String Matching in SQL Server 2025 appeared first on SQLServerCentral.",
