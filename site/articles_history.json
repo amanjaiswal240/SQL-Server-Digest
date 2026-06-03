@@ -1,5 +1,23 @@
 [
   {
+    "title": "Who’s Hiring Database People? June 2026 Edition",
+    "link": "https://www.brentozar.com/archive/2026/06/whos-hiring-database-people-june-2026-edition/",
+    "summary": "Is your company hiring for a database position as of June 2026? Do you wanna work with the kinds of people who read this blog? Let&#8217;s make a love connection. If your company is hiring, leave a comment. The rules: Your comment must include the job title, and either a link to the full job...",
+    "source": "Brent Ozar Unlimited",
+    "tag": "Performance",
+    "pub": "Tue, 02 Jun 2026 13:15:55 +0000",
+    "ai_summary": ""
+  },
+  {
+    "title": "Using Containers to Avoid Installing SQL Server",
+    "link": "https://www.sqlservercentral.com/articles/using-containers-to-avoid-installing-sql-server",
+    "summary": "I got a new laptop recently and instead of installing SQL Server, I decided to try and use containers to see how well this works. This article looks at how I got this working relatively quickly. The short list of things I did is: Install Docker Desktop Create a location for data/logs/etc. Create a docker-compose [&#8230;]\nThe post Using Containers to Avoid Installing SQL Server appeared first on SQLServerCentral.",
+    "source": "SQL Server Central",
+    "tag": "Community",
+    "pub": "Fri, 06 Sep 2024 00:00:51 +0000",
+    "ai_summary": ""
+  },
+  {
     "title": "How to host an AI text embeddings model for SQL Server using Ollama",
     "link": "https://www.red-gate.com/simple-talk/databases/sql-server/how-to-host-an-ai-text-embeddings-model-for-sql-server-using-ollama/",
     "summary": "Learn how to install Ollama locally to generate text embeddings for SQL Server vector search, plus configure a Caddy proxy for secure HTTPS connections.&#8230;\nThe post How to host an AI text embeddings model for SQL Server using Ollama appeared first on Simple Talk.",
