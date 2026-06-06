@@ -1,5 +1,14 @@
 [
   {
+    "title": "Understanding SQL Server PARTITION BY with Examples",
+    "link": "https://www.sqlservercentral.com/articles/understanding-sql-server-partition-by-with-examples",
+    "summary": "Introduction When developers first learn SQL aggregation, they usually start with the GROUP BY clause. It works well for summary reports because it combines multiple rows into a single result for each group. For example, you can calculate total sales per region or average salary per department. The limitation of GROUP BY appears when you [&#8230;]\nThe post Understanding SQL Server PARTITION BY with Examples appeared first on SQLServerCentral.",
+    "source": "SQL Server Central",
+    "tag": "Community",
+    "pub": "Fri, 05 Jun 2026 00:00:34 +0000",
+    "ai_summary": ""
+  },
+  {
     "title": "[Video] Office Hours: Ask Me Anything At Home",
     "link": "https://www.brentozar.com/archive/2026/06/office-hours-ask-me-anything-at-home/",
     "summary": "I&#8217;m back in the home office to take another round of the top-voted questions from https://pollgab.com/room/brento. Here&#8217;s what we covered: 00:00 Start 00:52 chris: After your time at SQLBits you’d posted about the number of SQL Server consultants who were very opposed to AI. What was the feedback you were getting on why folks are...",
