@@ -1,5 +1,14 @@
 [
   {
+    "title": "Vector Search in SQL Server 2025: Storing Embeddings, Querying Them, and What to Watch Out For",
+    "link": "https://www.sqlservercentral.com/articles/vector-search-in-sql-server-2025-storing-embeddings-querying-them-and-what-to-watch-out-for",
+    "summary": "This article shows how you can generate embeddings in SQL Server 2025, store them, and use them in your queries. \nThe post Vector Search in SQL Server 2025: Storing Embeddings, Querying Them, and What to Watch Out For appeared first on SQLServerCentral.",
+    "source": "SQL Server Central",
+    "tag": "Community",
+    "pub": "Mon, 08 Jun 2026 00:00:10 +0000",
+    "ai_summary": ""
+  },
+  {
     "title": "Understanding SQL Server PARTITION BY with Examples",
     "link": "https://www.sqlservercentral.com/articles/understanding-sql-server-partition-by-with-examples",
     "summary": "Introduction When developers first learn SQL aggregation, they usually start with the GROUP BY clause. It works well for summary reports because it combines multiple rows into a single result for each group. For example, you can calculate total sales per region or average salary per department. The limitation of GROUP BY appears when you [&#8230;]\nThe post Understanding SQL Server PARTITION BY with Examples appeared first on SQLServerCentral.",
