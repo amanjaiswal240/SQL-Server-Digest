@@ -1,5 +1,14 @@
 [
   {
+    "title": "How to call an Ollama-based AI text embeddings model from SQL Server 2025",
+    "link": "https://www.red-gate.com/simple-talk/databases/sql-server/how-to-call-an-ollama-based-ai-text-embeddings-model-from-sql-server-2025/",
+    "summary": "Learn how to call locally hosted Ollama embedding models from SQL Server using sp_invoke_external_rest_endpoint, CREATE EXTERNAL MODEL, and AI_GENERATE_EMBEDDINGS.&#8230;\nThe post How to call an Ollama-based AI text embeddings model from SQL Server 2025 appeared first on Simple Talk.",
+    "source": "Simple Talk (Redgate)",
+    "tag": "Deep Dive",
+    "pub": "Mon, 08 Jun 2026 12:00:00 +0000",
+    "ai_summary": ""
+  },
+  {
     "title": "Vector Search in SQL Server 2025: Storing Embeddings, Querying Them, and What to Watch Out For",
     "link": "https://www.sqlservercentral.com/articles/vector-search-in-sql-server-2025-storing-embeddings-querying-them-and-what-to-watch-out-for",
     "summary": "This article shows how you can generate embeddings in SQL Server 2025, store them, and use them in your queries. \nThe post Vector Search in SQL Server 2025: Storing Embeddings, Querying Them, and What to Watch Out For appeared first on SQLServerCentral.",
