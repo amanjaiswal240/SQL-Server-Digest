@@ -1,5 +1,14 @@
 [
   {
+    "title": "If You Had to Go Back On-Prem… #tsql2sday",
+    "link": "https://www.brentozar.com/archive/2026/06/if-you-had-to-go-back-on-prem-tsql2sday/",
+    "summary": "For T-SQL Tuesday #199, Koen Verbeeck posed an excellent question: if your company moved up to the cloud, but after migrating, had to come back on-premises, what would be the big problems? I&#8217;ve had clients in this exact situation! Here are some of my favorite gotchas from those experiences. Buying hardware is really hard right...",
+    "source": "Brent Ozar Unlimited",
+    "tag": "Performance",
+    "pub": "Tue, 09 Jun 2026 13:15:23 +0000",
+    "ai_summary": ""
+  },
+  {
     "title": "How to call an Ollama-based AI text embeddings model from SQL Server 2025",
     "link": "https://www.red-gate.com/simple-talk/databases/sql-server/how-to-call-an-ollama-based-ai-text-embeddings-model-from-sql-server-2025/",
     "summary": "Learn how to call locally hosted Ollama embedding models from SQL Server using sp_invoke_external_rest_endpoint, CREATE EXTERNAL MODEL, and AI_GENERATE_EMBEDDINGS.&#8230;\nThe post How to call an Ollama-based AI text embeddings model from SQL Server 2025 appeared first on Simple Talk.",
