@@ -1,5 +1,14 @@
 [
   {
+    "title": "And Then There Was The Time RCSI Actually Made Query Results More Accurate.",
+    "link": "https://www.brentozar.com/archive/2026/06/and-then-there-was-the-time-rcsi-actually-made-query-results-more-accurate/",
+    "summary": "Normally when I tell people about SQL Server&#8217;s optimistic concurrency isolation levels, Read Committed Snapshot Isolation (RCSI) and Snapshot Isolation (SI), I have to give them a little speech about how they need to test their queries because the results can change. Recently, though, I was working with a client who was getting the wrong query...",
+    "source": "Brent Ozar Unlimited",
+    "tag": "Performance",
+    "pub": "Wed, 10 Jun 2026 13:15:12 +0000",
+    "ai_summary": ""
+  },
+  {
     "title": "If You Had to Go Back On-Prem… #tsql2sday",
     "link": "https://www.brentozar.com/archive/2026/06/if-you-had-to-go-back-on-prem-tsql2sday/",
     "summary": "For T-SQL Tuesday #199, Koen Verbeeck posed an excellent question: if your company moved up to the cloud, but after migrating, had to come back on-premises, what would be the big problems? I&#8217;ve had clients in this exact situation! Here are some of my favorite gotchas from those experiences. Buying hardware is really hard right...",
