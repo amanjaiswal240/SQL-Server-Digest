@@ -1,5 +1,41 @@
 [
   {
+    "title": "[Video] Office Hours: Off St. Thomas",
+    "link": "https://www.brentozar.com/archive/2026/06/video-office-hours-off-st-thomas/",
+    "summary": "I&#8217;m at sea again, this time cruising aboard the Disney Treasure off of St. Thomas. Let&#8217;s go through your top-voted questions from https://pollgab.com/room/brento. 00:00 Start 01:40 DbaMan: You have been reulctant to turn on ADR. It is required for optimized locing in SQL Server 2025. What is your view of ADR + Optimized locking? Is...",
+    "source": "Brent Ozar Unlimited",
+    "tag": "Performance",
+    "pub": "Thu, 11 Jun 2026 13:15:48 +0000",
+    "ai_summary": ""
+  },
+  {
+    "title": "SQL ART: Who's Blocking Who? Visualising SQL Server Blocking With Spatial Geometry",
+    "link": "https://www.sqlservercentral.com/articles/sql-art-whos-blocking-who-visualising-sql-server-blocking-with-spatial-geometry",
+    "summary": "Taking SQL art from shamrocks and Easter eggs to something your DBA manager might actually care about. If you've been following my SQL spatial art series — shamrocks, Easter eggs, Christmas trees — you'll know I have a habit of finding increasingly creative misuses for SQL Server's geometry data type. Most of them have been [&#8230;]\nThe post SQL ART: Who&#039;s Blocking Who? Visualising SQL Server Blocking With Spatial Geometry appeared first on SQLServerCentral.",
+    "source": "SQL Server Central",
+    "tag": "Community",
+    "pub": "Fri, 12 Jun 2026 00:00:26 +0000",
+    "ai_summary": ""
+  },
+  {
+    "title": "How data scientists work with PostgreSQL from Python (and how to write queries that don’t break at scale)",
+    "link": "https://www.sqlservercentral.com/articles/how-data-scientists-work-with-postgresql-from-python-and-how-to-write-queries-that-dont-break-at-scale",
+    "summary": "In this article, learn how PostgreSQL powers data science workflows, including query execution, performance optimization, indexing, data retrieval, and more.\nThe post How data scientists work with PostgreSQL from Python (and how to write queries that don’t break at scale) appeared first on SQLServerCentral.",
+    "source": "SQL Server Central",
+    "tag": "Community",
+    "pub": "Fri, 12 Jun 2026 00:00:01 +0000",
+    "ai_summary": ""
+  },
+  {
+    "title": "It’s 2026. Why are databases still failing GDPR compliance audits?",
+    "link": "https://www.red-gate.com/simple-talk/databases/its-2026-why-are-databases-still-failing-gdpr-compliance-audits/",
+    "summary": "GDPR erasure failures are often database engineering problems, not legal ones. Learn how relational schema design, backup retention, and audit logging create compliance gaps — and how SQL Server, PostgreSQL, Oracle, and MySQL compare.\n&#8230;\nThe post It&#8217;s 2026. Why are databases still failing GDPR compliance audits? appeared first on Simple Talk.",
+    "source": "Simple Talk (Redgate)",
+    "tag": "Deep Dive",
+    "pub": "Thu, 11 Jun 2026 12:00:00 +0000",
+    "ai_summary": ""
+  },
+  {
     "title": "And Then There Was The Time RCSI Actually Made Query Results More Accurate.",
     "link": "https://www.brentozar.com/archive/2026/06/and-then-there-was-the-time-rcsi-actually-made-query-results-more-accurate/",
     "summary": "Normally when I tell people about SQL Server&#8217;s optimistic concurrency isolation levels, Read Committed Snapshot Isolation (RCSI) and Snapshot Isolation (SI), I have to give them a little speech about how they need to test their queries because the results can change. Recently, though, I was working with a client who was getting the wrong query...",
