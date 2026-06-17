@@ -1,5 +1,32 @@
 [
   {
+    "title": "We’re Discontinuing SQL ConstantCare and the Consultant Toolkit. Here’s Why.",
+    "link": "https://www.brentozar.com/archive/2026/06/were-discontinuing-sql-constantcare-and-the-consultant-toolkit-heres-why/",
+    "summary": "About ten years ago, I sketched out an idea for a different kind of SQL Server monitoring tool: one that gathered data just once per day, and gave you a short email with a specific list of actionable tasks to make a difference in health and performance. Richie Rump did an amazing job of building...",
+    "source": "Brent Ozar Unlimited",
+    "tag": "Performance",
+    "pub": "Tue, 16 Jun 2026 13:15:17 +0000",
+    "ai_summary": ""
+  },
+  {
+    "title": "What Happens When You Ask a Local AI to Query Your Database?",
+    "link": "https://www.sqlservercentral.com/articles/what-happens-when-you-ask-a-local-ai-to-query-your-database",
+    "summary": "Learn how you can run a simple LLM on your own machine with Python.\nThe post What Happens When You Ask a Local AI to Query Your Database? appeared first on SQLServerCentral.",
+    "source": "SQL Server Central",
+    "tag": "Community",
+    "pub": "Wed, 17 Jun 2026 00:00:20 +0000",
+    "ai_summary": ""
+  },
+  {
+    "title": "Your Database Just Hit One Terabyte: Now What?",
+    "link": "https://www.sqlservercentral.com/articles/your-database-just-hit-one-terabyte-now-what",
+    "summary": "You were minding your own business, and all of a sudden it happened.\nThe post Your Database Just Hit One Terabyte: Now What? appeared first on SQLServerCentral.",
+    "source": "SQL Server Central",
+    "tag": "Community",
+    "pub": "Wed, 17 Jun 2026 00:00:00 +0000",
+    "ai_summary": ""
+  },
+  {
     "title": "[Video] Office Hours: Off St. Thomas",
     "link": "https://www.brentozar.com/archive/2026/06/video-office-hours-off-st-thomas/",
     "summary": "I&#8217;m at sea again, this time cruising aboard the Disney Treasure off of St. Thomas. Let&#8217;s go through your top-voted questions from https://pollgab.com/room/brento. 00:00 Start 01:40 DbaMan: You have been reulctant to turn on ADR. It is required for optimized locing in SQL Server 2025. What is your view of ADR + Optimized locking? Is...",
