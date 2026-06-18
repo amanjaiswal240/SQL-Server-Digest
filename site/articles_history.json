@@ -1,5 +1,23 @@
 [
   {
+    "title": "I’m Coming to the #PassDataSummit in Seattle!",
+    "link": "https://www.brentozar.com/archive/2026/06/im-coming-to-the-pass-summit-in-seattle/",
+    "summary": "The lineup for the PASS Data Community Summit Seattle event was just released,and I&#8217;m proud to share that I&#8217;ll be teaching my new all-day pre-conference workshop. Dev-Prod Demon Hunters: Finding the Real Cause of Production Slowness Production is slow. Development is fast. The same query runs in both. Somewhere between the two, a performance demon...",
+    "source": "Brent Ozar Unlimited",
+    "tag": "Performance",
+    "pub": "Wed, 17 Jun 2026 13:15:03 +0000",
+    "ai_summary": ""
+  },
+  {
+    "title": "Vector search in SQL Server: VECTOR_DISTANCE, VECTOR_SEARCH, and index trade-offs",
+    "link": "https://www.red-gate.com/simple-talk/databases/sql-server/vector-search-in-sql-server-vector_distance-vector_search-and-index-trade-offs/",
+    "summary": "Learn how to use VECTOR_DISTANCE and VECTOR_SEARCH in SQL Server to find semantically similar data. Covers vector indexes, performance trade-offs, and the latest Azure SQL Database syntax changes.&#8230;\nThe post Vector search in SQL Server: VECTOR_DISTANCE, VECTOR_SEARCH, and index trade-offs appeared first on Simple Talk.",
+    "source": "Simple Talk (Redgate)",
+    "tag": "Deep Dive",
+    "pub": "Wed, 17 Jun 2026 12:00:00 +0000",
+    "ai_summary": ""
+  },
+  {
     "title": "We’re Discontinuing SQL ConstantCare and the Consultant Toolkit. Here’s Why.",
     "link": "https://www.brentozar.com/archive/2026/06/were-discontinuing-sql-constantcare-and-the-consultant-toolkit-heres-why/",
     "summary": "About ten years ago, I sketched out an idea for a different kind of SQL Server monitoring tool: one that gathered data just once per day, and gave you a short email with a specific list of actionable tasks to make a difference in health and performance. Richie Rump did an amazing job of building...",
