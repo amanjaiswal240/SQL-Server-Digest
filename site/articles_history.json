@@ -1,5 +1,14 @@
 [
   {
+    "title": "You Probably Don't Need a Vector Database",
+    "link": "https://www.sqlservercentral.com/articles/you-probably-dont-need-a-vector-database",
+    "summary": "Introduction Conversations about RAG almost always start with a vector database. This article suggests you dig deeper before implementing one.\nThe post You Probably Don&#039;t Need a Vector Database appeared first on SQLServerCentral.",
+    "source": "SQL Server Central",
+    "tag": "Community",
+    "pub": "Fri, 19 Jun 2026 00:00:28 +0000",
+    "ai_summary": ""
+  },
+  {
     "title": "I’m Coming to the #PassDataSummit in Seattle!",
     "link": "https://www.brentozar.com/archive/2026/06/im-coming-to-the-pass-summit-in-seattle/",
     "summary": "The lineup for the PASS Data Community Summit Seattle event was just released,and I&#8217;m proud to share that I&#8217;ll be teaching my new all-day pre-conference workshop. Dev-Prod Demon Hunters: Finding the Real Cause of Production Slowness Production is slow. Development is fast. The same query runs in both. Somewhere between the two, a performance demon...",
