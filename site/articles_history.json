@@ -1,5 +1,14 @@
 [
   {
+    "title": "Exposing a SQL injection vulnerability you’ve never heard of (what it is, how it works, and key takeaways)",
+    "link": "https://www.red-gate.com/simple-talk/databases/sql-server/exposing-a-sql-injection-vulnerability-youve-never-heard-of-what-it-is-how-it-works-and-key-takeaways/",
+    "summary": "How a Unicode lookalike character bypassed REPLACE-based sanitization in a trusted SQL Server system procedure - and what it teaches us about type consistency in dynamic SQL.&#8230;\nThe post Exposing a SQL injection vulnerability you&#8217;ve never heard of (what it is, how it works, and key takeaways) appeared first on Simple Talk.",
+    "source": "Simple Talk (Redgate)",
+    "tag": "Deep Dive",
+    "pub": "Fri, 19 Jun 2026 12:00:00 +0000",
+    "ai_summary": ""
+  },
+  {
     "title": "You Probably Don't Need a Vector Database",
     "link": "https://www.sqlservercentral.com/articles/you-probably-dont-need-a-vector-database",
     "summary": "Introduction Conversations about RAG almost always start with a vector database. This article suggests you dig deeper before implementing one.\nThe post You Probably Don&#039;t Need a Vector Database appeared first on SQLServerCentral.",
