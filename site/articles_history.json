@@ -1,5 +1,14 @@
 [
   {
+    "title": "Protected: IE Query Store Recordings",
+    "link": "https://www.sqlskills.com/ie-query-store-recordings/",
+    "summary": "There is no excerpt because this is a protected post.",
+    "source": "SQLskills (Paul Randal & Erin Stellato)",
+    "tag": "Internals",
+    "pub": "Wed, 04 Nov 2020 18:02:26 +0000",
+    "ai_summary": ""
+  },
+  {
     "title": "Exposing a SQL injection vulnerability you’ve never heard of (what it is, how it works, and key takeaways)",
     "link": "https://www.red-gate.com/simple-talk/databases/sql-server/exposing-a-sql-injection-vulnerability-youve-never-heard-of-what-it-is-how-it-works-and-key-takeaways/",
     "summary": "How a Unicode lookalike character bypassed REPLACE-based sanitization in a trusted SQL Server system procedure - and what it teaches us about type consistency in dynamic SQL.&#8230;\nThe post Exposing a SQL injection vulnerability you&#8217;ve never heard of (what it is, how it works, and key takeaways) appeared first on Simple Talk.",
