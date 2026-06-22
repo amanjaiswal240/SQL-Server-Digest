@@ -1,5 +1,23 @@
 [
   {
+    "title": "Index Fragmentation Explained: Page Splits, Logical Reads, and What to Do",
+    "link": "https://www.sqlservercentral.com/articles/index-fragmentation-explained-page-splits-logical-reads-and-what-to-do",
+    "summary": "Index fragmentation can silently degrade your query performance over time. Learn what happens at the page level, how to measure it, and how to fix it. \nThe post Index Fragmentation Explained: Page Splits, Logical Reads, and What to Do appeared first on SQLServerCentral.",
+    "source": "SQL Server Central",
+    "tag": "Community",
+    "pub": "Mon, 22 Jun 2026 00:00:08 +0000",
+    "ai_summary": ""
+  },
+  {
+    "title": "How to Deploy SQL Server on Kubernetes running on Windows",
+    "link": "https://www.sqlservercentral.com/articles/how-to-deploy-sql-server-on-kubernetes-running-on-windows",
+    "summary": "Learn how to deploy SQL Server on Kubernetes using Docker Desktop on Windows. Unlock powerful capabilities for your database.\nThe post How to Deploy SQL Server on Kubernetes running on Windows appeared first on SQLServerCentral.",
+    "source": "SQL Server Central",
+    "tag": "Community",
+    "pub": "Mon, 22 Jun 2026 00:00:45 +0000",
+    "ai_summary": ""
+  },
+  {
     "title": "Protected: IE Query Store Recordings",
     "link": "https://www.sqlskills.com/ie-query-store-recordings/",
     "summary": "There is no excerpt because this is a protected post.",
