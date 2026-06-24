@@ -1,5 +1,14 @@
 [
   {
+    "title": "How to host an AI text embeddings model for SQL Server using Ollama",
+    "link": "https://www.sqlservercentral.com/articles/how-to-host-an-ai-text-embeddings-model-for-sql-server-using-ollama",
+    "summary": "When we want to use AI-based comparisons of text, via vector search in SQL Server, we need to first generate embeddings for the text. An embedding is a numeric representation of meaning, usually represented by vectors. In this article, I’ll show you how to use Ollama to host a server locally that can be used to generate embeddings.\nThe post How to host an AI text embeddings model for SQL Server using Ollama appeared first on SQLServerCentral.",
+    "source": "SQL Server Central",
+    "tag": "Community",
+    "pub": "Wed, 24 Jun 2026 00:00:27 +0000",
+    "ai_summary": ""
+  },
+  {
     "title": "Index Fragmentation Explained: Page Splits, Logical Reads, and What to Do",
     "link": "https://www.sqlservercentral.com/articles/index-fragmentation-explained-page-splits-logical-reads-and-what-to-do",
     "summary": "Index fragmentation can silently degrade your query performance over time. Learn what happens at the page level, how to measure it, and how to fix it. \nThe post Index Fragmentation Explained: Page Splits, Logical Reads, and What to Do appeared first on SQLServerCentral.",
