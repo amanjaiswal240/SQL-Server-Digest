@@ -1,5 +1,23 @@
 [
   {
+    "title": "SQL Server Enum Implementation: A Single-Row View Strategy for Avoiding Magic Values",
+    "link": "https://www.sqlservercentral.com/articles/sql-server-enum-implementation-a-single-row-view-strategy-for-avoiding-magic-values",
+    "summary": "Learn about an alternative strategy for avoiding hardcoded literal values in SQL Server queries by using single-row views designed to mimic enum behavior.\nThe post SQL Server Enum Implementation: A Single-Row View Strategy for Avoiding Magic Values appeared first on SQLServerCentral.",
+    "source": "SQL Server Central",
+    "tag": "Community",
+    "pub": "Fri, 26 Jun 2026 00:00:24 +0000",
+    "ai_summary": ""
+  },
+  {
+    "title": "Add Nodes to SQL Server 2022 and Windows Server 2022 Failover Cluster",
+    "link": "https://www.sqlservercentral.com/articles/add-nodes-to-sql-server-2022-and-windows-server-2022-failover-cluster",
+    "summary": "I used the guide in a previous tip on Install SQL Server 2008 on a Windows Server 2008 Cluster Part 1 to install a SQL Server 2008 on a Windows Server 2008 failover cluster (WSFC). Now, I would like to upgrade and migrate my SQL Server 2008 failover clusters to SQL Server 2022 running on Windows Server 2022. What is the process for installation and configuration?\nThe post Add Nodes to SQL Server 2022 and Windows Server 2022 Failover Cluster appeared first on SQLServerCentral.",
+    "source": "SQL Server Central",
+    "tag": "Community",
+    "pub": "Fri, 26 Jun 2026 00:00:09 +0000",
+    "ai_summary": ""
+  },
+  {
     "title": "Get Your Blog Posts Ready for T-SQL Tuesday #200. Here’s the Topic.",
     "link": "https://www.brentozar.com/archive/2026/06/get-your-blog-posts-ready-for-t-sql-tuesday-200-heres-the-topic/",
     "summary": "Way back in December of 2009, Adam Machanic published a blog post (archive) in which he invited database bloggers to participate in a new monthly event he called T-SQL Tuesday. Each month, he (or a blogger he picked) proposed a topic, and on that date, we&#8217;d all publish our blog posts at the same time. [&#8230;]",
