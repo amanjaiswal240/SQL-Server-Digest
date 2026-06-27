@@ -1,5 +1,14 @@
 [
   {
+    "title": "5 T-SQL features that should already exist (2026 SQL Server wish list)",
+    "link": "https://www.red-gate.com/simple-talk/databases/sql-server/5-t-sql-features-that-should-already-exist-2026-sql-server-wish-list/",
+    "summary": "2026 T-SQL wish list covering native Parquet imports, arrays, OVERLAPS, simpler licensing, and cloud storage — features SQL Server still needs.&#8230;\nThe post 5 T-SQL features that should already exist (2026 SQL Server wish list) appeared first on Simple Talk.",
+    "source": "Simple Talk (Redgate)",
+    "tag": "Deep Dive",
+    "pub": "Fri, 26 Jun 2026 12:00:00 +0000",
+    "ai_summary": ""
+  },
+  {
     "title": "SQL Server Enum Implementation: A Single-Row View Strategy for Avoiding Magic Values",
     "link": "https://www.sqlservercentral.com/articles/sql-server-enum-implementation-a-single-row-view-strategy-for-avoiding-magic-values",
     "summary": "Learn about an alternative strategy for avoiding hardcoded literal values in SQL Server queries by using single-row views designed to mimic enum behavior.\nThe post SQL Server Enum Implementation: A Single-Row View Strategy for Avoiding Magic Values appeared first on SQLServerCentral.",
