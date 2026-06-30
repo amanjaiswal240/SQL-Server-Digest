@@ -1,5 +1,14 @@
 [
   {
+    "title": "I let Copilot build my database. Here’s what I learned – and everything I’d do differently next time (part two)",
+    "link": "https://www.red-gate.com/simple-talk/databases/i-let-copilot-build-my-database-heres-what-i-learned-and-everything-id-do-differently-next-time/",
+    "summary": "What happens when Microsoft Copilot designs a PostgreSQL schema for Azure? Here's what it got right, what it got wrong, and why beginners should pay attention.\n&#8230;\nThe post I let Copilot build my database. Here&#8217;s what I learned &#8211; and everything I&#8217;d do differently next time (part two) appeared first on Simple Talk.",
+    "source": "Simple Talk (Redgate)",
+    "tag": "Deep Dive",
+    "pub": "Mon, 29 Jun 2026 12:00:00 +0000",
+    "ai_summary": ""
+  },
+  {
     "title": "5 T-SQL features that should already exist (2026 SQL Server wish list)",
     "link": "https://www.red-gate.com/simple-talk/databases/sql-server/5-t-sql-features-that-should-already-exist-2026-sql-server-wish-list/",
     "summary": "2026 T-SQL wish list covering native Parquet imports, arrays, OVERLAPS, simpler licensing, and cloud storage — features SQL Server still needs.&#8230;\nThe post 5 T-SQL features that should already exist (2026 SQL Server wish list) appeared first on Simple Talk.",
