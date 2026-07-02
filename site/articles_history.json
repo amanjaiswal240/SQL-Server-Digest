@@ -1,5 +1,14 @@
 [
   {
+    "title": "Who’s Hiring Database People? July 2026 Edition",
+    "link": "https://www.brentozar.com/archive/2026/07/whos-hiring-database-people-july-2026-edition/",
+    "summary": "Is your company hiring for a database position as of July 2026? Do you wanna work with the kinds of people who read this blog? Let&#8217;s make a love connection. If your company is hiring, leave a comment. The rules: Your comment must include the job title, and either a link to the full job [&#8230;]",
+    "source": "Brent Ozar Unlimited",
+    "tag": "Performance",
+    "pub": "Wed, 01 Jul 2026 13:15:45 +0000",
+    "ai_summary": ""
+  },
+  {
     "title": "How to Format Your Queries in SSMS",
     "link": "https://www.brentozar.com/archive/2026/06/how-to-format-your-queries-in-ssms/",
     "summary": "Microsoft SQL Server Management Studio 22.7 added the ability to format your T-SQL queries by right-clicking and clicking Format SQL, or by hitting control-K, control-Q on your keyboard: You&#8217;re probably not going to like the default formatting out of the box because you&#8217;re the kind of person who has strong, passionate feelings and likes to [&#8230;]",
