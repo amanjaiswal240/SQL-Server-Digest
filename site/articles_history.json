@@ -1,5 +1,14 @@
 [
   {
+    "title": "SQL Server Contained Availability Groups Configuration",
+    "link": "https://www.sqlservercentral.com/articles/sql-server-contained-availability-groups-configuration",
+    "summary": "In a previous tip on Orphaned User Detection for SQL Server High Availability Databases, we have seen how to identify when there are orphaned database users in an Availability Group database. Is there a way where we no longer need to worry about missing database users or different SID values between primary and secondary databases in an Availability Group?\nThe post SQL Server Contained Availability Groups Configuration appeared first on SQLServerCentral.",
+    "source": "SQL Server Central",
+    "tag": "Community",
+    "pub": "Mon, 06 Jul 2026 00:00:14 +0000",
+    "ai_summary": ""
+  },
+  {
     "title": "[Video] Office Hours from Iceland’s Glacier Lagoon",
     "link": "https://www.brentozar.com/archive/2026/07/video-office-hours-from-icelands-glacier-lagoon/",
     "summary": "Prefer listening to this via podcast? Good news! You can now subscribe to Office Hours on Spotify, Apple Podcasts, Podcast Index, Podcast Addict, Podchaser, and anywhere else fine podcasts are sold. One of my most favorite spots on earth is Jökulsárlón and Diamond Beach. The glacier Vatnajokull is slowly melting into the sea, and pieces [&#8230;]",
