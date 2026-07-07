@@ -1,5 +1,23 @@
 [
   {
+    "title": "Confession Time: I Never Taught You About B-Trees.",
+    "link": "https://www.brentozar.com/archive/2026/07/confession-time-i-never-taught-you-about-b-trees/",
+    "summary": "I work with databases for a living. I teach people, and I help them via consulting. And as far as I can remember, I&#8217;ve never written something about how b-trees work. And I don&#8217;t ever expect to. Ever. For decades, I felt really guilty about that. I kept telling myself, &#8220;Man, I&#8217;m not really teaching [&#8230;]",
+    "source": "Brent Ozar Unlimited",
+    "tag": "Performance",
+    "pub": "Mon, 06 Jul 2026 13:15:10 +0000",
+    "ai_summary": ""
+  },
+  {
+    "title": "AI can build the pipeline, but don’t trust it for security (building an app with an AI LLM, part three)",
+    "link": "https://www.red-gate.com/simple-talk/ai/ai-llm-app-why-ai-still-cant-be-trusted-for-security/",
+    "summary": "Learn what happens when you let GitHub Copilot and VSCode set up database migrations and a GitHub Actions pipeline on Azure - featuring significant security risks.&#8230;\nThe post AI can build the pipeline, but don&#8217;t trust it for security (building an app with an AI LLM, part three) appeared first on Simple Talk.",
+    "source": "Simple Talk (Redgate)",
+    "tag": "Deep Dive",
+    "pub": "Mon, 06 Jul 2026 12:00:00 +0000",
+    "ai_summary": ""
+  },
+  {
     "title": "SQL Server Contained Availability Groups Configuration",
     "link": "https://www.sqlservercentral.com/articles/sql-server-contained-availability-groups-configuration",
     "summary": "In a previous tip on Orphaned User Detection for SQL Server High Availability Databases, we have seen how to identify when there are orphaned database users in an Availability Group database. Is there a way where we no longer need to worry about missing database users or different SID values between primary and secondary databases in an Availability Group?\nThe post SQL Server Contained Availability Groups Configuration appeared first on SQLServerCentral.",
