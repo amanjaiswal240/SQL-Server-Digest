@@ -1,5 +1,32 @@
 [
   {
+    "title": "I Know a Query’s Gonna Be Bad When… #TSQL2sday",
+    "link": "https://www.brentozar.com/archive/2026/07/i-know-a-querys-gonna-be-bad-when-tsql2sday/",
+    "summary": "I open it up and the first thing I see is a comment with a changelog showing a long list of dates and author initials. Oh I know, you think documentation is a good thing, but: Somebody&#8217;s initials from ten years ago isn&#8217;t helping anything The big long list tells me nobody&#8217;s actually taking out the [&#8230;]",
+    "source": "Brent Ozar Unlimited",
+    "tag": "Performance",
+    "pub": "Tue, 07 Jul 2026 13:15:22 +0000",
+    "ai_summary": ""
+  },
+  {
+    "title": "Five Intelligent Query Processing Features in SQL Server 2022 That Quietly Tune Your Workload",
+    "link": "https://www.sqlservercentral.com/articles/five-intelligent-query-processing-features-in-sql-server-2022-that-quietly-tune-your-workload",
+    "summary": "Learn about a few new features built into SQL Server 2022 that can help improve performance on your workload.\nThe post Five Intelligent Query Processing Features in SQL Server 2022 That Quietly Tune Your Workload appeared first on SQLServerCentral.",
+    "source": "SQL Server Central",
+    "tag": "Community",
+    "pub": "Wed, 08 Jul 2026 00:00:23 +0000",
+    "ai_summary": ""
+  },
+  {
+    "title": "How to call an Ollama-based AI text embeddings model from SQL Server 2025",
+    "link": "https://www.sqlservercentral.com/articles/how-to-call-an-ollama-based-ai-text-embeddings-model-from-sql-server-2025",
+    "summary": "Learn how to call locally hosted Ollama embedding models from SQL Server using sp_invoke_external_rest_endpoint\nThe post How to call an Ollama-based AI text embeddings model from SQL Server 2025 appeared first on SQLServerCentral.",
+    "source": "SQL Server Central",
+    "tag": "Community",
+    "pub": "Wed, 08 Jul 2026 00:00:06 +0000",
+    "ai_summary": ""
+  },
+  {
     "title": "Confession Time: I Never Taught You About B-Trees.",
     "link": "https://www.brentozar.com/archive/2026/07/confession-time-i-never-taught-you-about-b-trees/",
     "summary": "I work with databases for a living. I teach people, and I help them via consulting. And as far as I can remember, I&#8217;ve never written something about how b-trees work. And I don&#8217;t ever expect to. Ever. For decades, I felt really guilty about that. I kept telling myself, &#8220;Man, I&#8217;m not really teaching [&#8230;]",
