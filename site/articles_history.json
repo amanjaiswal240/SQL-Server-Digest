@@ -1,5 +1,14 @@
 [
   {
+    "title": "What’s missing in T-SQL? My wish list of features that developers actually need in SQL Server",
+    "link": "https://www.red-gate.com/simple-talk/databases/sql-server/whats-missing-in-t-sql-heres-my-t-sql-wish-list-of-features-that-developers-actually-need-in-sql-server/",
+    "summary": "A veteran SQL Server expert's wish list for T-SQL: true constants, enumerations, extensibility, better naming consistency, and more. See what's missing.&#8230;\nThe post What&#8217;s missing in T-SQL? My wish list of features that developers actually need in SQL Server appeared first on Simple Talk.",
+    "source": "Simple Talk (Redgate)",
+    "tag": "Deep Dive",
+    "pub": "Wed, 08 Jul 2026 12:00:00 +0000",
+    "ai_summary": ""
+  },
+  {
     "title": "I Know a Query’s Gonna Be Bad When… #TSQL2sday",
     "link": "https://www.brentozar.com/archive/2026/07/i-know-a-querys-gonna-be-bad-when-tsql2sday/",
     "summary": "I open it up and the first thing I see is a comment with a changelog showing a long list of dates and author initials. Oh I know, you think documentation is a good thing, but: Somebody&#8217;s initials from ten years ago isn&#8217;t helping anything The big long list tells me nobody&#8217;s actually taking out the [&#8230;]",
