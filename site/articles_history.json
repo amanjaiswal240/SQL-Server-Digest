@@ -1,5 +1,32 @@
 [
   {
+    "title": "Tomorrow’s the Last Day to Sign Up!",
+    "link": "https://www.brentozar.com/archive/2026/07/tomorrows-the-last-day-to-sign-up/",
+    "summary": "Tomorrow&#8217;s your last day to join about a dozen of your closest friends &#8211; well, you&#8217;re gonna be close soon &#8211; attending my live online fall rotation of all-new classes, starting with next week&#8217;s Fundamentals Week 2026: Fundamentals Week &#8211; July 13-17 &#8211; covering Fundamentals of Index Tuning, Query Tuning, and Server Tuning Mastering Index [&#8230;]",
+    "source": "Brent Ozar Unlimited",
+    "tag": "Performance",
+    "pub": "Thu, 09 Jul 2026 13:15:36 +0000",
+    "ai_summary": ""
+  },
+  {
+    "title": "Why Your SQL Permissions Disappeared",
+    "link": "https://www.sqlservercentral.com/articles/why-your-sql-permissions-disappeared",
+    "summary": "When you change a schema owner in SQL Server, all object-level permissions vanish instantly. There is no warning. Here's how to prevent it and fix it when it happens.\nThe post Why Your SQL Permissions Disappeared appeared first on SQLServerCentral.",
+    "source": "SQL Server Central",
+    "tag": "Community",
+    "pub": "Fri, 10 Jul 2026 00:00:10 +0000",
+    "ai_summary": ""
+  },
+  {
+    "title": "Correct SQL Server Always On Availability Group Not Synchronizing",
+    "link": "https://www.sqlservercentral.com/articles/correct-sql-server-always-on-availability-group-not-synchronizing",
+    "summary": "We had an issue with a SQL Server database in an Always On Availability Group (AOAG) where it was not synchronizing the secondary replica even though it was using the “Synchronous commit” Availability Mode for the secondary replica. This article explains how to troubleshoot and resolve:\nThe post Correct SQL Server Always On Availability Group Not Synchronizing appeared first on SQLServerCentral.",
+    "source": "SQL Server Central",
+    "tag": "Community",
+    "pub": "Fri, 10 Jul 2026 00:00:54 +0000",
+    "ai_summary": ""
+  },
+  {
     "title": "What’s missing in T-SQL? My wish list of features that developers actually need in SQL Server",
     "link": "https://www.red-gate.com/simple-talk/databases/sql-server/whats-missing-in-t-sql-heres-my-t-sql-wish-list-of-features-that-developers-actually-need-in-sql-server/",
     "summary": "A veteran SQL Server expert's wish list for T-SQL: true constants, enumerations, extensibility, better naming consistency, and more. See what's missing.&#8230;\nThe post What&#8217;s missing in T-SQL? My wish list of features that developers actually need in SQL Server appeared first on Simple Talk.",
