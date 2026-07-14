@@ -1,5 +1,23 @@
 [
   {
+    "title": "TRY_PARSE vs TRY_CONVERT in SQL Server: From Basics to Practical Usage",
+    "link": "https://www.sqlservercentral.com/articles/try_parse-vs-try_convert-in-sql-server-from-basics-to-practical-usage",
+    "summary": "This article shows how the TRY_PARSE() and TRY_CONVERT() functions can be used to handle data quality issues and ensure that your software continues to function without throwing errors.\nThe post TRY_PARSE vs TRY_CONVERT in SQL Server: From Basics to Practical Usage appeared first on SQLServerCentral.",
+    "source": "SQL Server Central",
+    "tag": "Community",
+    "pub": "Mon, 13 Jul 2026 00:00:34 +0000",
+    "ai_summary": ""
+  },
+  {
+    "title": "It’s 2026. Why are databases still failing GDPR compliance audits?",
+    "link": "https://www.sqlservercentral.com/articles/its-2026-why-are-databases-still-failing-gdpr-compliance-audits",
+    "summary": "This article examines three recurring database-layer failures documented in the EDPB’s 2026 enforcement findings: the complexity of executing erasure across relational schemas, the backup paradox that can silently undo compliant deletions, and the audit log contradiction that traps organizations between two competing obligations. \nThe post It’s 2026. Why are databases still failing GDPR compliance audits? appeared first on SQLServerCentral.",
+    "source": "SQL Server Central",
+    "tag": "Community",
+    "pub": "Mon, 13 Jul 2026 00:00:07 +0000",
+    "ai_summary": ""
+  },
+  {
     "title": "How to automate Fabric data agent testing with promptfoo and GitHub Actions",
     "link": "https://www.red-gate.com/simple-talk/data-analytics/microsoft-fabric/how-to-automate-fabric-data-agent-testing-with-promptfoo-and-github-actions/",
     "summary": "Learn how to automate Fabric Data Agent testing using promptfoo, service principals, and GitHub Actions - step-by-step guide. No more manual testing required!&#8230;\nThe post How to automate Fabric data agent testing with promptfoo and GitHub Actions appeared first on Simple Talk.",
