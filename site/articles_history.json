@@ -1,5 +1,14 @@
 [
   {
+    "title": "Confession Time: I Never Taught You About B-Trees.",
+    "link": "https://www.sqlservercentral.com/articles/confession-time-i-never-taught-you-about-b-trees",
+    "summary": "I work with databases for a living. I teach people, and I help them via consulting. And as far as I can remember, I’ve never written something about how b-trees work.\nThe post Confession Time: I Never Taught You About B-Trees. appeared first on SQLServerCentral.",
+    "source": "SQL Server Central",
+    "tag": "Community",
+    "pub": "Wed, 15 Jul 2026 00:00:34 +0000",
+    "ai_summary": ""
+  },
+  {
     "title": "TRY_PARSE vs TRY_CONVERT in SQL Server: From Basics to Practical Usage",
     "link": "https://www.sqlservercentral.com/articles/try_parse-vs-try_convert-in-sql-server-from-basics-to-practical-usage",
     "summary": "This article shows how the TRY_PARSE() and TRY_CONVERT() functions can be used to handle data quality issues and ensure that your software continues to function without throwing errors.\nThe post TRY_PARSE vs TRY_CONVERT in SQL Server: From Basics to Practical Usage appeared first on SQLServerCentral.",
