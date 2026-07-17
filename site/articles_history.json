@@ -1,5 +1,14 @@
 [
   {
+    "title": "Database Animations: How Index Seeks Work",
+    "link": "https://www.brentozar.com/archive/2026/07/database-animations-how-index-seeks-work/",
+    "summary": "In my free How to Think Like the Engine class, I gloss over the entire concept of B-trees and just hand-wavily say &#8220;SQL Server can seek to the page that has the row you&#8217;re looking for.&#8221; That&#8217;s always kinda bothered me, so I finally gave in to temptation and whipped up an animated example of [&#8230;]",
+    "source": "Brent Ozar Unlimited",
+    "tag": "Performance",
+    "pub": "Thu, 16 Jul 2026 13:15:41 +0000",
+    "ai_summary": ""
+  },
+  {
     "title": "The best AI developer tools in 2026: from coding agents to code review",
     "link": "https://www.red-gate.com/simple-talk/ai/the-best-ai-developer-tools-in-2026-from-coding-agents-to-code-review/",
     "summary": "A developer's honest take on the best AI tools for research, day-to-day coding, and code review in 2026 — covering Claude Code, Codex, Cursor, OpenCode, Aviator Verify, and CodeRabbit.&#8230;\nThe post The best AI developer tools in 2026: from coding agents to code review appeared first on Simple Talk.",
