@@ -1,5 +1,41 @@
 [
   {
+    "title": "[Video] What AI is Good For Right Now",
+    "link": "https://www.brentozar.com/archive/2026/07/video-what-ai-is-good-for-right-now/",
+    "summary": "This isn&#8217;t specifically database-related, but it&#8217;s the kind of thing I&#8217;m really into, so maybe you&#8217;re into it too. I sat down with Giovana Carvalho, the Managing Director at Teachable, the e-commerce platform I use to sell training classes, and we chatted about what AI is good for these days, and where its rough edges [&#8230;]",
+    "source": "Brent Ozar Unlimited",
+    "tag": "Performance",
+    "pub": "Fri, 17 Jul 2026 13:15:50 +0000",
+    "ai_summary": ""
+  },
+  {
+    "title": "Implicit Conversions Cripple SQL Server",
+    "link": "https://www.sqlservercentral.com/articles/implicit-conversions-cripple-sql-server",
+    "summary": "Learn about implicit conversions, which can dramatically affect the performance of your workload.\nThe post Implicit Conversions Cripple SQL Server appeared first on SQLServerCentral.",
+    "source": "SQL Server Central",
+    "tag": "Community",
+    "pub": "Fri, 17 Jul 2026 00:00:54 +0000",
+    "ai_summary": ""
+  },
+  {
+    "title": "Vector search in SQL Server: VECTOR_DISTANCE, VECTOR_SEARCH, and index trade-offs",
+    "link": "https://www.sqlservercentral.com/articles/vector-search-in-sql-server-vector_distance-vector_search-and-index-trade-offs",
+    "summary": "Learn how to use VECTOR_DISTANCE and VECTOR_SEARCH in SQL Server to find semantically similar data.\nThe post Vector search in SQL Server: VECTOR_DISTANCE, VECTOR_SEARCH, and index trade-offs appeared first on SQLServerCentral.",
+    "source": "SQL Server Central",
+    "tag": "Community",
+    "pub": "Fri, 17 Jul 2026 00:00:17 +0000",
+    "ai_summary": ""
+  },
+  {
+    "title": "How SQL Server maintenance becomes an attack path – and what to do about it",
+    "link": "https://www.red-gate.com/simple-talk/databases/sql-server/how-sql-server-maintenance-becomes-an-attack-path-and-what-to-do-about-it/",
+    "summary": "How trigger hijacking, msdb exposure, and over-privileged database users create SQL Server attack paths — plus how to detect and monitor them.&#8230;\nThe post How SQL Server maintenance becomes an attack path &#8211; and what to do about it appeared first on Simple Talk.",
+    "source": "Simple Talk (Redgate)",
+    "tag": "Deep Dive",
+    "pub": "Fri, 17 Jul 2026 12:00:00 +0000",
+    "ai_summary": ""
+  },
+  {
     "title": "Database Animations: How Index Seeks Work",
     "link": "https://www.brentozar.com/archive/2026/07/database-animations-how-index-seeks-work/",
     "summary": "In my free How to Think Like the Engine class, I gloss over the entire concept of B-trees and just hand-wavily say &#8220;SQL Server can seek to the page that has the row you&#8217;re looking for.&#8221; That&#8217;s always kinda bothered me, so I finally gave in to temptation and whipped up an animated example of [&#8230;]",
