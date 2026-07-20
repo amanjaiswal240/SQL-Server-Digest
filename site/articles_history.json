@@ -1,5 +1,23 @@
 [
   {
+    "title": "Connect an Azure Function to Azure SQL database Using a Managed Identity",
+    "link": "https://www.sqlservercentral.com/articles/connect-an-azure-function-to-azure-sql-database-using-a-managed-identity",
+    "summary": "In this article, you’ll learn step-by-step setup, Python code implementation, troubleshooting, and best practices to ensure your solution is secure and scalable.\nThe post Connect an Azure Function to Azure SQL database Using a Managed Identity appeared first on SQLServerCentral.",
+    "source": "SQL Server Central",
+    "tag": "Community",
+    "pub": "Mon, 20 Jul 2026 00:00:22 +0000",
+    "ai_summary": ""
+  },
+  {
+    "title": "Pros and Cons of Database Sharding for Performance and Maintenance",
+    "link": "https://www.sqlservercentral.com/articles/pros-and-cons-of-database-sharding-for-performance-and-maintenance",
+    "summary": "Large databases usually have a negative impact on maintenance time, scalability and query performance. For maintenance, these large single databases have to be backed up daily while the amount of actual changing data might be small. For performance, tables without correct indexes result in full table or clustered index scans. As the data grows the total query time increase linearly. How can we decrease downtime for the maintenance window for large databases and optimize the performance of daily",
+    "source": "SQL Server Central",
+    "tag": "Community",
+    "pub": "Mon, 20 Jul 2026 00:00:55 +0000",
+    "ai_summary": ""
+  },
+  {
     "title": "[Video] What AI is Good For Right Now",
     "link": "https://www.brentozar.com/archive/2026/07/video-what-ai-is-good-for-right-now/",
     "summary": "This isn&#8217;t specifically database-related, but it&#8217;s the kind of thing I&#8217;m really into, so maybe you&#8217;re into it too. I sat down with Giovana Carvalho, the Managing Director at Teachable, the e-commerce platform I use to sell training classes, and we chatted about what AI is good for these days, and where its rough edges [&#8230;]",
