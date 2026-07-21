@@ -1,5 +1,23 @@
 [
   {
+    "title": "AI built my WordPress plugin. Here’s what worked – and what went wrong (building an app with AI, part five)",
+    "link": "https://www.red-gate.com/simple-talk/ai/ai-built-my-wordpress-plugin-heres-what-worked-and-what-went-wrong-building-an-app-with-ai-part-five/",
+    "summary": "Learn what happens when you try building a working WordPress plugin for your app with AI - featuring plugin creation, a broken GitHub Actions pipeline, and the limits of AI-assisted development.&#8230;\nThe post AI built my WordPress plugin. Here&#8217;s what worked &#8211; and what went wrong (building an app with AI, part five) appeared first on Simple Talk.",
+    "source": "Simple Talk (Redgate)",
+    "tag": "Deep Dive",
+    "pub": "Mon, 20 Jul 2026 12:00:00 +0000",
+    "ai_summary": ""
+  },
+  {
+    "title": "Database Performance Health Check: Six Months Slow, Fixed in 75 Minutes",
+    "link": "https://blog.sqlauthority.com/2026/07/21/database-performance-health-check-six-months-slow-fixed-in-75-minutes/?utm_source=rss&utm_medium=rss&utm_campaign=database-performance-health-check-six-months-slow-fixed-in-75-minutes",
+    "summary": "Six months of slow SQL, fixed in 75 minutes. See what a database performance health check finds, and how one focused 4-hour session ends the guessing.\nFirst appeared on Database Performance Health Check: Six Months Slow, Fixed in 75 Minutes",
+    "source": "SQL Authority (Pinal Dave)",
+    "tag": "Tips",
+    "pub": "Tue, 21 Jul 2026 01:30:51 +0000",
+    "ai_summary": ""
+  },
+  {
     "title": "Connect an Azure Function to Azure SQL database Using a Managed Identity",
     "link": "https://www.sqlservercentral.com/articles/connect-an-azure-function-to-azure-sql-database-using-a-managed-identity",
     "summary": "In this article, you’ll learn step-by-step setup, Python code implementation, troubleshooting, and best practices to ensure your solution is secure and scalable.\nThe post Connect an Azure Function to Azure SQL database Using a Managed Identity appeared first on SQLServerCentral.",
