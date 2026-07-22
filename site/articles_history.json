@@ -1,5 +1,32 @@
 [
   {
+    "title": "T-SQL Tuesday Roundup: You Know A Query’s Gonna Be Bad When…",
+    "link": "https://www.brentozar.com/archive/2026/07/t-sql-tuesday-roundup-you-know-a-querys-gonna-be-bad-when/",
+    "summary": "For this month&#8217;s T-SQL Tuesday, I invited y&#8217;all to tell me how you know a query&#8217;s gonna be bad when you open it. Riccardo Perico and Shane O&#8217;Neill says WHILE loops and/or CURSORs are pretty good indicators. I agree, because especially when you&#8217;re opening code in the year 2026, and someone still hasn&#8217;t figured this out [&#8230;]",
+    "source": "Brent Ozar Unlimited",
+    "tag": "Performance",
+    "pub": "Tue, 21 Jul 2026 13:15:06 +0000",
+    "ai_summary": ""
+  },
+  {
+    "title": "Can You Really Downgrade from Enterprise to Standard and Save Thousands? Here's What Happened",
+    "link": "https://www.sqlservercentral.com/articles/can-you-really-downgrade-from-enterprise-to-standard-and-save-thousands-heres-what-happened",
+    "summary": "A real world story of how someone moved from Enterprise Edition to Standard for not only the SQL Server database engine, but also with SSRS, SSIS, and SSAS.\nThe post Can You Really Downgrade from Enterprise to Standard and Save Thousands? Here&#039;s What Happened appeared first on SQLServerCentral.",
+    "source": "SQL Server Central",
+    "tag": "Community",
+    "pub": "Wed, 22 Jul 2026 00:00:38 +0000",
+    "ai_summary": ""
+  },
+  {
+    "title": "Exposing a SQL injection vulnerability you’ve never heard of",
+    "link": "https://www.sqlservercentral.com/articles/exposing-a-sql-injection-vulnerability-youve-never-heard-of",
+    "summary": "This article documents a SQL injection vulnerability I discovered in sys.sp_dbmmonitorupdate, a Microsoft-signed system stored procedure. For other SQL Server security vulnerabilities I’ve discovered, see the full series here.\nThe post Exposing a SQL injection vulnerability you’ve never heard of appeared first on SQLServerCentral.",
+    "source": "SQL Server Central",
+    "tag": "Community",
+    "pub": "Wed, 22 Jul 2026 00:00:29 +0000",
+    "ai_summary": ""
+  },
+  {
     "title": "AI built my WordPress plugin. Here’s what worked – and what went wrong (building an app with AI, part five)",
     "link": "https://www.red-gate.com/simple-talk/ai/ai-built-my-wordpress-plugin-heres-what-worked-and-what-went-wrong-building-an-app-with-ai-part-five/",
     "summary": "Learn what happens when you try building a working WordPress plugin for your app with AI - featuring plugin creation, a broken GitHub Actions pipeline, and the limits of AI-assisted development.&#8230;\nThe post AI built my WordPress plugin. Here&#8217;s what worked &#8211; and what went wrong (building an app with AI, part five) appeared first on Simple Talk.",
