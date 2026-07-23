@@ -1,5 +1,14 @@
 [
   {
+    "title": "Database Animations: You’ve Heard of Page Splits. Here’s What They Really Mean.",
+    "link": "https://www.brentozar.com/archive/2026/07/database-animations-youve-heard-of-page-splits-heres-what-they-really-mean/",
+    "summary": "You&#8217;ve heard that page splits are bad, and they&#8217;re an indication that your table design is making your storage work too hard. You&#8217;ve heard that the right answer to fix it is adjusting fill factor lower, or doing regular index maintenance. Before you watch the below animation, you&#8217;ll wanna get up to speed with how [&#8230;]",
+    "source": "Brent Ozar Unlimited",
+    "tag": "Performance",
+    "pub": "Wed, 22 Jul 2026 13:15:06 +0000",
+    "ai_summary": ""
+  },
+  {
     "title": "T-SQL Tuesday Roundup: You Know A Query’s Gonna Be Bad When…",
     "link": "https://www.brentozar.com/archive/2026/07/t-sql-tuesday-roundup-you-know-a-querys-gonna-be-bad-when/",
     "summary": "For this month&#8217;s T-SQL Tuesday, I invited y&#8217;all to tell me how you know a query&#8217;s gonna be bad when you open it. Riccardo Perico and Shane O&#8217;Neill says WHILE loops and/or CURSORs are pretty good indicators. I agree, because especially when you&#8217;re opening code in the year 2026, and someone still hasn&#8217;t figured this out [&#8230;]",
