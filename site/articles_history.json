@@ -1,5 +1,41 @@
 [
   {
+    "title": "[Video] Office Hours: Long Answers Edition",
+    "link": "https://www.brentozar.com/archive/2026/07/office-hours-long-answers-edition/",
+    "summary": "This week&#8217;s top-voted questions from https://pollgab.com/room/brento finds us opening ChatGPT multiple times! It&#8217;s fun to show how I use it, and what it thinks of me. Prefer listening to this via podcast? Good news! You can now subscribe to Office Hours on Spotify, Apple Podcasts, Podcast Index, Podcast Addict, Podchaser, and anywhere else fine podcasts [&#8230;]",
+    "source": "Brent Ozar Unlimited",
+    "tag": "Performance",
+    "pub": "Thu, 23 Jul 2026 13:15:24 +0000",
+    "ai_summary": ""
+  },
+  {
+    "title": "SQL Agent Job Automated Change Capture Process",
+    "link": "https://www.sqlservercentral.com/articles/sql-agent-job-automated-change-capture-process",
+    "summary": "Build a process that captures your SQL Agent job history and changes across time.\nThe post SQL Agent Job Automated Change Capture Process appeared first on SQLServerCentral.",
+    "source": "SQL Server Central",
+    "tag": "Community",
+    "pub": "Fri, 24 Jul 2026 00:00:43 +0000",
+    "ai_summary": ""
+  },
+  {
+    "title": "SQL Server Data Warehouse Concepts, Schema Design, and Implementation",
+    "link": "https://www.sqlservercentral.com/articles/sql-server-data-warehouse-concepts-schema-design-and-implementation-2",
+    "summary": "A Data Warehouse acts as a centralized repository, is subject oriented, time variant and non-volatile repository.  This article covers some concepts that will help you better design these structures.\nThe post SQL Server Data Warehouse Concepts, Schema Design, and Implementation appeared first on SQLServerCentral.",
+    "source": "SQL Server Central",
+    "tag": "Community",
+    "pub": "Fri, 24 Jul 2026 00:00:49 +0000",
+    "ai_summary": ""
+  },
+  {
+    "title": "Comparing MySQL Enterprise Monitor with Oracle Enterprise Manager for MySQL – which is best?",
+    "link": "https://www.red-gate.com/simple-talk/databases/mysql/comparing-mysql-enterprise-monitor-with-oracle-enterprise-manager-for-mysql-which-is-best/",
+    "summary": "Comparing MySQL Enterprise Monitor and Oracle Enterprise Manager for MySQL to determine which is best for you. Covers features, scalability, security, and pricing.&#8230;\nThe post Comparing MySQL Enterprise Monitor with Oracle Enterprise Manager for MySQL &#8211; which is best? appeared first on Simple Talk.",
+    "source": "Simple Talk (Redgate)",
+    "tag": "Deep Dive",
+    "pub": "Thu, 23 Jul 2026 12:00:00 +0000",
+    "ai_summary": ""
+  },
+  {
     "title": "Database Animations: You’ve Heard of Page Splits. Here’s What They Really Mean.",
     "link": "https://www.brentozar.com/archive/2026/07/database-animations-youve-heard-of-page-splits-heres-what-they-really-mean/",
     "summary": "You&#8217;ve heard that page splits are bad, and they&#8217;re an indication that your table design is making your storage work too hard. You&#8217;ve heard that the right answer to fix it is adjusting fill factor lower, or doing regular index maintenance. Before you watch the below animation, you&#8217;ll wanna get up to speed with how [&#8230;]",
