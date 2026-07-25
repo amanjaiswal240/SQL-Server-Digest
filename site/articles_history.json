@@ -1,5 +1,14 @@
 [
   {
+    "title": "How to get clean, usable data out of SQL Server into Python",
+    "link": "https://www.red-gate.com/simple-talk/databases/sql-server/how-to-get-clean-usable-data-out-of-sql-server-into-python/",
+    "summary": "Build scalable data pipelines by pushing transformations into SQL and keeping Python focused on analysis. Learn about views, CTEs, pruning, and efficient data extraction.&#8230;\nThe post How to get clean, usable data out of SQL Server into Python appeared first on Simple Talk.",
+    "source": "Simple Talk (Redgate)",
+    "tag": "Deep Dive",
+    "pub": "Fri, 24 Jul 2026 12:00:00 +0000",
+    "ai_summary": ""
+  },
+  {
     "title": "[Video] Office Hours: Long Answers Edition",
     "link": "https://www.brentozar.com/archive/2026/07/office-hours-long-answers-edition/",
     "summary": "This week&#8217;s top-voted questions from https://pollgab.com/room/brento finds us opening ChatGPT multiple times! It&#8217;s fun to show how I use it, and what it thinks of me. Prefer listening to this via podcast? Good news! You can now subscribe to Office Hours on Spotify, Apple Podcasts, Podcast Index, Podcast Addict, Podchaser, and anywhere else fine podcasts [&#8230;]",
