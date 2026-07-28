@@ -1,5 +1,14 @@
 [
   {
+    "title": "SQL Server index tuning: common mistakes and how to fix them",
+    "link": "https://www.red-gate.com/simple-talk/databases/sql-server/sql-server-index-tuning-common-mistakes-and-how-to-fix-them/",
+    "summary": "Learn the most common SQL Server index tuning mistakes -over-indexing, wide indexes, fill factor misuse, heaps - and how to fix them. Complete guide with examples.&#8230;\nThe post SQL Server index tuning: common mistakes and how to fix them appeared first on Simple Talk.",
+    "source": "Simple Talk (Redgate)",
+    "tag": "Deep Dive",
+    "pub": "Mon, 27 Jul 2026 12:00:00 +0000",
+    "ai_summary": ""
+  },
+  {
     "title": "5 T-SQL features that should already exist (2026 SQL Server wish list)",
     "link": "https://www.sqlservercentral.com/articles/5-t-sql-features-that-should-already-exist-2026-sql-server-wish-list",
     "summary": "2026 T-SQL wish list covering native Parquet imports, arrays, OVERLAPS, simpler licensing, and cloud storage\nThe post 5 T-SQL features that should already exist (2026 SQL Server wish list) appeared first on SQLServerCentral.",
