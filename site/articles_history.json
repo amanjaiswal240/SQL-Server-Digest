@@ -1,5 +1,32 @@
 [
   {
+    "title": "Think You Know A Lot About SQL Server? Well, Actually…",
+    "link": "https://www.brentozar.com/archive/2026/07/think-you-know-a-lot-about-sql-server-well-actually/",
+    "summary": "Got a few minutes? Close that dating app and pay attention. Check out this little SQL swipe quiz: &#8220;Well, Actually&#8230;&#8221; Swipe right if you think the statement is true, left if it&#8217;s false, or up if it&#8217;s debatable. Your score is tracked as you go. It&#8217;s a fun way to learn random database facts, and [&#8230;]",
+    "source": "Brent Ozar Unlimited",
+    "tag": "Performance",
+    "pub": "Tue, 28 Jul 2026 13:15:03 +0000",
+    "ai_summary": ""
+  },
+  {
+    "title": "The “Successful Login” Dilemma: Why Your Login Auditing Strategy Might Be Hurting Your Server",
+    "link": "https://www.sqlservercentral.com/articles/the-successful-login-dilemma-why-your-login-auditing-strategy-might-be-hurting-your-server",
+    "summary": "From bloated error logs to risky logon triggers, a guide to auditing connections without killing performance.\nThe post The “Successful Login” Dilemma: Why Your Login Auditing Strategy Might Be Hurting Your Server appeared first on SQLServerCentral.",
+    "source": "SQL Server Central",
+    "tag": "Community",
+    "pub": "Wed, 29 Jul 2026 00:00:09 +0000",
+    "ai_summary": ""
+  },
+  {
+    "title": "Time Series Data Mining Example with T-SQL when Adding New Data",
+    "link": "https://www.sqlservercentral.com/articles/time-series-data-mining-example-with-t-sql-when-adding-new-data-2",
+    "summary": "Please demonstrate the steps for updating an existing time series dataset used in a prior data mining project with a fresh batch of data. Then, repeat the mining performed for the original dataset with the freshly updated dataset.\nThe post Time Series Data Mining Example with T-SQL when Adding New Data appeared first on SQLServerCentral.",
+    "source": "SQL Server Central",
+    "tag": "Community",
+    "pub": "Wed, 29 Jul 2026 00:00:20 +0000",
+    "ai_summary": ""
+  },
+  {
     "title": "SQL Server index tuning: common mistakes and how to fix them",
     "link": "https://www.red-gate.com/simple-talk/databases/sql-server/sql-server-index-tuning-common-mistakes-and-how-to-fix-them/",
     "summary": "Learn the most common SQL Server index tuning mistakes -over-indexing, wide indexes, fill factor misuse, heaps - and how to fix them. Complete guide with examples.&#8230;\nThe post SQL Server index tuning: common mistakes and how to fix them appeared first on Simple Talk.",
