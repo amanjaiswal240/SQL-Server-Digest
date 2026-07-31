@@ -1,5 +1,14 @@
 [
   {
+    "title": "Why SQL Server Database Attach fails and how to repair it",
+    "link": "https://www.sqlservercentral.com/articles/why-sql-server-database-attach-fails-and-how-to-repair-it",
+    "summary": "This article covers a few common errors when attaching database files to an instance, with some information on how to resolve the issues.\nThe post Why SQL Server Database Attach fails and how to repair it appeared first on SQLServerCentral.",
+    "source": "SQL Server Central",
+    "tag": "Community",
+    "pub": "Fri, 31 Jul 2026 00:00:49 +0000",
+    "ai_summary": ""
+  },
+  {
     "title": "What does a modern DBA actually do? 6 key points from a senior DBA",
     "link": "https://www.red-gate.com/simple-talk/career/what-does-a-modern-dba-actually-do-6-key-points-from-a-senior-dba/",
     "summary": "The DBA role has changed. Senior DBA Lee Brownhill shares 6 honest insights on what database professionals are focused on today - AI, cloud costs, DevOps, and more.&#8230;\nThe post What does a modern DBA actually do? 6 key points from a senior DBA  appeared first on Simple Talk.",
