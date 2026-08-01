@@ -1,5 +1,23 @@
 [
   {
+    "title": "[Video] Office Hours: Desert Database Q&A",
+    "link": "https://www.brentozar.com/archive/2026/07/video-office-hours-desert-database-qa/",
+    "summary": "I&#8217;m in the Lake Mead National Recreation Area today, hanging out in the triple-digit heat, to answer your top-voted questions from https://pollgab.com/room/brento. Prefer listening to this via podcast? Good news! You can now subscribe to Office Hours on Spotify, Apple Podcasts, Podcast Index, Podcast Addict, Podchaser, and anywhere else fine podcasts are sold. Here&#8217;s what [&#8230;]",
+    "source": "Brent Ozar Unlimited",
+    "tag": "Performance",
+    "pub": "Fri, 31 Jul 2026 13:15:06 +0000",
+    "ai_summary": ""
+  },
+  {
+    "title": "How a SQL Server backup can execute attacker code during restore – and how to prevent it (CVE-2026-47295 vulnerability)",
+    "link": "https://www.red-gate.com/simple-talk/databases/sql-server/how-a-sql-server-backup-can-execute-attacker-code-during-restore-and-how-to-prevent-it-cve-2026-47295-vulnerability/",
+    "summary": "CVE-2026-47295: a truncation bug in SQL Server's replication cleanup lets a malicious backup execute attacker code as sysadmin during RESTORE DATABASE. Learn more, including how to prevent it.&#8230;\nThe post How a SQL Server backup can execute attacker code during restore &#8211; and how to prevent it (CVE-2026-47295 vulnerability) appeared first on Simple Talk.",
+    "source": "Simple Talk (Redgate)",
+    "tag": "Deep Dive",
+    "pub": "Fri, 31 Jul 2026 12:00:00 +0000",
+    "ai_summary": ""
+  },
+  {
     "title": "Why SQL Server Database Attach fails and how to repair it",
     "link": "https://www.sqlservercentral.com/articles/why-sql-server-database-attach-fails-and-how-to-repair-it",
     "summary": "This article covers a few common errors when attaching database files to an instance, with some information on how to resolve the issues.\nThe post Why SQL Server Database Attach fails and how to repair it appeared first on SQLServerCentral.",
