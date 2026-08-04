@@ -1,5 +1,32 @@
 [
   {
+    "title": "Advanced T-SQL: Replacing Slow Cursors with Window Functions",
+    "link": "https://www.sqlservercentral.com/articles/advanced-t-sql-replacing-slow-cursors-with-window-functions",
+    "summary": "This article looks at replacing a cursor with a window function to improve performance.\nThe post Advanced T-SQL: Replacing Slow Cursors with Window Functions appeared first on SQLServerCentral.",
+    "source": "SQL Server Central",
+    "tag": "Community",
+    "pub": "Mon, 03 Aug 2026 00:00:22 +0000",
+    "ai_summary": ""
+  },
+  {
+    "title": "Database Animations: You’ve Heard of Page Splits. Here’s What They Really Mean.",
+    "link": "https://www.sqlservercentral.com/articles/database-animations-youve-heard-of-page-splits-heres-what-they-really-mean",
+    "summary": "You've heard that page splits are bad, and they're an indication that your table design is making your storage work too hard. You've heard that the right answer to fix it is adjusting fill factor lower, or doing regular index maintenance.\nThe post Database Animations: You’ve Heard of Page Splits. Here’s What They Really Mean. appeared first on SQLServerCentral.",
+    "source": "SQL Server Central",
+    "tag": "Community",
+    "pub": "Mon, 03 Aug 2026 00:00:14 +0000",
+    "ai_summary": ""
+  },
+  {
+    "title": "SQL Server Deadlock: Build One With Your Own Hands",
+    "link": "https://blog.sqlauthority.com/2026/08/04/sql-server-deadlock-build-one-with-your-own-hands/?utm_source=rss&utm_medium=rss&utm_campaign=sql-server-deadlock-build-one-with-your-own-hands",
+    "summary": "A SQL Server deadlock occurs when sessions form a cycle of dependencies and none can continue. This example lets you create the cycle, inspect it, and remove it.\nFirst appeared on SQL Server Deadlock: Build One With Your Own Hands",
+    "source": "SQL Authority (Pinal Dave)",
+    "tag": "Tips",
+    "pub": "Tue, 04 Aug 2026 01:30:21 +0000",
+    "ai_summary": ""
+  },
+  {
     "title": "[Video] Office Hours: Desert Database Q&A",
     "link": "https://www.brentozar.com/archive/2026/07/video-office-hours-desert-database-qa/",
     "summary": "I&#8217;m in the Lake Mead National Recreation Area today, hanging out in the triple-digit heat, to answer your top-voted questions from https://pollgab.com/room/brento. Prefer listening to this via podcast? Good news! You can now subscribe to Office Hours on Spotify, Apple Podcasts, Podcast Index, Podcast Addict, Podchaser, and anywhere else fine podcasts are sold. Here&#8217;s what [&#8230;]",
