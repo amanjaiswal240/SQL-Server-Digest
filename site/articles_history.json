@@ -1,5 +1,14 @@
 [
   {
+    "title": "Free Webcast: 3 Numbers Every Tuner Should Know.",
+    "link": "https://www.brentozar.com/archive/2026/08/free-webcast-3-numbers-every-tuner-should-know/",
+    "summary": "Every SQL Server performance tuner eventually faces the same question: is this normal, or is something wrong? The answer starts with 3 numbers about your SQL Server: How fast it&#8217;s going How hard it&#8217;s working How big it is On August 19, I&#8217;m doing a free webcast with JAMS Software to show you exactly where [&#8230;]",
+    "source": "Brent Ozar Unlimited",
+    "tag": "Performance",
+    "pub": "Tue, 04 Aug 2026 13:15:51 +0000",
+    "ai_summary": ""
+  },
+  {
     "title": "Advanced T-SQL: Replacing Slow Cursors with Window Functions",
     "link": "https://www.sqlservercentral.com/articles/advanced-t-sql-replacing-slow-cursors-with-window-functions",
     "summary": "This article looks at replacing a cursor with a window function to improve performance.\nThe post Advanced T-SQL: Replacing Slow Cursors with Window Functions appeared first on SQLServerCentral.",
