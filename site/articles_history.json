@@ -1,5 +1,50 @@
 [
   {
+    "title": "Who’s Hiring Database People? August 2026 Edition",
+    "link": "https://www.brentozar.com/archive/2026/08/whos-hiring-database-people-august-2026-edition/",
+    "summary": "Is your company hiring for a database position as of August 2026? Do you wanna work with the kinds of people who read this blog? Let&#8217;s make a love connection. If your company is hiring, leave a comment. The rules: Your comment must include the job title, and either a link to the full job [&#8230;]",
+    "source": "Brent Ozar Unlimited",
+    "tag": "Performance",
+    "pub": "Wed, 05 Aug 2026 13:15:57 +0000",
+    "ai_summary": ""
+  },
+  {
+    "title": "T-SQL in SQL Server 2025: REGEXP_LIKE",
+    "link": "https://www.sqlservercentral.com/articles/t-sql-in-sql-server-2025-regexp_like",
+    "summary": "This article goes into one of the new regular expression functions in SQL Server 2025: REGEXP_LIKE().\nThe post T-SQL in SQL Server 2025: REGEXP_LIKE appeared first on SQLServerCentral.",
+    "source": "SQL Server Central",
+    "tag": "Community",
+    "pub": "Wed, 05 Aug 2026 00:00:20 +0000",
+    "ai_summary": ""
+  },
+  {
+    "title": "The best AI developer tools in 2026: from coding agents to code review",
+    "link": "https://www.sqlservercentral.com/articles/the-best-ai-developer-tools-in-2026-from-coding-agents-to-code-review",
+    "summary": "AI developer tools have matured fast. In 2026, most engineering workflows touch at least one AI coding agent, code reviewer, or research assistant — but the right combination depends heavily on your team size, codebase, and tolerance for setup overhead. This guide breaks down the tools actually worth using across three categories: research and architecture, day-to-day development, and code review, based on real, hands-on experience.\nThe post The best AI developer tools in 2026: from coding agent",
+    "source": "SQL Server Central",
+    "tag": "Community",
+    "pub": "Wed, 05 Aug 2026 00:00:33 +0000",
+    "ai_summary": ""
+  },
+  {
+    "title": "MySQL vs PostgreSQL: spatial data types, functions, and migration pitfalls explained",
+    "link": "https://www.red-gate.com/simple-talk/databases/mysql-vs-postgresql-spatial-data-types-functions-and-migration-pitfalls-explained/",
+    "summary": "MySQL and PostgreSQL both support spatial data, but work very differently. This guide breaks down types, indexing, functions, and key migration gotchas.&#8230;\nThe post MySQL vs PostgreSQL: spatial data types, functions, and migration pitfalls explained appeared first on Simple Talk.",
+    "source": "Simple Talk (Redgate)",
+    "tag": "Deep Dive",
+    "pub": "Wed, 05 Aug 2026 12:00:00 +0000",
+    "ai_summary": ""
+  },
+  {
+    "title": "Nine Unusual Ways My Clients Use AI With SQL Server",
+    "link": "https://blog.sqlauthority.com/2026/08/06/nine-unusual-ways-my-clients-use-ai-with-sql-server/?utm_source=rss&utm_medium=rss&utm_campaign=nine-unusual-ways-my-clients-use-ai-with-sql-server",
+    "summary": "Everyone writes about AI generating queries. Nobody writes about the strange jobs it is actually doing inside real database teams. These are nine of them, and I helped build every one.\nFirst appeared on Nine Unusual Ways My Clients Use AI With SQL Server",
+    "source": "SQL Authority (Pinal Dave)",
+    "tag": "Tips",
+    "pub": "Thu, 06 Aug 2026 01:30:18 +0000",
+    "ai_summary": ""
+  },
+  {
     "title": "Free Webcast: 3 Numbers Every Tuner Should Know.",
     "link": "https://www.brentozar.com/archive/2026/08/free-webcast-3-numbers-every-tuner-should-know/",
     "summary": "Every SQL Server performance tuner eventually faces the same question: is this normal, or is something wrong? The answer starts with 3 numbers about your SQL Server: How fast it&#8217;s going How hard it&#8217;s working How big it is On August 19, I&#8217;m doing a free webcast with JAMS Software to show you exactly where [&#8230;]",
