@@ -1,5 +1,32 @@
 [
   {
+    "title": "Database Animations: Why Big Columns May Not Affect Logical Reads",
+    "link": "https://www.brentozar.com/archive/2026/08/database-animations-why-big-columns-may-not-affect-logical-reads/",
+    "summary": "Over the years, tables &#8211; like your waistline &#8211; tend to get bigger. We keep tacking on more and more columns, one at a time, in order to handle app needs. It&#8217;s easier to add &#8220;just one more column&#8221; than it is to break things off into a whole separate table. When you&#8217;re only handling [&#8230;]",
+    "source": "Brent Ozar Unlimited",
+    "tag": "Performance",
+    "pub": "Thu, 06 Aug 2026 13:15:08 +0000",
+    "ai_summary": ""
+  },
+  {
+    "title": "BIT_COUNT in SQL Server",
+    "link": "https://www.sqlservercentral.com/articles/bit_count-in-sql-server",
+    "summary": "Learn how the BIT_COUNT() function works and how it enabled operations where data is stored in bits.\nThe post BIT_COUNT in SQL Server appeared first on SQLServerCentral.",
+    "source": "SQL Server Central",
+    "tag": "Community",
+    "pub": "Fri, 07 Aug 2026 00:00:03 +0000",
+    "ai_summary": ""
+  },
+  {
+    "title": "They Finished the AI Training. Eleven Days Later, the Job Was Gone",
+    "link": "https://blog.sqlauthority.com/2026/08/07/they-finished-the-ai-training-eleven-days-later-the-job-was-gone/?utm_source=rss&utm_medium=rss&utm_campaign=they-finished-the-ai-training-eleven-days-later-the-job-was-gone",
+    "summary": "An anonymous interview with a database professional who did everything the company asked. There is no lesson at the end of this one. I looked for one. AI Training\nFirst appeared on They Finished the AI Training. Eleven Days Later, the Job Was Gone",
+    "source": "SQL Authority (Pinal Dave)",
+    "tag": "Tips",
+    "pub": "Thu, 06 Aug 2026 18:38:27 +0000",
+    "ai_summary": ""
+  },
+  {
     "title": "Who’s Hiring Database People? August 2026 Edition",
     "link": "https://www.brentozar.com/archive/2026/08/whos-hiring-database-people-august-2026-edition/",
     "summary": "Is your company hiring for a database position as of August 2026? Do you wanna work with the kinds of people who read this blog? Let&#8217;s make a love connection. If your company is hiring, leave a comment. The rules: Your comment must include the job title, and either a link to the full job [&#8230;]",
