@@ -1,5 +1,32 @@
 [
   {
+    "title": "How to Work with On-Premises AI Models to Generate T-SQL Code",
+    "link": "https://www.sqlservercentral.com/articles/how-to-work-with-on-premises-ai-models-to-generate-t-sql-code",
+    "summary": "See how a small local model performs on some SQL tasks. This shows how Ollama can run a model on your laptop.\nThe post How to Work with On-Premises AI Models to Generate T-SQL Code appeared first on SQLServerCentral.",
+    "source": "SQL Server Central",
+    "tag": "Community",
+    "pub": "Mon, 10 Aug 2026 00:00:41 +0000",
+    "ai_summary": ""
+  },
+  {
+    "title": "How SQL Server maintenance becomes an attack path – and what to do about it",
+    "link": "https://www.sqlservercentral.com/articles/how-sql-server-maintenance-becomes-an-attack-path-and-what-to-do-about-it",
+    "summary": "The article covers four connected areas: over-privileged database users, msdb and SQL Server Agent exposure, privileged maintenance jobs, and trigger-based permission hijacking.\nThe post How SQL Server maintenance becomes an attack path – and what to do about it appeared first on SQLServerCentral.",
+    "source": "SQL Server Central",
+    "tag": "Community",
+    "pub": "Mon, 10 Aug 2026 00:00:32 +0000",
+    "ai_summary": ""
+  },
+  {
+    "title": "A Better Fire Alarm Is Still a Fire",
+    "link": "https://blog.sqlauthority.com/2026/08/10/a-better-fire-alarm-is-still-a-fire/?utm_source=rss&utm_medium=rss&utm_campaign=a-better-fire-alarm-is-still-a-fire",
+    "summary": "A better fire alarm is still a fire. Many SQL Server incidents I get called about were preventable with controls already available in the client's environment. Here is the audit I wish had been run before the pager rang, complete with the T-SQL.\nFirst appeared on A Better Fire Alarm Is Still a Fire",
+    "source": "SQL Authority (Pinal Dave)",
+    "tag": "Tips",
+    "pub": "Mon, 10 Aug 2026 01:30:04 +0000",
+    "ai_summary": ""
+  },
+  {
     "title": "How to ensure replication stability in PostgreSQL (fix/prevent lag, bloat, and bottlenecks)",
     "link": "https://www.red-gate.com/simple-talk/databases/postgresql/how-to-ensure-replication-stability-in-postgresql-fix-prevent-lag-bloat-and-bottlenecks/",
     "summary": "PostgreSQL replication stability depends on more than just configuration. Learn how replication lag, network bottlenecks, and VACUUM-related issues can silently undermine your database, and what to do about each.&#8230;\nThe post How to ensure replication stability in PostgreSQL (fix/prevent lag, bloat, and bottlenecks) appeared first on Simple Talk.",
