@@ -1,5 +1,23 @@
 [
   {
+    "title": "msdb attack paths: how to secure SQL Server Agent, triggers, and restores",
+    "link": "https://www.red-gate.com/simple-talk/databases/sql-server/msdb-attack-paths-how-to-secure-sql-server-agent-triggers-and-restores/",
+    "summary": "Learn how msdb, SQL Server Agent jobs, triggers, and untrusted restores create privilege escalation paths - plus T-SQL scripts to detect and fix them.&#8230;\nThe post msdb attack paths: how to secure SQL Server Agent, triggers, and restores appeared first on Simple Talk.",
+    "source": "Simple Talk (Redgate)",
+    "tag": "Deep Dive",
+    "pub": "Mon, 10 Aug 2026 12:00:00 +0000",
+    "ai_summary": ""
+  },
+  {
+    "title": "Cost Optimization That Never Reaches the Invoice",
+    "link": "https://blog.sqlauthority.com/2026/08/11/cost-optimization-that-never-reaches-the-invoice/?utm_source=rss&utm_medium=rss&utm_campaign=cost-optimization-that-never-reaches-the-invoice",
+    "summary": "SQL Server cost optimization has a problem nobody puts on the slide. The savings are real, the dollars are real, and none of it reaches the invoice. This is the story of how I found that out in front of people. I want to tell you about the best week of work I did last...\nFirst appeared on Cost Optimization That Never Reaches the Invoice",
+    "source": "SQL Authority (Pinal Dave)",
+    "tag": "Tips",
+    "pub": "Tue, 11 Aug 2026 01:30:24 +0000",
+    "ai_summary": ""
+  },
+  {
     "title": "How to Work with On-Premises AI Models to Generate T-SQL Code",
     "link": "https://www.sqlservercentral.com/articles/how-to-work-with-on-premises-ai-models-to-generate-t-sql-code",
     "summary": "See how a small local model performs on some SQL tasks. This shows how Ollama can run a model on your laptop.\nThe post How to Work with On-Premises AI Models to Generate T-SQL Code appeared first on SQLServerCentral.",
