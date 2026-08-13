@@ -1,5 +1,14 @@
 [
   {
+    "title": "Database Animations: Why Higher Maxdop Equals More TempDB Spills",
+    "link": "https://www.brentozar.com/archive/2026/08/database-animations-why-higher-maxdop-equals-more-tempdb-spills/",
+    "summary": "You&#8217;ve probably heard of the setting Max Degree of Parallelism. I hate that name: it should really be called just plain ol&#8217; Degrees of Parallelism, and here&#8217;s why. There are a lot of conflicting opinions out there about how to set it, and Microsoft has official guidance about it in that article above. It&#8217;s basically set [&#8230;]",
+    "source": "Brent Ozar Unlimited",
+    "tag": "Performance",
+    "pub": "Wed, 12 Aug 2026 13:15:51 +0000",
+    "ai_summary": ""
+  },
+  {
     "title": "When CTEs Don’t Work, Try Temp Tables – #TSQL2sday",
     "link": "https://www.brentozar.com/archive/2026/08/when-ctes-dont-work-try-temp-tables-tsql2sday/",
     "summary": "Common Table Expressions are awesome because they let SQL Server reorder processing in whatever way it deems to be the most efficient for your current data distribution, on your current version of SQL Server. Default to CTEs. When SQL Server gets that process wrong, switch to temp tables. Let&#8217;s start with an example. I&#8217;m using [&#8230;]",
