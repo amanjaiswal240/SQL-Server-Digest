@@ -1,5 +1,23 @@
 [
   {
+    "title": "The Hidden Danger of Wildcard Operators In Join Operations",
+    "link": "https://www.sqlservercentral.com/articles/the-hidden-danger-of-wildcard-operators-in-join-operations",
+    "summary": "This article looks at one of the killers of performance at scale, SELECT *.\nThe post The Hidden Danger of Wildcard Operators In Join Operations appeared first on SQLServerCentral.",
+    "source": "SQL Server Central",
+    "tag": "Community",
+    "pub": "Fri, 14 Aug 2026 00:00:28 +0000",
+    "ai_summary": ""
+  },
+  {
+    "title": "How to get clean, usable data out of SQL Server into Python",
+    "link": "https://www.sqlservercentral.com/articles/how-to-get-clean-usable-data-out-of-sql-server-into-python",
+    "summary": "Build scalable data pipelines by pushing transformations into SQL and keeping Python focused on analysis.\nThe post How to get clean, usable data out of SQL Server into Python appeared first on SQLServerCentral.",
+    "source": "SQL Server Central",
+    "tag": "Community",
+    "pub": "Fri, 14 Aug 2026 00:00:12 +0000",
+    "ai_summary": ""
+  },
+  {
     "title": "Database Animations: Why Higher Maxdop Equals More TempDB Spills",
     "link": "https://www.brentozar.com/archive/2026/08/database-animations-why-higher-maxdop-equals-more-tempdb-spills/",
     "summary": "You&#8217;ve probably heard of the setting Max Degree of Parallelism. I hate that name: it should really be called just plain ol&#8217; Degrees of Parallelism, and here&#8217;s why. There are a lot of conflicting opinions out there about how to set it, and Microsoft has official guidance about it in that article above. It&#8217;s basically set [&#8230;]",
