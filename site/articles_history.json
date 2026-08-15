@@ -1,5 +1,23 @@
 [
   {
+    "title": "[Video] Office Hours in Zhengzhou, China",
+    "link": "https://www.brentozar.com/archive/2026/08/video-office-hours-in-zhengzhou-china-3/",
+    "summary": "I&#8217;m back at the People&#8217;s Park in Zhengzhou, Yves&#8217; hometown, watching retirees be active while I lounge around and take your top-voted questions from https://pollgab.com/room/brento. Prefer listening to this via podcast? Good news! You can now subscribe to Office Hours on Spotify, Apple Podcasts, Podcast Index, Podcast Addict, Podchaser, and anywhere else fine podcasts are [&#8230;]",
+    "source": "Brent Ozar Unlimited",
+    "tag": "Performance",
+    "pub": "Fri, 14 Aug 2026 13:15:09 +0000",
+    "ai_summary": ""
+  },
+  {
+    "title": "How to avoid nested REPLACE functions with TRANSLATE in SQL Server",
+    "link": "https://www.red-gate.com/simple-talk/databases/sql-server/how-to-avoid-nested-replace-functions-with-translate-in-sql-server/",
+    "summary": "Learn how SQL Server's TRANSLATE function replaces messy nested REPLACE statements. Simplify multi-character string replacements in T-SQL with one clean call.&#8230;\nThe post How to avoid nested REPLACE functions with TRANSLATE in SQL Server appeared first on Simple Talk.",
+    "source": "Simple Talk (Redgate)",
+    "tag": "Deep Dive",
+    "pub": "Fri, 14 Aug 2026 12:00:00 +0000",
+    "ai_summary": ""
+  },
+  {
     "title": "The Hidden Danger of Wildcard Operators In Join Operations",
     "link": "https://www.sqlservercentral.com/articles/the-hidden-danger-of-wildcard-operators-in-join-operations",
     "summary": "This article looks at one of the killers of performance at scale, SELECT *.\nThe post The Hidden Danger of Wildcard Operators In Join Operations appeared first on SQLServerCentral.",
