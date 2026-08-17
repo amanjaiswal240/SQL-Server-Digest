@@ -1,5 +1,23 @@
 [
   {
+    "title": "SQL Server index tuning: common mistakes and how to fix them",
+    "link": "https://www.sqlservercentral.com/articles/sql-server-index-tuning-common-mistakes-and-how-to-fix-them",
+    "summary": "This guide walks through the most common SQL Server index tuning mistakes seen in production environments, such as over-indexing, oversized INCLUDE lists, unnecessary fill factor settings, misuse of SORT_IN_TEMPDB, over-aggressive index maintenance – and the myth that heaps are a shortcut to speed. Features real examples.\nThe post SQL Server index tuning: common mistakes and how to fix them appeared first on SQLServerCentral.",
+    "source": "SQL Server Central",
+    "tag": "Community",
+    "pub": "Mon, 17 Aug 2026 00:00:14 +0000",
+    "ai_summary": ""
+  },
+  {
+    "title": "Beautiful T-SQL Queries: Three Could Delete the Company",
+    "link": "https://blog.sqlauthority.com/2026/08/17/beautiful-t-sql-queries-three-could-delete-the-company/?utm_source=rss&utm_medium=rss&utm_campaign=beautiful-t-sql-queries-three-could-delete-the-company",
+    "summary": "AI writes genuinely beautiful T-SQL. Aligned, aliased, commented, indented like a textbook. Beautiful has never meant correct, but we have spent thirty years treating it as a signed affidavit.\nFirst appeared on Beautiful T-SQL Queries: Three Could Delete the Company",
+    "source": "SQL Authority (Pinal Dave)",
+    "tag": "Tips",
+    "pub": "Mon, 17 Aug 2026 01:30:30 +0000",
+    "ai_summary": ""
+  },
+  {
     "title": "[Video] Office Hours in Zhengzhou, China",
     "link": "https://www.brentozar.com/archive/2026/08/video-office-hours-in-zhengzhou-china-3/",
     "summary": "I&#8217;m back at the People&#8217;s Park in Zhengzhou, Yves&#8217; hometown, watching retirees be active while I lounge around and take your top-voted questions from https://pollgab.com/room/brento. Prefer listening to this via podcast? Good news! You can now subscribe to Office Hours on Spotify, Apple Podcasts, Podcast Index, Podcast Addict, Podchaser, and anywhere else fine podcasts are [&#8230;]",
