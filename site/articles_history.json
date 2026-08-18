@@ -1,5 +1,14 @@
 [
   {
+    "title": "How to implement Deep Data Security (DeepSec) in Oracle 26ai: complete step-by-step guide (part one)",
+    "link": "https://www.red-gate.com/simple-talk/databases/oracle-databases/how-to-implement-deep-data-security-deepsec-in-oracle-26ai-complete-step-by-step-guide-part-one/",
+    "summary": "Learn how Oracle 26ai Deep Data Security (DeepSec) simplifies row- and column-level access control for structured and vector data. A hands-on guide with real SQL examples.&#8230;\nThe post How to implement Deep Data Security (DeepSec) in Oracle 26ai: complete step-by-step guide (part one) appeared first on Simple Talk.",
+    "source": "Simple Talk (Redgate)",
+    "tag": "Deep Dive",
+    "pub": "Mon, 17 Aug 2026 12:00:00 +0000",
+    "ai_summary": ""
+  },
+  {
     "title": "SQL Server index tuning: common mistakes and how to fix them",
     "link": "https://www.sqlservercentral.com/articles/sql-server-index-tuning-common-mistakes-and-how-to-fix-them",
     "summary": "This guide walks through the most common SQL Server index tuning mistakes seen in production environments, such as over-indexing, oversized INCLUDE lists, unnecessary fill factor settings, misuse of SORT_IN_TEMPDB, over-aggressive index maintenance – and the myth that heaps are a shortcut to speed. Features real examples.\nThe post SQL Server index tuning: common mistakes and how to fix them appeared first on SQLServerCentral.",
