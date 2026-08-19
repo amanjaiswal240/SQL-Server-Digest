@@ -1,5 +1,32 @@
 [
   {
+    "title": "Throwback Review: Using the Original SQL Server Debugger",
+    "link": "https://www.brentozar.com/archive/2026/08/throwback-review-using-the-original-sql-server-debugger/",
+    "summary": "I&#8217;ve got a special treat for you today! I was cleaning out my garage and you&#8217;ll never guess what I found! That&#8217;s right: it&#8217;s an original SQL Server debugger console! You&#8217;ve probably heard the older folks in your shop wax reminiscent about how cool the debugger used to be, especially in combination with Profiler, and [&#8230;]",
+    "source": "Brent Ozar Unlimited",
+    "tag": "Performance",
+    "pub": "Tue, 18 Aug 2026 13:15:23 +0000",
+    "ai_summary": ""
+  },
+  {
+    "title": "Automating SSAS Multidimensional Security Audits with PowerShell",
+    "link": "https://www.sqlservercentral.com/articles/automating-ssas-multidimensional-security-audits-with-powershell",
+    "summary": "This article presents a way to audit your SSAS cubes using PowerShell to prepare for any audit questions about who has access to the data.\nThe post Automating SSAS Multidimensional Security Audits with PowerShell appeared first on SQLServerCentral.",
+    "source": "SQL Server Central",
+    "tag": "Community",
+    "pub": "Wed, 19 Aug 2026 00:00:07 +0000",
+    "ai_summary": ""
+  },
+  {
+    "title": "Single-Query Tuning Versus Workload Tuning",
+    "link": "https://blog.sqlauthority.com/2026/08/19/single-query-tuning-versus-workload-tuning/?utm_source=rss&utm_medium=rss&utm_campaign=single-query-tuning-versus-workload-tuning",
+    "summary": "Single-query tuning versus workload tuning decides whether one fast victory becomes a durable performance improvement.\nFirst appeared on Single-Query Tuning Versus Workload Tuning",
+    "source": "SQL Authority (Pinal Dave)",
+    "tag": "Tips",
+    "pub": "Wed, 19 Aug 2026 01:30:08 +0000",
+    "ai_summary": ""
+  },
+  {
     "title": "How to implement Deep Data Security (DeepSec) in Oracle 26ai: complete step-by-step guide (part one)",
     "link": "https://www.red-gate.com/simple-talk/databases/oracle-databases/how-to-implement-deep-data-security-deepsec-in-oracle-26ai-complete-step-by-step-guide-part-one/",
     "summary": "Learn how Oracle 26ai Deep Data Security (DeepSec) simplifies row- and column-level access control for structured and vector data. A hands-on guide with real SQL examples.&#8230;\nThe post How to implement Deep Data Security (DeepSec) in Oracle 26ai: complete step-by-step guide (part one) appeared first on Simple Talk.",
