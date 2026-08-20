@@ -1,5 +1,32 @@
 [
   {
+    "title": "Database Animations: The Difference Between Row Compression and Page Compression",
+    "link": "https://www.brentozar.com/archive/2026/08/database-animations-the-difference-between-row-compression-and-page-compression/",
+    "summary": "What&#8217;s the difference between SQL Server&#8217;s row compression and page compression, and when does each one make sense? Row compression turns every fixed-length datatype into a variable-length datatype, using as little space as possible to store it Page compression does that, AND adds a dictionary of repeated data on the page, getting more compression at [&#8230;]",
+    "source": "Brent Ozar Unlimited",
+    "tag": "Performance",
+    "pub": "Wed, 19 Aug 2026 13:15:51 +0000",
+    "ai_summary": ""
+  },
+  {
+    "title": "JSON indexing in SQL Server 2025: how it works and current limitations",
+    "link": "https://www.red-gate.com/simple-talk/databases/sql-server/json-indexing-in-sql-server-2025-how-it-works-and-current-limitations/",
+    "summary": "SQL Server 2025 introduces native JSON indexing via CREATE JSON INDEX. Learn how it works, when to use it, and its current preview-stage limitations.&#8230;\nThe post JSON indexing in SQL Server 2025: how it works and current limitations appeared first on Simple Talk.",
+    "source": "Simple Talk (Redgate)",
+    "tag": "Deep Dive",
+    "pub": "Wed, 19 Aug 2026 12:00:00 +0000",
+    "ai_summary": ""
+  },
+  {
+    "title": "Eleven SQL Server Interview Questions That Look Far Too Easy",
+    "link": "https://blog.sqlauthority.com/2026/08/20/eleven-sql-server-interview-questions-that-look-far-too-easy/?utm_source=rss&utm_medium=rss&utm_campaign=eleven-sql-server-interview-questions-that-look-far-too-easy",
+    "summary": "These eleven SQL Server interview questions look far too easy, and every one of them has stopped somebody senior.\nFirst appeared on Eleven SQL Server Interview Questions That Look Far Too Easy",
+    "source": "SQL Authority (Pinal Dave)",
+    "tag": "Tips",
+    "pub": "Thu, 20 Aug 2026 01:30:36 +0000",
+    "ai_summary": ""
+  },
+  {
     "title": "Throwback Review: Using the Original SQL Server Debugger",
     "link": "https://www.brentozar.com/archive/2026/08/throwback-review-using-the-original-sql-server-debugger/",
     "summary": "I&#8217;ve got a special treat for you today! I was cleaning out my garage and you&#8217;ll never guess what I found! That&#8217;s right: it&#8217;s an original SQL Server debugger console! You&#8217;ve probably heard the older folks in your shop wax reminiscent about how cool the debugger used to be, especially in combination with Profiler, and [&#8230;]",
