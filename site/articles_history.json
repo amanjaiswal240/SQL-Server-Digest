@@ -1,5 +1,14 @@
 [
   {
+    "title": "sp_TexasHoldEm: Multi-Player Poker in T-SQL",
+    "link": "https://www.brentozar.com/archive/2026/08/sp_texasholdem-multi-player-poker-in-t-sql/",
+    "summary": "Wanna play some Texas Hold &#8216;Em style poker and make a pile of Query Bucks? Wanna watch other database people playing? Fire up SSMS and connect to: Server: firstresponderkit.database.windows.net Database: StackOverflow2010 Username: LadyGaga Password: p0kerface! This is Azure SQL DB Serverless, which automatically scales down to pause if no one&#8217;s connected for a while, so [&#8230;]",
+    "source": "Brent Ozar Unlimited",
+    "tag": "Performance",
+    "pub": "Thu, 20 Aug 2026 13:15:05 +0000",
+    "ai_summary": ""
+  },
+  {
     "title": "Database Animations: The Difference Between Row Compression and Page Compression",
     "link": "https://www.brentozar.com/archive/2026/08/database-animations-the-difference-between-row-compression-and-page-compression/",
     "summary": "What&#8217;s the difference between SQL Server&#8217;s row compression and page compression, and when does each one make sense? Row compression turns every fixed-length datatype into a variable-length datatype, using as little space as possible to store it Page compression does that, AND adds a dictionary of repeated data on the page, getting more compression at [&#8230;]",
