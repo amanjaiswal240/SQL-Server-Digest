@@ -1,5 +1,32 @@
 [
   {
+    "title": "How We Reduced SQL Server Infrastructure Costs by 33% on AWS: Lessons From a Database Operations Manager",
+    "link": "https://www.sqlservercentral.com/articles/how-we-reduced-sql-server-infrastructure-costs-by-33-on-aws-lessons-from-a-database-operations-manager",
+    "summary": "Read a story about how one company saved substantially on their cloud costs with a few simple changes and no interruptions to service.\nThe post How We Reduced SQL Server Infrastructure Costs by 33% on AWS: Lessons From a Database Operations Manager appeared first on SQLServerCentral.",
+    "source": "SQL Server Central",
+    "tag": "Community",
+    "pub": "Fri, 21 Aug 2026 00:00:41 +0000",
+    "ai_summary": ""
+  },
+  {
+    "title": "What does a modern DBA actually do? 6 key points from a senior DBA",
+    "link": "https://www.sqlservercentral.com/articles/what-does-a-modern-dba-actually-do-6-key-points-from-a-senior-dba",
+    "summary": "We sat down with Lee Brownhill, a senior DBA and Redgate Ambassador with 20 years of experience, to get his honest take on where the role is heading – and what database professionals are actually focused on right now. \nThe post What does a modern DBA actually do? 6 key points from a senior DBA appeared first on SQLServerCentral.",
+    "source": "SQL Server Central",
+    "tag": "Community",
+    "pub": "Fri, 21 Aug 2026 00:00:24 +0000",
+    "ai_summary": ""
+  },
+  {
+    "title": "How Azure Arc allows a DB admin to become SQL Server sysadmin – the vulnerability explained",
+    "link": "https://www.red-gate.com/simple-talk/data-security-privacy-compliance/how-azure-arc-allows-a-db-admin-to-become-sql-server-sysadmin-the-vulnerability-explained/",
+    "summary": "Learn how db_ddladmin permissions plus Azure Arc's SQL extension create a confused-deputy attack path to sysadmin — and how to detect and mitigate it.&#8230;\nThe post How Azure Arc allows a DB admin to become SQL Server sysadmin &#8211; the vulnerability explained appeared first on Simple Talk.",
+    "source": "Simple Talk (Redgate)",
+    "tag": "Deep Dive",
+    "pub": "Fri, 21 Aug 2026 12:00:00 +0000",
+    "ai_summary": ""
+  },
+  {
     "title": "sp_TexasHoldEm: Multi-Player Poker in T-SQL",
     "link": "https://www.brentozar.com/archive/2026/08/sp_texasholdem-multi-player-poker-in-t-sql/",
     "summary": "Wanna play some Texas Hold &#8216;Em style poker and make a pile of Query Bucks? Wanna watch other database people playing? Fire up SSMS and connect to: Server: firstresponderkit.database.windows.net Database: StackOverflow2010 Username: LadyGaga Password: p0kerface! This is Azure SQL DB Serverless, which automatically scales down to pause if no one&#8217;s connected for a while, so [&#8230;]",
