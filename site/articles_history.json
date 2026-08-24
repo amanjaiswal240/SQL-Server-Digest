@@ -1,5 +1,14 @@
 [
   {
+    "title": "What AI Thinks a DBA Does All Day",
+    "link": "https://blog.sqlauthority.com/2026/08/24/what-ai-thinks-a-dba-does-all-day/?utm_source=rss&utm_medium=rss&utm_campaign=what-ai-thinks-a-dba-does-all-day",
+    "summary": "What AI thinks a DBA does all day is a calm, orderly, deeply reassuring Tuesday. It has backups, documentation, proactive health checks, and apparently a door that closes. I asked. Then I wrote down my actual Tuesday. Its day has six items. Mine has thirteen.\nFirst appeared on What AI Thinks a DBA Does All Day",
+    "source": "SQL Authority (Pinal Dave)",
+    "tag": "Tips",
+    "pub": "Mon, 24 Aug 2026 01:30:08 +0000",
+    "ai_summary": ""
+  },
+  {
     "title": "How We Reduced SQL Server Infrastructure Costs by 33% on AWS: Lessons From a Database Operations Manager",
     "link": "https://www.sqlservercentral.com/articles/how-we-reduced-sql-server-infrastructure-costs-by-33-on-aws-lessons-from-a-database-operations-manager",
     "summary": "Read a story about how one company saved substantially on their cloud costs with a few simple changes and no interruptions to service.\nThe post How We Reduced SQL Server Infrastructure Costs by 33% on AWS: Lessons From a Database Operations Manager appeared first on SQLServerCentral.",
