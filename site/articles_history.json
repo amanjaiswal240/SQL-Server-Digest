@@ -1,5 +1,41 @@
 [
   {
+    "title": "The memory toll of VARCHAR(MAX) in SQL Server",
+    "link": "https://www.sqlservercentral.com/articles/the-memory-toll-of-varcharmax-in-sql-server",
+    "summary": "Introduction When designing the tables or writing the stored procedures in SQL Server, we get easily tempted to choose the path of least resistance. When deciding how much space to allocate for a text column in a database table which may contain the description of a product, a product name, or an additional comment/remarks, it [&#8230;]\nThe post The memory toll of VARCHAR(MAX) in SQL Server appeared first on SQLServerCentral.",
+    "source": "SQL Server Central",
+    "tag": "Community",
+    "pub": "Mon, 24 Aug 2026 00:00:14 +0000",
+    "ai_summary": ""
+  },
+  {
+    "title": "How a SQL Server backup can execute attacker code during restore",
+    "link": "https://www.sqlservercentral.com/articles/how-a-sql-server-backup-can-execute-attacker-code-during-restore",
+    "summary": "CVE-2026-47295 is a SQL Server vulnerability that lets a maliciously crafted database backup execute attacker-controlled code with sysadmin privileges during a routine RESTORE DATABASE operation.\nThe post How a SQL Server backup can execute attacker code during restore appeared first on SQLServerCentral.",
+    "source": "SQL Server Central",
+    "tag": "Community",
+    "pub": "Mon, 24 Aug 2026 00:00:51 +0000",
+    "ai_summary": ""
+  },
+  {
+    "title": "9 things I wish SQL Server had (and why they’d matter)",
+    "link": "https://www.red-gate.com/simple-talk/databases/sql-server/9-things-i-wish-sql-server-had-and-why-theyd-matter/",
+    "summary": "A T-SQL veteran's wish list: 9 missing SQL Server features that would simplify auditing, data validation, graph queries, and error handling.&#8230;\nThe post 9 things I wish SQL Server had (and why they&#8217;d matter) appeared first on Simple Talk.",
+    "source": "Simple Talk (Redgate)",
+    "tag": "Deep Dive",
+    "pub": "Mon, 24 Aug 2026 12:00:00 +0000",
+    "ai_summary": ""
+  },
+  {
+    "title": "Full, Differential and Log Backups: A Practical Guide",
+    "link": "https://blog.sqlauthority.com/2026/08/25/full-differential-and-log-backups-a-practical-guide/?utm_source=rss&utm_medium=rss&utm_campaign=full-differential-and-log-backups-a-practical-guide",
+    "summary": "Full, differential and log backups are the three things almost every SQL Server DBA can define, and the three things a surprising number of us get wrong under pressure at two in the morning.\nFirst appeared on Full, Differential and Log Backups: A Practical Guide",
+    "source": "SQL Authority (Pinal Dave)",
+    "tag": "Tips",
+    "pub": "Tue, 25 Aug 2026 01:30:02 +0000",
+    "ai_summary": ""
+  },
+  {
     "title": "What AI Thinks a DBA Does All Day",
     "link": "https://blog.sqlauthority.com/2026/08/24/what-ai-thinks-a-dba-does-all-day/?utm_source=rss&utm_medium=rss&utm_campaign=what-ai-thinks-a-dba-does-all-day",
     "summary": "What AI thinks a DBA does all day is a calm, orderly, deeply reassuring Tuesday. It has backups, documentation, proactive health checks, and apparently a door that closes. I asked. Then I wrote down my actual Tuesday. Its day has six items. Mine has thirteen.\nFirst appeared on What AI Thinks a DBA Does All Day",
