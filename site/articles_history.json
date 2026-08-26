@@ -1,5 +1,23 @@
 [
   {
+    "title": "It’s Been 10 Years. Has Microsoft Built What You Voted For?",
+    "link": "https://www.brentozar.com/archive/2026/08/its-been-10-years-has-microsoft-built-what-you-voted-for/",
+    "summary": "Ten years ago, I published a blog post with the top 10 most highly upvoted requests for Microsoft SQL Server as shown on their feedback site at the time, Connect.Microsoft.com. That site has gone out to a nice farm upstate, but let&#8217;s revisit that top 10 list to see whether Microsoft actually built what you [&#8230;]",
+    "source": "Brent Ozar Unlimited",
+    "tag": "Performance",
+    "pub": "Tue, 25 Aug 2026 13:15:16 +0000",
+    "ai_summary": ""
+  },
+  {
+    "title": "Using Historical Data to Confirm Performance Improvements",
+    "link": "https://blog.sqlauthority.com/2026/08/26/using-historical-data-to-confirm-performance-improvements/?utm_source=rss&utm_medium=rss&utm_campaign=using-historical-data-to-confirm-performance-improvements",
+    "summary": "Using historical data to confirm performance improvements turns a fast test into evidence the business can defend.\nFirst appeared on Using Historical Data to Confirm Performance Improvements",
+    "source": "SQL Authority (Pinal Dave)",
+    "tag": "Tips",
+    "pub": "Wed, 26 Aug 2026 01:30:53 +0000",
+    "ai_summary": ""
+  },
+  {
     "title": "The memory toll of VARCHAR(MAX) in SQL Server",
     "link": "https://www.sqlservercentral.com/articles/the-memory-toll-of-varcharmax-in-sql-server",
     "summary": "Introduction When designing the tables or writing the stored procedures in SQL Server, we get easily tempted to choose the path of least resistance. When deciding how much space to allocate for a text column in a database table which may contain the description of a product, a product name, or an additional comment/remarks, it [&#8230;]\nThe post The memory toll of VARCHAR(MAX) in SQL Server appeared first on SQLServerCentral.",
