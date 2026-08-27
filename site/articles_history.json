@@ -1,5 +1,41 @@
 [
   {
+    "title": "How to Download the Stack Overflow Database for Postgres",
+    "link": "https://www.brentozar.com/archive/2026/08/how-to-download-the-stack-overflow-database-for-postgres/",
+    "summary": "You wanna learn PostgreSQL, and you wanna use a sample database with big real-world data, the same kinds of issues that pop up with real-life data distribution skew, and fun query challenges. StackOverflow.com provides a free data dump in XML format with their data as of 2024-04. The data is licensed under cc-by-sa 4.0, which [&#8230;]",
+    "source": "Brent Ozar Unlimited",
+    "tag": "Performance",
+    "pub": "Wed, 26 Aug 2026 13:15:34 +0000",
+    "ai_summary": ""
+  },
+  {
+    "title": "Kerberos Authentication for Aurora PostgreSQL: Mapping AD Groups to Database Roles",
+    "link": "https://www.sqlservercentral.com/articles/kerberos-authentication-for-aurora-postgresql-mapping-ad-groups-to-database-roles",
+    "summary": "Learn how you can enable map your security roles in Aurora PostgreSQL to AD groups using Kerberos.\nThe post Kerberos Authentication for Aurora PostgreSQL: Mapping AD Groups to Database Roles appeared first on SQLServerCentral.",
+    "source": "SQL Server Central",
+    "tag": "Community",
+    "pub": "Wed, 26 Aug 2026 00:00:40 +0000",
+    "ai_summary": ""
+  },
+  {
+    "title": "sp_TexasHoldEm: Multi-Player Poker in T-SQL",
+    "link": "https://www.sqlservercentral.com/articles/sp_texasholdem-multi-player-poker-in-t-sql",
+    "summary": "Wanna play some Texas Hold ‘Em style poker and make a pile of Query Bucks? Wanna watch other database people playing?\nThe post sp_TexasHoldEm: Multi-Player Poker in T-SQL appeared first on SQLServerCentral.",
+    "source": "SQL Server Central",
+    "tag": "Community",
+    "pub": "Wed, 26 Aug 2026 00:00:51 +0000",
+    "ai_summary": ""
+  },
+  {
+    "title": "What your AI strategy is missing (according to the people who know your data best)",
+    "link": "https://www.red-gate.com/simple-talk/ai/what-your-ai-strategy-is-missing-according-to-the-people-who-know-your-data-best/",
+    "summary": "Our AI panel of database experts shared 10 sharp, practical insights on how to adopt AI responsibly. Top strategies with real-world examples.\n&#8230;\nThe post What your AI strategy is missing (according to the people who know your data best) appeared first on Simple Talk.",
+    "source": "Simple Talk (Redgate)",
+    "tag": "Deep Dive",
+    "pub": "Wed, 26 Aug 2026 12:00:00 +0000",
+    "ai_summary": ""
+  },
+  {
     "title": "It’s Been 10 Years. Has Microsoft Built What You Voted For?",
     "link": "https://www.brentozar.com/archive/2026/08/its-been-10-years-has-microsoft-built-what-you-voted-for/",
     "summary": "Ten years ago, I published a blog post with the top 10 most highly upvoted requests for Microsoft SQL Server as shown on their feedback site at the time, Connect.Microsoft.com. That site has gone out to a nice farm upstate, but let&#8217;s revisit that top 10 list to see whether Microsoft actually built what you [&#8230;]",
