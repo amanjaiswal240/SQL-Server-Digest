@@ -1,5 +1,50 @@
 [
   {
+    "title": "Database Animations: What’s a Residual Predicate and Why Is It Bad?",
+    "link": "https://www.brentozar.com/archive/2026/08/database-animations-whats-a-residual-predicate-and-why-is-it-bad/",
+    "summary": "Normally when you&#8217;re looking at an execution plan, and you see an index seek followed by a key lookup, that means it&#8217;s running relatively quickly. To explain, let&#8217;s take the Users table in the Stack Overflow database and run this query that we explained in this post: [crayon-6a91311eb256a966151295/] As long as we have an index [&#8230;]",
+    "source": "Brent Ozar Unlimited",
+    "tag": "Performance",
+    "pub": "Thu, 27 Aug 2026 13:15:41 +0000",
+    "ai_summary": ""
+  },
+  {
+    "title": "Understanding Temp Tables and Table Variables in SQL Server",
+    "link": "https://www.sqlservercentral.com/articles/understanding-temp-tables-and-table-variables-in-sql-server",
+    "summary": "Introduction When building application backends or processing complex data sets in a SQL Server, we frequently need a temporary storage to hold the intermediate query results. For example: Store filtered rows before joining them to another table Hold calculation results inside a stored procedure Break a complex query into smaller readable steps Process a small [&#8230;]\nThe post Understanding Temp Tables and Table Variables in SQL Server appeared first on SQLServerCentral.",
+    "source": "SQL Server Central",
+    "tag": "Community",
+    "pub": "Fri, 28 Aug 2026 00:00:33 +0000",
+    "ai_summary": ""
+  },
+  {
+    "title": "How to use the Power BI Desktop Bridge to automate tasks in Power BI Desktop and GitHub Copilot",
+    "link": "https://www.sqlservercentral.com/articles/how-to-use-the-power-bi-desktop-bridge-to-automate-tasks-in-power-bi-desktop-and-github-copilot",
+    "summary": "Microsoft continues to blur the line between low-code visual tools and code-first development for Power BI, recently launching a set of official Fabric AI Skills and the Power BI Desktop Bridge preview feature. Together, they allow AI agents to install command-line tools, inspect a running Power BI Desktop process, update a report or model in the Power BI project format (PBIP), and reload the report so that changes appear immediately.\nThe post How to use the Power BI Desktop Bridge to automate t",
+    "source": "SQL Server Central",
+    "tag": "Community",
+    "pub": "Fri, 28 Aug 2026 00:00:50 +0000",
+    "ai_summary": ""
+  },
+  {
+    "title": "What is cloud database vendor lock-in? The 3 types explained (and how to audit yours)",
+    "link": "https://www.red-gate.com/simple-talk/cloud/what-is-cloud-database-vendor-lock-in-the-3-types-explained-and-how-to-audit-yours/",
+    "summary": "Cloud database lock-in takes three forms: engine, feature, and operational. Learn which type you're accumulating, and what it would actually cost to undo. &#8230;\nThe post What is cloud database vendor lock-in? The 3 types explained (and how to audit yours) appeared first on Simple Talk.",
+    "source": "Simple Talk (Redgate)",
+    "tag": "Deep Dive",
+    "pub": "Thu, 27 Aug 2026 12:00:00 +0000",
+    "ai_summary": ""
+  },
+  {
+    "title": "I Let AI Recommend SQL Server Indexes Across a Week of Queries",
+    "link": "https://blog.sqlauthority.com/2026/08/28/i-let-ai-recommend-sql-server-indexes-across-a-week-of-queries/?utm_source=rss&utm_medium=rss&utm_campaign=i-let-ai-recommend-sql-server-indexes-across-a-week-of-queries",
+    "summary": "I let AI recommend SQL Server indexes across a week of queries, measured every number before and after, and the result was not the one I expected to write about.\nFirst appeared on I Let AI Recommend SQL Server Indexes Across a Week of Queries",
+    "source": "SQL Authority (Pinal Dave)",
+    "tag": "Tips",
+    "pub": "Fri, 28 Aug 2026 01:30:58 +0000",
+    "ai_summary": ""
+  },
+  {
     "title": "How to Download the Stack Overflow Database for Postgres",
     "link": "https://www.brentozar.com/archive/2026/08/how-to-download-the-stack-overflow-database-for-postgres/",
     "summary": "You wanna learn PostgreSQL, and you wanna use a sample database with big real-world data, the same kinds of issues that pop up with real-life data distribution skew, and fun query challenges. StackOverflow.com provides a free data dump in XML format with their data as of 2024-04. The data is licensed under cc-by-sa 4.0, which [&#8230;]",
