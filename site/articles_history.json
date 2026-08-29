@@ -1,5 +1,14 @@
 [
   {
+    "title": "Why SQL Server’s default trigger execution model is a security flaw – and what Microsoft should do about it",
+    "link": "https://www.red-gate.com/simple-talk/databases/sql-server/why-sql-servers-default-trigger-execution-model-is-a-security-flaw-and-what-microsoft-should-do-about-it/",
+    "summary": "SQL Server triggers execute under the caller's privileges by default - not the creator's. Learn why this design enables privilege escalation, how Oracle and Service Broker do it differently, and what a safer EXECUTE AS default would look like.&#8230;\nThe post Why SQL Server&#8217;s default trigger execution model is a security flaw &#8211; and what Microsoft should do about it appeared first on Simple Talk.",
+    "source": "Simple Talk (Redgate)",
+    "tag": "Deep Dive",
+    "pub": "Fri, 28 Aug 2026 12:00:00 +0000",
+    "ai_summary": ""
+  },
+  {
     "title": "Database Animations: What’s a Residual Predicate and Why Is It Bad?",
     "link": "https://www.brentozar.com/archive/2026/08/database-animations-whats-a-residual-predicate-and-why-is-it-bad/",
     "summary": "Normally when you&#8217;re looking at an execution plan, and you see an index seek followed by a key lookup, that means it&#8217;s running relatively quickly. To explain, let&#8217;s take the Users table in the Stack Overflow database and run this query that we explained in this post: [crayon-6a91311eb256a966151295/] As long as we have an index [&#8230;]",
