@@ -1,5 +1,23 @@
 [
   {
+    "title": "How Can SQL Server Detect Application Errors When Developers Can’t?",
+    "link": "https://www.sqlservercentral.com/articles/how-can-sql-server-detect-application-errors-when-developers-cant",
+    "summary": "How a simple Extended Events session can turn you from a silent guardian to a developer’s best ally. There is an old, undeniable paradox in the life of a Database Administrator: If you do your job perfectly, nobody remembers you exist, only when you resolve problems. When queries are fast, backups are pristine, and the [&#8230;]\nThe post How Can SQL Server Detect Application Errors When Developers Can’t? appeared first on SQLServerCentral.",
+    "source": "SQL Server Central",
+    "tag": "Community",
+    "pub": "Mon, 31 Aug 2026 00:00:31 +0000",
+    "ai_summary": ""
+  },
+  {
+    "title": "Configure SSMS Dark Mode Step By Step",
+    "link": "https://www.sqlservercentral.com/articles/configure-ssms-dark-mode-step-by-step",
+    "summary": "You’re using SQL Server Management Studio (SSMS) and would like to use Dark Mode. You’ve looked at the configuration options and don’t see a way to configure it.\nThe post Configure SSMS Dark Mode Step By Step appeared first on SQLServerCentral.",
+    "source": "SQL Server Central",
+    "tag": "Community",
+    "pub": "Mon, 31 Aug 2026 00:00:08 +0000",
+    "ai_summary": ""
+  },
+  {
     "title": "Why SQL Server’s default trigger execution model is a security flaw – and what Microsoft should do about it",
     "link": "https://www.red-gate.com/simple-talk/databases/sql-server/why-sql-servers-default-trigger-execution-model-is-a-security-flaw-and-what-microsoft-should-do-about-it/",
     "summary": "SQL Server triggers execute under the caller's privileges by default - not the creator's. Learn why this design enables privilege escalation, how Oracle and Service Broker do it differently, and what a safer EXECUTE AS default would look like.&#8230;\nThe post Why SQL Server&#8217;s default trigger execution model is a security flaw &#8211; and what Microsoft should do about it appeared first on Simple Talk.",
