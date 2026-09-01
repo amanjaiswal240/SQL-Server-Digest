@@ -1,5 +1,14 @@
 [
   {
+    "title": "Emoji Are Obsolete",
+    "link": "https://blog.sqlauthority.com/2026/09/01/emoji-are-obsolete/?utm_source=rss&utm_medium=rss&utm_campaign=emoji-are-obsolete",
+    "summary": "Emoji are obsolete. There, I have written it. I do not entirely believe it.\nA few days ago I wrote to a client: \"We need to talk about the index strategy.\"\nFirst appeared on Emoji Are Obsolete",
+    "source": "SQL Authority (Pinal Dave)",
+    "tag": "Tips",
+    "pub": "Tue, 01 Sep 2026 01:30:25 +0000",
+    "ai_summary": ""
+  },
+  {
     "title": "How Can SQL Server Detect Application Errors When Developers Can’t?",
     "link": "https://www.sqlservercentral.com/articles/how-can-sql-server-detect-application-errors-when-developers-cant",
     "summary": "How a simple Extended Events session can turn you from a silent guardian to a developer’s best ally. There is an old, undeniable paradox in the life of a Database Administrator: If you do your job perfectly, nobody remembers you exist, only when you resolve problems. When queries are fast, backups are pristine, and the [&#8230;]\nThe post How Can SQL Server Detect Application Errors When Developers Can’t? appeared first on SQLServerCentral.",
