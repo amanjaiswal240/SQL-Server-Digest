@@ -1,5 +1,14 @@
 [
   {
+    "title": "Free Webcast: You Shouldn’t Use SQL Agent for Batch Processes.",
+    "link": "https://www.brentozar.com/archive/2026/09/free-webcast-you-shouldnt-use-sql-agent-for-batch-processes/",
+    "summary": "SQL Server Agent is a solid scheduler for database administration and simple, database-local automation. In a small to midsize shop, it is the right tool for backing up databases, checking for corruption, and maintaining statistics. But as a shop grows in complexity, Agent starts running into its limits, and teams find themselves duct-taping together workarounds [&#8230;]",
+    "source": "Brent Ozar Unlimited",
+    "tag": "Performance",
+    "pub": "Tue, 01 Sep 2026 13:15:55 +0000",
+    "ai_summary": ""
+  },
+  {
     "title": "Emoji Are Obsolete",
     "link": "https://blog.sqlauthority.com/2026/09/01/emoji-are-obsolete/?utm_source=rss&utm_medium=rss&utm_campaign=emoji-are-obsolete",
     "summary": "Emoji are obsolete. There, I have written it. I do not entirely believe it.\nA few days ago I wrote to a client: \"We need to talk about the index strategy.\"\nFirst appeared on Emoji Are Obsolete",
