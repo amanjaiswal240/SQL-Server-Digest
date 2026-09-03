@@ -1,5 +1,41 @@
 [
   {
+    "title": "Who’s Hiring Database People? September 2026 Edition",
+    "link": "https://www.brentozar.com/archive/2026/09/whos-hiring-database-people-september-2026-edition/",
+    "summary": "Is your company hiring for a database position as of September 2026? Do you wanna work with the kinds of people who read this blog? Let&#8217;s make a love connection. If your company is hiring, leave a comment. The rules: Your comment must include the job title, and either a link to the full job [&#8230;]",
+    "source": "Brent Ozar Unlimited",
+    "tag": "Performance",
+    "pub": "Wed, 02 Sep 2026 13:15:33 +0000",
+    "ai_summary": ""
+  },
+  {
+    "title": "Importing Excel files into SQL Server using DuckDB and Python",
+    "link": "https://www.sqlservercentral.com/articles/importing-excel-files-into-sql-server-using-duckdb-and-python",
+    "summary": "Learn to use DuckDB to read data from Excel and then send it to SQL Server with Python and Pandas.\nThe post Importing Excel files into SQL Server using DuckDB and Python appeared first on SQLServerCentral.",
+    "source": "SQL Server Central",
+    "tag": "Community",
+    "pub": "Wed, 02 Sep 2026 00:00:53 +0000",
+    "ai_summary": ""
+  },
+  {
+    "title": "Database Animations: The Difference Between Row Compression and Page Compression",
+    "link": "https://www.sqlservercentral.com/articles/database-animations-the-difference-between-row-compression-and-page-compression",
+    "summary": "What's the difference between SQL Server's row compression and page compression, and when does each one make sense?\nThe post Database Animations: The Difference Between Row Compression and Page Compression appeared first on SQLServerCentral.",
+    "source": "SQL Server Central",
+    "tag": "Community",
+    "pub": "Wed, 02 Sep 2026 00:00:11 +0000",
+    "ai_summary": ""
+  },
+  {
+    "title": "SQL Server login failures: how to monitor, report, and alert on them (complete guide)",
+    "link": "https://www.red-gate.com/simple-talk/databases/sql-server/sql-server-login-failures-how-to-monitor-report-and-alert-on-them-complete-guide/",
+    "summary": "Learn how to detect and report SQL Server login failures using T-SQL and xp_readerrorlog. Includes ready-to-use scripts for filtering, aggregating, and emailing alerts.&#8230;\nThe post SQL Server login failures: how to monitor, report, and alert on them (complete guide) appeared first on Simple Talk.",
+    "source": "Simple Talk (Redgate)",
+    "tag": "Deep Dive",
+    "pub": "Wed, 02 Sep 2026 12:00:00 +0000",
+    "ai_summary": ""
+  },
+  {
     "title": "Free Webcast: You Shouldn’t Use SQL Agent for Batch Processes.",
     "link": "https://www.brentozar.com/archive/2026/09/free-webcast-you-shouldnt-use-sql-agent-for-batch-processes/",
     "summary": "SQL Server Agent is a solid scheduler for database administration and simple, database-local automation. In a small to midsize shop, it is the right tool for backing up databases, checking for corruption, and maintaining statistics. But as a shop grows in complexity, Agent starts running into its limits, and teams find themselves duct-taping together workarounds [&#8230;]",
@@ -1762,41 +1798,5 @@
     "tag": "Tips",
     "pub": "Wed, 11 Mar 2026 01:30:07 +0000",
     "ai_summary": ""
-  },
-  {
-    "title": "Consuming SQL Agent dates & durations",
-    "link": "https://am2.co/2025/03/consuming-sql-agent-dates-durations/?utm_source=rss&utm_medium=rss&utm_campaign=consuming-sql-agent-dates-durations",
-    "summary": "SQL Agent&#8217;s schema is older than me. It handles dates, times, and durations like it&#8217;s 1980 by using integers instead of date/time data types. My buddy Aaron Bertrand talks more about Dating Responsibly so that you can have a good datetime with your own database. ... [Read More]\nThe post Consuming SQL Agent dates &#038; durations appeared first on Andy M Mallon - AM².",
-    "source": "Andy Mallon (am2)",
-    "tag": "DBA Life",
-    "pub": "Fri, 07 Mar 2025 21:17:43 +0000",
-    "ai_summary": null
-  },
-  {
-    "title": "Not all stats should be auto-updated",
-    "link": "https://am2.co/2024/08/not-all-stats-should-be-auto-updated/?utm_source=rss&utm_medium=rss&utm_campaign=not-all-stats-should-be-auto-updated",
-    "summary": "Statistics auto-updates are generally a good thing&#8211;auto-update of statistics is the default behavior in SQL Server. Having the freshest information about the data &#8220;shape&#8221; helps to inform the best selection of an execution plan for queries. Except for when it doesn&#8217;t. Because It Depends™️ Let&#8217;s ... [Read More]\nThe post Not all stats should be auto-updated appeared first on Andy M Mallon - AM².",
-    "source": "Andy Mallon (am2)",
-    "tag": "DBA Life",
-    "pub": "Thu, 29 Aug 2024 15:19:07 +0000",
-    "ai_summary": null
-  },
-  {
-    "title": "T-SQL Tuesday: The last ticket I closed",
-    "link": "https://am2.co/2024/02/the-last-ticket-i-closed/?utm_source=rss&utm_medium=rss&utm_campaign=the-last-ticket-i-closed",
-    "summary": "For this month&#8217;s T-SQL Tuesday, Brent Ozar (blog&#124;Instagram) asks us to describe the most recent ticket we closed. &#8220;We had a pretty significant wait spike&#8230;&#8221; The literal last ticket I closed was &#8220;please run this script in production&#8230;&#8221;, and I don&#8217;t think it would be ... [Read More]\nThe post T-SQL Tuesday: The last ticket I closed appeared first on Andy M Mallon - AM².",
-    "source": "Andy Mallon (am2)",
-    "tag": "DBA Life",
-    "pub": "Tue, 13 Feb 2024 17:41:20 +0000",
-    "ai_summary": null
-  },
-  {
-    "title": "Enforce a specific constraint to be checked first?",
-    "link": "https://am2.co/2023/10/enforce-a-specific-constraint-to-be-checked-first/?utm_source=rss&utm_medium=rss&utm_campaign=enforce-a-specific-constraint-to-be-checked-first",
-    "summary": "Question I have the following SQL Server table : create table Account( -- column names with their data types and properties Id int not null identity primary key, User varchar(50) not null, Job varchar(200) not null, -- table limitations constraint UniqueUserPerAccount unique (User), constraint UniqueJobPerAccount ... [Read More]\nThe post Enforce a specific constraint to be checked first? appeared first on Andy M Mallon - AM².",
-    "source": "Andy Mallon (am2)",
-    "tag": "DBA Life",
-    "pub": "Sat, 07 Oct 2023 01:09:33 +0000",
-    "ai_summary": null
   }
 ]
