@@ -1,5 +1,50 @@
 [
   {
+    "title": "Database Animations: The Interview Question Everybody Gets Wrong",
+    "link": "https://www.brentozar.com/archive/2026/09/database-animations-the-interview-question-everybody-gets-wrong/",
+    "summary": "No no, I&#8217;m not just talking about the people answering the interview question. I&#8217;m talking about the people asking the question. Over and over, I see confident interviewers asking, &#8220;How can you tell which column should go first in an index?&#8221; Then I see a confident candidate saying, &#8220;Check to see which column has the most [&#8230;]",
+    "source": "Brent Ozar Unlimited",
+    "tag": "Performance",
+    "pub": "Thu, 03 Sep 2026 13:15:59 +0000",
+    "ai_summary": ""
+  },
+  {
+    "title": "Consuming SQL Agent dates & durations",
+    "link": "https://am2.co/2025/03/consuming-sql-agent-dates-durations/?utm_source=rss&utm_medium=rss&utm_campaign=consuming-sql-agent-dates-durations",
+    "summary": "SQL Agent&#8217;s schema is older than me. It handles dates, times, and durations like it&#8217;s 1980 by using integers instead of date/time data types. My buddy Aaron Bertrand talks more about Dating Responsibly so that you can have a good datetime with your own database. ... [Read More]\nThe post Consuming SQL Agent dates &#038; durations appeared first on Andy M Mallon - AM².",
+    "source": "Andy Mallon (am2)",
+    "tag": "DBA Life",
+    "pub": "Fri, 07 Mar 2025 21:17:43 +0000",
+    "ai_summary": ""
+  },
+  {
+    "title": "Not all stats should be auto-updated",
+    "link": "https://am2.co/2024/08/not-all-stats-should-be-auto-updated/?utm_source=rss&utm_medium=rss&utm_campaign=not-all-stats-should-be-auto-updated",
+    "summary": "Statistics auto-updates are generally a good thing&#8211;auto-update of statistics is the default behavior in SQL Server. Having the freshest information about the data &#8220;shape&#8221; helps to inform the best selection of an execution plan for queries. Except for when it doesn&#8217;t. Because It Depends™️ Let&#8217;s ... [Read More]\nThe post Not all stats should be auto-updated appeared first on Andy M Mallon - AM².",
+    "source": "Andy Mallon (am2)",
+    "tag": "DBA Life",
+    "pub": "Thu, 29 Aug 2024 15:19:07 +0000",
+    "ai_summary": null
+  },
+  {
+    "title": "T-SQL Tuesday: The last ticket I closed",
+    "link": "https://am2.co/2024/02/the-last-ticket-i-closed/?utm_source=rss&utm_medium=rss&utm_campaign=the-last-ticket-i-closed",
+    "summary": "For this month&#8217;s T-SQL Tuesday, Brent Ozar (blog&#124;Instagram) asks us to describe the most recent ticket we closed. &#8220;We had a pretty significant wait spike&#8230;&#8221; The literal last ticket I closed was &#8220;please run this script in production&#8230;&#8221;, and I don&#8217;t think it would be ... [Read More]\nThe post T-SQL Tuesday: The last ticket I closed appeared first on Andy M Mallon - AM².",
+    "source": "Andy Mallon (am2)",
+    "tag": "DBA Life",
+    "pub": "Tue, 13 Feb 2024 17:41:20 +0000",
+    "ai_summary": null
+  },
+  {
+    "title": "Enforce a specific constraint to be checked first?",
+    "link": "https://am2.co/2023/10/enforce-a-specific-constraint-to-be-checked-first/?utm_source=rss&utm_medium=rss&utm_campaign=enforce-a-specific-constraint-to-be-checked-first",
+    "summary": "Question I have the following SQL Server table : create table Account( -- column names with their data types and properties Id int not null identity primary key, User varchar(50) not null, Job varchar(200) not null, -- table limitations constraint UniqueUserPerAccount unique (User), constraint UniqueJobPerAccount ... [Read More]\nThe post Enforce a specific constraint to be checked first? appeared first on Andy M Mallon - AM².",
+    "source": "Andy Mallon (am2)",
+    "tag": "DBA Life",
+    "pub": "Sat, 07 Oct 2023 01:09:33 +0000",
+    "ai_summary": null
+  },
+  {
     "title": "Who’s Hiring Database People? September 2026 Edition",
     "link": "https://www.brentozar.com/archive/2026/09/whos-hiring-database-people-september-2026-edition/",
     "summary": "Is your company hiring for a database position as of September 2026? Do you wanna work with the kinds of people who read this blog? Let&#8217;s make a love connection. If your company is hiring, leave a comment. The rules: Your comment must include the job title, and either a link to the full job [&#8230;]",
@@ -1752,51 +1797,6 @@
     "source": "Simple Talk (Redgate)",
     "tag": "Deep Dive",
     "pub": "Fri, 01 May 2026 12:00:00 +0000",
-    "ai_summary": ""
-  },
-  {
-    "title": "What is fillfactor in PostgreSQL – and when should you adjust it?",
-    "link": "https://www.red-gate.com/simple-talk/databases/postgresql/fillfactor-in-postgresql-what-it-means-and-when-to-adjust-it/",
-    "summary": "Learn how to optimize PostgreSQL performance with fillfactor - including how it affects HOT updates, indexing, and update-heavy workloads.&#8230;\nThe post What is fillfactor in PostgreSQL &#8211; and when should you adjust it? appeared first on Simple Talk.",
-    "source": "Simple Talk (Redgate)",
-    "tag": "Deep Dive",
-    "pub": "Wed, 29 Apr 2026 13:00:00 +0000",
-    "ai_summary": ""
-  },
-  {
-    "title": "What are the top database platforms in 2026? A look at the latest data",
-    "link": "https://www.red-gate.com/simple-talk/databases/what-are-the-top-database-platforms-in-2026-a-look-at-the-latest-data/",
-    "summary": "Explore 2026 database market trends: AWS, Microsoft, Oracle, and Google Cloud Platform remain dominant as MongoDB, Snowflake, and Databricks steadily gain ground. Insights from Gartner and DB-Engines rankings.&#8230;\nThe post What are the top database platforms in 2026? A look at the latest data appeared first on Simple Talk.",
-    "source": "Simple Talk (Redgate)",
-    "tag": "Deep Dive",
-    "pub": "Tue, 28 Apr 2026 15:16:56 +0000",
-    "ai_summary": ""
-  },
-  {
-    "title": "SQL Server Monitoring Across Cloud, Hybrid, and On-Prem",
-    "link": "https://blog.sqlauthority.com/2026/04/22/sql-server-monitoring-across-cloud-hybrid-and-on-prem/?utm_source=rss&utm_medium=rss&utm_campaign=sql-server-monitoring-across-cloud-hybrid-and-on-prem",
-    "summary": "Let us talk about SQL Server Monitoring Across Cloud, Hybrid, and On-Prem. This is not a tooling problem.\nFirst appeared on SQL Server Monitoring Across Cloud, Hybrid, and On-Prem",
-    "source": "SQL Authority (Pinal Dave)",
-    "tag": "Tips",
-    "pub": "Wed, 22 Apr 2026 01:30:58 +0000",
-    "ai_summary": ""
-  },
-  {
-    "title": "Real-Time Performance Views That Make Troubleshooting Easier",
-    "link": "https://blog.sqlauthority.com/2026/04/15/real-time-performance-views-that-make-troubleshooting-easier/?utm_source=rss&utm_medium=rss&utm_campaign=real-time-performance-views-that-make-troubleshooting-easier",
-    "summary": "Let us talk about Real-Time Performance Views That Make Troubleshooting Easier. And it is more common than it should be.\nFirst appeared on Real-Time Performance Views That Make Troubleshooting Easier",
-    "source": "SQL Authority (Pinal Dave)",
-    "tag": "Tips",
-    "pub": "Wed, 15 Apr 2026 01:30:56 +0000",
-    "ai_summary": ""
-  },
-  {
-    "title": "AI Built SQL Server Wait Statistics Dashboard in Minutes",
-    "link": "https://blog.sqlauthority.com/2026/03/11/ai-built-sql-server-wait-statistics-dashboard-in-minutes/?utm_source=rss&utm_medium=rss&utm_campaign=ai-built-sql-server-wait-statistics-dashboard-in-minutes",
-    "summary": "One prompt. Twelve lines of plain English. A complete, production-quality, dark-themed SQL Server Wait Statistics Dashboard. And a feeling I am still not sure how to name.\nFirst appeared on AI Built SQL Server Wait Statistics Dashboard in Minutes",
-    "source": "SQL Authority (Pinal Dave)",
-    "tag": "Tips",
-    "pub": "Wed, 11 Mar 2026 01:30:07 +0000",
     "ai_summary": ""
   }
 ]
