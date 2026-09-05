@@ -1,5 +1,32 @@
 [
   {
+    "title": "Parameter Sensitive Plan Optimization vs. Parameter Sniffing: What SQL Server Fixes and What It Doesn't",
+    "link": "https://www.sqlservercentral.com/articles/parameter-sensitive-plan-optimization-vs-parameter-sniffing-what-sql-server-fixes-and-what-it-doesnt",
+    "summary": "See how SQL Server's Parameter Sensitive Plan optimization handles skewed parameters, how to verify dispatcher plans, and where PSP still falls short.\nThe post Parameter Sensitive Plan Optimization vs. Parameter Sniffing: What SQL Server Fixes and What It Doesn&#039;t appeared first on SQLServerCentral.",
+    "source": "SQL Server Central",
+    "tag": "Community",
+    "pub": "Fri, 04 Sep 2026 00:00:49 +0000",
+    "ai_summary": ""
+  },
+  {
+    "title": "How to avoid nested REPLACE functions with TRANSLATE in SQL Server",
+    "link": "https://www.sqlservercentral.com/articles/how-to-avoid-nested-replace-functions-with-translate-in-sql-server",
+    "summary": "This guide covers how TRANSLATE() works, how it compares to REPLACE(), and where it falls short compared to other SQL dialects like PostgreSQL and Oracle.\nThe post How to avoid nested REPLACE functions with TRANSLATE in SQL Server appeared first on SQLServerCentral.",
+    "source": "SQL Server Central",
+    "tag": "Community",
+    "pub": "Fri, 04 Sep 2026 00:00:05 +0000",
+    "ai_summary": ""
+  },
+  {
+    "title": "NOLOCK: Why It Counts Some Rows Twice and Misses Others",
+    "link": "https://blog.sqlauthority.com/2026/09/04/nolock-why-it-counts-some-rows-twice-and-misses-others/?utm_source=rss&utm_medium=rss&utm_campaign=nolock-why-it-counts-some-rows-twice-and-misses-others",
+    "summary": "NOLOCK is not a safe performance fix, it is a decision to reduce blocking by accepting an answer that may never have been true. The whole problem is that nobody who types it thinks they are making that trade.\nFirst appeared on NOLOCK: Why It Counts Some Rows Twice and Misses Others",
+    "source": "SQL Authority (Pinal Dave)",
+    "tag": "Tips",
+    "pub": "Fri, 04 Sep 2026 01:30:03 +0000",
+    "ai_summary": ""
+  },
+  {
     "title": "Database Animations: The Interview Question Everybody Gets Wrong",
     "link": "https://www.brentozar.com/archive/2026/09/database-animations-the-interview-question-everybody-gets-wrong/",
     "summary": "No no, I&#8217;m not just talking about the people answering the interview question. I&#8217;m talking about the people asking the question. Over and over, I see confident interviewers asking, &#8220;How can you tell which column should go first in an index?&#8221; Then I see a confident candidate saying, &#8220;Check to see which column has the most [&#8230;]",
@@ -1770,33 +1797,6 @@
     "source": "SQL Server Central",
     "tag": "Community",
     "pub": "Wed, 29 Apr 2026 00:00:11 +0000",
-    "ai_summary": ""
-  },
-  {
-    "title": "How Multi-Column Statistics Work",
-    "link": "https://www.sqlservercentral.com/articles/how-multi-column-statistics-work",
-    "summary": "The short answer: in the real world, only the first column works. When SQL Server needs data about the second column, it builds its own stats on that column instead (assuming they don’t already exist), and uses those two statistics together – but they’re not really correlated.\nThe post How Multi-Column Statistics Work appeared first on SQLServerCentral.",
-    "source": "SQL Server Central",
-    "tag": "Community",
-    "pub": "Wed, 29 Apr 2026 00:00:44 +0000",
-    "ai_summary": ""
-  },
-  {
-    "title": "T-SQL in SQL Server 2025: JSON_ARRAYAGG",
-    "link": "https://www.sqlservercentral.com/articles/t-sql-in-sql-server-2025-json_arrayagg",
-    "summary": "Learn how the JSON_ARRAYAGG() function works in SQL Server 2025.\nThe post T-SQL in SQL Server 2025: JSON_ARRAYAGG appeared first on SQLServerCentral.",
-    "source": "SQL Server Central",
-    "tag": "Community",
-    "pub": "Mon, 27 Apr 2026 00:00:43 +0000",
-    "ai_summary": ""
-  },
-  {
-    "title": "What is chunking, and how does it apply to vectors in SQL Server 2025?",
-    "link": "https://www.red-gate.com/simple-talk/databases/sql-server/what-is-chunking-and-how-does-it-apply-to-vectors-in-sql-server-2025/",
-    "summary": "Learn what chunking is, why it matters for embeddings, and how SQL Server 2025 enables efficient AI-powered vector search.&#8230;\nThe post What is chunking, and how does it apply to vectors in SQL Server 2025? appeared first on Simple Talk.",
-    "source": "Simple Talk (Redgate)",
-    "tag": "Deep Dive",
-    "pub": "Fri, 01 May 2026 12:00:00 +0000",
     "ai_summary": ""
   }
 ]
