@@ -1,5 +1,14 @@
 [
   {
+    "title": "JSON indexing in SQL Server 2025: how it works and current limitations",
+    "link": "https://www.sqlservercentral.com/articles/json-indexing-in-sql-server-2025-how-it-works-and-current-limitations",
+    "summary": "This guide has everything you need to know about JSON indexing in SQL Server 2025: what it is, how it works, and current limitations.\nThe post JSON indexing in SQL Server 2025: how it works and current limitations appeared first on SQLServerCentral.",
+    "source": "SQL Server Central",
+    "tag": "Community",
+    "pub": "Mon, 07 Sep 2026 00:00:45 +0000",
+    "ai_summary": ""
+  },
+  {
     "title": "Parameter Sensitive Plan Optimization vs. Parameter Sniffing: What SQL Server Fixes and What It Doesn't",
     "link": "https://www.sqlservercentral.com/articles/parameter-sensitive-plan-optimization-vs-parameter-sniffing-what-sql-server-fixes-and-what-it-doesnt",
     "summary": "See how SQL Server's Parameter Sensitive Plan optimization handles skewed parameters, how to verify dispatcher plans, and where PSP still falls short.\nThe post Parameter Sensitive Plan Optimization vs. Parameter Sniffing: What SQL Server Fixes and What It Doesn&#039;t appeared first on SQLServerCentral.",
@@ -1788,15 +1797,6 @@
     "source": "SQL Server Central",
     "tag": "Community",
     "pub": "Fri, 01 May 2026 00:00:19 +0000",
-    "ai_summary": ""
-  },
-  {
-    "title": "T-SQL Trigonometric Functions in SQL Server",
-    "link": "https://www.sqlservercentral.com/articles/t-sql-trigonometric-functions-in-sql-server",
-    "summary": "Introduction SQL Server includes several built-in mathematical functions that allow developers to perform complex calculations directly within queries. Among these are trigonometric functions such as SIN(), COS(), and TAN(), which are useful in scenarios involving engineering calculations, geographic data processing, simulations, and analytics. Although these functions are straightforward to use, developers occasionally encounter unexpected results [&#8230;]\nThe post T-SQL Trigonometric Function",
-    "source": "SQL Server Central",
-    "tag": "Community",
-    "pub": "Wed, 29 Apr 2026 00:00:11 +0000",
     "ai_summary": ""
   }
 ]
