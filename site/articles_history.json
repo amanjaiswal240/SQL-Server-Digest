@@ -1,5 +1,14 @@
 [
   {
+    "title": "How to mirror data from SQL Server to Microsoft Fabric: complete guide",
+    "link": "https://www.red-gate.com/simple-talk/databases/sql-server/how-to-mirror-data-from-sql-server-to-microsoft-fabric-complete-guide/",
+    "summary": "Learn all about Microsoft Fabric mirroring for SQL Server: how it works, what's new in 2025, setup, limitations, and troubleshooting.&#8230;\nThe post How to mirror data from SQL Server to Microsoft Fabric: complete guide appeared first on Simple Talk.",
+    "source": "Simple Talk (Redgate)",
+    "tag": "Deep Dive",
+    "pub": "Mon, 07 Sep 2026 12:00:00 +0000",
+    "ai_summary": ""
+  },
+  {
     "title": "JSON indexing in SQL Server 2025: how it works and current limitations",
     "link": "https://www.sqlservercentral.com/articles/json-indexing-in-sql-server-2025-how-it-works-and-current-limitations",
     "summary": "This guide has everything you need to know about JSON indexing in SQL Server 2025: what it is, how it works, and current limitations.\nThe post JSON indexing in SQL Server 2025: how it works and current limitations appeared first on SQLServerCentral.",
@@ -1788,15 +1797,6 @@
     "source": "SQL Server Central",
     "tag": "Community",
     "pub": "Fri, 01 May 2026 00:00:11 +0000",
-    "ai_summary": ""
-  },
-  {
-    "title": "Net Present Value and Internal Rate of Return in SQL Server",
-    "link": "https://www.sqlservercentral.com/articles/net-present-value-and-internal-rate-of-return-in-sql-server",
-    "summary": "Many organizations store cash-flow data inside SQL Server and decision-makers often need metrics like Net Present Value (NPV) and Internal Rate of Return (IRR) to evaluate those cash flows. Is it possible to calculate NPV and IIR values in SQL Server without the use of external tools?\nThe post Net Present Value and Internal Rate of Return in SQL Server appeared first on SQLServerCentral.",
-    "source": "SQL Server Central",
-    "tag": "Community",
-    "pub": "Fri, 01 May 2026 00:00:19 +0000",
     "ai_summary": ""
   }
 ]
