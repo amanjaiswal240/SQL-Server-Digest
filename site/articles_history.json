@@ -1,5 +1,23 @@
 [
   {
+    "title": "How Azure Arc allows a DB admin to become SQL Server sysadmin – the vulnerability explained",
+    "link": "https://www.sqlservercentral.com/articles/how-azure-arc-allows-a-db-admin-to-become-sql-server-sysadmin-the-vulnerability-explained",
+    "summary": "Azure Arc-enabled SQL Server is designed to bring on-premises and multi-cloud SQL Server instances under centralized Azure management, but a newly documented privilege escalation technique shows how that same management workflow can be turned against the server it’s meant to protect. \nThe post How Azure Arc allows a DB admin to become SQL Server sysadmin – the vulnerability explained appeared first on SQLServerCentral.",
+    "source": "SQL Server Central",
+    "tag": "Community",
+    "pub": "Wed, 09 Sep 2026 00:00:04 +0000",
+    "ai_summary": ""
+  },
+  {
+    "title": "Webinar: What Application Owners Need to Know About SQL Server",
+    "link": "https://www.sqlservercentral.com/articles/webinar-what-application-owners-need-to-know-about-sql-server",
+    "summary": "If you own a business application, you’re accountable for its uptime, its cost, and its performance, even if you’ve never opened SQL Server Management Studio in your life. But most guidance out there is written for DBAs, not for the people who actually make decisions about the app.\nThis webinar on Sept 16 is different. We’ll walk through real findings from real SQL Server environments — the kind of things that quietly cause slow page loads, failed backups, and surprise outages — and translate ea",
+    "source": "SQL Server Central",
+    "tag": "Community",
+    "pub": "Wed, 09 Sep 2026 00:00:46 +0000",
+    "ai_summary": ""
+  },
+  {
     "title": "How to mirror data from SQL Server to Microsoft Fabric: complete guide",
     "link": "https://www.red-gate.com/simple-talk/databases/sql-server/how-to-mirror-data-from-sql-server-to-microsoft-fabric-complete-guide/",
     "summary": "Learn all about Microsoft Fabric mirroring for SQL Server: how it works, what's new in 2025, setup, limitations, and troubleshooting.&#8230;\nThe post How to mirror data from SQL Server to Microsoft Fabric: complete guide appeared first on Simple Talk.",
@@ -1779,24 +1797,6 @@
     "source": "Brent Ozar Unlimited",
     "tag": "Performance",
     "pub": "Wed, 29 Apr 2026 13:15:29 +0000",
-    "ai_summary": ""
-  },
-  {
-    "title": "There Are Days When I Feel Like Giving Up on the Plan Cache and Query Store.",
-    "link": "https://www.brentozar.com/archive/2026/04/there-are-days-when-i-feel-like-giving-up-on-the-plan-cache-and-query-store/",
-    "summary": "In theory, SQL Server performance monitoring is pretty simple: Review the server&#8217;s top wait types Find the queries causing those wait types Fix those queries, or improve the way the server reacts to them (indexes, settings, etc.) But in practice, step 2 is awful because: Apps send unparameterized strings to the database server Entity Framework...",
-    "source": "Brent Ozar Unlimited",
-    "tag": "Performance",
-    "pub": "Tue, 28 Apr 2026 13:15:21 +0000",
-    "ai_summary": ""
-  },
-  {
-    "title": "Understanding Deadlock Victim Selection in SQL Server",
-    "link": "https://www.sqlservercentral.com/articles/understanding-deadlock-victim-selection-in-sql-server",
-    "summary": "A short introduction to how deadlocks work and how you can affect their behavior inside your system.\nThe post Understanding Deadlock Victim Selection in SQL Server appeared first on SQLServerCentral.",
-    "source": "SQL Server Central",
-    "tag": "Community",
-    "pub": "Fri, 01 May 2026 00:00:11 +0000",
     "ai_summary": ""
   }
 ]
