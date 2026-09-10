@@ -1,5 +1,23 @@
 [
   {
+    "title": "Database Animations: How SQL Server’s JSON Indexes Work",
+    "link": "https://www.brentozar.com/archive/2026/09/database-animations-how-sql-servers-json-indexes-work/",
+    "summary": "By popular demand, SQL Server 2025 added JSON indexes. You can eat the cake of being able to store practically schema-less JSON blobs as part of each row, and have it too by querying specific values quickly. (The common phrase is to &#8220;have your cake and eat it too&#8221;, but did you ever think about [&#8230;]",
+    "source": "Brent Ozar Unlimited",
+    "tag": "Performance",
+    "pub": "Wed, 09 Sep 2026 13:15:39 +0000",
+    "ai_summary": ""
+  },
+  {
+    "title": "Bi-directional logical replication in PostgreSQL: a practical guide",
+    "link": "https://www.red-gate.com/simple-talk/databases/bi-directional-logical-replication-in-postgresql-a-practical-guide/",
+    "summary": "Learn how bi-directional logical replication works in PostgreSQL 16+, including setup steps, key pros and cons, and whether it's the right fit for your database architecture.&#8230;\nThe post Bi-directional logical replication in PostgreSQL: a practical guide appeared first on Simple Talk.",
+    "source": "Simple Talk (Redgate)",
+    "tag": "Deep Dive",
+    "pub": "Wed, 09 Sep 2026 12:00:00 +0000",
+    "ai_summary": ""
+  },
+  {
     "title": "How Azure Arc allows a DB admin to become SQL Server sysadmin – the vulnerability explained",
     "link": "https://www.sqlservercentral.com/articles/how-azure-arc-allows-a-db-admin-to-become-sql-server-sysadmin-the-vulnerability-explained",
     "summary": "Azure Arc-enabled SQL Server is designed to bring on-premises and multi-cloud SQL Server instances under centralized Azure management, but a newly documented privilege escalation technique shows how that same management workflow can be turned against the server it’s meant to protect. \nThe post How Azure Arc allows a DB admin to become SQL Server sysadmin – the vulnerability explained appeared first on SQLServerCentral.",
@@ -1779,24 +1797,6 @@
     "source": "Brent Ozar Unlimited",
     "tag": "Performance",
     "pub": "Fri, 01 May 2026 13:15:56 +0000",
-    "ai_summary": ""
-  },
-  {
-    "title": "So You Wanna Build an App",
-    "link": "https://www.brentozar.com/archive/2026/04/so-you-wanna-build-an-app/",
-    "summary": "I get a lot of emails like this: Hi! I built an app. Can you take a look at it, give me your feedback, and then help get the word out to your readers? No. I wish I could, but no. But this happens so often that I wanna write a blog post explaining the...",
-    "source": "Brent Ozar Unlimited",
-    "tag": "Performance",
-    "pub": "Thu, 30 Apr 2026 13:15:52 +0000",
-    "ai_summary": ""
-  },
-  {
-    "title": "You Can’t Trust “Edit Query Text” in SSMS’s Execution Plans.",
-    "link": "https://www.brentozar.com/archive/2026/04/you-cant-trust-edit-query-text-in-ssmss-execution-plans/",
-    "summary": "When there are IF branches or conditional logic, &#8220;Edit Query Text&#8221; only shows you the branches that actually executed. It&#8217;s easy to miss whole swaths of code that didn&#8217;t happen to execute one particular time. To demo it, let&#8217;s create a simple stored procedure with an IF branch that sometimes executes, and sometimes doesn&#8217;t: [crayon-69f5bb7cd16cb743161832/]...",
-    "source": "Brent Ozar Unlimited",
-    "tag": "Performance",
-    "pub": "Wed, 29 Apr 2026 13:15:29 +0000",
     "ai_summary": ""
   }
 ]
