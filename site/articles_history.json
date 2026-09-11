@@ -1,5 +1,41 @@
 [
   {
+    "title": "Managing Feature Flags with GET_BIT() and SET_BIT() in SQL Server",
+    "link": "https://www.sqlservercentral.com/articles/managing-feature-flags-with-get_bit-and-set_bit-in-sql-server",
+    "summary": "Learn how the bitwise functions SET_BIT() and GET_BIT() can be used to manage data stored inside a single column.\nThe post Managing Feature Flags with GET_BIT() and SET_BIT() in SQL Server appeared first on SQLServerCentral.",
+    "source": "SQL Server Central",
+    "tag": "Community",
+    "pub": "Fri, 11 Sep 2026 00:00:08 +0000",
+    "ai_summary": ""
+  },
+  {
+    "title": "9 things I wish SQL Server had (and why they’d matter)",
+    "link": "https://www.sqlservercentral.com/articles/9-things-i-wish-sql-server-had-and-why-theyd-matter",
+    "summary": "Anyone who’s spent years writing T-SQL has a mental list of “why doesn’t SQL Server just do this already?” moments. Here are 9 of those from Louis Davidson’s perspective – a wish list of practical, coding-oriented feature requests drawn from real-world pain points. \nThe post 9 things I wish SQL Server had (and why they’d matter) appeared first on SQLServerCentral.",
+    "source": "SQL Server Central",
+    "tag": "Community",
+    "pub": "Fri, 11 Sep 2026 00:00:41 +0000",
+    "ai_summary": ""
+  },
+  {
+    "title": "How to avoid demo fails when presenting at tech conferences",
+    "link": "https://www.red-gate.com/simple-talk/career/how-to-avoid-demo-fails-when-presenting-at-tech-conferences/",
+    "summary": "Two-thirds of conference demos fail. Here's a  checklist for ensuring bulletproof sessions - from realistic goals to backup videos that save the day.&#8230;\nThe post How to avoid demo fails when presenting at tech conferences appeared first on Simple Talk.",
+    "source": "Simple Talk (Redgate)",
+    "tag": "Deep Dive",
+    "pub": "Thu, 10 Sep 2026 12:00:00 +0000",
+    "ai_summary": ""
+  },
+  {
+    "title": "Every Database Has These Seven Tables",
+    "link": "https://blog.sqlauthority.com/2026/09/11/every-database-has-these-seven-tables/?utm_source=rss&utm_medium=rss&utm_campaign=every-database-has-these-seven-tables",
+    "summary": "You can walk into any company on earth, open the production database, and find the same seven tables. Different industry, different continent, different decade. The same seven tables.\nFirst appeared on Every Database Has These Seven Tables",
+    "source": "SQL Authority (Pinal Dave)",
+    "tag": "Tips",
+    "pub": "Fri, 11 Sep 2026 01:30:57 +0000",
+    "ai_summary": ""
+  },
+  {
     "title": "Database Animations: How SQL Server’s JSON Indexes Work",
     "link": "https://www.brentozar.com/archive/2026/09/database-animations-how-sql-servers-json-indexes-work/",
     "summary": "By popular demand, SQL Server 2025 added JSON indexes. You can eat the cake of being able to store practically schema-less JSON blobs as part of each row, and have it too by querying specific values quickly. (The common phrase is to &#8220;have your cake and eat it too&#8221;, but did you ever think about [&#8230;]",
@@ -1761,42 +1797,6 @@
     "source": "Brent Ozar Unlimited",
     "tag": "Performance",
     "pub": "Tue, 05 May 2026 13:15:34 +0000",
-    "ai_summary": ""
-  },
-  {
-    "title": "SQL Server Table-Valued Parameter Join Issues in Stored Procedures",
-    "link": "https://www.sqlservercentral.com/articles/sql-server-table-valued-parameter-join-issues-in-stored-procedures",
-    "summary": "Learn how table valued parameter joins in SQL Server stored procedures can negatively impact query performance.\nThe post SQL Server Table-Valued Parameter Join Issues in Stored Procedures appeared first on SQLServerCentral.",
-    "source": "SQL Server Central",
-    "tag": "Community",
-    "pub": "Wed, 06 May 2026 00:00:31 +0000",
-    "ai_summary": ""
-  },
-  {
-    "title": "What are managed identities in SQL Server 2025? A complete guide",
-    "link": "https://www.red-gate.com/simple-talk/databases/sql-server/managed-identities-in-sql-server-2025-a-complete-guide/",
-    "summary": "Learn how managed identities in SQL Server 2025 enhance security by eliminating passwords and enabling seamless Microsoft Entra authentication for Azure resources.&#8230;\nThe post What are managed identities in SQL Server 2025? A complete guide appeared first on Simple Talk.",
-    "source": "Simple Talk (Redgate)",
-    "tag": "Deep Dive",
-    "pub": "Tue, 05 May 2026 12:00:00 +0000",
-    "ai_summary": ""
-  },
-  {
-    "title": "What is New in SQL Server 2025",
-    "link": "https://www.sqlservercentral.com/articles/what-is-new-in-sql-server-2025",
-    "summary": "Learn about the latest version of SQL Server and get help installing it on your system.\nThe post What is New in SQL Server 2025 appeared first on SQLServerCentral.",
-    "source": "SQL Server Central",
-    "tag": "Community",
-    "pub": "Mon, 04 May 2026 00:00:34 +0000",
-    "ai_summary": ""
-  },
-  {
-    "title": "Free Webcast: Fixing Parameter Sniffing with Index Tuning",
-    "link": "https://www.brentozar.com/archive/2026/05/free-webcast-fixing-parameter-sniffing-with-index-tuning/",
-    "summary": "When a query is sometimes fast and sometimes slow, there are a lot of ways you can reduce the effects of parameter sniffing. We&#8217;re always going to have parameter sniffing in SQL Server and Azure SQL DB &#8211; it&#8217;s just the way the product is built &#8211; but there are a lot of options to reduce...",
-    "source": "Brent Ozar Unlimited",
-    "tag": "Performance",
-    "pub": "Fri, 01 May 2026 13:15:56 +0000",
     "ai_summary": ""
   }
 ]
