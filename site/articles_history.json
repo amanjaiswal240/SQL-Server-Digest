@@ -1,5 +1,23 @@
 [
   {
+    "title": "Optional Parameter Plan Optimization in SQL Server 2025: Fixing the Kitchen-Sink Search Procedure",
+    "link": "https://www.sqlservercentral.com/articles/optional-parameter-plan-optimization-in-sql-server-2025-fixing-the-kitchen-sink-search-procedure",
+    "summary": "See how SQL Server 2025 uses Optional Parameter Plan Optimization to create separate plans for selective and unfiltered searches, how to verify the dispatcher and variants, and when dynamic SQL or recompilation is still the better choice.\nThe post Optional Parameter Plan Optimization in SQL Server 2025: Fixing the Kitchen-Sink Search Procedure appeared first on SQLServerCentral.",
+    "source": "SQL Server Central",
+    "tag": "Community",
+    "pub": "Mon, 14 Sep 2026 00:00:39 +0000",
+    "ai_summary": ""
+  },
+  {
+    "title": "Database Animations: What’s a Residual Predicate and Why Is It Bad?",
+    "link": "https://www.sqlservercentral.com/articles/database-animations-whats-a-residual-predicate-and-why-is-it-bad",
+    "summary": "Normally when you're looking at an execution plan, and you see an index seek followed by a key lookup, that means it's running relatively quickly.\nThe post Database Animations: What’s a Residual Predicate and Why Is It Bad? appeared first on SQLServerCentral.",
+    "source": "SQL Server Central",
+    "tag": "Community",
+    "pub": "Mon, 14 Sep 2026 00:00:56 +0000",
+    "ai_summary": ""
+  },
+  {
     "title": "How to delete personal data for GDPR & CCPA compliance",
     "link": "https://www.red-gate.com/simple-talk/data-security-privacy-compliance/how-to-delete-personal-data-gdpr-ccpa-compliance/",
     "summary": "Learn how to fully erase a customer's data for GDPR and CCPA requests — across backups, replicas, caches, and third-party processors.&#8230;\nThe post How to delete personal data for GDPR &amp; CCPA compliance appeared first on Simple Talk.",
@@ -1779,24 +1797,6 @@
     "source": "SQL Server Central",
     "tag": "Community",
     "pub": "Fri, 08 May 2026 00:00:07 +0000",
-    "ai_summary": ""
-  },
-  {
-    "title": "Can SQL Server 2025’s REGEXP_SPLIT_TO_TABLE fix STRING_SPLIT in T-SQL?",
-    "link": "https://www.sqlservercentral.com/articles/can-sql-server-2025s-regexp_split_to_table-fix-string_split-in-t-sql",
-    "summary": "Learn how to split strings efficiently in T-SQL using STRING_SPLIT and the REGEXP_SPLIT_TO_TABLE function in SQL Server 2025. \nThe post Can SQL Server 2025’s REGEXP_SPLIT_TO_TABLE fix STRING_SPLIT in T-SQL? appeared first on SQLServerCentral.",
-    "source": "SQL Server Central",
-    "tag": "Community",
-    "pub": "Fri, 08 May 2026 00:00:48 +0000",
-    "ai_summary": ""
-  },
-  {
-    "title": "Free SQL Server Spring Training on Performance Tuning",
-    "link": "https://www.brentozar.com/archive/2026/05/free-sql-server-spring-training-on-performance-tuning/",
-    "summary": "Times and tech are changing quickly. Let&#8217;s get you up to speed on the latest developments to do your work more quickly with a series of free live webcasts. How to Tune Indexes Faster &#8211; May 12 &#38; 18 &#8211; Brent Ozar will show you how to use the latest features of sp_BlitzIndex to rapidly...",
-    "source": "Brent Ozar Unlimited",
-    "tag": "Performance",
-    "pub": "Wed, 06 May 2026 13:15:37 +0000",
     "ai_summary": ""
   }
 ]
