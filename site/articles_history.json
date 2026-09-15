@@ -1,5 +1,32 @@
 [
   {
+    "title": "How a Microsoft-signed SQL Server stored procedure lets sysadmins bypass disabled xp_cmdshell",
+    "link": "https://www.red-gate.com/simple-talk/databases/sql-server/how-a-microsoft-signed-sql-server-stored-procedure-lets-sysadmins-bypass-disabled-xp_cmdshell/",
+    "summary": "Discover how a Microsoft-signed system procedure bypasses SQL Server's disabled xp_cmdshell setting - plus detection and mitigation steps for defenders.&#8230;\nThe post How a Microsoft-signed SQL Server stored procedure lets sysadmins bypass disabled xp_cmdshell appeared first on Simple Talk.",
+    "source": "Simple Talk (Redgate)",
+    "tag": "Deep Dive",
+    "pub": "Mon, 14 Sep 2026 12:00:00 +0000",
+    "ai_summary": ""
+  },
+  {
+    "title": "Y2K: The Work Behind “Nothing Happened”",
+    "link": "https://blog.sqlauthority.com/2026/09/15/y2k-the-work-behind-nothing-happened/",
+    "summary": "Y2K did not end in worldwide disaster. Its repairs, failures, and recoveries show why, and what database teams can learn about proving maintenance matters.\nFirst appeared on Y2K: The Work Behind &#8220;Nothing Happened&#8221;",
+    "source": "SQL Authority (Pinal Dave)",
+    "tag": "Tips",
+    "pub": "Tue, 15 Sep 2026 01:30:16 +0000",
+    "ai_summary": ""
+  },
+  {
+    "title": "Every Database Has These Seven Tables",
+    "link": "https://blog.sqlauthority.com/2026/09/11/every-database-has-these-seven-tables/",
+    "summary": "You can walk into any company on earth, open the production database, and find the same seven tables. Different industry, different continent, different decade. The same seven tables.\nFirst appeared on Every Database Has These Seven Tables",
+    "source": "SQL Authority (Pinal Dave)",
+    "tag": "Tips",
+    "pub": "Fri, 11 Sep 2026 01:30:57 +0000",
+    "ai_summary": ""
+  },
+  {
     "title": "Optional Parameter Plan Optimization in SQL Server 2025: Fixing the Kitchen-Sink Search Procedure",
     "link": "https://www.sqlservercentral.com/articles/optional-parameter-plan-optimization-in-sql-server-2025-fixing-the-kitchen-sink-search-procedure",
     "summary": "See how SQL Server 2025 uses Optional Parameter Plan Optimization to create separate plans for selective and unfiltered searches, how to verify the dispatcher and variants, and when dynamic SQL or recompilation is still the better choice.\nThe post Optional Parameter Plan Optimization in SQL Server 2025: Fixing the Kitchen-Sink Search Procedure appeared first on SQLServerCentral.",
@@ -1770,33 +1797,6 @@
     "source": "Simple Talk (Redgate)",
     "tag": "Deep Dive",
     "pub": "Mon, 11 May 2026 13:03:00 +0000",
-    "ai_summary": ""
-  },
-  {
-    "title": "SSRS Is Dead. Here Are Your Real Options",
-    "link": "https://www.sqlservercentral.com/articles/ssrs-is-dead-here-are-your-real-options",
-    "summary": "SQL Server 2025 shipped without SSRS. If you're managing paginated reports, your options just narrowed; but they're not what most people think. I evaluated all 10 realistic migration paths. Here's an honest comparison, including the one I built.\nThe post SSRS Is Dead. Here Are Your Real Options appeared first on SQLServerCentral.",
-    "source": "SQL Server Central",
-    "tag": "Community",
-    "pub": "Mon, 11 May 2026 00:00:55 +0000",
-    "ai_summary": ""
-  },
-  {
-    "title": "SOFTMAX Function in SQL Server",
-    "link": "https://www.sqlservercentral.com/articles/softmax-function-in-sql-server",
-    "summary": "Explore the mechanics of the SOFTMAX function in SQL Server. Transform scores into probabilities with this essential tool.\nThe post SOFTMAX Function in SQL Server appeared first on SQLServerCentral.",
-    "source": "SQL Server Central",
-    "tag": "Community",
-    "pub": "Mon, 11 May 2026 00:00:51 +0000",
-    "ai_summary": ""
-  },
-  {
-    "title": "How to Calculate Distance Between Coordinates in SQL Server",
-    "link": "https://www.sqlservercentral.com/articles/how-to-calculate-distance-between-coordinates-in-sql-server",
-    "summary": "Learn a quick way to calculate distances without resorting to spatial calculations.\nThe post How to Calculate Distance Between Coordinates in SQL Server appeared first on SQLServerCentral.",
-    "source": "SQL Server Central",
-    "tag": "Community",
-    "pub": "Fri, 08 May 2026 00:00:07 +0000",
     "ai_summary": ""
   }
 ]
