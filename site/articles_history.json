@@ -1,5 +1,41 @@
 [
   {
+    "title": "“But NOLOCK won’t hurt me if I’m using an index!”",
+    "link": "https://www.brentozar.com/archive/2026/09/but-nolock-wont-hurt-me-if-im-using-an-index/",
+    "summary": "NOLOCK is bad and you probably shouldn&#8217;t use it, but every time I mention that publicly, the pushback just keeps coming. I don&#8217;t know why people so firmly believe that their situation couldn&#8217;t possibly be affected by bad/random data from NOLOCK. Today&#8217;s misconception comes from a LinkedIn commenter telling me it&#8217;s safe to use if you&#8217;re [&#8230;]",
+    "source": "Brent Ozar Unlimited",
+    "tag": "Performance",
+    "pub": "Tue, 15 Sep 2026 13:15:36 +0000",
+    "ai_summary": ""
+  },
+  {
+    "title": "Implementing Type 4 Slowly Changing Dimensions in SQL Server",
+    "link": "https://www.sqlservercentral.com/articles/implementing-type-4-slowly-changing-dimensions-in-sql-server",
+    "summary": "Learn about a Type 4 Slowly Changing Dimension in this article by Dinesh Asanka.\nThe post Implementing Type 4 Slowly Changing Dimensions in SQL Server appeared first on SQLServerCentral.",
+    "source": "SQL Server Central",
+    "tag": "Community",
+    "pub": "Wed, 16 Sep 2026 00:00:52 +0000",
+    "ai_summary": ""
+  },
+  {
+    "title": "SQL Server login failures: how to monitor, report, and alert on them",
+    "link": "https://www.sqlservercentral.com/articles/sql-server-login-failures-how-to-monitor-report-and-alert-on-them",
+    "summary": "This guide walks through how to pull login failure data using sys.xp_readerrorlog, filter it by time and error type, parse it into readable columns, aggregate repeat offenders, and automatically email a summary report — turning a passive log file into an active security and troubleshooting tool.\nThe post SQL Server login failures: how to monitor, report, and alert on them appeared first on SQLServerCentral.",
+    "source": "SQL Server Central",
+    "tag": "Community",
+    "pub": "Wed, 16 Sep 2026 00:00:02 +0000",
+    "ai_summary": ""
+  },
+  {
+    "title": "AI Execution Plan Analysis: I Gave It My Plan and Asked What Was Wrong",
+    "link": "https://blog.sqlauthority.com/2026/09/16/ai-execution-plan-analysis-i-gave-it-my-plan-and-asked-what-was-wrong/",
+    "summary": "I did not hand it a plan with a spill in it. Everybody can find a spill. I handed it a plan with no warnings at all, where every number on the screen looked healthy, and the query underneath was reading five million rows to return seventeen.\nFirst appeared on AI Execution Plan Analysis: I Gave It My Plan and Asked What Was Wrong",
+    "source": "SQL Authority (Pinal Dave)",
+    "tag": "Tips",
+    "pub": "Wed, 16 Sep 2026 01:30:59 +0000",
+    "ai_summary": ""
+  },
+  {
     "title": "How a Microsoft-signed SQL Server stored procedure lets sysadmins bypass disabled xp_cmdshell",
     "link": "https://www.red-gate.com/simple-talk/databases/sql-server/how-a-microsoft-signed-sql-server-stored-procedure-lets-sysadmins-bypass-disabled-xp_cmdshell/",
     "summary": "Discover how a Microsoft-signed system procedure bypasses SQL Server's disabled xp_cmdshell setting - plus detection and mitigation steps for defenders.&#8230;\nThe post How a Microsoft-signed SQL Server stored procedure lets sysadmins bypass disabled xp_cmdshell appeared first on Simple Talk.",
@@ -1761,42 +1797,6 @@
     "source": "Brent Ozar Unlimited",
     "tag": "Performance",
     "pub": "Wed, 13 May 2026 13:15:54 +0000",
-    "ai_summary": ""
-  },
-  {
-    "title": "There Are Days When I Feel Like Giving Up on the Plan Cache and Query Store.",
-    "link": "https://www.sqlservercentral.com/articles/there-are-days-when-i-feel-like-giving-up-on-the-plan-cache-and-query-store",
-    "summary": "In theory, SQL Server performance monitoring is pretty simple: 1. Review the server’s top wait types, 2. Find the queries causing those wait types, 3. Fix those queries, or improve the way the server reacts to them (indexes, settings, etc.). But in practice, step 2 is awful because:\nThe post There Are Days When I Feel Like Giving Up on the Plan Cache and Query Store. appeared first on SQLServerCentral.",
-    "source": "SQL Server Central",
-    "tag": "Community",
-    "pub": "Wed, 13 May 2026 00:00:40 +0000",
-    "ai_summary": ""
-  },
-  {
-    "title": "New Official Documentation on Forced Parameterization",
-    "link": "https://www.brentozar.com/archive/2026/05/new-official-documentation-on-forced-parameterization/",
-    "summary": "I love me some documentation. For years, I&#8217;ve pointed folks to the SQL Server 2008 documentation on Forced Parameterization, a really useful tool for reducing plan cache bloat, getting more accurate reusable query plans, and enabling SQL Server 2019 and 2022&#8217;s Intelligent Query Plan features, many of which rely on the same query text coming...",
-    "source": "Brent Ozar Unlimited",
-    "tag": "Performance",
-    "pub": "Tue, 12 May 2026 13:15:16 +0000",
-    "ai_summary": ""
-  },
-  {
-    "title": "Why database ownership is so fragmented in 2026 – and what you can do about it",
-    "link": "https://www.red-gate.com/simple-talk/databases/why-database-ownership-is-so-fragmented-in-2026-and-what-you-can-do-about-it/",
-    "summary": "Learn why database ownership is so fragmented in 2026 - and how best to overcome this challenge, with proven methods to help improve your processes.&#8230;\nThe post Why database ownership is so fragmented in 2026 – and what you can do about it appeared first on Simple Talk.",
-    "source": "Simple Talk (Redgate)",
-    "tag": "Deep Dive",
-    "pub": "Tue, 12 May 2026 12:00:00 +0000",
-    "ai_summary": ""
-  },
-  {
-    "title": "How to ensure success following a cloud migration",
-    "link": "https://www.red-gate.com/simple-talk/cloud/how-to-ensure-success-following-a-cloud-migration/",
-    "summary": "Learn how to optimize performance, reduce costs, improve security, and ensure long-term success after moving from on-prem to the cloud.&#8230;\nThe post How to ensure success following a cloud migration appeared first on Simple Talk.",
-    "source": "Simple Talk (Redgate)",
-    "tag": "Deep Dive",
-    "pub": "Mon, 11 May 2026 13:03:00 +0000",
     "ai_summary": ""
   }
 ]
