@@ -1,5 +1,32 @@
 [
   {
+    "title": "Live Class Enrollment Opens Soon – For Just $995!",
+    "link": "https://www.brentozar.com/archive/2026/09/live-class-enrollment-opens-soon-for-just-995/",
+    "summary": "I teach Microsoft SQL Server performance tuning in a 4-class rotation. The winter rotation is getting ready to start: Fundamentals Week &#8211; November 2-6 Mastering Index Tuning &#8211; November 30-Dec 4 Mastering Query Tuning &#8211; January 11-15, 2027 Mastering Server Tuning &#8211; February 8-12, 2027 You have to take &#8217;em in order, so I only [&#8230;]",
+    "source": "Brent Ozar Unlimited",
+    "tag": "Performance",
+    "pub": "Wed, 16 Sep 2026 13:15:27 +0000",
+    "ai_summary": ""
+  },
+  {
+    "title": "Should your SQL Server database use foreign key constraints?",
+    "link": "https://www.red-gate.com/simple-talk/databases/sql-server/should-your-sql-server-database-use-foreign-key-constraints/",
+    "summary": "Should SQL Server databases enforce foreign key constraints? A veteran DBA breaks down the real arguments for transactional and analytic systems.&#8230;\nThe post Should your SQL Server database use foreign key constraints? appeared first on Simple Talk.",
+    "source": "Simple Talk (Redgate)",
+    "tag": "Deep Dive",
+    "pub": "Wed, 16 Sep 2026 12:00:00 +0000",
+    "ai_summary": ""
+  },
+  {
+    "title": "Your Index Rebuild Maintenance Plan Is Rebuilding Indexes Nobody Uses",
+    "link": "https://blog.sqlauthority.com/2026/09/17/your-index-rebuild-maintenance-plan-is-rebuilding-indexes-nobody-uses/",
+    "summary": "Your index rebuild maintenance plan runs every Sunday night, takes four hours, fills your transaction log, delays your backup, and may be buying you a great deal less than everybody assumes.\nFirst appeared on Your Index Rebuild Maintenance Plan Is Rebuilding Indexes Nobody Uses",
+    "source": "SQL Authority (Pinal Dave)",
+    "tag": "Tips",
+    "pub": "Thu, 17 Sep 2026 01:30:26 +0000",
+    "ai_summary": ""
+  },
+  {
     "title": "“But NOLOCK won’t hurt me if I’m using an index!”",
     "link": "https://www.brentozar.com/archive/2026/09/but-nolock-wont-hurt-me-if-im-using-an-index/",
     "summary": "NOLOCK is bad and you probably shouldn&#8217;t use it, but every time I mention that publicly, the pushback just keeps coming. I don&#8217;t know why people so firmly believe that their situation couldn&#8217;t possibly be affected by bad/random data from NOLOCK. Today&#8217;s misconception comes from a LinkedIn commenter telling me it&#8217;s safe to use if you&#8217;re [&#8230;]",
@@ -1770,33 +1797,6 @@
     "source": "SQL Server Central",
     "tag": "Community",
     "pub": "Fri, 15 May 2026 00:00:29 +0000",
-    "ai_summary": ""
-  },
-  {
-    "title": "PostgreSQL is removing MD5 authentication for passwords. Here’s what it means for your databases",
-    "link": "https://www.red-gate.com/simple-talk/databases/postgresql/postgresql-is-removing-md5-authentication-for-passwords-heres-everything-you-need-to-know/",
-    "summary": "PostgreSQL is phasing out MD5 authentication across versions 18–21, replacing it with SCRAM-SHA-256. Here's what it means for your database and applications.&#8230;\nThe post PostgreSQL is removing MD5 authentication for passwords. Here&#8217;s what it means for your databases appeared first on Simple Talk.",
-    "source": "Simple Talk (Redgate)",
-    "tag": "Deep Dive",
-    "pub": "Fri, 15 May 2026 12:00:00 +0000",
-    "ai_summary": ""
-  },
-  {
-    "title": "[Video] Office Hours in Port",
-    "link": "https://www.brentozar.com/archive/2026/05/video-office-hours-in-port/",
-    "summary": "Our cruise ship pulled into port in Victoria, Canada, so before we head out to the Butchart Gardens, let&#8217;s go through your top-voted questions from https://pollgab.com/room/brento. Here&#8217;s what we covered: 00:00 Start 02:17 Janis: Hey Brent, Deleted million of rows from Azure SQL clustered columnstore ix. Want reclaim free space in shared elastic pool without...",
-    "source": "Brent Ozar Unlimited",
-    "tag": "Performance",
-    "pub": "Thu, 14 May 2026 13:15:12 +0000",
-    "ai_summary": ""
-  },
-  {
-    "title": "Turns Out DBAs Use the Consultant Toolkit, Too",
-    "link": "https://www.brentozar.com/archive/2026/05/turns-out-dbas-use-the-consultant-toolkit-too/",
-    "summary": "When I first hired Richie over a decade ago, the very first task I assigned him was to build The Consultant Toolkit. I said, &#8220;Whenever I&#8217;m working with a client, I have to gather the same data over and over. I run scripts like sp_Blitz, sp_BlitzIndex, sp_BlitzFirst, and so on, copy/pasting that data into a...",
-    "source": "Brent Ozar Unlimited",
-    "tag": "Performance",
-    "pub": "Wed, 13 May 2026 13:15:54 +0000",
     "ai_summary": ""
   }
 ]
