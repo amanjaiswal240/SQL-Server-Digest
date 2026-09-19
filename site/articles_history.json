@@ -1,5 +1,14 @@
 [
   {
+    "title": "What happens when your AI coding agent starts a database on its own (building an app with AI, part six)",
+    "link": "https://www.red-gate.com/simple-talk/ai/what-happens-when-your-ai-coding-agent-starts-a-database-on-its-own-building-an-app-with-ai-part-six/",
+    "summary": "How to build an app through an LLM: switching from CoPilot to Claude, a directional term-lookup feature, and an AI agent that made an unauthorized move.&#8230;\nThe post What happens when your AI coding agent starts a database on its own (building an app with AI, part six) appeared first on Simple Talk.",
+    "source": "Simple Talk (Redgate)",
+    "tag": "Deep Dive",
+    "pub": "Fri, 18 Sep 2026 12:00:00 +0000",
+    "ai_summary": ""
+  },
+  {
     "title": "[Video] Office Hours: Open Q&A for Microsoft Databases",
     "link": "https://www.brentozar.com/archive/2026/09/office-hours-open-qa-for-microsoft-databases/",
     "summary": "Today I&#8217;m back in the home office, finishing up teaching Mastering Index Tuning and getting ready to head out on a Mexico cruise. Let&#8217;s go through your top-voted questions from https://pollgab.com/room/brento. Here&#8217;s what we covered: 00:00 Start 00:30 Need For Speed Round: What do you recommend for statistics maintenance on TB-scale tables with billions of [&#8230;]",
@@ -1788,15 +1797,6 @@
     "source": "SQL Server Central",
     "tag": "Community",
     "pub": "Mon, 18 May 2026 00:00:57 +0000",
-    "ai_summary": ""
-  },
-  {
-    "title": "Improve Query Performance in the Fabric Warehouse with Clustering",
-    "link": "https://www.sqlservercentral.com/articles/improve-query-performance-in-the-fabric-warehouse-with-clustering",
-    "summary": "Learn how to improve performance issues in Microsoft Fabric Warehouse and leverage cloud-based data analytics effectively.\nThe post Improve Query Performance in the Fabric Warehouse with Clustering appeared first on SQLServerCentral.",
-    "source": "SQL Server Central",
-    "tag": "Community",
-    "pub": "Mon, 18 May 2026 00:00:54 +0000",
     "ai_summary": ""
   }
 ]
