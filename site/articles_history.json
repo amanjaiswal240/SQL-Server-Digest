@@ -1,5 +1,32 @@
 [
   {
+    "title": "Finding Gaps in Sequential Data Using SQL Server",
+    "link": "https://www.sqlservercentral.com/articles/finding-gaps-in-sequential-data-using-sql-server",
+    "summary": "Many systems expect a sequential range of numbers for invoices, ticket numbers, and more. Learn how you can identify where you have gaps in your sequences.\nThe post Finding Gaps in Sequential Data Using SQL Server appeared first on SQLServerCentral.",
+    "source": "SQL Server Central",
+    "tag": "Community",
+    "pub": "Mon, 21 Sep 2026 00:00:53 +0000",
+    "ai_summary": ""
+  },
+  {
+    "title": "What is cloud database vendor lock-in? The 3 types explained (and how to audit yours)",
+    "link": "https://www.sqlservercentral.com/articles/what-is-cloud-database-vendor-lock-in-the-3-types-explained-and-how-to-audit-yours",
+    "summary": "Cloud database vendor lock-in is one of the most expensive surprises in enterprise infrastructure — not because the dependency is hidden, but because most teams never quantify it before committing to a platform.\nThe post What is cloud database vendor lock-in? The 3 types explained (and how to audit yours) appeared first on SQLServerCentral.",
+    "source": "SQL Server Central",
+    "tag": "Community",
+    "pub": "Mon, 21 Sep 2026 00:00:12 +0000",
+    "ai_summary": ""
+  },
+  {
+    "title": "The Migration of a Row: Tagged, Followed, Found Again",
+    "link": "https://blog.sqlauthority.com/2026/09/21/migration-of-a-row/",
+    "summary": "I followed the migration of a row through SQL Server 2025, from the first write to the grave. The log gets there before the table. The delete does not erase anything. And when the table is empty and the ghost is gone, the statistics histogram still names the row in full.\nFirst appeared on The Migration of a Row: Tagged, Followed, Found Again",
+    "source": "SQL Authority (Pinal Dave)",
+    "tag": "Tips",
+    "pub": "Mon, 21 Sep 2026 01:30:00 +0000",
+    "ai_summary": ""
+  },
+  {
     "title": "What happens when your AI coding agent starts a database on its own (building an app with AI, part six)",
     "link": "https://www.red-gate.com/simple-talk/ai/what-happens-when-your-ai-coding-agent-starts-a-database-on-its-own-building-an-app-with-ai-part-six/",
     "summary": "How to build an app through an LLM: switching from CoPilot to Claude, a directional term-lookup feature, and an AI agent that made an unauthorized move.&#8230;\nThe post What happens when your AI coding agent starts a database on its own (building an app with AI, part six) appeared first on Simple Talk.",
@@ -1770,33 +1797,6 @@
     "source": "SQL Server Central",
     "tag": "Community",
     "pub": "Wed, 20 May 2026 00:00:27 +0000",
-    "ai_summary": ""
-  },
-  {
-    "title": "4 CVEs are affecting Valkey databases. Here’s everything you need to know (and what you should do, right now, to protect yours)",
-    "link": "https://www.red-gate.com/simple-talk/databases/4-cves-are-affecting-valkey-databases-heres-everything-you-need-to-know-and-what-you-should-do-right-now-to-protect-yours/",
-    "summary": "4 CVEs currently affect Valkey databases. Learn what they are, which Valkey versions are vulnerable, and what you should do right now.&#8230;\nThe post 4 CVEs are affecting Valkey databases. Here&#8217;s everything you need to know (and what you should do, right now, to protect yours) appeared first on Simple Talk.",
-    "source": "Simple Talk (Redgate)",
-    "tag": "Deep Dive",
-    "pub": "Tue, 19 May 2026 12:00:00 +0000",
-    "ai_summary": ""
-  },
-  {
-    "title": "In 2026, engineering teams are quietly accepting more risk. Here’s why",
-    "link": "https://www.red-gate.com/simple-talk/security-and-compliance/in-2026-engineering-teams-are-quietly-accepting-more-risk-heres-why/",
-    "summary": "11 takeaways from the Simple Talk podcast on security vs speed in databases: why teams misjudge risk, how AI amplifies bad habits, and what to do about it.&#8230;\nThe post In 2026, engineering teams are quietly accepting more risk. Here&#8217;s why appeared first on Simple Talk.",
-    "source": "Simple Talk (Redgate)",
-    "tag": "Deep Dive",
-    "pub": "Sun, 17 May 2026 12:10:46 +0000",
-    "ai_summary": ""
-  },
-  {
-    "title": "Why Your Index Isn't Being Used? - Reading Execution Plans to Find the Real Culprit",
-    "link": "https://www.sqlservercentral.com/articles/why-your-index-isnt-being-used-reading-execution-plans-to-find-the-real-culprit",
-    "summary": "Built the index, but SQL Server still scans the whole table? Learn how to read execution plans and find exactly why your index is being ignored.\nThe post Why Your Index Isn&#039;t Being Used? - Reading Execution Plans to Find the Real Culprit appeared first on SQLServerCentral.",
-    "source": "SQL Server Central",
-    "tag": "Community",
-    "pub": "Mon, 18 May 2026 00:00:57 +0000",
     "ai_summary": ""
   }
 ]
