@@ -1,5 +1,41 @@
 [
   {
+    "title": "Database Animations: Stop Using Page Splits to Justify Lowering Fill Factor.",
+    "link": "https://www.brentozar.com/archive/2026/09/stop-using-page-splits-to-justify-lowering-fill-factor/",
+    "summary": "You&#8217;re looking at page split numbers in a monitoring tool or Perfmon, and you&#8217;ve heard that page splits are bad, so you&#8217;re lowering fill factor, expecting your page splits to go down. You&#8217;re monitoring the wrong number. To prove it, let&#8217;s check the page splits counter, add 10,000 pages to a table, and then check [&#8230;]",
+    "source": "Brent Ozar Unlimited",
+    "tag": "Performance",
+    "pub": "Tue, 22 Sep 2026 13:15:46 +0000",
+    "ai_summary": ""
+  },
+  {
+    "title": "Optimized Locking in SQL Server 2025: Fewer Locks, Less Blocking, and the Cases It Cannot Fix",
+    "link": "https://www.sqlservercentral.com/articles/optimized-locking-in-sql-server-2025-fewer-locks-less-blocking-and-the-cases-it-cannot-fix",
+    "summary": "Reproduce traditional row-lock accumulation and writer blocking, then see how SQL Server 2025 uses transaction ID locking and Lock After Qualification to improve concurrency—and where hints, isolation levels, and query shapes limit the benefit.\nThe post Optimized Locking in SQL Server 2025: Fewer Locks, Less Blocking, and the Cases It Cannot Fix appeared first on SQLServerCentral.",
+    "source": "SQL Server Central",
+    "tag": "Community",
+    "pub": "Wed, 23 Sep 2026 00:00:53 +0000",
+    "ai_summary": ""
+  },
+  {
+    "title": "Database Animations: The Interview Question Everybody Gets Wrong",
+    "link": "https://www.sqlservercentral.com/articles/database-animations-the-interview-question-everybody-gets-wrong",
+    "summary": "No no, I'm not just talking about the people answering the interview question. I'm talking about the people asking the question.\nThe post Database Animations: The Interview Question Everybody Gets Wrong appeared first on SQLServerCentral.",
+    "source": "SQL Server Central",
+    "tag": "Community",
+    "pub": "Wed, 23 Sep 2026 00:00:27 +0000",
+    "ai_summary": ""
+  },
+  {
+    "title": "Install AdventureWorks and WideWorldImporters: Updated 2026",
+    "link": "https://blog.sqlauthority.com/2026/09/23/install-adventureworks-and-wideworldimporters/",
+    "summary": "Install AdventureWorks and WideWorldImporters once, the right way. Which file to download for your SQL Server, where to put it so the service account can read it, the RESTORE FILELISTONLY step, restore scripts for T-SQL, SSMS, Docker and Linux, and the five errors people email me about. Every command was run on SQL Server 2025.\nFirst appeared on Install AdventureWorks and WideWorldImporters: Updated 2026",
+    "source": "SQL Authority (Pinal Dave)",
+    "tag": "Tips",
+    "pub": "Wed, 23 Sep 2026 01:30:00 +0000",
+    "ai_summary": ""
+  },
+  {
     "title": "NOLOCK Double Counting: One Employee, Two Lunches",
     "link": "https://blog.sqlauthority.com/2026/09/22/nolock-double-counting/",
     "summary": "NOLOCK double counting is how three people in a lunch line turn into four lunches. Nothing was inserted. One row moved ahead of the scan and got read twice. I tested it on SQL Server 2025 and share a query that catches it on your own table.\nFirst appeared on NOLOCK Double Counting: One Employee, Two Lunches",
@@ -1761,42 +1797,6 @@
     "source": "SQL Server Central",
     "tag": "Community",
     "pub": "Tue, 18 Dec 2018 13:42:05 +0000",
-    "ai_summary": ""
-  },
-  {
-    "title": "SQL Server 2019 Build List",
-    "link": "https://www.sqlservercentral.com/articles/sql-server-2019-build-list",
-    "summary": "A list of build versions for SQL Server 2019\nThe post SQL Server 2019 Build List appeared first on SQLServerCentral.",
-    "source": "SQL Server Central",
-    "tag": "Community",
-    "pub": "Thu, 20 Dec 2018 14:36:23 +0000",
-    "ai_summary": ""
-  },
-  {
-    "title": "SQL Server 2022 Build List",
-    "link": "https://www.sqlservercentral.com/articles/sql-server-2022-build-list",
-    "summary": "This is a list of the builds for SQL Server 2022. There are other build lists available here. A list of all the builds that I can find and install on my Build VM. If you find a build not listed here, please let the webmaster know (webmaster at sqlservercentral.com). All builds are listed in reverse [&#8230;]\nThe post SQL Server 2022 Build List appeared first on SQLServerCentral.",
-    "source": "SQL Server Central",
-    "tag": "Community",
-    "pub": "Thu, 01 Sep 2022 16:53:01 +0000",
-    "ai_summary": ""
-  },
-  {
-    "title": "Demystifying PIVOT and UNPIVOT in T-SQL",
-    "link": "https://www.red-gate.com/simple-talk/databases/sql-server/t-sql-programming-sql-server/demystifying-pivot-and-unpivot-in-t-sql/",
-    "summary": "Learn how to use T-SQL PIVOT and UNPIVOT operators with clear examples — from basic row-to-column transforms to dynamic SQL solutions for unknown column lists.\n&#8230;\nThe post Demystifying PIVOT and UNPIVOT in T-SQL appeared first on Simple Talk.",
-    "source": "Simple Talk (Redgate)",
-    "tag": "Deep Dive",
-    "pub": "Wed, 20 May 2026 12:00:00 +0000",
-    "ai_summary": ""
-  },
-  {
-    "title": "Announcing the SSMS StatisticsParser Extension",
-    "link": "https://www.brentozar.com/archive/2026/05/announcing-the-ssms-statisticsparser-extension/",
-    "summary": "If you do a lot of query tuning, you&#8217;ve probably come across Richie Rump&#8217;s StatisticsParser.com. Now, it&#8217;s even easier to use. Now, it&#8217;s even easier to use. Download &#38; install it, then run your query with SET STATISTICS IO, TIME ON, and after it finishes, right-click in the query window and click Parse Statistics: You...",
-    "source": "Brent Ozar Unlimited",
-    "tag": "Performance",
-    "pub": "Tue, 19 May 2026 13:15:09 +0000",
     "ai_summary": ""
   }
 ]
