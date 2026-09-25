@@ -1,5 +1,23 @@
 [
   {
+    "title": "Moving Beyond the Reboot: Finding the Culprit Behind Memory Pressure",
+    "link": "https://www.sqlservercentral.com/articles/moving-beyond-the-reboot-finding-the-culprit-behind-memory-pressure",
+    "summary": "Diagnosing memory issues can be hard. This article shows how one administrator used custom tracking to determine whether SQL Server, SSAS, or SSRS was the issue.\nThe post Moving Beyond the Reboot: Finding the Culprit Behind Memory Pressure appeared first on SQLServerCentral.",
+    "source": "SQL Server Central",
+    "tag": "Community",
+    "pub": "Fri, 25 Sep 2026 00:00:50 +0000",
+    "ai_summary": ""
+  },
+  {
+    "title": "Migrate SQL Server Databases to Different Active Directory Domain",
+    "link": "https://www.sqlservercentral.com/articles/migrate-sql-server-databases-to-different-active-directory-domain",
+    "summary": "We want to leverage Distributed Availability Groups to migrate our databases to a different Active Directory domain. How do we go about it?\nThe post Migrate SQL Server Databases to Different Active Directory Domain appeared first on SQLServerCentral.",
+    "source": "SQL Server Central",
+    "tag": "Community",
+    "pub": "Fri, 25 Sep 2026 00:00:08 +0000",
+    "ai_summary": ""
+  },
+  {
     "title": "Database Animations: Stop Using Page Splits to Justify Lowering Fill Factor.",
     "link": "https://www.brentozar.com/archive/2026/09/stop-using-page-splits-to-justify-lowering-fill-factor/",
     "summary": "You&#8217;re looking at page split numbers in a monitoring tool or Perfmon, and you&#8217;ve heard that page splits are bad, so you&#8217;re lowering fill factor, expecting your page splits to go down. You&#8217;re monitoring the wrong number. To prove it, let&#8217;s check the page splits counter, add 10,000 pages to a table, and then check [&#8230;]",
@@ -1779,24 +1797,6 @@
     "source": "Brent Ozar Unlimited",
     "tag": "Performance",
     "pub": "Wed, 20 May 2026 13:15:29 +0000",
-    "ai_summary": ""
-  },
-  {
-    "title": "SQL Server 2016 Build List",
-    "link": "https://www.sqlservercentral.com/articles/sql-server-2016-build-list",
-    "summary": "A list of all builds for SQL Server 2016. Updated with CU2 for SP2 and CU10 for SP1.\nThe post SQL Server 2016 Build List appeared first on SQLServerCentral.",
-    "source": "SQL Server Central",
-    "tag": "Community",
-    "pub": "Wed, 25 Jan 2017 00:00:00 +0000",
-    "ai_summary": ""
-  },
-  {
-    "title": "SQL Server 2017 Build List",
-    "link": "https://www.sqlservercentral.com/articles/sql-server-2017-build-list",
-    "summary": "A list of builds for SQL Server 2017.\nThe post SQL Server 2017 Build List appeared first on SQLServerCentral.",
-    "source": "SQL Server Central",
-    "tag": "Community",
-    "pub": "Tue, 18 Dec 2018 13:42:05 +0000",
     "ai_summary": ""
   }
 ]
