@@ -1,5 +1,41 @@
 [
   {
+    "title": "So, What’s New Lately in My SQL Server Training Classes?",
+    "link": "https://www.brentozar.com/archive/2026/09/so-whats-new-lately-in-my-sql-server-training-classes/",
+    "summary": "On Wednesday, registration opens for the next round of my live training classes, and you can get access to all my live classes &#38; recordings for just $995. So, what&#8217;s been changing with databases &#38; classes lately? This year, I rebuilt the classes with a new focus: Fundamentals is about good defaults for new &#38; [&#8230;]",
+    "source": "Brent Ozar Unlimited",
+    "tag": "Performance",
+    "pub": "Mon, 28 Sep 2026 13:15:35 +0000",
+    "ai_summary": ""
+  },
+  {
+    "title": "Cybersecurity training doesn’t work – here’s why",
+    "link": "https://www.red-gate.com/simple-talk/career/cybersecurity-training-doesnt-work-heres-why/",
+    "summary": "Research shows cybersecurity training rarely changes behavior or stops phishing. Here's why compliance courses fail - and what actually reduces risk instead.&#8230;\nThe post Cybersecurity training doesn&#8217;t work &#8211; here&#8217;s why appeared first on Simple Talk.",
+    "source": "Simple Talk (Redgate)",
+    "tag": "Deep Dive",
+    "pub": "Mon, 28 Sep 2026 12:00:00 +0000",
+    "ai_summary": ""
+  },
+  {
+    "title": "Erdős Unit Distance Problem: What It Is and What AI Found",
+    "link": "https://blog.sqlauthority.com/2026/09/29/erdos-unit-distance-problem/",
+    "summary": "The Erdős unit distance problem asks how many pairs of points can sit exactly one unit apart. Paul Erdős guessed the answer in 1946, and the guess stood for eighty years. In May 2026, an OpenAI model found a counterexample. I checked the grid trick behind it in SQL Server, spatial queries included.\nFirst appeared on Erdős Unit Distance Problem: What It Is and What AI Found",
+    "source": "SQL Authority (Pinal Dave)",
+    "tag": "Tips",
+    "pub": "Tue, 29 Sep 2026 01:30:00 +0000",
+    "ai_summary": ""
+  },
+  {
+    "title": "Outdated Statistics in SQL Server: The Optimizer Is Planning for Last Year",
+    "link": "https://blog.sqlauthority.com/2026/09/28/outdated-statistics-in-sql-server/",
+    "summary": "Outdated statistics in SQL Server can slow a query even when its code has not changed. On SQL Server 2025 with the legacy estimator, a stale statistic sent one join to 120,043 logical reads, and a targeted update brought it down to 18,220. Auto update helps, but it waits for a threshold, it samples, and it knows nothing about the rows that arrived today.\nFirst appeared on Outdated Statistics in SQL Server: The Optimizer Is Planning for Last Year",
+    "source": "SQL Authority (Pinal Dave)",
+    "tag": "Tips",
+    "pub": "Mon, 28 Sep 2026 01:30:00 +0000",
+    "ai_summary": ""
+  },
+  {
     "title": "Parameter Sniffing on SQL Server 2025: A Walkthrough with Real Numbers",
     "link": "https://www.sqlservercentral.com/articles/parameter-sniffing-on-sql-server-2025-a-walkthrough-with-real-numbers",
     "summary": "This article looks at how the parameter sniffing performance problem can be helped in SQL Server 2025 with PSPO.\nThe post Parameter Sniffing on SQL Server 2025: A Walkthrough with Real Numbers appeared first on SQLServerCentral.",
@@ -1761,42 +1797,6 @@
     "source": "SQL Server Central",
     "tag": "Community",
     "pub": "Fri, 29 May 2026 00:00:47 +0000",
-    "ai_summary": ""
-  },
-  {
-    "title": "Your Database Just Hit One Terabyte: Now What?",
-    "link": "https://www.brentozar.com/archive/2026/05/your-database-just-hit-one-terabyte-now-what/",
-    "summary": "You were minding your own business, and all of a sudden it happened. You glanced at file sizes one day, and your eyes got big. The numbers got a little large while you weren&#8217;t looking. This is a great time to stop and think about a few changes to the way you&#8217;re managing this database....",
-    "source": "Brent Ozar Unlimited",
-    "tag": "Performance",
-    "pub": "Tue, 26 May 2026 13:15:37 +0000",
-    "ai_summary": ""
-  },
-  {
-    "title": "Stop Prompting Your AI Agent. Give It a Playbook.",
-    "link": "https://www.sqlservercentral.com/articles/stop-prompting-your-ai-agent-give-it-a-playbook",
-    "summary": "Learn about how you can better prompt your AI Assistant in solving problems and producing code.\nThe post Stop Prompting Your AI Agent. Give It a Playbook. appeared first on SQLServerCentral.",
-    "source": "SQL Server Central",
-    "tag": "Community",
-    "pub": "Mon, 25 May 2026 00:00:24 +0000",
-    "ai_summary": ""
-  },
-  {
-    "title": "How to run SQL Server on Amazon Elastic Container Service",
-    "link": "https://www.sqlservercentral.com/articles/how-to-run-sql-server-on-amazon-elastic-container-service",
-    "summary": "Learn how to efficiently run SQL Server using Amazon Elastic Container Service for a hassle-free Docker container experience.\nThe post How to run SQL Server on Amazon Elastic Container Service appeared first on SQLServerCentral.",
-    "source": "SQL Server Central",
-    "tag": "Community",
-    "pub": "Mon, 25 May 2026 00:00:32 +0000",
-    "ai_summary": ""
-  },
-  {
-    "title": "[Video] How to Tune Indexes Fast",
-    "link": "https://www.brentozar.com/archive/2026/05/video-how-to-tune-indexes-fast/",
-    "summary": "In this 76-minute session, I&#8217;ll show you how to use the latest features of sp_BlitzIndex to rapidly improve performance on an existing database. I&#8217;ll show you how to figure out quickly if you&#8217;ve got too many indexes or not enough, and then demonstrate how to get advice from AI on how to consolidate them in...",
-    "source": "Brent Ozar Unlimited",
-    "tag": "Performance",
-    "pub": "Thu, 21 May 2026 13:15:55 +0000",
     "ai_summary": ""
   }
 ]
