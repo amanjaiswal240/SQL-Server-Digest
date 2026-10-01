@@ -1,5 +1,14 @@
 [
   {
+    "title": "Database Animations: Stop Using Page Splits to Justify Lowering Fill Factor.",
+    "link": "https://www.sqlservercentral.com/articles/database-animations-stop-using-page-splits-to-justify-lowering-fill-factor",
+    "summary": "You're looking at page split numbers in a monitoring tool or Perfmon, and you've heard that page splits are bad, so you're lowering fill factor, expecting your page splits to go down.\nThe post Database Animations: Stop Using Page Splits to Justify Lowering Fill Factor. appeared first on SQLServerCentral.",
+    "source": "SQL Server Central",
+    "tag": "Community",
+    "pub": "Wed, 30 Sep 2026 00:00:05 +0000",
+    "ai_summary": ""
+  },
+  {
     "title": "So, What’s New Lately in My SQL Server Training Classes?",
     "link": "https://www.brentozar.com/archive/2026/09/so-whats-new-lately-in-my-sql-server-training-classes/",
     "summary": "On Wednesday, registration opens for the next round of my live training classes, and you can get access to all my live classes &#38; recordings for just $995. So, what&#8217;s been changing with databases &#38; classes lately? This year, I rebuilt the classes with a new focus: Fundamentals is about good defaults for new &#38; [&#8230;]",
@@ -1788,15 +1797,6 @@
     "source": "Brent Ozar Unlimited",
     "tag": "Performance",
     "pub": "Thu, 28 May 2026 13:15:48 +0000",
-    "ai_summary": ""
-  },
-  {
-    "title": "Five SQL Server 2022 T-SQL Functions You Should Be Using Right Now",
-    "link": "https://www.sqlservercentral.com/articles/five-sql-server-2022-t-sql-functions-you-should-be-using-right-now",
-    "summary": "SQL Server 2022 brought powerful new T-SQL functions that eliminate long-standing workarounds. This article walks through five of the most impactful additions — GENERATE_SERIES, GREATEST/LEAST, DATE_BUCKET, the WINDOW clause, and IS NOT DISTINCT FROM — with practical code examples you can use immediately.\nThe post Five SQL Server 2022 T-SQL Functions You Should Be Using Right Now appeared first on SQLServerCentral.",
-    "source": "SQL Server Central",
-    "tag": "Community",
-    "pub": "Fri, 29 May 2026 00:00:47 +0000",
     "ai_summary": ""
   }
 ]
