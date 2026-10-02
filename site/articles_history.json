@@ -1,5 +1,41 @@
 [
   {
+    "title": "Registration Is Open Now! $995 for a 2027 Live Class Season Pass.",
+    "link": "https://www.brentozar.com/archive/2026/10/registration-is-open-now-995-for-a-2027-live-class-season-pass/",
+    "summary": "I teach Microsoft SQL Server performance tuning in a 4-class rotation. The winter rotation is getting ready to start: Fundamentals Week &#8211; November 2-6 Mastering Index Tuning &#8211; November 30-Dec 4 Mastering Query Tuning &#8211; January 11-15, 2027 Mastering Server Tuning &#8211; February 8-12, 2027 You have to take &#8217;em in order, so I only [&#8230;]",
+    "source": "Brent Ozar Unlimited",
+    "tag": "Performance",
+    "pub": "Thu, 01 Oct 2026 13:15:08 +0000",
+    "ai_summary": ""
+  },
+  {
+    "title": "Optimized Locking in SQL Server 2025",
+    "link": "https://www.sqlservercentral.com/articles/optimized-locking-in-sql-server-2025",
+    "summary": "Learn about Optimized Locking in the latest versions of SQL Server and Azure SQL Database.\nThe post Optimized Locking in SQL Server 2025 appeared first on SQLServerCentral.",
+    "source": "SQL Server Central",
+    "tag": "Community",
+    "pub": "Fri, 02 Oct 2026 00:00:05 +0000",
+    "ai_summary": ""
+  },
+  {
+    "title": "How to mirror data from SQL Server to Microsoft Fabric: complete guide",
+    "link": "https://www.sqlservercentral.com/articles/how-to-mirror-data-from-sql-server-to-microsoft-fabric-complete-guide",
+    "summary": "Learn all about Microsoft Fabric mirroring for SQL Server: how it works, what's new in 2025, setup, limitations, and troubleshooting\nThe post How to mirror data from SQL Server to Microsoft Fabric: complete guide appeared first on SQLServerCentral.",
+    "source": "SQL Server Central",
+    "tag": "Community",
+    "pub": "Fri, 02 Oct 2026 00:00:48 +0000",
+    "ai_summary": ""
+  },
+  {
+    "title": "Why PostgreSQL shouldn’t be your app’s answer to everything",
+    "link": "https://www.red-gate.com/simple-talk/databases/postgresql/why-postgresql-shouldnt-be-your-apps-answer-to-everything/",
+    "summary": "A DBA explains why using PostgreSQL for queuing, caching, or document storage creates ownership gaps, security risks, and higher cloud costs.&#8230;\nThe post Why PostgreSQL shouldn&#8217;t be your app&#8217;s answer to everything appeared first on Simple Talk.",
+    "source": "Simple Talk (Redgate)",
+    "tag": "Deep Dive",
+    "pub": "Thu, 01 Oct 2026 12:00:00 +0000",
+    "ai_summary": ""
+  },
+  {
     "title": "Database Animations: Stop Using Page Splits to Justify Lowering Fill Factor.",
     "link": "https://www.sqlservercentral.com/articles/database-animations-stop-using-page-splits-to-justify-lowering-fill-factor",
     "summary": "You're looking at page split numbers in a monitoring tool or Perfmon, and you've heard that page splits are bad, so you're lowering fill factor, expecting your page splits to go down.\nThe post Database Animations: Stop Using Page Splits to Justify Lowering Fill Factor. appeared first on SQLServerCentral.",
@@ -1761,42 +1797,6 @@
     "source": "Simple Talk (Redgate)",
     "tag": "Deep Dive",
     "pub": "Mon, 01 Jun 2026 12:00:00 +0000",
-    "ai_summary": ""
-  },
-  {
-    "title": "Fuzzy String Matching in SQL Server 2025",
-    "link": "https://www.sqlservercentral.com/articles/fuzzy-string-matching-in-sql-server-2025",
-    "summary": "Learn about the new fuzzy matching functions in SQL Server 2025.\nThe post Fuzzy String Matching in SQL Server 2025 appeared first on SQLServerCentral.",
-    "source": "SQL Server Central",
-    "tag": "Community",
-    "pub": "Mon, 01 Jun 2026 00:00:48 +0000",
-    "ai_summary": ""
-  },
-  {
-    "title": "Vibe coding and databases: the hidden risks of AI-generated database code",
-    "link": "https://www.sqlservercentral.com/articles/vibe-coding-and-databases-the-hidden-risks-of-ai-generated-database-code",
-    "summary": "Explore how Andrej Karpathy’s “vibe coding” trend reached databases. Uncover risks, real incidents, and 5 critical failure patterns\nThe post Vibe coding and databases: the hidden risks of AI-generated database code appeared first on SQLServerCentral.",
-    "source": "SQL Server Central",
-    "tag": "Community",
-    "pub": "Mon, 01 Jun 2026 00:00:22 +0000",
-    "ai_summary": ""
-  },
-  {
-    "title": "How data scientists work with PostgreSQL from Python (and how to write queries that don’t break at scale)",
-    "link": "https://www.red-gate.com/simple-talk/databases/postgresql/how-data-scientists-work-with-postgresql-from-python-and-how-to-write-queries-that-dont-break-at-scale/",
-    "summary": "In this article, learn how PostgreSQL powers data science workflows, including query execution, performance optimization, indexing, data retrieval, and more.&#8230;\nThe post How data scientists work with PostgreSQL from Python (and how to write queries that don’t break at scale) appeared first on Simple Talk.",
-    "source": "Simple Talk (Redgate)",
-    "tag": "Deep Dive",
-    "pub": "Fri, 29 May 2026 12:00:00 +0000",
-    "ai_summary": ""
-  },
-  {
-    "title": "[Video] How to Tune Queries Fast",
-    "link": "https://www.brentozar.com/archive/2026/05/video-how-to-tune-queries-fast/",
-    "summary": "In this live stream recording, I&#8217;ll show you how to use the latest features of sp_BlitzCache to rapidly improve performance on an existing server. I&#8217;ll show you how to find your server&#8217;s top bottleneck, find the queries causing that bottleneck, and then demonstrate how to get advice from AI on how to tune them in...",
-    "source": "Brent Ozar Unlimited",
-    "tag": "Performance",
-    "pub": "Thu, 28 May 2026 13:15:48 +0000",
     "ai_summary": ""
   }
 ]
