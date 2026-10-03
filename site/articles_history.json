@@ -1,5 +1,23 @@
 [
   {
+    "title": "What really happens when you let AI design your database schema (everything you should know)",
+    "link": "https://www.red-gate.com/simple-talk/ai/what-really-happens-when-you-let-ai-design-your-database-schema-everything-you-should-know/",
+    "summary": "AI can write SQL, but can it design your database schema? Learn why LLMs get databases wrong — and how to prompt them better when you do use them.&#8230;\nThe post What really happens when you let AI design your database schema (everything you should know) appeared first on Simple Talk.",
+    "source": "Simple Talk (Redgate)",
+    "tag": "Deep Dive",
+    "pub": "Fri, 02 Oct 2026 12:00:00 +0000",
+    "ai_summary": ""
+  },
+  {
+    "title": "SQL Server Developer Edition: Free Download Links From SQL Server 2017 to SQL Server 2025",
+    "link": "https://blog.sqlauthority.com/2026/10/02/sql-server-developer-edition-free-download-links-from-sql-server-2017-to-sql-server-2025/",
+    "summary": "SQL Server Developer Edition is free for development and testing, not for production. Here are the official download links for every supported version, SQL Server 2017 to SQL Server 2025, with the licensing pages and support end dates. You also get a quick query to check which edition a server runs.\nFirst appeared on SQL Server Developer Edition: Free Download Links From SQL Server 2017 to SQL Server 2025",
+    "source": "SQL Authority (Pinal Dave)",
+    "tag": "Tips",
+    "pub": "Fri, 02 Oct 2026 01:30:00 +0000",
+    "ai_summary": ""
+  },
+  {
     "title": "Registration Is Open Now! $995 for a 2027 Live Class Season Pass.",
     "link": "https://www.brentozar.com/archive/2026/10/registration-is-open-now-995-for-a-2027-live-class-season-pass/",
     "summary": "I teach Microsoft SQL Server performance tuning in a 4-class rotation. The winter rotation is getting ready to start: Fundamentals Week &#8211; November 2-6 Mastering Index Tuning &#8211; November 30-Dec 4 Mastering Query Tuning &#8211; January 11-15, 2027 Mastering Server Tuning &#8211; February 8-12, 2027 You have to take &#8217;em in order, so I only [&#8230;]",
@@ -1779,24 +1797,6 @@
     "source": "Brent Ozar Unlimited",
     "tag": "Performance",
     "pub": "Tue, 02 Jun 2026 13:15:55 +0000",
-    "ai_summary": ""
-  },
-  {
-    "title": "Using Containers to Avoid Installing SQL Server",
-    "link": "https://www.sqlservercentral.com/articles/using-containers-to-avoid-installing-sql-server",
-    "summary": "I got a new laptop recently and instead of installing SQL Server, I decided to try and use containers to see how well this works. This article looks at how I got this working relatively quickly. The short list of things I did is: Install Docker Desktop Create a location for data/logs/etc. Create a docker-compose [&#8230;]\nThe post Using Containers to Avoid Installing SQL Server appeared first on SQLServerCentral.",
-    "source": "SQL Server Central",
-    "tag": "Community",
-    "pub": "Fri, 06 Sep 2024 00:00:51 +0000",
-    "ai_summary": ""
-  },
-  {
-    "title": "How to host an AI text embeddings model for SQL Server using Ollama",
-    "link": "https://www.red-gate.com/simple-talk/databases/sql-server/how-to-host-an-ai-text-embeddings-model-for-sql-server-using-ollama/",
-    "summary": "Learn how to install Ollama locally to generate text embeddings for SQL Server vector search, plus configure a Caddy proxy for secure HTTPS connections.&#8230;\nThe post How to host an AI text embeddings model for SQL Server using Ollama appeared first on Simple Talk.",
-    "source": "Simple Talk (Redgate)",
-    "tag": "Deep Dive",
-    "pub": "Mon, 01 Jun 2026 12:00:00 +0000",
     "ai_summary": ""
   }
 ]
