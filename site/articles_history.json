@@ -1,5 +1,32 @@
 [
   {
+    "title": "Using Friendly Names for SQL Servers via DNS",
+    "link": "https://www.sqlservercentral.com/articles/using-friendly-names-for-sql-servers-via-dns-2",
+    "summary": "At my organization, servers have a very cryptic name or a name where you can’t immediately tell the function. For instance, Amazon is the name of the SQL Server which our SharePoint uses as a back-end and Nile is the SQL Server hosting the databases for our HR application. This isn’t intuitive and it makes upgrading the servers a challenge because we always have to go back and touch the applications\nThe post Using Friendly Names for SQL Servers via DNS appeared first on SQLServerCentral.",
+    "source": "SQL Server Central",
+    "tag": "Community",
+    "pub": "Mon, 05 Oct 2026 00:00:53 +0000",
+    "ai_summary": ""
+  },
+  {
+    "title": "SQL Server 2025 Cheat Sheet: Every Query Tested, Free PDF",
+    "link": "https://blog.sqlauthority.com/2026/10/05/sql-server-2025-cheat-sheet-every-query-tested-free-pdf/",
+    "summary": "This SQL Server 2025 cheat sheet puts the T-SQL I use every day on four printable pages. Every query ran on SQL Server 2025 first, and all the scripts are in the post. It covers joins, window functions, regular expressions, JSON, indexes, backups and SSMS shortcuts.\nFirst appeared on SQL Server 2025 Cheat Sheet: Every Query Tested, Free PDF",
+    "source": "SQL Authority (Pinal Dave)",
+    "tag": "Tips",
+    "pub": "Mon, 05 Oct 2026 01:30:00 +0000",
+    "ai_summary": ""
+  },
+  {
+    "title": "The Backup That Disappeared: Sunday Puzzle",
+    "link": "https://blog.sqlauthority.com/2026/10/04/backup-that-disappeared/",
+    "summary": "The backup that disappeared is one of six cards. Compare the shelves and name the missing card after another card moves.\nFirst appeared on The Backup That Disappeared: Sunday Puzzle",
+    "source": "SQL Authority (Pinal Dave)",
+    "tag": "Tips",
+    "pub": "Sun, 04 Oct 2026 01:30:00 +0000",
+    "ai_summary": ""
+  },
+  {
     "title": "What really happens when you let AI design your database schema (everything you should know)",
     "link": "https://www.red-gate.com/simple-talk/ai/what-really-happens-when-you-let-ai-design-your-database-schema-everything-you-should-know/",
     "summary": "AI can write SQL, but can it design your database schema? Learn why LLMs get databases wrong — and how to prompt them better when you do use them.&#8230;\nThe post What really happens when you let AI design your database schema (everything you should know) appeared first on Simple Talk.",
@@ -1770,33 +1797,6 @@
     "source": "SQL Server Central",
     "tag": "Community",
     "pub": "Fri, 05 Jun 2026 00:00:34 +0000",
-    "ai_summary": ""
-  },
-  {
-    "title": "[Video] Office Hours: Ask Me Anything At Home",
-    "link": "https://www.brentozar.com/archive/2026/06/office-hours-ask-me-anything-at-home/",
-    "summary": "I&#8217;m back in the home office to take another round of the top-voted questions from https://pollgab.com/room/brento. Here&#8217;s what we covered: 00:00 Start 00:52 chris: After your time at SQLBits you’d posted about the number of SQL Server consultants who were very opposed to AI. What was the feedback you were getting on why folks are...",
-    "source": "Brent Ozar Unlimited",
-    "tag": "Performance",
-    "pub": "Thu, 04 Jun 2026 13:15:04 +0000",
-    "ai_summary": ""
-  },
-  {
-    "title": "Looking Back On My 2018 Predictions",
-    "link": "https://www.brentozar.com/archive/2026/06/looking-back-on-my-2018-predictions/",
-    "summary": "For T-SQL Tuesday #100, Adam Machanic&#8217;s challenge for SQL bloggers was to predict what databases would be like 100 months from then. Well, guess what: that&#8217;s coming up this July! I wonder how many of the original bloggers are still even active in the community, and I&#8217;m curious to see how everyone&#8217;s predictions went. I&#8217;ll...",
-    "source": "Brent Ozar Unlimited",
-    "tag": "Performance",
-    "pub": "Wed, 03 Jun 2026 13:15:39 +0000",
-    "ai_summary": ""
-  },
-  {
-    "title": "Who’s Hiring Database People? June 2026 Edition",
-    "link": "https://www.brentozar.com/archive/2026/06/whos-hiring-database-people-june-2026-edition/",
-    "summary": "Is your company hiring for a database position as of June 2026? Do you wanna work with the kinds of people who read this blog? Let&#8217;s make a love connection. If your company is hiring, leave a comment. The rules: Your comment must include the job title, and either a link to the full job...",
-    "source": "Brent Ozar Unlimited",
-    "tag": "Performance",
-    "pub": "Tue, 02 Jun 2026 13:15:55 +0000",
     "ai_summary": ""
   }
 ]
