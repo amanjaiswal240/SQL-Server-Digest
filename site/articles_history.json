@@ -1,5 +1,23 @@
 [
   {
+    "title": "How to secure MCP (Model Context Protocol) servers connected to your database – a practical guide",
+    "link": "https://www.red-gate.com/simple-talk/data-security-privacy-compliance/how-to-secure-mcp-servers-database-access-control/",
+    "summary": "Learn how to secure MCP database access: stop confused deputy attacks, token passthrough, and prompt injection with proper auth and least privilege.&#8230;\nThe post How to secure MCP (Model Context Protocol) servers connected to your database &#8211; a practical guide appeared first on Simple Talk.",
+    "source": "Simple Talk (Redgate)",
+    "tag": "Deep Dive",
+    "pub": "Mon, 05 Oct 2026 12:00:00 +0000",
+    "ai_summary": ""
+  },
+  {
+    "title": "SQL Server Network Latency: When the Database Isn’t the Slow Part",
+    "link": "https://blog.sqlauthority.com/2026/10/06/sql-server-network-latency/",
+    "summary": "SQL Server network latency can make a fast database look slow. An application that fetches 4,000 orders one query at a time pays for every round trip. I measured the loop against one query, tested what ASYNC_NETWORK_IO means, and show how to check your own round trip time.\nFirst appeared on SQL Server Network Latency: When the Database Isn&#8217;t the Slow Part",
+    "source": "SQL Authority (Pinal Dave)",
+    "tag": "Tips",
+    "pub": "Tue, 06 Oct 2026 01:30:00 +0000",
+    "ai_summary": ""
+  },
+  {
     "title": "Using Friendly Names for SQL Servers via DNS",
     "link": "https://www.sqlservercentral.com/articles/using-friendly-names-for-sql-servers-via-dns-2",
     "summary": "At my organization, servers have a very cryptic name or a name where you can’t immediately tell the function. For instance, Amazon is the name of the SQL Server which our SharePoint uses as a back-end and Nile is the SQL Server hosting the databases for our HR application. This isn’t intuitive and it makes upgrading the servers a challenge because we always have to go back and touch the applications\nThe post Using Friendly Names for SQL Servers via DNS appeared first on SQLServerCentral.",
@@ -1779,24 +1797,6 @@
     "source": "Simple Talk (Redgate)",
     "tag": "Deep Dive",
     "pub": "Mon, 08 Jun 2026 12:00:00 +0000",
-    "ai_summary": ""
-  },
-  {
-    "title": "Vector Search in SQL Server 2025: Storing Embeddings, Querying Them, and What to Watch Out For",
-    "link": "https://www.sqlservercentral.com/articles/vector-search-in-sql-server-2025-storing-embeddings-querying-them-and-what-to-watch-out-for",
-    "summary": "This article shows how you can generate embeddings in SQL Server 2025, store them, and use them in your queries. \nThe post Vector Search in SQL Server 2025: Storing Embeddings, Querying Them, and What to Watch Out For appeared first on SQLServerCentral.",
-    "source": "SQL Server Central",
-    "tag": "Community",
-    "pub": "Mon, 08 Jun 2026 00:00:10 +0000",
-    "ai_summary": ""
-  },
-  {
-    "title": "Understanding SQL Server PARTITION BY with Examples",
-    "link": "https://www.sqlservercentral.com/articles/understanding-sql-server-partition-by-with-examples",
-    "summary": "Introduction When developers first learn SQL aggregation, they usually start with the GROUP BY clause. It works well for summary reports because it combines multiple rows into a single result for each group. For example, you can calculate total sales per region or average salary per department. The limitation of GROUP BY appears when you [&#8230;]\nThe post Understanding SQL Server PARTITION BY with Examples appeared first on SQLServerCentral.",
-    "source": "SQL Server Central",
-    "tag": "Community",
-    "pub": "Fri, 05 Jun 2026 00:00:34 +0000",
     "ai_summary": ""
   }
 ]
