@@ -1,5 +1,23 @@
 [
   {
+    "title": "The Hidden Security Risks of Role Combination in SSAS Tabular",
+    "link": "https://www.sqlservercentral.com/articles/the-hidden-security-risks-of-role-combination-in-ssas-tabular",
+    "summary": "See how security in SSAS tabular models might not work as you expect, and how you could easily fail an audit.\nThe post The Hidden Security Risks of Role Combination in SSAS Tabular appeared first on SQLServerCentral.",
+    "source": "SQL Server Central",
+    "tag": "Community",
+    "pub": "Fri, 09 Oct 2026 00:00:57 +0000",
+    "ai_summary": ""
+  },
+  {
+    "title": "How a Microsoft-signed SQL Server stored procedure lets sysadmins bypass disabled xp_cmdshell",
+    "link": "https://www.sqlservercentral.com/articles/how-a-microsoft-signed-sql-server-stored-procedure-lets-sysadmins-bypass-disabled-xp_cmdshell",
+    "summary": "Discover how a Microsoft-signed system procedure bypasses SQL Server's disabled xp_cmdshell setting - plus detection and mitigation steps for defenders\nThe post How a Microsoft-signed SQL Server stored procedure lets sysadmins bypass disabled xp_cmdshell appeared first on SQLServerCentral.",
+    "source": "SQL Server Central",
+    "tag": "Community",
+    "pub": "Fri, 09 Oct 2026 00:00:20 +0000",
+    "ai_summary": ""
+  },
+  {
     "title": "Who’s Hiring Database People? October 2026 Edition",
     "link": "https://www.brentozar.com/archive/2026/10/whos-hiring-database-people-october-2026-edition/",
     "summary": "Is your company hiring for a database position as of October 2026? Do you wanna work with the kinds of people who read this blog? Let&#8217;s make a love connection. If your company is hiring, leave a comment. The rules: Your comment must include the job title, and either a link to the full job [&#8230;]",
@@ -1779,24 +1797,6 @@
     "source": "Brent Ozar Unlimited",
     "tag": "Performance",
     "pub": "Thu, 11 Jun 2026 13:15:48 +0000",
-    "ai_summary": ""
-  },
-  {
-    "title": "SQL ART: Who's Blocking Who? Visualising SQL Server Blocking With Spatial Geometry",
-    "link": "https://www.sqlservercentral.com/articles/sql-art-whos-blocking-who-visualising-sql-server-blocking-with-spatial-geometry",
-    "summary": "Taking SQL art from shamrocks and Easter eggs to something your DBA manager might actually care about. If you've been following my SQL spatial art series — shamrocks, Easter eggs, Christmas trees — you'll know I have a habit of finding increasingly creative misuses for SQL Server's geometry data type. Most of them have been [&#8230;]\nThe post SQL ART: Who&#039;s Blocking Who? Visualising SQL Server Blocking With Spatial Geometry appeared first on SQLServerCentral.",
-    "source": "SQL Server Central",
-    "tag": "Community",
-    "pub": "Fri, 12 Jun 2026 00:00:26 +0000",
-    "ai_summary": ""
-  },
-  {
-    "title": "How data scientists work with PostgreSQL from Python (and how to write queries that don’t break at scale)",
-    "link": "https://www.sqlservercentral.com/articles/how-data-scientists-work-with-postgresql-from-python-and-how-to-write-queries-that-dont-break-at-scale",
-    "summary": "In this article, learn how PostgreSQL powers data science workflows, including query execution, performance optimization, indexing, data retrieval, and more.\nThe post How data scientists work with PostgreSQL from Python (and how to write queries that don’t break at scale) appeared first on SQLServerCentral.",
-    "source": "SQL Server Central",
-    "tag": "Community",
-    "pub": "Fri, 12 Jun 2026 00:00:01 +0000",
     "ai_summary": ""
   }
 ]
