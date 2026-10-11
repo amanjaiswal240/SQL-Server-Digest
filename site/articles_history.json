@@ -1,5 +1,14 @@
 [
   {
+    "title": "Which Cable Reaches the Database? A Sunday Puzzle",
+    "link": "https://blog.sqlauthority.com/2026/10/11/which-cable-reaches-database/",
+    "summary": "Which cable reaches the database? Four coloured cables cross behind a rack. Follow each one to its destination.\nFirst appeared on Which Cable Reaches the Database? A Sunday Puzzle",
+    "source": "SQL Authority (Pinal Dave)",
+    "tag": "Tips",
+    "pub": "Sun, 11 Oct 2026 01:30:00 +0000",
+    "ai_summary": ""
+  },
+  {
     "title": "How to secure temporary objects, metadata visibility, and audit assurance in SQL Server (complete guide)",
     "link": "https://www.red-gate.com/simple-talk/databases/sql-server/how-to-secure-temporary-objects-metadata-visibility-and-audit-assurance-in-sql-server-complete-guide/",
     "summary": "Global temp objects, DMVs, and audit gaps can quietly become attack paths in SQL Server. Learn what to review, monitor, and fix as a DBA.&#8230;\nThe post How to secure temporary objects, metadata visibility, and audit assurance in SQL Server (complete guide) appeared first on Simple Talk.",
@@ -1788,15 +1797,6 @@
     "source": "SQL Server Central",
     "tag": "Community",
     "pub": "Wed, 17 Jun 2026 00:00:20 +0000",
-    "ai_summary": ""
-  },
-  {
-    "title": "Your Database Just Hit One Terabyte: Now What?",
-    "link": "https://www.sqlservercentral.com/articles/your-database-just-hit-one-terabyte-now-what",
-    "summary": "You were minding your own business, and all of a sudden it happened.\nThe post Your Database Just Hit One Terabyte: Now What? appeared first on SQLServerCentral.",
-    "source": "SQL Server Central",
-    "tag": "Community",
-    "pub": "Wed, 17 Jun 2026 00:00:00 +0000",
     "ai_summary": ""
   }
 ]
