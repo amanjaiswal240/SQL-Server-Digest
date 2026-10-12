@@ -1,5 +1,23 @@
 [
   {
+    "title": "Simple way to export SQL Server data to Text Files",
+    "link": "https://www.sqlservercentral.com/articles/simple-way-to-export-sql-server-data-to-text-files-2",
+    "summary": "Since the transition from DTS to SSIS, I have found myself looking for alternative ways to do simple tasks such as exporting data from SQL Server into text files. SSIS is a far more powerful tool than DTS, but I generally try to stay away from it for simple operations.  With the combination of a few T-SQL commands this tip shows you a simple way to export data to text files.\nThe post Simple way to export SQL Server data to Text Files appeared first on SQLServerCentral.",
+    "source": "SQL Server Central",
+    "tag": "Community",
+    "pub": "Mon, 12 Oct 2026 00:00:11 +0000",
+    "ai_summary": ""
+  },
+  {
+    "title": "Tribal Knowledge: Nobody Left to Ask",
+    "link": "https://blog.sqlauthority.com/2026/10/12/tribal-knowledge/",
+    "summary": "Tribal knowledge is the part of the job nobody writes down, and it leaves when the person leaves. I sat with a team that could not tell me whether they were allowed to change four lines of billing code. The assistant at the end of the table had read every line and could not say why those lines were there.\nFirst appeared on Tribal Knowledge: Nobody Left to Ask",
+    "source": "SQL Authority (Pinal Dave)",
+    "tag": "Tips",
+    "pub": "Mon, 12 Oct 2026 01:30:00 +0000",
+    "ai_summary": ""
+  },
+  {
     "title": "Which Cable Reaches the Database? A Sunday Puzzle",
     "link": "https://blog.sqlauthority.com/2026/10/11/which-cable-reaches-database/",
     "summary": "Which cable reaches the database? Four coloured cables cross behind a rack. Follow each one to its destination.\nFirst appeared on Which Cable Reaches the Database? A Sunday Puzzle",
@@ -1779,24 +1797,6 @@
     "source": "Simple Talk (Redgate)",
     "tag": "Deep Dive",
     "pub": "Wed, 17 Jun 2026 12:00:00 +0000",
-    "ai_summary": ""
-  },
-  {
-    "title": "We’re Discontinuing SQL ConstantCare and the Consultant Toolkit. Here’s Why.",
-    "link": "https://www.brentozar.com/archive/2026/06/were-discontinuing-sql-constantcare-and-the-consultant-toolkit-heres-why/",
-    "summary": "About ten years ago, I sketched out an idea for a different kind of SQL Server monitoring tool: one that gathered data just once per day, and gave you a short email with a specific list of actionable tasks to make a difference in health and performance. Richie Rump did an amazing job of building...",
-    "source": "Brent Ozar Unlimited",
-    "tag": "Performance",
-    "pub": "Tue, 16 Jun 2026 13:15:17 +0000",
-    "ai_summary": ""
-  },
-  {
-    "title": "What Happens When You Ask a Local AI to Query Your Database?",
-    "link": "https://www.sqlservercentral.com/articles/what-happens-when-you-ask-a-local-ai-to-query-your-database",
-    "summary": "Learn how you can run a simple LLM on your own machine with Python.\nThe post What Happens When You Ask a Local AI to Query Your Database? appeared first on SQLServerCentral.",
-    "source": "SQL Server Central",
-    "tag": "Community",
-    "pub": "Wed, 17 Jun 2026 00:00:20 +0000",
     "ai_summary": ""
   }
 ]
