@@ -1,5 +1,23 @@
 [
   {
+    "title": "Heads Up: SQL Server 2017 Support Ends One Year From Today.",
+    "link": "https://www.brentozar.com/archive/2026/10/heads-up-sql-server-2017-support-ends-one-year-from-today/",
+    "summary": "Tick tock. SQL Server 2017 extended support ends on October 12, 2027. That means today, you need to start working through this list of labor-intensive tasks: Talk to your compliance, insurance, and legal people to see if your company is subject to any rules or regulations that mean you&#8217;re not allowed to run software if [&#8230;]",
+    "source": "Brent Ozar Unlimited",
+    "tag": "Performance",
+    "pub": "Mon, 12 Oct 2026 13:15:40 +0000",
+    "ai_summary": ""
+  },
+  {
+    "title": "How to make database schema changes without downtime in MySQL: complete guide",
+    "link": "https://www.red-gate.com/simple-talk/databases/mysql/how-to-make-database-schema-changes-without-downtime-in-mysql-complete-guide/",
+    "summary": "Learn how to make MySQL schema changes without downtime. Compare online DDL, Percona Toolkit, and gh-ost to keep your database available during updates.&#8230;\nThe post How to make database schema changes without downtime in MySQL: complete guide appeared first on Simple Talk.",
+    "source": "Simple Talk (Redgate)",
+    "tag": "Deep Dive",
+    "pub": "Mon, 12 Oct 2026 12:00:00 +0000",
+    "ai_summary": ""
+  },
+  {
     "title": "Simple way to export SQL Server data to Text Files",
     "link": "https://www.sqlservercentral.com/articles/simple-way-to-export-sql-server-data-to-text-files-2",
     "summary": "Since the transition from DTS to SSIS, I have found myself looking for alternative ways to do simple tasks such as exporting data from SQL Server into text files. SSIS is a far more powerful tool than DTS, but I generally try to stay away from it for simple operations.  With the combination of a few T-SQL commands this tip shows you a simple way to export data to text files.\nThe post Simple way to export SQL Server data to Text Files appeared first on SQLServerCentral.",
@@ -1779,24 +1797,6 @@
     "source": "SQL Server Central",
     "tag": "Community",
     "pub": "Fri, 19 Jun 2026 00:00:28 +0000",
-    "ai_summary": ""
-  },
-  {
-    "title": "I’m Coming to the #PassDataSummit in Seattle!",
-    "link": "https://www.brentozar.com/archive/2026/06/im-coming-to-the-pass-summit-in-seattle/",
-    "summary": "The lineup for the PASS Data Community Summit Seattle event was just released,and I&#8217;m proud to share that I&#8217;ll be teaching my new all-day pre-conference workshop. Dev-Prod Demon Hunters: Finding the Real Cause of Production Slowness Production is slow. Development is fast. The same query runs in both. Somewhere between the two, a performance demon...",
-    "source": "Brent Ozar Unlimited",
-    "tag": "Performance",
-    "pub": "Wed, 17 Jun 2026 13:15:03 +0000",
-    "ai_summary": ""
-  },
-  {
-    "title": "Vector search in SQL Server: VECTOR_DISTANCE, VECTOR_SEARCH, and index trade-offs",
-    "link": "https://www.red-gate.com/simple-talk/databases/sql-server/vector-search-in-sql-server-vector_distance-vector_search-and-index-trade-offs/",
-    "summary": "Learn how to use VECTOR_DISTANCE and VECTOR_SEARCH in SQL Server to find semantically similar data. Covers vector indexes, performance trade-offs, and the latest Azure SQL Database syntax changes.&#8230;\nThe post Vector search in SQL Server: VECTOR_DISTANCE, VECTOR_SEARCH, and index trade-offs appeared first on Simple Talk.",
-    "source": "Simple Talk (Redgate)",
-    "tag": "Deep Dive",
-    "pub": "Wed, 17 Jun 2026 12:00:00 +0000",
     "ai_summary": ""
   }
 ]
