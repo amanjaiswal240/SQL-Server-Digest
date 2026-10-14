@@ -1,5 +1,32 @@
 [
   {
+    "title": "Free Webcast: How to Think Like the SQL Server & Postgres Engines",
+    "link": "https://www.brentozar.com/archive/2026/10/free-webcast-how-to-think-like-the-sql-server-postgres-engines/",
+    "summary": "You’re a developer or a DBA, and you’re comfortable writing queries to get the data you need. You’re much less comfortable trying to design the right indexes for your database server. In my new totally free How to Think Like the Engines class, you’ll learn how the SQL Server and Postgres database engines look at [&#8230;]",
+    "source": "Brent Ozar Unlimited",
+    "tag": "Performance",
+    "pub": "Tue, 13 Oct 2026 13:15:29 +0000",
+    "ai_summary": ""
+  },
+  {
+    "title": "Re-Seeding a Broken Log Shipping Secondary (Without Touching the Primary)",
+    "link": "https://www.sqlservercentral.com/articles/re-seeding-a-broken-log-shipping-secondary-without-touching-the-primary",
+    "summary": "A SQL Server upgrade left a log shipping secondary unable to accept transaction logs. Re-seeding it without touching the primary or its mirror is straightforward in principle — drop, restore full + diff + log with NORECOVERY, hand back to the job — but three undocumented traps will stop you along the way. Here's what they are and how to get past them.\nThe post Re-Seeding a Broken Log Shipping Secondary (Without Touching the Primary) appeared first on SQLServerCentral.",
+    "source": "SQL Server Central",
+    "tag": "Community",
+    "pub": "Wed, 14 Oct 2026 00:00:44 +0000",
+    "ai_summary": ""
+  },
+  {
+    "title": "Should your SQL Server database use foreign key constraints?",
+    "link": "https://www.sqlservercentral.com/articles/should-your-sql-server-database-use-foreign-key-constraints",
+    "summary": "Should SQL Server databases enforce foreign key constraints? A veteran DBA breaks down the real arguments\nThe post Should your SQL Server database use foreign key constraints? appeared first on SQLServerCentral.",
+    "source": "SQL Server Central",
+    "tag": "Community",
+    "pub": "Wed, 14 Oct 2026 00:00:03 +0000",
+    "ai_summary": ""
+  },
+  {
     "title": "Heads Up: SQL Server 2017 Support Ends One Year From Today.",
     "link": "https://www.brentozar.com/archive/2026/10/heads-up-sql-server-2017-support-ends-one-year-from-today/",
     "summary": "Tick tock. SQL Server 2017 extended support ends on October 12, 2027. That means today, you need to start working through this list of labor-intensive tasks: Talk to your compliance, insurance, and legal people to see if your company is subject to any rules or regulations that mean you&#8217;re not allowed to run software if [&#8230;]",
@@ -1770,33 +1797,6 @@
     "source": "SQL Server Central",
     "tag": "Community",
     "pub": "Mon, 22 Jun 2026 00:00:45 +0000",
-    "ai_summary": ""
-  },
-  {
-    "title": "Protected: IE Query Store Recordings",
-    "link": "https://www.sqlskills.com/ie-query-store-recordings/",
-    "summary": "There is no excerpt because this is a protected post.",
-    "source": "SQLskills (Paul Randal & Erin Stellato)",
-    "tag": "Internals",
-    "pub": "Wed, 04 Nov 2020 18:02:26 +0000",
-    "ai_summary": ""
-  },
-  {
-    "title": "Exposing a SQL injection vulnerability you’ve never heard of (what it is, how it works, and key takeaways)",
-    "link": "https://www.red-gate.com/simple-talk/databases/sql-server/exposing-a-sql-injection-vulnerability-youve-never-heard-of-what-it-is-how-it-works-and-key-takeaways/",
-    "summary": "How a Unicode lookalike character bypassed REPLACE-based sanitization in a trusted SQL Server system procedure - and what it teaches us about type consistency in dynamic SQL.&#8230;\nThe post Exposing a SQL injection vulnerability you&#8217;ve never heard of (what it is, how it works, and key takeaways) appeared first on Simple Talk.",
-    "source": "Simple Talk (Redgate)",
-    "tag": "Deep Dive",
-    "pub": "Fri, 19 Jun 2026 12:00:00 +0000",
-    "ai_summary": ""
-  },
-  {
-    "title": "You Probably Don't Need a Vector Database",
-    "link": "https://www.sqlservercentral.com/articles/you-probably-dont-need-a-vector-database",
-    "summary": "Introduction Conversations about RAG almost always start with a vector database. This article suggests you dig deeper before implementing one.\nThe post You Probably Don&#039;t Need a Vector Database appeared first on SQLServerCentral.",
-    "source": "SQL Server Central",
-    "tag": "Community",
-    "pub": "Fri, 19 Jun 2026 00:00:28 +0000",
     "ai_summary": ""
   }
 ]
