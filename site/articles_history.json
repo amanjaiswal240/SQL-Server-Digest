@@ -1,5 +1,41 @@
 [
   {
+    "title": "Breaking News: Hold Off on SSMS 22.11.0",
+    "link": "https://www.brentozar.com/archive/2026/10/breaking-news-hold-off-on-ssms-22-11-0/",
+    "summary": "There&#8217;s a new SQL Server Management Studio update out today. I&#8217;d hold off on it for now. I had problems with the upgrade, and when I mentioned it on LinkedIn, a couple other folks chimed in that they&#8217;re having problems with it, so I figured I should blog about it as well. If you do [&#8230;]",
+    "source": "Brent Ozar Unlimited",
+    "tag": "Performance",
+    "pub": "Wed, 14 Oct 2026 14:51:00 +0000",
+    "ai_summary": ""
+  },
+  {
+    "title": "Fact-Checking Microsoft’s “PostgreSQL to SQL Field Notes: Connections”",
+    "link": "https://www.brentozar.com/archive/2026/10/fact-checking-microsofts-postgresql-to-sql-field-notes-connections/",
+    "summary": "Microsoft has started a series of blog posts helping Postgres developers who are &#8220;upgrading&#8221; to Microsoft SQL. (Microsoft&#8217;s been using that generic &#8220;SQL&#8221; term to refer to its collection of database products: Azure SQL DB, Hyperscale, Managed Instances, and SQL Server.) I let the first blog post slide, but the second post explained why Microsoft [&#8230;]",
+    "source": "Brent Ozar Unlimited",
+    "tag": "Performance",
+    "pub": "Wed, 14 Oct 2026 13:15:10 +0000",
+    "ai_summary": ""
+  },
+  {
+    "title": "Protected: IE Query Store Recordings",
+    "link": "https://www.sqlskills.com/ie-query-store-recordings/",
+    "summary": "There is no excerpt because this is a protected post.",
+    "source": "SQLskills (Paul Randal & Erin Stellato)",
+    "tag": "Internals",
+    "pub": "Wed, 04 Nov 2020 18:02:26 +0000",
+    "ai_summary": ""
+  },
+  {
+    "title": "How to create roles, databases and tables in PostgreSQL (getting started with PostgreSQL, part two)",
+    "link": "https://www.red-gate.com/simple-talk/databases/postgresql/how-to-create-roles-databases-and-tables-in-postgresql-getting-started-with-postgresql-part-two/",
+    "summary": "Learn how to create roles, databases, schemas, and tables in PostgreSQL using psql. Step-by-step commands, real output examples, and best practices included.&#8230;\nThe post How to create roles, databases and tables in PostgreSQL (getting started with PostgreSQL, part two) appeared first on Simple Talk.",
+    "source": "Simple Talk (Redgate)",
+    "tag": "Deep Dive",
+    "pub": "Wed, 14 Oct 2026 12:00:00 +0000",
+    "ai_summary": ""
+  },
+  {
     "title": "Free Webcast: How to Think Like the SQL Server & Postgres Engines",
     "link": "https://www.brentozar.com/archive/2026/10/free-webcast-how-to-think-like-the-sql-server-postgres-engines/",
     "summary": "You’re a developer or a DBA, and you’re comfortable writing queries to get the data you need. You’re much less comfortable trying to design the right indexes for your database server. In my new totally free How to Think Like the Engines class, you’ll learn how the SQL Server and Postgres database engines look at [&#8230;]",
@@ -1761,42 +1797,6 @@
     "source": "Brent Ozar Unlimited",
     "tag": "Performance",
     "pub": "Tue, 23 Jun 2026 13:15:14 +0000",
-    "ai_summary": ""
-  },
-  {
-    "title": "GENERATE_SERIES() Breaks Minimal Logging",
-    "link": "https://www.sqlservercentral.com/articles/generate_series-breaks-minimal-logging",
-    "summary": "tl;dr The title says it all. Prologue One of the keys to my personal learning is that, very early in my database career, I taught myself how to make lot’s of rows of Random Constrained Data in a comparatively short time. With the help of a few good folks over time, the method has been [&#8230;]\nThe post GENERATE_SERIES() Breaks Minimal Logging appeared first on SQLServerCentral.",
-    "source": "SQL Server Central",
-    "tag": "Community",
-    "pub": "Mon, 18 Sep 2023 00:00:52 +0000",
-    "ai_summary": ""
-  },
-  {
-    "title": "How to host an AI text embeddings model for SQL Server using Ollama",
-    "link": "https://www.sqlservercentral.com/articles/how-to-host-an-ai-text-embeddings-model-for-sql-server-using-ollama",
-    "summary": "When we want to use AI-based comparisons of text, via vector search in SQL Server, we need to first generate embeddings for the text. An embedding is a numeric representation of meaning, usually represented by vectors. In this article, I’ll show you how to use Ollama to host a server locally that can be used to generate embeddings.\nThe post How to host an AI text embeddings model for SQL Server using Ollama appeared first on SQLServerCentral.",
-    "source": "SQL Server Central",
-    "tag": "Community",
-    "pub": "Wed, 24 Jun 2026 00:00:27 +0000",
-    "ai_summary": ""
-  },
-  {
-    "title": "Index Fragmentation Explained: Page Splits, Logical Reads, and What to Do",
-    "link": "https://www.sqlservercentral.com/articles/index-fragmentation-explained-page-splits-logical-reads-and-what-to-do",
-    "summary": "Index fragmentation can silently degrade your query performance over time. Learn what happens at the page level, how to measure it, and how to fix it. \nThe post Index Fragmentation Explained: Page Splits, Logical Reads, and What to Do appeared first on SQLServerCentral.",
-    "source": "SQL Server Central",
-    "tag": "Community",
-    "pub": "Mon, 22 Jun 2026 00:00:08 +0000",
-    "ai_summary": ""
-  },
-  {
-    "title": "How to Deploy SQL Server on Kubernetes running on Windows",
-    "link": "https://www.sqlservercentral.com/articles/how-to-deploy-sql-server-on-kubernetes-running-on-windows",
-    "summary": "Learn how to deploy SQL Server on Kubernetes using Docker Desktop on Windows. Unlock powerful capabilities for your database.\nThe post How to Deploy SQL Server on Kubernetes running on Windows appeared first on SQLServerCentral.",
-    "source": "SQL Server Central",
-    "tag": "Community",
-    "pub": "Mon, 22 Jun 2026 00:00:45 +0000",
     "ai_summary": ""
   }
 ]
