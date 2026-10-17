@@ -1,5 +1,14 @@
 [
   {
+    "title": "What I learned after a weekend of AI troubleshooting gone wrong (8 key lessons)",
+    "link": "https://www.red-gate.com/simple-talk/ai/what-i-learned-after-a-weekend-of-ai-troubleshooting-gone-wrong-8-key-lessons/",
+    "summary": "A real troubleshooting story reveals 8 practical lessons for getting better, more reliable results from AI coding agents.&#8230;\nThe post What I learned after a weekend of AI troubleshooting gone wrong (8 key lessons) appeared first on Simple Talk.",
+    "source": "Simple Talk (Redgate)",
+    "tag": "Deep Dive",
+    "pub": "Fri, 16 Oct 2026 12:00:00 +0000",
+    "ai_summary": ""
+  },
+  {
     "title": "The SQL Server Date Magic: When CAST and CONVERT Keep Your Index Seek",
     "link": "https://www.sqlservercentral.com/articles/the-sql-server-date-magic-when-cast-and-convert-keep-your-index-seek",
     "summary": "This article shows two scenarios, tested independently, with the full scripts and the real numbers from each run.\nThe post The SQL Server Date Magic: When CAST and CONVERT Keep Your Index Seek appeared first on SQLServerCentral.",
@@ -1788,15 +1797,6 @@
     "source": "Simple Talk (Redgate)",
     "tag": "Deep Dive",
     "pub": "Mon, 29 Jun 2026 12:00:00 +0000",
-    "ai_summary": ""
-  },
-  {
-    "title": "5 T-SQL features that should already exist (2026 SQL Server wish list)",
-    "link": "https://www.red-gate.com/simple-talk/databases/sql-server/5-t-sql-features-that-should-already-exist-2026-sql-server-wish-list/",
-    "summary": "2026 T-SQL wish list covering native Parquet imports, arrays, OVERLAPS, simpler licensing, and cloud storage — features SQL Server still needs.&#8230;\nThe post 5 T-SQL features that should already exist (2026 SQL Server wish list) appeared first on Simple Talk.",
-    "source": "Simple Talk (Redgate)",
-    "tag": "Deep Dive",
-    "pub": "Fri, 26 Jun 2026 12:00:00 +0000",
     "ai_summary": ""
   }
 ]
