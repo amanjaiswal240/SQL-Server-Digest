@@ -1,5 +1,23 @@
 [
   {
+    "title": "Deadlock or Just a Queue? Sunday SQL Puzzle",
+    "link": "https://blog.sqlauthority.com/2026/10/18/deadlock-or-queue-puzzle/",
+    "summary": "Deadlock or just a queue? Follow three sessions and find the cycle in this Sunday SQL puzzle.\nFirst appeared on Deadlock or Just a Queue? Sunday SQL Puzzle",
+    "source": "SQL Authority (Pinal Dave)",
+    "tag": "Tips",
+    "pub": "Sun, 18 Oct 2026 01:30:00 +0000",
+    "ai_summary": ""
+  },
+  {
+    "title": "Know Your Wait Types: Six Profiles, All Induced",
+    "link": "https://blog.sqlauthority.com/2026/10/16/wait-types-six-profiles/",
+    "summary": "I caused six wait types on purpose, one at a time, and measured each one for a single session. What each is blamed for, what it actually means, and the numbers it produced on SQL Server 2025. Wait types are the most misread figures in the product.\nFirst appeared on Know Your Wait Types: Six Profiles, All Induced",
+    "source": "SQL Authority (Pinal Dave)",
+    "tag": "Tips",
+    "pub": "Fri, 16 Oct 2026 01:30:00 +0000",
+    "ai_summary": ""
+  },
+  {
     "title": "What I learned after a weekend of AI troubleshooting gone wrong (8 key lessons)",
     "link": "https://www.red-gate.com/simple-talk/ai/what-i-learned-after-a-weekend-of-ai-troubleshooting-gone-wrong-8-key-lessons/",
     "summary": "A real troubleshooting story reveals 8 practical lessons for getting better, more reliable results from AI coding agents.&#8230;\nThe post What I learned after a weekend of AI troubleshooting gone wrong (8 key lessons) appeared first on Simple Talk.",
@@ -1779,24 +1797,6 @@
     "source": "Brent Ozar Unlimited",
     "tag": "Performance",
     "pub": "Tue, 30 Jun 2026 13:15:43 +0000",
-    "ai_summary": ""
-  },
-  {
-    "title": "Add New Disk to Windows Failover Cluster for SQL Server",
-    "link": "https://www.sqlservercentral.com/articles/add-new-disk-to-windows-failover-cluster-for-sql-server",
-    "summary": "I have a 2-node failover cluster instance running on Windows Server 2019 Standard edition. I have a requirement to add a new SAN disk to the SQL Server failover cluster instance (FCI), and then I need to move a user database to that newly added shared disk. Can you show the steps required to add a new disk to the FCI and move the user database?\nThe post Add New Disk to Windows Failover Cluster for SQL Server appeared first on SQLServerCentral.",
-    "source": "SQL Server Central",
-    "tag": "Community",
-    "pub": "Wed, 01 Jul 2026 00:00:23 +0000",
-    "ai_summary": ""
-  },
-  {
-    "title": "I let Copilot build my database. Here’s what I learned – and everything I’d do differently next time (part two)",
-    "link": "https://www.red-gate.com/simple-talk/databases/i-let-copilot-build-my-database-heres-what-i-learned-and-everything-id-do-differently-next-time/",
-    "summary": "What happens when Microsoft Copilot designs a PostgreSQL schema for Azure? Here's what it got right, what it got wrong, and why beginners should pay attention.\n&#8230;\nThe post I let Copilot build my database. Here&#8217;s what I learned &#8211; and everything I&#8217;d do differently next time (part two) appeared first on Simple Talk.",
-    "source": "Simple Talk (Redgate)",
-    "tag": "Deep Dive",
-    "pub": "Mon, 29 Jun 2026 12:00:00 +0000",
     "ai_summary": ""
   }
 ]
