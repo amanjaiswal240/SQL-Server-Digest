@@ -1,5 +1,50 @@
 [
   {
+    "title": "Why’s This Query So Slow in Prod? Check sp_BlitzPlanCompare.",
+    "link": "https://www.brentozar.com/archive/2026/10/whys-this-query-so-slow-in-prod-check-sp_blitzplancompare/",
+    "summary": "You&#8217;re testing a query, and you&#8217;re just not getting the same performance between the development and production servers. There&#8217;s a huge list of common things that might be causing it: Parameter sniffing Different database-level settings like compatibility levels and cardinality estimators Different server-level settings like CTFP and MAXDOP Different hardware capabilities, like different numbers of [&#8230;]",
+    "source": "Brent Ozar Unlimited",
+    "tag": "Performance",
+    "pub": "Wed, 21 Oct 2026 13:15:22 +0000",
+    "ai_summary": ""
+  },
+  {
+    "title": "Building a Support Ticket Triage Report with IIF() and CHOOSE() in SQL Server",
+    "link": "https://www.sqlservercentral.com/articles/building-a-support-ticket-triage-report-with-iif-and-choose-in-sql-server",
+    "summary": "Learn how to use CHOOSE() and IIF() to validate priorities and return easy to read messages to the user.\nThe post Building a Support Ticket Triage Report with IIF() and CHOOSE() in SQL Server appeared first on SQLServerCentral.",
+    "source": "SQL Server Central",
+    "tag": "Community",
+    "pub": "Wed, 21 Oct 2026 00:00:00 +0000",
+    "ai_summary": ""
+  },
+  {
+    "title": "The Query Optimizer Interview: Twenty Minutes, No Hints",
+    "link": "https://blog.sqlauthority.com/2026/10/21/query-optimizer-interview/",
+    "summary": "The query optimizer sat down for twenty minutes and answered for itself. Why it ignored your index, why one procedure gets a plan built for the wrong caller, what it does when it cannot see your value, and the moment its own plan admits it stopped looking.\nFirst appeared on The Query Optimizer Interview: Twenty Minutes, No Hints",
+    "source": "SQL Authority (Pinal Dave)",
+    "tag": "Tips",
+    "pub": "Wed, 21 Oct 2026 01:30:00 +0000",
+    "ai_summary": ""
+  },
+  {
+    "title": "Consuming SQL Agent dates & durations",
+    "link": "https://am2.co/2025/03/consuming-sql-agent-dates-durations/",
+    "summary": "SQL Agent&rsquo;s schema is older than me. It handles dates, times, and durations like it&rsquo;s 1980 by using integers instead of date/time data types. My buddy Aaron Bertrand talks more about Dating Responsibly so that you can have a good datetime with your own database.",
+    "source": "Andy Mallon (am2)",
+    "tag": "DBA Life",
+    "pub": "Fri, 07 Mar 2025 16:17:43 -0500",
+    "ai_summary": ""
+  },
+  {
+    "title": "Not all stats should be auto-updated",
+    "link": "https://am2.co/2024/08/not-all-stats-should-be-auto-updated/",
+    "summary": "Statistics auto-updates are generally a good thing&ndash;auto-update of statistics is the default behavior in SQL Server. Having the freshest information about the data &ldquo;shape&rdquo; helps to inform the best selection of an execution plan for queries.",
+    "source": "Andy Mallon (am2)",
+    "tag": "DBA Life",
+    "pub": "Thu, 29 Aug 2024 11:19:07 -0400",
+    "ai_summary": ""
+  },
+  {
     "title": "I’m Probably Not Supposed To Show You Microsoft’s Auto-Indexing Tool.",
     "link": "https://www.brentozar.com/archive/2026/10/im-probably-not-supposed-to-show-you-microsofts-auto-indexing-tool/",
     "summary": "This needs to just stay between you and me, okay? Microsoft&#8217;s been working on automatically indexing SQL Server databases. No, not that Azure SQL DB feature, but one that actually works on-premises, going back through all supported versions of SQL Server. This is the brain child of Conor Cunningham and Jianjun Chen &#8211; yes, those guys, [&#8230;]",
@@ -1752,51 +1797,6 @@
     "source": "Simple Talk (Redgate)",
     "tag": "Deep Dive",
     "pub": "Wed, 08 Jul 2026 12:00:00 +0000",
-    "ai_summary": ""
-  },
-  {
-    "title": "I Know a Query’s Gonna Be Bad When… #TSQL2sday",
-    "link": "https://www.brentozar.com/archive/2026/07/i-know-a-querys-gonna-be-bad-when-tsql2sday/",
-    "summary": "I open it up and the first thing I see is a comment with a changelog showing a long list of dates and author initials. Oh I know, you think documentation is a good thing, but: Somebody&#8217;s initials from ten years ago isn&#8217;t helping anything The big long list tells me nobody&#8217;s actually taking out the [&#8230;]",
-    "source": "Brent Ozar Unlimited",
-    "tag": "Performance",
-    "pub": "Tue, 07 Jul 2026 13:15:22 +0000",
-    "ai_summary": ""
-  },
-  {
-    "title": "Five Intelligent Query Processing Features in SQL Server 2022 That Quietly Tune Your Workload",
-    "link": "https://www.sqlservercentral.com/articles/five-intelligent-query-processing-features-in-sql-server-2022-that-quietly-tune-your-workload",
-    "summary": "Learn about a few new features built into SQL Server 2022 that can help improve performance on your workload.\nThe post Five Intelligent Query Processing Features in SQL Server 2022 That Quietly Tune Your Workload appeared first on SQLServerCentral.",
-    "source": "SQL Server Central",
-    "tag": "Community",
-    "pub": "Wed, 08 Jul 2026 00:00:23 +0000",
-    "ai_summary": ""
-  },
-  {
-    "title": "How to call an Ollama-based AI text embeddings model from SQL Server 2025",
-    "link": "https://www.sqlservercentral.com/articles/how-to-call-an-ollama-based-ai-text-embeddings-model-from-sql-server-2025",
-    "summary": "Learn how to call locally hosted Ollama embedding models from SQL Server using sp_invoke_external_rest_endpoint\nThe post How to call an Ollama-based AI text embeddings model from SQL Server 2025 appeared first on SQLServerCentral.",
-    "source": "SQL Server Central",
-    "tag": "Community",
-    "pub": "Wed, 08 Jul 2026 00:00:06 +0000",
-    "ai_summary": ""
-  },
-  {
-    "title": "Confession Time: I Never Taught You About B-Trees.",
-    "link": "https://www.brentozar.com/archive/2026/07/confession-time-i-never-taught-you-about-b-trees/",
-    "summary": "I work with databases for a living. I teach people, and I help them via consulting. And as far as I can remember, I&#8217;ve never written something about how b-trees work. And I don&#8217;t ever expect to. Ever. For decades, I felt really guilty about that. I kept telling myself, &#8220;Man, I&#8217;m not really teaching [&#8230;]",
-    "source": "Brent Ozar Unlimited",
-    "tag": "Performance",
-    "pub": "Mon, 06 Jul 2026 13:15:10 +0000",
-    "ai_summary": ""
-  },
-  {
-    "title": "AI can build the pipeline, but don’t trust it for security (building an app with an AI LLM, part three)",
-    "link": "https://www.red-gate.com/simple-talk/ai/ai-llm-app-why-ai-still-cant-be-trusted-for-security/",
-    "summary": "Learn what happens when you let GitHub Copilot and VSCode set up database migrations and a GitHub Actions pipeline on Azure - featuring significant security risks.&#8230;\nThe post AI can build the pipeline, but don&#8217;t trust it for security (building an app with an AI LLM, part three) appeared first on Simple Talk.",
-    "source": "Simple Talk (Redgate)",
-    "tag": "Deep Dive",
-    "pub": "Mon, 06 Jul 2026 12:00:00 +0000",
     "ai_summary": ""
   }
 ]
