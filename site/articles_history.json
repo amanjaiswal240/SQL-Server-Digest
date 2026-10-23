@@ -1,5 +1,23 @@
 [
   {
+    "title": "[Video] Talking Pronouns in Alaska",
+    "link": "https://www.brentozar.com/archive/2026/10/video-talking-pronouns-in-alaska/",
+    "summary": "This episode is entirely dedicated to just one question, and it&#8217;s not a technical one. MidwestDBA asked, &#8220;When Randolph West left Microsoft, you wrote &#8216;They&#8217;re leaving MS&#8217;. While it was clearly just 1 guy leaving, not many, so &#8216;he is leaving&#8217;, not &#8216;they are leaving&#8217;. I do think this excessive PC language fuels the far-right [&#8230;]",
+    "source": "Brent Ozar Unlimited",
+    "tag": "Performance",
+    "pub": "Thu, 22 Oct 2026 13:15:31 +0000",
+    "ai_summary": ""
+  },
+  {
+    "title": "PostgreSQL in action with Opensearch",
+    "link": "https://www.sqlservercentral.com/articles/postgresql-in-action-with-opensearch",
+    "summary": "Learn about using Opensearch with PostgreSQL to improve performance and quickly return results to your users.\nThe post PostgreSQL in action with Opensearch appeared first on SQLServerCentral.",
+    "source": "SQL Server Central",
+    "tag": "Community",
+    "pub": "Fri, 23 Oct 2026 00:00:33 +0000",
+    "ai_summary": ""
+  },
+  {
     "title": "Why’s This Query So Slow in Prod? Check sp_BlitzPlanCompare.",
     "link": "https://www.brentozar.com/archive/2026/10/whys-this-query-so-slow-in-prod-check-sp_blitzplancompare/",
     "summary": "You&#8217;re testing a query, and you&#8217;re just not getting the same performance between the development and production servers. There&#8217;s a huge list of common things that might be causing it: Parameter sniffing Different database-level settings like compatibility levels and cardinality estimators Different server-level settings like CTFP and MAXDOP Different hardware capabilities, like different numbers of [&#8230;]",
@@ -1779,24 +1797,6 @@
     "source": "SQL Server Central",
     "tag": "Community",
     "pub": "Fri, 10 Jul 2026 00:00:10 +0000",
-    "ai_summary": ""
-  },
-  {
-    "title": "Correct SQL Server Always On Availability Group Not Synchronizing",
-    "link": "https://www.sqlservercentral.com/articles/correct-sql-server-always-on-availability-group-not-synchronizing",
-    "summary": "We had an issue with a SQL Server database in an Always On Availability Group (AOAG) where it was not synchronizing the secondary replica even though it was using the “Synchronous commit” Availability Mode for the secondary replica. This article explains how to troubleshoot and resolve:\nThe post Correct SQL Server Always On Availability Group Not Synchronizing appeared first on SQLServerCentral.",
-    "source": "SQL Server Central",
-    "tag": "Community",
-    "pub": "Fri, 10 Jul 2026 00:00:54 +0000",
-    "ai_summary": ""
-  },
-  {
-    "title": "What’s missing in T-SQL? My wish list of features that developers actually need in SQL Server",
-    "link": "https://www.red-gate.com/simple-talk/databases/sql-server/whats-missing-in-t-sql-heres-my-t-sql-wish-list-of-features-that-developers-actually-need-in-sql-server/",
-    "summary": "A veteran SQL Server expert's wish list for T-SQL: true constants, enumerations, extensibility, better naming consistency, and more. See what's missing.&#8230;\nThe post What&#8217;s missing in T-SQL? My wish list of features that developers actually need in SQL Server appeared first on Simple Talk.",
-    "source": "Simple Talk (Redgate)",
-    "tag": "Deep Dive",
-    "pub": "Wed, 08 Jul 2026 12:00:00 +0000",
     "ai_summary": ""
   }
 ]
