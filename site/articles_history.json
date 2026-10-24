@@ -1,5 +1,14 @@
 [
   {
+    "title": "SQL Server 2016 end of support: how to choose your upgrade path",
+    "link": "https://www.red-gate.com/simple-talk/cloud/sql-server-2016-end-of-support-upgrade-options/",
+    "summary": "SQL Server 2016 support has ended. Compare SQL Server 2022 vs 2025, in-place vs side-by-side upgrades, Azure and ESUs, with a pre-upgrade checklist.&#8230;\nThe post SQL Server 2016 end of support: how to choose your upgrade path appeared first on Simple Talk.",
+    "source": "Simple Talk (Redgate)",
+    "tag": "Deep Dive",
+    "pub": "Fri, 23 Oct 2026 12:00:00 +0000",
+    "ai_summary": ""
+  },
+  {
     "title": "[Video] Talking Pronouns in Alaska",
     "link": "https://www.brentozar.com/archive/2026/10/video-talking-pronouns-in-alaska/",
     "summary": "This episode is entirely dedicated to just one question, and it&#8217;s not a technical one. MidwestDBA asked, &#8220;When Randolph West left Microsoft, you wrote &#8216;They&#8217;re leaving MS&#8217;. While it was clearly just 1 guy leaving, not many, so &#8216;he is leaving&#8217;, not &#8216;they are leaving&#8217;. I do think this excessive PC language fuels the far-right [&#8230;]",
@@ -1788,15 +1797,6 @@
     "source": "Brent Ozar Unlimited",
     "tag": "Performance",
     "pub": "Thu, 09 Jul 2026 13:15:36 +0000",
-    "ai_summary": ""
-  },
-  {
-    "title": "Why Your SQL Permissions Disappeared",
-    "link": "https://www.sqlservercentral.com/articles/why-your-sql-permissions-disappeared",
-    "summary": "When you change a schema owner in SQL Server, all object-level permissions vanish instantly. There is no warning. Here's how to prevent it and fix it when it happens.\nThe post Why Your SQL Permissions Disappeared appeared first on SQLServerCentral.",
-    "source": "SQL Server Central",
-    "tag": "Community",
-    "pub": "Fri, 10 Jul 2026 00:00:10 +0000",
     "ai_summary": ""
   }
 ]
