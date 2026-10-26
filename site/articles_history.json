@@ -1,5 +1,23 @@
 [
   {
+    "title": "MiniMax m3 and SQL Server",
+    "link": "https://www.sqlservercentral.com/articles/minimax-m3-and-sql-server",
+    "summary": "Learn how you can download and run a local model to help with your SQL Server work.\nThe post MiniMax m3 and SQL Server appeared first on SQLServerCentral.",
+    "source": "SQL Server Central",
+    "tag": "Community",
+    "pub": "Mon, 26 Oct 2026 00:00:39 +0000",
+    "ai_summary": ""
+  },
+  {
+    "title": "Strip double quotes from an import file in Integration Services SSIS",
+    "link": "https://www.sqlservercentral.com/articles/strip-double-quotes-from-an-import-file-in-integration-services-ssis",
+    "summary": "When loading data using SQL Server Integration Services (SSIS) to import data from a CSV file, every single one of the columns in the CSV file has double quotes around the data. When using the Data Flow Task to import the data I have double quotes around all of the imported data. How can I import the data and remove the double quotes?\nThe post Strip double quotes from an import file in Integration Services SSIS appeared first on SQLServerCentral.",
+    "source": "SQL Server Central",
+    "tag": "Community",
+    "pub": "Mon, 26 Oct 2026 00:00:48 +0000",
+    "ai_summary": ""
+  },
+  {
     "title": "Slow Queries: A Field Guide to Eight Species",
     "link": "https://blog.sqlauthority.com/2026/10/23/field-guide-to-slow-queries/",
     "summary": "Slow queries, identified the way a field guide identifies birds: by silhouette, habitat, call, and the species they're confused with. All eight were raised in the lab on SQL Server 2025. The reads and the wait types are what each one produced.\nFirst appeared on Slow Queries: A Field Guide to Eight Species",
@@ -1779,24 +1797,6 @@
     "source": "SQL Server Central",
     "tag": "Community",
     "pub": "Mon, 13 Jul 2026 00:00:34 +0000",
-    "ai_summary": ""
-  },
-  {
-    "title": "It’s 2026. Why are databases still failing GDPR compliance audits?",
-    "link": "https://www.sqlservercentral.com/articles/its-2026-why-are-databases-still-failing-gdpr-compliance-audits",
-    "summary": "This article examines three recurring database-layer failures documented in the EDPB’s 2026 enforcement findings: the complexity of executing erasure across relational schemas, the backup paradox that can silently undo compliant deletions, and the audit log contradiction that traps organizations between two competing obligations. \nThe post It’s 2026. Why are databases still failing GDPR compliance audits? appeared first on SQLServerCentral.",
-    "source": "SQL Server Central",
-    "tag": "Community",
-    "pub": "Mon, 13 Jul 2026 00:00:07 +0000",
-    "ai_summary": ""
-  },
-  {
-    "title": "How to automate Fabric data agent testing with promptfoo and GitHub Actions",
-    "link": "https://www.red-gate.com/simple-talk/data-analytics/microsoft-fabric/how-to-automate-fabric-data-agent-testing-with-promptfoo-and-github-actions/",
-    "summary": "Learn how to automate Fabric Data Agent testing using promptfoo, service principals, and GitHub Actions - step-by-step guide. No more manual testing required!&#8230;\nThe post How to automate Fabric data agent testing with promptfoo and GitHub Actions appeared first on Simple Talk.",
-    "source": "Simple Talk (Redgate)",
-    "tag": "Deep Dive",
-    "pub": "Fri, 10 Jul 2026 12:00:00 +0000",
     "ai_summary": ""
   }
 ]
