@@ -1,5 +1,50 @@
 [
   {
+    "title": "This Friday’s the Deadline for My Next Live Class Rotation.",
+    "link": "https://www.brentozar.com/archive/2026/10/this-fridays-the-deadline-for-my-next-live-class-rotation/",
+    "summary": "The winter rotation of my live online classes starts next week: Fundamentals Week &#8211; Nov 2-6 Mastering Index Tuning &#8211; Nov 30-Dec 4 Mastering Query Tuning &#8211; Jan 11-15 Mastering Server Tuning &#8211; Feb 8-12 If you want to attend, you have to register by Friday. After that, the next live rotation starts March 1. [&#8230;]",
+    "source": "Brent Ozar Unlimited",
+    "tag": "Performance",
+    "pub": "Mon, 26 Oct 2026 13:15:46 +0000",
+    "ai_summary": ""
+  },
+  {
+    "title": "The Nightly Index Rebuild Job, 1998 to 2026: An Obituary",
+    "link": "https://blog.sqlauthority.com/2026/10/27/obituary-nightly-index-rebuild/",
+    "summary": "The nightly index rebuild job has died after a long illness. It was born in 1998 to a hard disk that could not seek. It never believed the disk had been replaced. It is survived by page density, which did most of its work all along.\nFirst appeared on The Nightly Index Rebuild Job, 1998 to 2026: An Obituary",
+    "source": "SQL Authority (Pinal Dave)",
+    "tag": "Tips",
+    "pub": "Tue, 27 Oct 2026 01:30:00 +0000",
+    "ai_summary": ""
+  },
+  {
+    "title": "T-SQL Mistakes: Careless and Careful Write the Same Six Queries",
+    "link": "https://blog.sqlauthority.com/2026/10/26/careless-and-careful-write-tsql/",
+    "summary": "T-SQL mistakes, in the two-panel format the children's magazines used. Careless writes it one way. Careful writes it the other. Every pair was run on the same 1,200,000 rows on SQL Server 2025 and measured. One pair returned a wrong answer. One I stopped after fourteen minutes of CPU.\nFirst appeared on T-SQL Mistakes: Careless and Careful Write the Same Six Queries",
+    "source": "SQL Authority (Pinal Dave)",
+    "tag": "Tips",
+    "pub": "Mon, 26 Oct 2026 01:30:00 +0000",
+    "ai_summary": ""
+  },
+  {
+    "title": "am2.co just got a new look",
+    "link": "https://am2.co/2026/10/27/new-look/",
+    "summary": "This site was starting to get a little dusty. Things change fast in tech&mdash;as database folk, we often think of technologies, languages, and capabilities&mdash;but design and UX are constantly evolving, too. The styling and the design were both starting to look a bit dated, and &ldquo;a bit dated&rdquo; is not a term I want associated with my professional blog/website. I haven&rsquo;t been writing a ton of new content, so I also haven&rsquo;t been putting in the incremental upkeep. Anyway&hel",
+    "source": "Andy Mallon (am2)",
+    "tag": "DBA Life",
+    "pub": "Tue, 27 Oct 2026 00:00:00 +0000",
+    "ai_summary": null
+  },
+  {
+    "title": "Crawling out of my hole to write more",
+    "link": "https://am2.co/2026/10/26/back-to-writing/",
+    "summary": "I haven&rsquo;t been blogging much over the past couple of years. I&rsquo;m crawling out of my hole to write again, and I hope to post more regularly. That&rsquo;s what everyone says when they come back, though, so we&rsquo;ll see if I actually follow through.\nWhat&rsquo;s bringing me back to writing? One reason is that AI has become a practical tool in my day-to-day work, and I want to write about how I use it. Expect the familiar topics—HA/DR, performance tuning, and professional development—w",
+    "source": "Andy Mallon (am2)",
+    "tag": "DBA Life",
+    "pub": "Mon, 26 Oct 2026 00:00:00 +0000",
+    "ai_summary": null
+  },
+  {
     "title": "MiniMax m3 and SQL Server",
     "link": "https://www.sqlservercentral.com/articles/minimax-m3-and-sql-server",
     "summary": "Learn how you can download and run a local model to help with your SQL Server work.\nThe post MiniMax m3 and SQL Server appeared first on SQLServerCentral.",
@@ -1752,51 +1797,6 @@
     "source": "SQL Server Central",
     "tag": "Community",
     "pub": "Fri, 17 Jul 2026 00:00:17 +0000",
-    "ai_summary": ""
-  },
-  {
-    "title": "How SQL Server maintenance becomes an attack path – and what to do about it",
-    "link": "https://www.red-gate.com/simple-talk/databases/sql-server/how-sql-server-maintenance-becomes-an-attack-path-and-what-to-do-about-it/",
-    "summary": "How trigger hijacking, msdb exposure, and over-privileged database users create SQL Server attack paths — plus how to detect and monitor them.&#8230;\nThe post How SQL Server maintenance becomes an attack path &#8211; and what to do about it appeared first on Simple Talk.",
-    "source": "Simple Talk (Redgate)",
-    "tag": "Deep Dive",
-    "pub": "Fri, 17 Jul 2026 12:00:00 +0000",
-    "ai_summary": ""
-  },
-  {
-    "title": "Database Animations: How Index Seeks Work",
-    "link": "https://www.brentozar.com/archive/2026/07/database-animations-how-index-seeks-work/",
-    "summary": "In my free How to Think Like the Engine class, I gloss over the entire concept of B-trees and just hand-wavily say &#8220;SQL Server can seek to the page that has the row you&#8217;re looking for.&#8221; That&#8217;s always kinda bothered me, so I finally gave in to temptation and whipped up an animated example of [&#8230;]",
-    "source": "Brent Ozar Unlimited",
-    "tag": "Performance",
-    "pub": "Thu, 16 Jul 2026 13:15:41 +0000",
-    "ai_summary": ""
-  },
-  {
-    "title": "The best AI developer tools in 2026: from coding agents to code review",
-    "link": "https://www.red-gate.com/simple-talk/ai/the-best-ai-developer-tools-in-2026-from-coding-agents-to-code-review/",
-    "summary": "A developer's honest take on the best AI tools for research, day-to-day coding, and code review in 2026 — covering Claude Code, Codex, Cursor, OpenCode, Aviator Verify, and CodeRabbit.&#8230;\nThe post The best AI developer tools in 2026: from coding agents to code review appeared first on Simple Talk.",
-    "source": "Simple Talk (Redgate)",
-    "tag": "Deep Dive",
-    "pub": "Wed, 15 Jul 2026 12:00:00 +0000",
-    "ai_summary": ""
-  },
-  {
-    "title": "Confession Time: I Never Taught You About B-Trees.",
-    "link": "https://www.sqlservercentral.com/articles/confession-time-i-never-taught-you-about-b-trees",
-    "summary": "I work with databases for a living. I teach people, and I help them via consulting. And as far as I can remember, I’ve never written something about how b-trees work.\nThe post Confession Time: I Never Taught You About B-Trees. appeared first on SQLServerCentral.",
-    "source": "SQL Server Central",
-    "tag": "Community",
-    "pub": "Wed, 15 Jul 2026 00:00:34 +0000",
-    "ai_summary": ""
-  },
-  {
-    "title": "TRY_PARSE vs TRY_CONVERT in SQL Server: From Basics to Practical Usage",
-    "link": "https://www.sqlservercentral.com/articles/try_parse-vs-try_convert-in-sql-server-from-basics-to-practical-usage",
-    "summary": "This article shows how the TRY_PARSE() and TRY_CONVERT() functions can be used to handle data quality issues and ensure that your software continues to function without throwing errors.\nThe post TRY_PARSE vs TRY_CONVERT in SQL Server: From Basics to Practical Usage appeared first on SQLServerCentral.",
-    "source": "SQL Server Central",
-    "tag": "Community",
-    "pub": "Mon, 13 Jul 2026 00:00:34 +0000",
     "ai_summary": ""
   }
 ]
