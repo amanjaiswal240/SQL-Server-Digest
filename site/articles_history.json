@@ -1,5 +1,23 @@
 [
   {
+    "title": "New Stuff in the Mastering Server Tuning Class",
+    "link": "https://www.brentozar.com/archive/2026/10/new-stuff-in-the-mastering-server-tuning-class/",
+    "summary": "I just got done with another rotation of my Mastering classes, so if you&#8217;ve got a membership to those recordings, it&#8217;s time to head in and watch the changed modules. This is especially true if you&#8217;ve got an annual subscription, and you&#8217;re planning on canceling this November before your renewal hits &#8211; get in there [&#8230;]",
+    "source": "Brent Ozar Unlimited",
+    "tag": "Performance",
+    "pub": "Tue, 27 Oct 2026 13:15:08 +0000",
+    "ai_summary": ""
+  },
+  {
+    "title": "SQL Server Deadlock, Slow-Cooked: A Recipe That Serves Two Sessions",
+    "link": "https://blog.sqlauthority.com/2026/10/28/slow-cooked-deadlock/",
+    "summary": "A SQL Server deadlock, written up the way a recipe card is written. Ingredients, prep, method, and what to do when the sauce splits. It reproduces on SQL Server 2025 every time, and I have the timestamps and the deadlock graph to prove it.\nFirst appeared on SQL Server Deadlock, Slow-Cooked: A Recipe That Serves Two Sessions",
+    "source": "SQL Authority (Pinal Dave)",
+    "tag": "Tips",
+    "pub": "Wed, 28 Oct 2026 01:30:00 +0000",
+    "ai_summary": ""
+  },
+  {
     "title": "This Friday’s the Deadline for My Next Live Class Rotation.",
     "link": "https://www.brentozar.com/archive/2026/10/this-fridays-the-deadline-for-my-next-live-class-rotation/",
     "summary": "The winter rotation of my live online classes starts next week: Fundamentals Week &#8211; Nov 2-6 Mastering Index Tuning &#8211; Nov 30-Dec 4 Mastering Query Tuning &#8211; Jan 11-15 Mastering Server Tuning &#8211; Feb 8-12 If you want to attend, you have to register by Friday. After that, the next live rotation starts March 1. [&#8230;]",
@@ -1779,24 +1797,6 @@
     "source": "Brent Ozar Unlimited",
     "tag": "Performance",
     "pub": "Fri, 17 Jul 2026 13:15:50 +0000",
-    "ai_summary": ""
-  },
-  {
-    "title": "Implicit Conversions Cripple SQL Server",
-    "link": "https://www.sqlservercentral.com/articles/implicit-conversions-cripple-sql-server",
-    "summary": "Learn about implicit conversions, which can dramatically affect the performance of your workload.\nThe post Implicit Conversions Cripple SQL Server appeared first on SQLServerCentral.",
-    "source": "SQL Server Central",
-    "tag": "Community",
-    "pub": "Fri, 17 Jul 2026 00:00:54 +0000",
-    "ai_summary": ""
-  },
-  {
-    "title": "Vector search in SQL Server: VECTOR_DISTANCE, VECTOR_SEARCH, and index trade-offs",
-    "link": "https://www.sqlservercentral.com/articles/vector-search-in-sql-server-vector_distance-vector_search-and-index-trade-offs",
-    "summary": "Learn how to use VECTOR_DISTANCE and VECTOR_SEARCH in SQL Server to find semantically similar data.\nThe post Vector search in SQL Server: VECTOR_DISTANCE, VECTOR_SEARCH, and index trade-offs appeared first on SQLServerCentral.",
-    "source": "SQL Server Central",
-    "tag": "Community",
-    "pub": "Fri, 17 Jul 2026 00:00:17 +0000",
     "ai_summary": ""
   }
 ]
