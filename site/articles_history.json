@@ -1,5 +1,32 @@
 [
   {
+    "title": "Why You Don’t Get Parallelism When You Ask for The Whole Table",
+    "link": "https://www.brentozar.com/archive/2026/10/why-you-dont-get-parallelism-when-you-ask-for-the-whole-table/",
+    "summary": "Let&#8217;s say you&#8217;re working with a big copy of the Stack Overflow database, and you wanna get all the users, like for a data export. SQL Server doesn&#8217;t parallelize this query, not even if you use the query hint that asks for a parallel plan: [crayon-6ae2cbec9d883524894029/] I&#8217;m only asking for the Ids here because in [&#8230;]",
+    "source": "Brent Ozar Unlimited",
+    "tag": "Performance",
+    "pub": "Wed, 28 Oct 2026 13:15:44 +0000",
+    "ai_summary": ""
+  },
+  {
+    "title": "How personal data leaks into AI tools by accident (and how to stop it)",
+    "link": "https://www.red-gate.com/simple-talk/ai/stop-customer-data-leaking-into-chatgpt/",
+    "summary": "Customer data reaches ChatGPT through clean-up pastes, BI assistants and copilots, not attacks. Here’s how to stop it without banning AI.&#8230;\nThe post How personal data leaks into AI tools by accident (and how to stop it) appeared first on Simple Talk.",
+    "source": "Simple Talk (Redgate)",
+    "tag": "Deep Dive",
+    "pub": "Wed, 28 Oct 2026 12:00:00 +0000",
+    "ai_summary": ""
+  },
+  {
+    "title": "Claude on SQL Server: Read, Prove, Then Change",
+    "link": "https://blog.sqlauthority.com/2026/10/29/claude-on-sql-server-read-prove-then-change/",
+    "summary": "Claude on SQL Server is safe when production gives it eyes and nothing else. This post splits the loop into three stages: start this week with a read-only login, make it a daily habit with a past cases library, then run it on a schedule with a second opinion. I tested the login on SQL Server 2025.\nFirst appeared on Claude on SQL Server: Read, Prove, Then Change",
+    "source": "SQL Authority (Pinal Dave)",
+    "tag": "Tips",
+    "pub": "Thu, 29 Oct 2026 01:30:00 +0000",
+    "ai_summary": ""
+  },
+  {
     "title": "New Stuff in the Mastering Server Tuning Class",
     "link": "https://www.brentozar.com/archive/2026/10/new-stuff-in-the-mastering-server-tuning-class/",
     "summary": "I just got done with another rotation of my Mastering classes, so if you&#8217;ve got a membership to those recordings, it&#8217;s time to head in and watch the changed modules. This is especially true if you&#8217;ve got an annual subscription, and you&#8217;re planning on canceling this November before your renewal hits &#8211; get in there [&#8230;]",
@@ -1770,33 +1797,6 @@
     "source": "SQL Authority (Pinal Dave)",
     "tag": "Tips",
     "pub": "Tue, 21 Jul 2026 01:30:51 +0000",
-    "ai_summary": ""
-  },
-  {
-    "title": "Connect an Azure Function to Azure SQL database Using a Managed Identity",
-    "link": "https://www.sqlservercentral.com/articles/connect-an-azure-function-to-azure-sql-database-using-a-managed-identity",
-    "summary": "In this article, you’ll learn step-by-step setup, Python code implementation, troubleshooting, and best practices to ensure your solution is secure and scalable.\nThe post Connect an Azure Function to Azure SQL database Using a Managed Identity appeared first on SQLServerCentral.",
-    "source": "SQL Server Central",
-    "tag": "Community",
-    "pub": "Mon, 20 Jul 2026 00:00:22 +0000",
-    "ai_summary": ""
-  },
-  {
-    "title": "Pros and Cons of Database Sharding for Performance and Maintenance",
-    "link": "https://www.sqlservercentral.com/articles/pros-and-cons-of-database-sharding-for-performance-and-maintenance",
-    "summary": "Large databases usually have a negative impact on maintenance time, scalability and query performance. For maintenance, these large single databases have to be backed up daily while the amount of actual changing data might be small. For performance, tables without correct indexes result in full table or clustered index scans. As the data grows the total query time increase linearly. How can we decrease downtime for the maintenance window for large databases and optimize the performance of daily",
-    "source": "SQL Server Central",
-    "tag": "Community",
-    "pub": "Mon, 20 Jul 2026 00:00:55 +0000",
-    "ai_summary": ""
-  },
-  {
-    "title": "[Video] What AI is Good For Right Now",
-    "link": "https://www.brentozar.com/archive/2026/07/video-what-ai-is-good-for-right-now/",
-    "summary": "This isn&#8217;t specifically database-related, but it&#8217;s the kind of thing I&#8217;m really into, so maybe you&#8217;re into it too. I sat down with Giovana Carvalho, the Managing Director at Teachable, the e-commerce platform I use to sell training classes, and we chatted about what AI is good for these days, and where its rough edges [&#8230;]",
-    "source": "Brent Ozar Unlimited",
-    "tag": "Performance",
-    "pub": "Fri, 17 Jul 2026 13:15:50 +0000",
     "ai_summary": ""
   }
 ]
