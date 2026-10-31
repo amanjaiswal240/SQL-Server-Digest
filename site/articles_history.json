@@ -1,5 +1,14 @@
 [
   {
+    "title": "Find the Query That Ran at 3 a.m.: A Wanted Poster",
+    "link": "https://blog.sqlauthority.com/2026/10/30/wanted-the-3am-query/",
+    "summary": "How to find the query that ran at 3 a.m. after the fact. It uses nothing but what SQL Server 2025 keeps on its own. I planted a culprit, gave it eight disguises and buried it in four hundred innocent lookups. Then I tracked it down with Query Store. This is the poster.\nFirst appeared on Find the Query That Ran at 3 a.m.: A Wanted Poster",
+    "source": "SQL Authority (Pinal Dave)",
+    "tag": "Tips",
+    "pub": "Fri, 30 Oct 2026 01:30:00 +0000",
+    "ai_summary": ""
+  },
+  {
     "title": "Meet Hugo Kornelis, Execution Plan Expert.",
     "link": "https://www.brentozar.com/archive/2026/10/meet-hugo-kornelis-execution-plan-expert/",
     "summary": "Hugo Kornelis is a database consultant in the Netherlands. Here are a few of his sites that you might recognize: SQLServerFast.com &#8211; his useful and insightful blog The Execution Plan Reference &#8211; the only exhaustive, detailed explanation I&#8217;m aware of for every execution plan operator, well above and beyond Microsoft&#8217;s documentation Hugo&#8217;s execution plan classes [&#8230;]",
@@ -1788,15 +1797,6 @@
     "source": "SQL Server Central",
     "tag": "Community",
     "pub": "Wed, 22 Jul 2026 00:00:38 +0000",
-    "ai_summary": ""
-  },
-  {
-    "title": "Exposing a SQL injection vulnerability you’ve never heard of",
-    "link": "https://www.sqlservercentral.com/articles/exposing-a-sql-injection-vulnerability-youve-never-heard-of",
-    "summary": "This article documents a SQL injection vulnerability I discovered in sys.sp_dbmmonitorupdate, a Microsoft-signed system stored procedure. For other SQL Server security vulnerabilities I’ve discovered, see the full series here.\nThe post Exposing a SQL injection vulnerability you’ve never heard of appeared first on SQLServerCentral.",
-    "source": "SQL Server Central",
-    "tag": "Community",
-    "pub": "Wed, 22 Jul 2026 00:00:29 +0000",
     "ai_summary": ""
   }
 ]
