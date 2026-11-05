@@ -1,5 +1,41 @@
 [
   {
+    "title": "The Top 10 SQL Server Wait Types, Worldwide",
+    "link": "https://www.brentozar.com/archive/2026/11/the-top-10-sql-server-wait-types-worldwide/",
+    "summary": "SQL Server uses wait stats to track what queries are waiting on. Rather than monitoring gazillions of Perfmon counters and DMV objects, the easiest way to make your queries go faster is to ask, &#8220;What is my server waiting on?&#8221; Then, focus your efforts on your server&#8217;s top wait type. When you&#8217;re learning how to [&#8230;]",
+    "source": "Brent Ozar Unlimited",
+    "tag": "Performance",
+    "pub": "Wed, 04 Nov 2026 13:15:28 +0000",
+    "ai_summary": ""
+  },
+  {
+    "title": "2NF and BCNF explained: the whole key, nothing but the key",
+    "link": "https://www.red-gate.com/simple-talk/databases/2nf-and-bcnf-explained-the-whole-key-nothing-but-the-key/",
+    "summary": "Confused by 2NF and BCNF? Learn database normalization with real examples, so you can spot update and delete anomalies before they cause problems.&#8230;\nThe post 2NF and BCNF explained: the whole key, nothing but the key appeared first on Simple Talk.",
+    "source": "Simple Talk (Redgate)",
+    "tag": "Deep Dive",
+    "pub": "Wed, 04 Nov 2026 12:00:00 +0000",
+    "ai_summary": ""
+  },
+  {
+    "title": "SQL Server Limits, Verified: Eleven Records Pushed to the Edge",
+    "link": "https://blog.sqlauthority.com/2026/11/04/sql-server-limits-verified/",
+    "summary": "SQL Server limits, done the way a record book does them. Not what the documentation says, but what happened when I tried one more. Eleven records, each attempted on SQL Server 2025 build 17.0.4085.5, each with the exact error text at the edge. One documented figure turned out to be wrong on this...\nFirst appeared on SQL Server Limits, Verified: Eleven Records Pushed to the Edge",
+    "source": "SQL Authority (Pinal Dave)",
+    "tag": "Tips",
+    "pub": "Wed, 04 Nov 2026 01:30:00 +0000",
+    "ai_summary": ""
+  },
+  {
+    "title": "SQL Server Triggers on Trial: The State Versus the Trigger",
+    "link": "https://blog.sqlauthority.com/2026/11/03/the-state-versus-the-trigger/",
+    "summary": "SQL Server triggers, tried in open court. The prosecution says they're slow, hidden and wrong. The defence says they're the only witness in the room. Four exhibits were measured on SQL Server 2025, and the judge rules at the end.\nFirst appeared on SQL Server Triggers on Trial: The State Versus the Trigger",
+    "source": "SQL Authority (Pinal Dave)",
+    "tag": "Tips",
+    "pub": "Tue, 03 Nov 2026 01:30:00 +0000",
+    "ai_summary": ""
+  },
+  {
     "title": "Who’s Hiring Database People? November 2026 Edition",
     "link": "https://www.brentozar.com/archive/2026/11/whos-hiring-database-people-november-2026-edition/",
     "summary": "Is your company hiring for a database position as of November 2026? Do you wanna work with the kinds of people who read this blog? Let&#8217;s make a love connection. If your company is hiring, leave a comment. The rules: Your comment must include the job title, and either a link to the full job [&#8230;]",
@@ -1761,42 +1797,6 @@
     "source": "Simple Talk (Redgate)",
     "tag": "Deep Dive",
     "pub": "Mon, 27 Jul 2026 12:00:00 +0000",
-    "ai_summary": ""
-  },
-  {
-    "title": "5 T-SQL features that should already exist (2026 SQL Server wish list)",
-    "link": "https://www.sqlservercentral.com/articles/5-t-sql-features-that-should-already-exist-2026-sql-server-wish-list",
-    "summary": "2026 T-SQL wish list covering native Parquet imports, arrays, OVERLAPS, simpler licensing, and cloud storage\nThe post 5 T-SQL features that should already exist (2026 SQL Server wish list) appeared first on SQLServerCentral.",
-    "source": "SQL Server Central",
-    "tag": "Community",
-    "pub": "Mon, 27 Jul 2026 00:00:37 +0000",
-    "ai_summary": ""
-  },
-  {
-    "title": "How to get clean, usable data out of SQL Server into Python",
-    "link": "https://www.red-gate.com/simple-talk/databases/sql-server/how-to-get-clean-usable-data-out-of-sql-server-into-python/",
-    "summary": "Build scalable data pipelines by pushing transformations into SQL and keeping Python focused on analysis. Learn about views, CTEs, pruning, and efficient data extraction.&#8230;\nThe post How to get clean, usable data out of SQL Server into Python appeared first on Simple Talk.",
-    "source": "Simple Talk (Redgate)",
-    "tag": "Deep Dive",
-    "pub": "Fri, 24 Jul 2026 12:00:00 +0000",
-    "ai_summary": ""
-  },
-  {
-    "title": "[Video] Office Hours: Long Answers Edition",
-    "link": "https://www.brentozar.com/archive/2026/07/office-hours-long-answers-edition/",
-    "summary": "This week&#8217;s top-voted questions from https://pollgab.com/room/brento finds us opening ChatGPT multiple times! It&#8217;s fun to show how I use it, and what it thinks of me. Prefer listening to this via podcast? Good news! You can now subscribe to Office Hours on Spotify, Apple Podcasts, Podcast Index, Podcast Addict, Podchaser, and anywhere else fine podcasts [&#8230;]",
-    "source": "Brent Ozar Unlimited",
-    "tag": "Performance",
-    "pub": "Thu, 23 Jul 2026 13:15:24 +0000",
-    "ai_summary": ""
-  },
-  {
-    "title": "SQL Agent Job Automated Change Capture Process",
-    "link": "https://www.sqlservercentral.com/articles/sql-agent-job-automated-change-capture-process",
-    "summary": "Build a process that captures your SQL Agent job history and changes across time.\nThe post SQL Agent Job Automated Change Capture Process appeared first on SQLServerCentral.",
-    "source": "SQL Server Central",
-    "tag": "Community",
-    "pub": "Fri, 24 Jul 2026 00:00:43 +0000",
     "ai_summary": ""
   }
 ]
