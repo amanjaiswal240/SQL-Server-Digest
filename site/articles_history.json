@@ -1,5 +1,50 @@
 [
   {
+    "title": "[Video] Office Hours: An AI Agent Stops In to Ask a Question",
+    "link": "https://www.brentozar.com/archive/2026/11/video-office-hours-an-ai-agent-stops-in-to-ask-a-question/",
+    "summary": "This is the first time &#8211; that I know of, at least &#8211; that an AI agent has popped in to ask a question at https://pollgab.com/room/brento. I tell you the story behind it, and how I know it&#8217;s an AI agent, and how I feel about that, which is probably gonna surprise you. Prefer listening [&#8230;]",
+    "source": "Brent Ozar Unlimited",
+    "tag": "Performance",
+    "pub": "Thu, 05 Nov 2026 13:15:19 +0000",
+    "ai_summary": ""
+  },
+  {
+    "title": "Packing and Decoding Device Status Codes with LEFT_SHIFT() and RIGHT_SHIFT() in SQL Server",
+    "link": "https://www.sqlservercentral.com/articles/packing-and-decoding-device-status-codes-with-left_shift-and-right_shift-in-sql-server",
+    "summary": "Some systems store several small status values through a single packed integer. For example, a device integration may require tracking operating mode, alert level, and zone information as one status code rather than separate values in different columns. That creates a practical reporting problem. The packed value may be convenient for an integration format, but [&#8230;]\nThe post Packing and Decoding Device Status Codes with LEFT_SHIFT() and RIGHT_SHIFT() in SQL Server appeared first on SQLServe",
+    "source": "SQL Server Central",
+    "tag": "Community",
+    "pub": "Fri, 06 Nov 2026 00:00:49 +0000",
+    "ai_summary": ""
+  },
+  {
+    "title": "SQL Server 2016 end of support: how to choose your upgrade path",
+    "link": "https://www.sqlservercentral.com/articles/sql-server-2016-end-of-support-how-to-choose-your-upgrade-path",
+    "summary": "SQL Server 2016 reached the end of extended support in July 2026, which means it no longer receives regular security updates unless you pay for Extended Security Updates (ESUs). \nThe post SQL Server 2016 end of support: how to choose your upgrade path appeared first on SQLServerCentral.",
+    "source": "SQL Server Central",
+    "tag": "Community",
+    "pub": "Fri, 06 Nov 2026 00:00:17 +0000",
+    "ai_summary": ""
+  },
+  {
+    "title": "SQL Server 2025 Features, Ranked by How Much They Changed My Week",
+    "link": "https://blog.sqlauthority.com/2026/11/06/sql-server-2025-features-ranked/",
+    "summary": "SQL Server 2025 features, ranked the way the music magazines rank albums. By whether they changed anything, not by how loud the launch was. Every entry below was tried on build 17.0.4085.5 before it earned a place. Three function probes came back unrecognised with this lab's settings, and...\nFirst appeared on SQL Server 2025 Features, Ranked by How Much They Changed My Week",
+    "source": "SQL Authority (Pinal Dave)",
+    "tag": "Tips",
+    "pub": "Fri, 06 Nov 2026 01:30:00 +0000",
+    "ai_summary": ""
+  },
+  {
+    "title": "AI-Written SQL: The Query That Ran and Lied",
+    "link": "https://blog.sqlauthority.com/2026/11/05/ai-written-sql-interview-questions/",
+    "summary": "Part six of ten. AI-written SQL fails in a way that plain bad code never does. It runs, it returns a number, and the number is wrong. Here is one that came out 28 times too big. The number While writing chapter 6 of my new book, I asked an assistant for sales by territory....\nFirst appeared on AI-Written SQL: The Query That Ran and Lied",
+    "source": "SQL Authority (Pinal Dave)",
+    "tag": "Tips",
+    "pub": "Thu, 05 Nov 2026 01:30:00 +0000",
+    "ai_summary": ""
+  },
+  {
     "title": "The Top 10 SQL Server Wait Types, Worldwide",
     "link": "https://www.brentozar.com/archive/2026/11/the-top-10-sql-server-wait-types-worldwide/",
     "summary": "SQL Server uses wait stats to track what queries are waiting on. Rather than monitoring gazillions of Perfmon counters and DMV objects, the easiest way to make your queries go faster is to ask, &#8220;What is my server waiting on?&#8221; Then, focus your efforts on your server&#8217;s top wait type. When you&#8217;re learning how to [&#8230;]",
@@ -1752,51 +1797,6 @@
     "source": "SQL Server Central",
     "tag": "Community",
     "pub": "Fri, 31 Jul 2026 00:00:49 +0000",
-    "ai_summary": ""
-  },
-  {
-    "title": "What does a modern DBA actually do? 6 key points from a senior DBA",
-    "link": "https://www.red-gate.com/simple-talk/career/what-does-a-modern-dba-actually-do-6-key-points-from-a-senior-dba/",
-    "summary": "The DBA role has changed. Senior DBA Lee Brownhill shares 6 honest insights on what database professionals are focused on today - AI, cloud costs, DevOps, and more.&#8230;\nThe post What does a modern DBA actually do? 6 key points from a senior DBA  appeared first on Simple Talk.",
-    "source": "Simple Talk (Redgate)",
-    "tag": "Deep Dive",
-    "pub": "Wed, 29 Jul 2026 12:00:00 +0000",
-    "ai_summary": ""
-  },
-  {
-    "title": "Think You Know A Lot About SQL Server? Well, Actually…",
-    "link": "https://www.brentozar.com/archive/2026/07/think-you-know-a-lot-about-sql-server-well-actually/",
-    "summary": "Got a few minutes? Close that dating app and pay attention. Check out this little SQL swipe quiz: &#8220;Well, Actually&#8230;&#8221; Swipe right if you think the statement is true, left if it&#8217;s false, or up if it&#8217;s debatable. Your score is tracked as you go. It&#8217;s a fun way to learn random database facts, and [&#8230;]",
-    "source": "Brent Ozar Unlimited",
-    "tag": "Performance",
-    "pub": "Tue, 28 Jul 2026 13:15:03 +0000",
-    "ai_summary": ""
-  },
-  {
-    "title": "The “Successful Login” Dilemma: Why Your Login Auditing Strategy Might Be Hurting Your Server",
-    "link": "https://www.sqlservercentral.com/articles/the-successful-login-dilemma-why-your-login-auditing-strategy-might-be-hurting-your-server",
-    "summary": "From bloated error logs to risky logon triggers, a guide to auditing connections without killing performance.\nThe post The “Successful Login” Dilemma: Why Your Login Auditing Strategy Might Be Hurting Your Server appeared first on SQLServerCentral.",
-    "source": "SQL Server Central",
-    "tag": "Community",
-    "pub": "Wed, 29 Jul 2026 00:00:09 +0000",
-    "ai_summary": ""
-  },
-  {
-    "title": "Time Series Data Mining Example with T-SQL when Adding New Data",
-    "link": "https://www.sqlservercentral.com/articles/time-series-data-mining-example-with-t-sql-when-adding-new-data-2",
-    "summary": "Please demonstrate the steps for updating an existing time series dataset used in a prior data mining project with a fresh batch of data. Then, repeat the mining performed for the original dataset with the freshly updated dataset.\nThe post Time Series Data Mining Example with T-SQL when Adding New Data appeared first on SQLServerCentral.",
-    "source": "SQL Server Central",
-    "tag": "Community",
-    "pub": "Wed, 29 Jul 2026 00:00:20 +0000",
-    "ai_summary": ""
-  },
-  {
-    "title": "SQL Server index tuning: common mistakes and how to fix them",
-    "link": "https://www.red-gate.com/simple-talk/databases/sql-server/sql-server-index-tuning-common-mistakes-and-how-to-fix-them/",
-    "summary": "Learn the most common SQL Server index tuning mistakes -over-indexing, wide indexes, fill factor misuse, heaps - and how to fix them. Complete guide with examples.&#8230;\nThe post SQL Server index tuning: common mistakes and how to fix them appeared first on Simple Talk.",
-    "source": "Simple Talk (Redgate)",
-    "tag": "Deep Dive",
-    "pub": "Mon, 27 Jul 2026 12:00:00 +0000",
     "ai_summary": ""
   }
 ]
