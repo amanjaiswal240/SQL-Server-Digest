@@ -1,5 +1,14 @@
 [
   {
+    "title": "5 common SQL Server transaction problems (and how to solve them)",
+    "link": "https://www.red-gate.com/simple-talk/databases/sql-server/5-common-sql-server-transaction-problems-and-how-to-solve-them/",
+    "summary": "Five practical SQL Server transaction problems — dirty reads, non-repeatable reads, phantom reads, rollback behavior, and nested transactions — with fixes.&#8230;\nThe post 5 common SQL Server transaction problems (and how to solve them) appeared first on Simple Talk.",
+    "source": "Simple Talk (Redgate)",
+    "tag": "Deep Dive",
+    "pub": "Fri, 06 Nov 2026 12:00:00 +0000",
+    "ai_summary": ""
+  },
+  {
     "title": "[Video] Office Hours: An AI Agent Stops In to Ask a Question",
     "link": "https://www.brentozar.com/archive/2026/11/video-office-hours-an-ai-agent-stops-in-to-ask-a-question/",
     "summary": "This is the first time &#8211; that I know of, at least &#8211; that an AI agent has popped in to ask a question at https://pollgab.com/room/brento. I tell you the story behind it, and how I know it&#8217;s an AI agent, and how I feel about that, which is probably gonna surprise you. Prefer listening [&#8230;]",
@@ -1788,15 +1797,6 @@
     "source": "Simple Talk (Redgate)",
     "tag": "Deep Dive",
     "pub": "Fri, 31 Jul 2026 12:00:00 +0000",
-    "ai_summary": ""
-  },
-  {
-    "title": "Why SQL Server Database Attach fails and how to repair it",
-    "link": "https://www.sqlservercentral.com/articles/why-sql-server-database-attach-fails-and-how-to-repair-it",
-    "summary": "This article covers a few common errors when attaching database files to an instance, with some information on how to resolve the issues.\nThe post Why SQL Server Database Attach fails and how to repair it appeared first on SQLServerCentral.",
-    "source": "SQL Server Central",
-    "tag": "Community",
-    "pub": "Fri, 31 Jul 2026 00:00:49 +0000",
     "ai_summary": ""
   }
 ]
