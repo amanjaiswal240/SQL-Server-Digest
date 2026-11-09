@@ -1,5 +1,32 @@
 [
   {
+    "title": "Table Partitioning in SQL Server: A Practical Guide to Managing Very Large Tables (VLDBs)",
+    "link": "https://www.sqlservercentral.com/articles/table-partitioning-in-sql-server-a-practical-guide-to-managing-very-large-tables-vldbs",
+    "summary": "Introduction When we first start working with SQL Server, most tables are small enough and we do not think much about their size. But over time, a table can collect millions or even billions of rows. For example, an online shopping application may store every order ever placed, a banking system may retain years of [&#8230;]\nThe post Table Partitioning in SQL Server: A Practical Guide to Managing Very Large Tables (VLDBs) appeared first on SQLServerCentral.",
+    "source": "SQL Server Central",
+    "tag": "Community",
+    "pub": "Mon, 09 Nov 2026 00:00:16 +0000",
+    "ai_summary": ""
+  },
+  {
+    "title": "Execution Plan Operators: Your Query’s Horoscope for the Month",
+    "link": "https://blog.sqlauthority.com/2026/11/09/your-query-horoscope/",
+    "summary": "Execution plan operators, twelve of them, read the way the back page reads the stars. Find the one that rules your plan this month. Each sign comes with what it means and the one thing it's asking you to check.\nFirst appeared on Execution Plan Operators: Your Query&#8217;s Horoscope for the Month",
+    "source": "SQL Authority (Pinal Dave)",
+    "tag": "Tips",
+    "pub": "Mon, 09 Nov 2026 01:30:00 +0000",
+    "ai_summary": ""
+  },
+  {
+    "title": "AI Says the Backups Are Fine",
+    "link": "https://blog.sqlauthority.com/2026/11/07/ai-says-the-backups-are-fine/",
+    "summary": "AI says the backups are fine. The log was extremely positive about it. Nobody in the room had restored anything since March.\nFirst appeared on AI Says the Backups Are Fine",
+    "source": "SQL Authority (Pinal Dave)",
+    "tag": "Tips",
+    "pub": "Sat, 07 Nov 2026 01:30:00 +0000",
+    "ai_summary": ""
+  },
+  {
     "title": "5 common SQL Server transaction problems (and how to solve them)",
     "link": "https://www.red-gate.com/simple-talk/databases/sql-server/5-common-sql-server-transaction-problems-and-how-to-solve-them/",
     "summary": "Five practical SQL Server transaction problems — dirty reads, non-repeatable reads, phantom reads, rollback behavior, and nested transactions — with fixes.&#8230;\nThe post 5 common SQL Server transaction problems (and how to solve them) appeared first on Simple Talk.",
@@ -1770,33 +1797,6 @@
     "source": "SQL Server Central",
     "tag": "Community",
     "pub": "Mon, 03 Aug 2026 00:00:14 +0000",
-    "ai_summary": ""
-  },
-  {
-    "title": "SQL Server Deadlock: Build One With Your Own Hands",
-    "link": "https://blog.sqlauthority.com/2026/08/04/sql-server-deadlock-build-one-with-your-own-hands/?utm_source=rss&utm_medium=rss&utm_campaign=sql-server-deadlock-build-one-with-your-own-hands",
-    "summary": "A SQL Server deadlock occurs when sessions form a cycle of dependencies and none can continue. This example lets you create the cycle, inspect it, and remove it.\nFirst appeared on SQL Server Deadlock: Build One With Your Own Hands",
-    "source": "SQL Authority (Pinal Dave)",
-    "tag": "Tips",
-    "pub": "Tue, 04 Aug 2026 01:30:21 +0000",
-    "ai_summary": ""
-  },
-  {
-    "title": "[Video] Office Hours: Desert Database Q&A",
-    "link": "https://www.brentozar.com/archive/2026/07/video-office-hours-desert-database-qa/",
-    "summary": "I&#8217;m in the Lake Mead National Recreation Area today, hanging out in the triple-digit heat, to answer your top-voted questions from https://pollgab.com/room/brento. Prefer listening to this via podcast? Good news! You can now subscribe to Office Hours on Spotify, Apple Podcasts, Podcast Index, Podcast Addict, Podchaser, and anywhere else fine podcasts are sold. Here&#8217;s what [&#8230;]",
-    "source": "Brent Ozar Unlimited",
-    "tag": "Performance",
-    "pub": "Fri, 31 Jul 2026 13:15:06 +0000",
-    "ai_summary": ""
-  },
-  {
-    "title": "How a SQL Server backup can execute attacker code during restore – and how to prevent it (CVE-2026-47295 vulnerability)",
-    "link": "https://www.red-gate.com/simple-talk/databases/sql-server/how-a-sql-server-backup-can-execute-attacker-code-during-restore-and-how-to-prevent-it-cve-2026-47295-vulnerability/",
-    "summary": "CVE-2026-47295: a truncation bug in SQL Server's replication cleanup lets a malicious backup execute attacker code as sysadmin during RESTORE DATABASE. Learn more, including how to prevent it.&#8230;\nThe post How a SQL Server backup can execute attacker code during restore &#8211; and how to prevent it (CVE-2026-47295 vulnerability) appeared first on Simple Talk.",
-    "source": "Simple Talk (Redgate)",
-    "tag": "Deep Dive",
-    "pub": "Fri, 31 Jul 2026 12:00:00 +0000",
     "ai_summary": ""
   }
 ]
