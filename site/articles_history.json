@@ -1,5 +1,41 @@
 [
   {
+    "title": "Are Blogs Still Relevant? #tsql2sday",
+    "link": "https://www.brentozar.com/archive/2026/11/are-blogs-still-relevant-tsql2sday/",
+    "summary": "Jeff Iannucci asked, &#8220;Are blogs still relevant?&#8221; As an author, yes, because: Blogs provide a written proof of what you were doing, at various points in time Blogs provide social proof that managers will see when they Google your name Blogs sharpen your technical skills &#8211; because nothing teaches you something better than having to [&#8230;]",
+    "source": "Brent Ozar Unlimited",
+    "tag": "Performance",
+    "pub": "Tue, 10 Nov 2026 13:15:59 +0000",
+    "ai_summary": ""
+  },
+  {
+    "title": "Enforcing Unique Customer Emails When Duplicates Already Exist",
+    "link": "https://www.sqlservercentral.com/articles/enforcing-unique-customer-emails-when-duplicates-already-exist",
+    "summary": "How do you keep some duplicate records by not others? An interesting business rule enforced by cleanup and a filtered index.\nThe post Enforcing Unique Customer Emails When Duplicates Already Exist appeared first on SQLServerCentral.",
+    "source": "SQL Server Central",
+    "tag": "Community",
+    "pub": "Wed, 11 Nov 2026 00:00:21 +0000",
+    "ai_summary": ""
+  },
+  {
+    "title": "How to secure temporary objects, metadata visibility, and audit assurance in SQL Server",
+    "link": "https://www.sqlservercentral.com/articles/how-to-secure-temporary-objects-metadata-visibility-and-audit-assurance-in-sql-server",
+    "summary": "This article, part of Fabiano Amorim’s complete guide to SQL Server security, explains and demonstrates where these three features commonly go wrong. Learn the the exact signs and queries to check for exposure – and the practical fixes that turn a theoretical risk into a closed gap.\nThe post How to secure temporary objects, metadata visibility, and audit assurance in SQL Server appeared first on SQLServerCentral.",
+    "source": "SQL Server Central",
+    "tag": "Community",
+    "pub": "Wed, 11 Nov 2026 00:00:05 +0000",
+    "ai_summary": ""
+  },
+  {
+    "title": "Restore Database Mistake: I Learned About Databases From That",
+    "link": "https://blog.sqlauthority.com/2026/11/10/i-learned-about-databases-from-that/",
+    "summary": "A restore database mistake, in the first person, minute by minute. This is a composite of three near misses I have been close to, with the details changed. The error message is real, and so is every rule at the end.\nFirst appeared on Restore Database Mistake: I Learned About Databases From That",
+    "source": "SQL Authority (Pinal Dave)",
+    "tag": "Tips",
+    "pub": "Tue, 10 Nov 2026 01:30:00 +0000",
+    "ai_summary": ""
+  },
+  {
     "title": "Announcing Microsoft Database Hub: An Incredible Pace of Innovation",
     "link": "https://www.brentozar.com/archive/2026/11/announcing-microsoft-database-hub-an-incredible-pace-of-innovation/",
     "summary": "Monitoring the health and performance of your database is very important. That&#8217;s why, every year or two, Microsoft announces a brand new monitoring tool. The last couple of decades have been an amazing blur, and you would be forgiven for missing Microsoft&#8217;s rapid innovations, so let&#8217;s bring you up to speed: 2004 &#8211; SQL Server [&#8230;]",
@@ -1761,42 +1797,6 @@
     "source": "SQL Server Central",
     "tag": "Community",
     "pub": "Wed, 05 Aug 2026 00:00:33 +0000",
-    "ai_summary": ""
-  },
-  {
-    "title": "MySQL vs PostgreSQL: spatial data types, functions, and migration pitfalls explained",
-    "link": "https://www.red-gate.com/simple-talk/databases/mysql-vs-postgresql-spatial-data-types-functions-and-migration-pitfalls-explained/",
-    "summary": "MySQL and PostgreSQL both support spatial data, but work very differently. This guide breaks down types, indexing, functions, and key migration gotchas.&#8230;\nThe post MySQL vs PostgreSQL: spatial data types, functions, and migration pitfalls explained appeared first on Simple Talk.",
-    "source": "Simple Talk (Redgate)",
-    "tag": "Deep Dive",
-    "pub": "Wed, 05 Aug 2026 12:00:00 +0000",
-    "ai_summary": ""
-  },
-  {
-    "title": "Nine Unusual Ways My Clients Use AI With SQL Server",
-    "link": "https://blog.sqlauthority.com/2026/08/06/nine-unusual-ways-my-clients-use-ai-with-sql-server/?utm_source=rss&utm_medium=rss&utm_campaign=nine-unusual-ways-my-clients-use-ai-with-sql-server",
-    "summary": "Everyone writes about AI generating queries. Nobody writes about the strange jobs it is actually doing inside real database teams. These are nine of them, and I helped build every one.\nFirst appeared on Nine Unusual Ways My Clients Use AI With SQL Server",
-    "source": "SQL Authority (Pinal Dave)",
-    "tag": "Tips",
-    "pub": "Thu, 06 Aug 2026 01:30:18 +0000",
-    "ai_summary": ""
-  },
-  {
-    "title": "Free Webcast: 3 Numbers Every Tuner Should Know.",
-    "link": "https://www.brentozar.com/archive/2026/08/free-webcast-3-numbers-every-tuner-should-know/",
-    "summary": "Every SQL Server performance tuner eventually faces the same question: is this normal, or is something wrong? The answer starts with 3 numbers about your SQL Server: How fast it&#8217;s going How hard it&#8217;s working How big it is On August 19, I&#8217;m doing a free webcast with JAMS Software to show you exactly where [&#8230;]",
-    "source": "Brent Ozar Unlimited",
-    "tag": "Performance",
-    "pub": "Tue, 04 Aug 2026 13:15:51 +0000",
-    "ai_summary": ""
-  },
-  {
-    "title": "Advanced T-SQL: Replacing Slow Cursors with Window Functions",
-    "link": "https://www.sqlservercentral.com/articles/advanced-t-sql-replacing-slow-cursors-with-window-functions",
-    "summary": "This article looks at replacing a cursor with a window function to improve performance.\nThe post Advanced T-SQL: Replacing Slow Cursors with Window Functions appeared first on SQLServerCentral.",
-    "source": "SQL Server Central",
-    "tag": "Community",
-    "pub": "Mon, 03 Aug 2026 00:00:22 +0000",
     "ai_summary": ""
   }
 ]
