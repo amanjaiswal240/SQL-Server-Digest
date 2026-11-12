@@ -1,5 +1,14 @@
 [
   {
+    "title": "AI Agents and Security: Keys to the Building",
+    "link": "https://blog.sqlauthority.com/2026/11/12/ai-agents-and-security-interview-questions/",
+    "summary": "Part seven of ten. An AI agent is a new kind of user in your systems. It reads, runs queries and takes actions, all at machine speed. These are the questions a security-minded interviewer asks before handing it any keys. Try this first, it takes a minute Paste this into any AI assistant, exactly as...\nFirst appeared on AI Agents and Security: Keys to the Building",
+    "source": "SQL Authority (Pinal Dave)",
+    "tag": "Tips",
+    "pub": "Thu, 12 Nov 2026 01:30:00 +0000",
+    "ai_summary": ""
+  },
+  {
     "title": "Are Blogs Still Relevant? #tsql2sday",
     "link": "https://www.brentozar.com/archive/2026/11/are-blogs-still-relevant-tsql2sday/",
     "summary": "Jeff Iannucci asked, &#8220;Are blogs still relevant?&#8221; As an author, yes, because: Blogs provide a written proof of what you were doing, at various points in time Blogs provide social proof that managers will see when they Google your name Blogs sharpen your technical skills &#8211; because nothing teaches you something better than having to [&#8230;]",
@@ -1788,15 +1797,6 @@
     "source": "SQL Server Central",
     "tag": "Community",
     "pub": "Wed, 05 Aug 2026 00:00:20 +0000",
-    "ai_summary": ""
-  },
-  {
-    "title": "The best AI developer tools in 2026: from coding agents to code review",
-    "link": "https://www.sqlservercentral.com/articles/the-best-ai-developer-tools-in-2026-from-coding-agents-to-code-review",
-    "summary": "AI developer tools have matured fast. In 2026, most engineering workflows touch at least one AI coding agent, code reviewer, or research assistant — but the right combination depends heavily on your team size, codebase, and tolerance for setup overhead. This guide breaks down the tools actually worth using across three categories: research and architecture, day-to-day development, and code review, based on real, hands-on experience.\nThe post The best AI developer tools in 2026: from coding agent",
-    "source": "SQL Server Central",
-    "tag": "Community",
-    "pub": "Wed, 05 Aug 2026 00:00:33 +0000",
     "ai_summary": ""
   }
 ]
