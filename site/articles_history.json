@@ -1,5 +1,23 @@
 [
   {
+    "title": "Implementing System-Versioned Temporal Tables in SQL Server: A Practical Guide",
+    "link": "https://www.sqlservercentral.com/articles/implementing-system-versioned-temporal-tables-in-sql-server-a-practical-guide",
+    "summary": "This article discusses the basics of System Versioned (Temporal) tables and how inserts, updates, and deletes are handled.\nThe post Implementing System-Versioned Temporal Tables in SQL Server: A Practical Guide appeared first on SQLServerCentral.",
+    "source": "SQL Server Central",
+    "tag": "Community",
+    "pub": "Fri, 13 Nov 2026 00:00:18 +0000",
+    "ai_summary": ""
+  },
+  {
+    "title": "What does my SQL Server data look like over the wire?",
+    "link": "https://www.sqlservercentral.com/articles/what-does-my-sql-server-data-look-like-over-the-wire",
+    "summary": "How can I see what the outgoing and incoming traffic to my SQL Server instance looks like? Are there any tools that can help with this? Check out this tip to learn more.\nThe post What does my SQL Server data look like over the wire? appeared first on SQLServerCentral.",
+    "source": "SQL Server Central",
+    "tag": "Community",
+    "pub": "Fri, 13 Nov 2026 00:00:59 +0000",
+    "ai_summary": ""
+  },
+  {
     "title": "AI Agents and Security: Keys to the Building",
     "link": "https://blog.sqlauthority.com/2026/11/12/ai-agents-and-security-interview-questions/",
     "summary": "Part seven of ten. An AI agent is a new kind of user in your systems. It reads, runs queries and takes actions, all at machine speed. These are the questions a security-minded interviewer asks before handing it any keys. Try this first, it takes a minute Paste this into any AI assistant, exactly as...\nFirst appeared on AI Agents and Security: Keys to the Building",
@@ -1779,24 +1797,6 @@
     "source": "SQL Authority (Pinal Dave)",
     "tag": "Tips",
     "pub": "Thu, 06 Aug 2026 18:38:27 +0000",
-    "ai_summary": ""
-  },
-  {
-    "title": "Who’s Hiring Database People? August 2026 Edition",
-    "link": "https://www.brentozar.com/archive/2026/08/whos-hiring-database-people-august-2026-edition/",
-    "summary": "Is your company hiring for a database position as of August 2026? Do you wanna work with the kinds of people who read this blog? Let&#8217;s make a love connection. If your company is hiring, leave a comment. The rules: Your comment must include the job title, and either a link to the full job [&#8230;]",
-    "source": "Brent Ozar Unlimited",
-    "tag": "Performance",
-    "pub": "Wed, 05 Aug 2026 13:15:57 +0000",
-    "ai_summary": ""
-  },
-  {
-    "title": "T-SQL in SQL Server 2025: REGEXP_LIKE",
-    "link": "https://www.sqlservercentral.com/articles/t-sql-in-sql-server-2025-regexp_like",
-    "summary": "This article goes into one of the new regular expression functions in SQL Server 2025: REGEXP_LIKE().\nThe post T-SQL in SQL Server 2025: REGEXP_LIKE appeared first on SQLServerCentral.",
-    "source": "SQL Server Central",
-    "tag": "Community",
-    "pub": "Wed, 05 Aug 2026 00:00:20 +0000",
     "ai_summary": ""
   }
 ]
