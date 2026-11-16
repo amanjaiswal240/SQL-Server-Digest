@@ -1,5 +1,14 @@
 [
   {
+    "title": "Tracking Inserted, Updated, and Deleted Rows with SQL Server OUTPUT",
+    "link": "https://www.sqlservercentral.com/articles/tracking-inserted-updated-and-deleted-rows-with-sql-server-output",
+    "summary": "Learn how you can use the OUTPUT clause to capture data that is changed by your DML statements.\nThe post Tracking Inserted, Updated, and Deleted Rows with SQL Server OUTPUT appeared first on SQLServerCentral.",
+    "source": "SQL Server Central",
+    "tag": "Community",
+    "pub": "Mon, 16 Nov 2026 00:00:01 +0000",
+    "ai_summary": ""
+  },
+  {
     "title": "Implementing System-Versioned Temporal Tables in SQL Server: A Practical Guide",
     "link": "https://www.sqlservercentral.com/articles/implementing-system-versioned-temporal-tables-in-sql-server-a-practical-guide",
     "summary": "This article discusses the basics of System Versioned (Temporal) tables and how inserts, updates, and deletes are handled.\nThe post Implementing System-Versioned Temporal Tables in SQL Server: A Practical Guide appeared first on SQLServerCentral.",
@@ -1788,15 +1797,6 @@
     "source": "SQL Server Central",
     "tag": "Community",
     "pub": "Fri, 07 Aug 2026 00:00:03 +0000",
-    "ai_summary": ""
-  },
-  {
-    "title": "They Finished the AI Training. Eleven Days Later, the Job Was Gone",
-    "link": "https://blog.sqlauthority.com/2026/08/07/they-finished-the-ai-training-eleven-days-later-the-job-was-gone/?utm_source=rss&utm_medium=rss&utm_campaign=they-finished-the-ai-training-eleven-days-later-the-job-was-gone",
-    "summary": "An anonymous interview with a database professional who did everything the company asked. There is no lesson at the end of this one. I looked for one. AI Training\nFirst appeared on They Finished the AI Training. Eleven Days Later, the Job Was Gone",
-    "source": "SQL Authority (Pinal Dave)",
-    "tag": "Tips",
-    "pub": "Thu, 06 Aug 2026 18:38:27 +0000",
     "ai_summary": ""
   }
 ]
