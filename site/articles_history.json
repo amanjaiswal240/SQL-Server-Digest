@@ -1,5 +1,41 @@
 [
   {
+    "title": "A Practical Approach to Automating SQL Server Email Notifications",
+    "link": "https://www.sqlservercentral.com/articles/a-practical-approach-to-automating-sql-server-email-notifications",
+    "summary": "Learn how to automate SQL Server notifications using a practical workflow for querying database records, sending email alerts, scheduling tasks, and handling failures.\nThe post A Practical Approach to Automating SQL Server Email Notifications appeared first on SQLServerCentral.",
+    "source": "SQL Server Central",
+    "tag": "Community",
+    "pub": "Wed, 18 Nov 2026 00:00:25 +0000",
+    "ai_summary": ""
+  },
+  {
+    "title": "Identify SQL Servers with inefficient Power Plans",
+    "link": "https://www.sqlservercentral.com/articles/identify-sql-servers-with-inefficient-power-plans",
+    "summary": "Regardless of the level of CPU load you currently sustain, you are very likely to benefit from correcting the power option, and are almost guaranteed to not make things worse. But knowing how to correct the issue is the easy part; it’s a simple setting in the Control Panel. The main issue is that it can be tedious to check this setting across all the servers in your environment.\nThe post Identify SQL Servers with inefficient Power Plans appeared first on SQLServerCentral.",
+    "source": "SQL Server Central",
+    "tag": "Community",
+    "pub": "Wed, 18 Nov 2026 00:00:22 +0000",
+    "ai_summary": ""
+  },
+  {
+    "title": "T-SQL Crossword: 24 Clues, Answers Next Week",
+    "link": "https://blog.sqlauthority.com/2026/11/18/tsql-crossword/",
+    "summary": "A T-SQL crossword with a real grid and 24 clues. Every answer is a word you have typed, or a word that has typed you. Answers next week, in the comments if you cannot wait.\nFirst appeared on T-SQL Crossword: 24 Clues, Answers Next Week",
+    "source": "SQL Authority (Pinal Dave)",
+    "tag": "Tips",
+    "pub": "Wed, 18 Nov 2026 01:30:00 +0000",
+    "ai_summary": ""
+  },
+  {
+    "title": "Claude on SQL Server FAQ: 7 Questions Teams Ask Me",
+    "link": "https://blog.sqlauthority.com/2026/11/17/claude-on-sql-server-faq-7-questions-teams-ask-me/",
+    "summary": "This Claude on SQL Server FAQ answers the seven questions teams ask me before we set up the read, prove, then change loop. It covers safety, customer data, staging, team time, mistakes, the role of the DBA and how soon a result shows up.\nFirst appeared on Claude on SQL Server FAQ: 7 Questions Teams Ask Me",
+    "source": "SQL Authority (Pinal Dave)",
+    "tag": "Tips",
+    "pub": "Tue, 17 Nov 2026 01:30:00 +0000",
+    "ai_summary": ""
+  },
+  {
     "title": "Tracking Inserted, Updated, and Deleted Rows with SQL Server OUTPUT",
     "link": "https://www.sqlservercentral.com/articles/tracking-inserted-updated-and-deleted-rows-with-sql-server-output",
     "summary": "Learn how you can use the OUTPUT clause to capture data that is changed by your DML statements.\nThe post Tracking Inserted, Updated, and Deleted Rows with SQL Server OUTPUT appeared first on SQLServerCentral.",
@@ -1761,42 +1797,6 @@
     "source": "SQL Server Central",
     "tag": "Community",
     "pub": "Mon, 10 Aug 2026 00:00:32 +0000",
-    "ai_summary": ""
-  },
-  {
-    "title": "A Better Fire Alarm Is Still a Fire",
-    "link": "https://blog.sqlauthority.com/2026/08/10/a-better-fire-alarm-is-still-a-fire/?utm_source=rss&utm_medium=rss&utm_campaign=a-better-fire-alarm-is-still-a-fire",
-    "summary": "A better fire alarm is still a fire. Many SQL Server incidents I get called about were preventable with controls already available in the client's environment. Here is the audit I wish had been run before the pager rang, complete with the T-SQL.\nFirst appeared on A Better Fire Alarm Is Still a Fire",
-    "source": "SQL Authority (Pinal Dave)",
-    "tag": "Tips",
-    "pub": "Mon, 10 Aug 2026 01:30:04 +0000",
-    "ai_summary": ""
-  },
-  {
-    "title": "How to ensure replication stability in PostgreSQL (fix/prevent lag, bloat, and bottlenecks)",
-    "link": "https://www.red-gate.com/simple-talk/databases/postgresql/how-to-ensure-replication-stability-in-postgresql-fix-prevent-lag-bloat-and-bottlenecks/",
-    "summary": "PostgreSQL replication stability depends on more than just configuration. Learn how replication lag, network bottlenecks, and VACUUM-related issues can silently undermine your database, and what to do about each.&#8230;\nThe post How to ensure replication stability in PostgreSQL (fix/prevent lag, bloat, and bottlenecks) appeared first on Simple Talk.",
-    "source": "Simple Talk (Redgate)",
-    "tag": "Deep Dive",
-    "pub": "Fri, 07 Aug 2026 12:00:00 +0000",
-    "ai_summary": ""
-  },
-  {
-    "title": "Database Animations: Why Big Columns May Not Affect Logical Reads",
-    "link": "https://www.brentozar.com/archive/2026/08/database-animations-why-big-columns-may-not-affect-logical-reads/",
-    "summary": "Over the years, tables &#8211; like your waistline &#8211; tend to get bigger. We keep tacking on more and more columns, one at a time, in order to handle app needs. It&#8217;s easier to add &#8220;just one more column&#8221; than it is to break things off into a whole separate table. When you&#8217;re only handling [&#8230;]",
-    "source": "Brent Ozar Unlimited",
-    "tag": "Performance",
-    "pub": "Thu, 06 Aug 2026 13:15:08 +0000",
-    "ai_summary": ""
-  },
-  {
-    "title": "BIT_COUNT in SQL Server",
-    "link": "https://www.sqlservercentral.com/articles/bit_count-in-sql-server",
-    "summary": "Learn how the BIT_COUNT() function works and how it enabled operations where data is stored in bits.\nThe post BIT_COUNT in SQL Server appeared first on SQLServerCentral.",
-    "source": "SQL Server Central",
-    "tag": "Community",
-    "pub": "Fri, 07 Aug 2026 00:00:03 +0000",
     "ai_summary": ""
   }
 ]
