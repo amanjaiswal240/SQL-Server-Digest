@@ -1,5 +1,23 @@
 [
   {
+    "title": "Would Open-Sourcing Microsoft SQL Server Actually Fix Anything?",
+    "link": "https://www.brentozar.com/archive/2026/11/would-open-sourcing-microsoft-sql-server-actually-fix-anything/",
+    "summary": "At the PASS Summit last week in Seattle, I was having a discussion with a few people who&#8217;d moved on from managing SQL Server over to working with PostgreSQL. They were talking about the advantages of open source &#8211; and there are certainly many &#8211; but it prompted me to ask, &#8220;If Microsoft open-sourced SQL [&#8230;]",
+    "source": "Brent Ozar Unlimited",
+    "tag": "Performance",
+    "pub": "Wed, 18 Nov 2026 13:15:59 +0000",
+    "ai_summary": ""
+  },
+  {
+    "title": "Why Successful SQL Server Backups Are Not Enough",
+    "link": "https://www.sqlservercentral.com/articles/why-successful-sql-server-backups-are-not-enough",
+    "summary": "A backup job can complete successfully, the backup can pass RESTORE VERIFYONLY, and SQL Server can have a complete record of that backup in msdb. And yet, when the restore is needed, the required recovery point may still be unreachable.\nThe post Why Successful SQL Server Backups Are Not Enough appeared first on SQLServerCentral.",
+    "source": "SQL Server Central",
+    "tag": "Community",
+    "pub": "Fri, 20 Nov 2026 00:00:24 +0000",
+    "ai_summary": ""
+  },
+  {
     "title": "A Practical Approach to Automating SQL Server Email Notifications",
     "link": "https://www.sqlservercentral.com/articles/a-practical-approach-to-automating-sql-server-email-notifications",
     "summary": "Learn how to automate SQL Server notifications using a practical workflow for querying database records, sending email alerts, scheduling tasks, and handling failures.\nThe post A Practical Approach to Automating SQL Server Email Notifications appeared first on SQLServerCentral.",
@@ -1779,24 +1797,6 @@
     "source": "SQL Authority (Pinal Dave)",
     "tag": "Tips",
     "pub": "Tue, 11 Aug 2026 01:30:24 +0000",
-    "ai_summary": ""
-  },
-  {
-    "title": "How to Work with On-Premises AI Models to Generate T-SQL Code",
-    "link": "https://www.sqlservercentral.com/articles/how-to-work-with-on-premises-ai-models-to-generate-t-sql-code",
-    "summary": "See how a small local model performs on some SQL tasks. This shows how Ollama can run a model on your laptop.\nThe post How to Work with On-Premises AI Models to Generate T-SQL Code appeared first on SQLServerCentral.",
-    "source": "SQL Server Central",
-    "tag": "Community",
-    "pub": "Mon, 10 Aug 2026 00:00:41 +0000",
-    "ai_summary": ""
-  },
-  {
-    "title": "How SQL Server maintenance becomes an attack path – and what to do about it",
-    "link": "https://www.sqlservercentral.com/articles/how-sql-server-maintenance-becomes-an-attack-path-and-what-to-do-about-it",
-    "summary": "The article covers four connected areas: over-privileged database users, msdb and SQL Server Agent exposure, privileged maintenance jobs, and trigger-based permission hijacking.\nThe post How SQL Server maintenance becomes an attack path – and what to do about it appeared first on SQLServerCentral.",
-    "source": "SQL Server Central",
-    "tag": "Community",
-    "pub": "Mon, 10 Aug 2026 00:00:32 +0000",
     "ai_summary": ""
   }
 ]
