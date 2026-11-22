@@ -1,5 +1,14 @@
 [
   {
+    "title": "Technical Debt at AI Speed: Nobody Set a Credit Limit",
+    "link": "https://blog.sqlauthority.com/2026/11/20/technical-debt-ai-speed/",
+    "summary": "Technical debt used to grow only as fast as people could type. AI coding assistants removed that speed limit, and the new debt looks clean enough to pass every review. These are the early warning signs, and what I'd tell leaders to do before the bill comes due.\nFirst appeared on Technical Debt at AI Speed: Nobody Set a Credit Limit",
+    "source": "SQL Authority (Pinal Dave)",
+    "tag": "Tips",
+    "pub": "Fri, 20 Nov 2026 01:30:00 +0000",
+    "ai_summary": ""
+  },
+  {
     "title": "How to validate GPS coordinates in SQL Server",
     "link": "https://www.red-gate.com/simple-talk/databases/sql-server/validate-gps-coordinates-sql-server-geography/",
     "summary": "Learn how to validate latitude and longitude in SQL Server, reject bad rows with reasons, build geography points safely and run a 10 km distance query.&#8230;\nThe post How to validate GPS coordinates in SQL Server appeared first on Simple Talk.",
@@ -1788,15 +1797,6 @@
     "source": "SQL Authority (Pinal Dave)",
     "tag": "Tips",
     "pub": "Wed, 12 Aug 2026 01:30:12 +0000",
-    "ai_summary": ""
-  },
-  {
-    "title": "msdb attack paths: how to secure SQL Server Agent, triggers, and restores",
-    "link": "https://www.red-gate.com/simple-talk/databases/sql-server/msdb-attack-paths-how-to-secure-sql-server-agent-triggers-and-restores/",
-    "summary": "Learn how msdb, SQL Server Agent jobs, triggers, and untrusted restores create privilege escalation paths - plus T-SQL scripts to detect and fix them.&#8230;\nThe post msdb attack paths: how to secure SQL Server Agent, triggers, and restores appeared first on Simple Talk.",
-    "source": "Simple Talk (Redgate)",
-    "tag": "Deep Dive",
-    "pub": "Mon, 10 Aug 2026 12:00:00 +0000",
     "ai_summary": ""
   }
 ]
