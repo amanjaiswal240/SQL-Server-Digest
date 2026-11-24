@@ -1,5 +1,50 @@
 [
   {
+    "title": "[Video] Office Hours: Back from the PASS Summit",
+    "link": "https://www.brentozar.com/archive/2026/11/video-office-hours-back-from-the-pass-summit/",
+    "summary": "I&#8217;m back from the annual PASS Data Community Summit, so let&#8217;s talk industry news before we dive into your 3 top-voted questions from https://pollgab.com/room/brento. Prefer listening to this via podcast? Good news! You can now subscribe to Office Hours on Spotify, Apple Podcasts, Podcast Index, Podcast Addict, Podchaser, and anywhere else fine podcasts are found. [&#8230;]",
+    "source": "Brent Ozar Unlimited",
+    "tag": "Performance",
+    "pub": "Thu, 19 Nov 2026 13:15:11 +0000",
+    "ai_summary": ""
+  },
+  {
+    "title": "PostgreSQL bloat after VACUUM: why it happens, and how to fix it",
+    "link": "https://www.red-gate.com/simple-talk/databases/postgresql/postgresql-bloat-after-vacuum/",
+    "summary": "VACUUM ran, dead rows are zero, yet tables and indexes keep growing. See four causes of PostgreSQL bloat, tested on 18.4, and how to fix each one.&#8230;\nThe post PostgreSQL bloat after VACUUM: why it happens, and how to fix it appeared first on Simple Talk.",
+    "source": "Simple Talk (Redgate)",
+    "tag": "Deep Dive",
+    "pub": "Mon, 23 Nov 2026 12:00:00 +0000",
+    "ai_summary": ""
+  },
+  {
+    "title": "The Fastest Way to Count Rows in SQL Server: I Asked Ten DBAs",
+    "link": "https://blog.sqlauthority.com/2026/11/24/fastest-way-to-count-rows-in-sql-server/",
+    "summary": "The fastest way to count rows in SQL Server depends on your goal. Compare COUNT, narrow indexes, and approximate metadata counts.\nFirst appeared on The Fastest Way to Count Rows in SQL Server: I Asked Ten DBAs",
+    "source": "SQL Authority (Pinal Dave)",
+    "tag": "Tips",
+    "pub": "Tue, 24 Nov 2026 01:30:26 +0000",
+    "ai_summary": ""
+  },
+  {
+    "title": "AI Database Schemas: Good SQL, Tables That Age Badly",
+    "link": "https://blog.sqlauthority.com/2026/11/23/ai-database-schemas/",
+    "summary": "AI database schemas look correct on the day they are written and hurt in year three. On a recent consulting engagement we changed five lines of a generated orders table. Here is the before and after, and what those five lines cost when I measured both on SQL Server 2025.\nFirst appeared on AI Database Schemas: Good SQL, Tables That Age Badly",
+    "source": "SQL Authority (Pinal Dave)",
+    "tag": "Tips",
+    "pub": "Mon, 23 Nov 2026 01:30:00 +0000",
+    "ai_summary": ""
+  },
+  {
+    "title": "One Restore Route: The Sunday Backup Puzzle",
+    "link": "https://blog.sqlauthority.com/2026/11/22/one-restore-route-puzzle/",
+    "summary": "One restore route reaches the target time of 10:42. Compare two simplified backup chains and choose the right one.\nFirst appeared on One Restore Route: The Sunday Backup Puzzle",
+    "source": "SQL Authority (Pinal Dave)",
+    "tag": "Tips",
+    "pub": "Sun, 22 Nov 2026 01:30:00 +0000",
+    "ai_summary": ""
+  },
+  {
     "title": "Technical Debt at AI Speed: Nobody Set a Credit Limit",
     "link": "https://blog.sqlauthority.com/2026/11/20/technical-debt-ai-speed/",
     "summary": "Technical debt used to grow only as fast as people could type. AI coding assistants removed that speed limit, and the new debt looks clean enough to pass every review. These are the early warning signs, and what I'd tell leaders to do before the bill comes due.\nFirst appeared on Technical Debt at AI Speed: Nobody Set a Credit Limit",
@@ -1752,51 +1797,6 @@
     "source": "SQL Server Central",
     "tag": "Community",
     "pub": "Fri, 14 Aug 2026 00:00:28 +0000",
-    "ai_summary": ""
-  },
-  {
-    "title": "How to get clean, usable data out of SQL Server into Python",
-    "link": "https://www.sqlservercentral.com/articles/how-to-get-clean-usable-data-out-of-sql-server-into-python",
-    "summary": "Build scalable data pipelines by pushing transformations into SQL and keeping Python focused on analysis.\nThe post How to get clean, usable data out of SQL Server into Python appeared first on SQLServerCentral.",
-    "source": "SQL Server Central",
-    "tag": "Community",
-    "pub": "Fri, 14 Aug 2026 00:00:12 +0000",
-    "ai_summary": ""
-  },
-  {
-    "title": "Database Animations: Why Higher Maxdop Equals More TempDB Spills",
-    "link": "https://www.brentozar.com/archive/2026/08/database-animations-why-higher-maxdop-equals-more-tempdb-spills/",
-    "summary": "You&#8217;ve probably heard of the setting Max Degree of Parallelism. I hate that name: it should really be called just plain ol&#8217; Degrees of Parallelism, and here&#8217;s why. There are a lot of conflicting opinions out there about how to set it, and Microsoft has official guidance about it in that article above. It&#8217;s basically set [&#8230;]",
-    "source": "Brent Ozar Unlimited",
-    "tag": "Performance",
-    "pub": "Wed, 12 Aug 2026 13:15:51 +0000",
-    "ai_summary": ""
-  },
-  {
-    "title": "When CTEs Don’t Work, Try Temp Tables – #TSQL2sday",
-    "link": "https://www.brentozar.com/archive/2026/08/when-ctes-dont-work-try-temp-tables-tsql2sday/",
-    "summary": "Common Table Expressions are awesome because they let SQL Server reorder processing in whatever way it deems to be the most efficient for your current data distribution, on your current version of SQL Server. Default to CTEs. When SQL Server gets that process wrong, switch to temp tables. Let&#8217;s start with an example. I&#8217;m using [&#8230;]",
-    "source": "Brent Ozar Unlimited",
-    "tag": "Performance",
-    "pub": "Tue, 11 Aug 2026 13:15:56 +0000",
-    "ai_summary": ""
-  },
-  {
-    "title": "Create SQL Server 2025 Availability Groups with SSMS Wizard",
-    "link": "https://www.sqlservercentral.com/articles/create-sql-server-2025-availability-groups-with-ssms-wizard",
-    "summary": "SQL Server Availability Groups are great for DR and HA purposes. In this article, we look at how to setup a SQL Server 2025 Availability Group using the features in SQL Server Management Studio.\nThe post Create SQL Server 2025 Availability Groups with SSMS Wizard appeared first on SQLServerCentral.",
-    "source": "SQL Server Central",
-    "tag": "Community",
-    "pub": "Wed, 12 Aug 2026 00:00:54 +0000",
-    "ai_summary": ""
-  },
-  {
-    "title": "Validating AI-Generated Index Recommendations",
-    "link": "https://blog.sqlauthority.com/2026/08/12/validating-ai-generated-index-recommendations/?utm_source=rss&utm_medium=rss&utm_campaign=validating-ai-generated-index-recommendations",
-    "summary": "Validating AI-generated index recommendations is the step between a persuasive script and a change you can defend in production.\nFirst appeared on Validating AI-Generated Index Recommendations",
-    "source": "SQL Authority (Pinal Dave)",
-    "tag": "Tips",
-    "pub": "Wed, 12 Aug 2026 01:30:12 +0000",
     "ai_summary": ""
   }
 ]
