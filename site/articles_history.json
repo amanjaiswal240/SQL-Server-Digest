@@ -1,5 +1,41 @@
 [
   {
+    "title": "What to Do When the SQL Server Keeps Crashing",
+    "link": "https://www.brentozar.com/archive/2026/11/what-to-do-when-the-sql-server-keeps-crashing/",
+    "summary": "You&#8217;re facing a weird series of outages you&#8217;ve never faced before. At unpredictable, seemingly random times, the SQL Server restarts, locks up, or just stops processing queries. It&#8217;s been happening over the last month or two, and you can&#8217;t just ask &#8220;what changed?&#8221; because maybe nothing has changed, or maybe everything has changed, and you [&#8230;]",
+    "source": "Brent Ozar Unlimited",
+    "tag": "Performance",
+    "pub": "Tue, 24 Nov 2026 13:15:06 +0000",
+    "ai_summary": ""
+  },
+  {
+    "title": "Protecting Multi-Step Data Changes with TRY...CATCH and XACT_ABORT in SQL Server",
+    "link": "https://www.sqlservercentral.com/articles/protecting-multi-step-data-changes-with-try-catch-and-xact_abort-in-sql-server",
+    "summary": "This article looks at multi-statement DML commands and how you can ensure your transaction handling works correctly.\nThe post Protecting Multi-Step Data Changes with TRY...CATCH and XACT_ABORT in SQL Server appeared first on SQLServerCentral.",
+    "source": "SQL Server Central",
+    "tag": "Community",
+    "pub": "Wed, 25 Nov 2026 00:00:36 +0000",
+    "ai_summary": ""
+  },
+  {
+    "title": "5 common SQL Server transaction problems (and how to solve them)",
+    "link": "https://www.sqlservercentral.com/articles/5-common-sql-server-transaction-problems-and-how-to-solve-them",
+    "summary": "Five practical SQL Server transaction problems — dirty reads, non-repeatable reads, phantom reads, rollback behavior, and nested transactions\nThe post 5 common SQL Server transaction problems (and how to solve them) appeared first on SQLServerCentral.",
+    "source": "SQL Server Central",
+    "tag": "Community",
+    "pub": "Wed, 25 Nov 2026 00:00:38 +0000",
+    "ai_summary": ""
+  },
+  {
+    "title": "Paging in SQL Server: Five Methods, Tested Like for Like",
+    "link": "https://blog.sqlauthority.com/2026/11/25/paging-in-sql-server-five-methods-tested/",
+    "summary": "Paging in SQL Server, done five ways against the same 1,200,000 rows, the same sort, and the same page size. Every completed method produced the same checksum at each depth, which checks consistency without proving row-by-row equality. Then I counted the reads.\nFirst appeared on Paging in SQL Server: Five Methods, Tested Like for Like",
+    "source": "SQL Authority (Pinal Dave)",
+    "tag": "Tips",
+    "pub": "Wed, 25 Nov 2026 01:30:00 +0000",
+    "ai_summary": ""
+  },
+  {
     "title": "[Video] Office Hours: Back from the PASS Summit",
     "link": "https://www.brentozar.com/archive/2026/11/video-office-hours-back-from-the-pass-summit/",
     "summary": "I&#8217;m back from the annual PASS Data Community Summit, so let&#8217;s talk industry news before we dive into your 3 top-voted questions from https://pollgab.com/room/brento. Prefer listening to this via podcast? Good news! You can now subscribe to Office Hours on Spotify, Apple Podcasts, Podcast Index, Podcast Addict, Podchaser, and anywhere else fine podcasts are found. [&#8230;]",
@@ -1761,42 +1797,6 @@
     "source": "SQL Server Central",
     "tag": "Community",
     "pub": "Mon, 17 Aug 2026 00:00:14 +0000",
-    "ai_summary": ""
-  },
-  {
-    "title": "Beautiful T-SQL Queries: Three Could Delete the Company",
-    "link": "https://blog.sqlauthority.com/2026/08/17/beautiful-t-sql-queries-three-could-delete-the-company/?utm_source=rss&utm_medium=rss&utm_campaign=beautiful-t-sql-queries-three-could-delete-the-company",
-    "summary": "AI writes genuinely beautiful T-SQL. Aligned, aliased, commented, indented like a textbook. Beautiful has never meant correct, but we have spent thirty years treating it as a signed affidavit.\nFirst appeared on Beautiful T-SQL Queries: Three Could Delete the Company",
-    "source": "SQL Authority (Pinal Dave)",
-    "tag": "Tips",
-    "pub": "Mon, 17 Aug 2026 01:30:30 +0000",
-    "ai_summary": ""
-  },
-  {
-    "title": "[Video] Office Hours in Zhengzhou, China",
-    "link": "https://www.brentozar.com/archive/2026/08/video-office-hours-in-zhengzhou-china-3/",
-    "summary": "I&#8217;m back at the People&#8217;s Park in Zhengzhou, Yves&#8217; hometown, watching retirees be active while I lounge around and take your top-voted questions from https://pollgab.com/room/brento. Prefer listening to this via podcast? Good news! You can now subscribe to Office Hours on Spotify, Apple Podcasts, Podcast Index, Podcast Addict, Podchaser, and anywhere else fine podcasts are [&#8230;]",
-    "source": "Brent Ozar Unlimited",
-    "tag": "Performance",
-    "pub": "Fri, 14 Aug 2026 13:15:09 +0000",
-    "ai_summary": ""
-  },
-  {
-    "title": "How to avoid nested REPLACE functions with TRANSLATE in SQL Server",
-    "link": "https://www.red-gate.com/simple-talk/databases/sql-server/how-to-avoid-nested-replace-functions-with-translate-in-sql-server/",
-    "summary": "Learn how SQL Server's TRANSLATE function replaces messy nested REPLACE statements. Simplify multi-character string replacements in T-SQL with one clean call.&#8230;\nThe post How to avoid nested REPLACE functions with TRANSLATE in SQL Server appeared first on Simple Talk.",
-    "source": "Simple Talk (Redgate)",
-    "tag": "Deep Dive",
-    "pub": "Fri, 14 Aug 2026 12:00:00 +0000",
-    "ai_summary": ""
-  },
-  {
-    "title": "The Hidden Danger of Wildcard Operators In Join Operations",
-    "link": "https://www.sqlservercentral.com/articles/the-hidden-danger-of-wildcard-operators-in-join-operations",
-    "summary": "This article looks at one of the killers of performance at scale, SELECT *.\nThe post The Hidden Danger of Wildcard Operators In Join Operations appeared first on SQLServerCentral.",
-    "source": "SQL Server Central",
-    "tag": "Community",
-    "pub": "Fri, 14 Aug 2026 00:00:28 +0000",
     "ai_summary": ""
   }
 ]
