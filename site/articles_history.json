@@ -1,5 +1,23 @@
 [
   {
+    "title": "Microsoft’s AI Skills Repo Has a Lot of Potential.",
+    "link": "https://www.brentozar.com/archive/2026/11/microsofts-ai-skills-repo-has-a-lot-of-potential/",
+    "summary": "AI models were trained on the entire contents of the Internet: Stack Overflow answers, tutorials on web sites, the contents of open source apps, and so on. Some of that stuff hasn&#8217;t been updated in decades, and some of it wasn&#8217;t even right in the first place. Skills, like the Microsoft-SQL agent skills for Claude Code, [&#8230;]",
+    "source": "Brent Ozar Unlimited",
+    "tag": "Performance",
+    "pub": "Wed, 25 Nov 2026 13:15:14 +0000",
+    "ai_summary": ""
+  },
+  {
+    "title": "Real Talk™️ About AI for database folks",
+    "link": "https://am2.co/2026/11/real-talk-about-ai-for-database-people/",
+    "summary": "I&rsquo;ve been writing a lot about AI lately. I&rsquo;ve used it to rebuild this blog and to automate work, and I&rsquo;ve been having a hell of a lot of fun doing it.\nBut I want to talk about something more important than my latest project.",
+    "source": "Andy Mallon (am2)",
+    "tag": "DBA Life",
+    "pub": "Tue, 24 Nov 2026 13:00:00 +0000",
+    "ai_summary": ""
+  },
+  {
     "title": "What to Do When the SQL Server Keeps Crashing",
     "link": "https://www.brentozar.com/archive/2026/11/what-to-do-when-the-sql-server-keeps-crashing/",
     "summary": "You&#8217;re facing a weird series of outages you&#8217;ve never faced before. At unpredictable, seemingly random times, the SQL Server restarts, locks up, or just stops processing queries. It&#8217;s been happening over the last month or two, and you can&#8217;t just ask &#8220;what changed?&#8221; because maybe nothing has changed, or maybe everything has changed, and you [&#8230;]",
@@ -1779,24 +1797,6 @@
     "source": "SQL Authority (Pinal Dave)",
     "tag": "Tips",
     "pub": "Wed, 19 Aug 2026 01:30:08 +0000",
-    "ai_summary": ""
-  },
-  {
-    "title": "How to implement Deep Data Security (DeepSec) in Oracle 26ai: complete step-by-step guide (part one)",
-    "link": "https://www.red-gate.com/simple-talk/databases/oracle-databases/how-to-implement-deep-data-security-deepsec-in-oracle-26ai-complete-step-by-step-guide-part-one/",
-    "summary": "Learn how Oracle 26ai Deep Data Security (DeepSec) simplifies row- and column-level access control for structured and vector data. A hands-on guide with real SQL examples.&#8230;\nThe post How to implement Deep Data Security (DeepSec) in Oracle 26ai: complete step-by-step guide (part one) appeared first on Simple Talk.",
-    "source": "Simple Talk (Redgate)",
-    "tag": "Deep Dive",
-    "pub": "Mon, 17 Aug 2026 12:00:00 +0000",
-    "ai_summary": ""
-  },
-  {
-    "title": "SQL Server index tuning: common mistakes and how to fix them",
-    "link": "https://www.sqlservercentral.com/articles/sql-server-index-tuning-common-mistakes-and-how-to-fix-them",
-    "summary": "This guide walks through the most common SQL Server index tuning mistakes seen in production environments, such as over-indexing, oversized INCLUDE lists, unnecessary fill factor settings, misuse of SORT_IN_TEMPDB, over-aggressive index maintenance – and the myth that heaps are a shortcut to speed. Features real examples.\nThe post SQL Server index tuning: common mistakes and how to fix them appeared first on SQLServerCentral.",
-    "source": "SQL Server Central",
-    "tag": "Community",
-    "pub": "Mon, 17 Aug 2026 00:00:14 +0000",
     "ai_summary": ""
   }
 ]
