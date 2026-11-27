@@ -1,5 +1,14 @@
 [
   {
+    "title": "[Video] Office Hours: Reflecting on Microsoft Ignite from Cabo",
+    "link": "https://www.brentozar.com/archive/2026/11/video-office-hours-reflecting-on-microsoft-ignite-from-cabo/",
+    "summary": "Microsoft&#8217;s annual conference has come and gone, and it&#8217;s time to look back on the surprisingly light database news before taking your top-voted questions from https://pollgab.com/room/brento. Prefer listening to this via podcast? Good news! You can now subscribe to Office Hours on Spotify, Apple Podcasts, Podcast Index, Podcast Addict, Podchaser, and anywhere else fine podcasts [&#8230;]",
+    "source": "Brent Ozar Unlimited",
+    "tag": "Performance",
+    "pub": "Thu, 26 Nov 2026 13:15:42 +0000",
+    "ai_summary": ""
+  },
+  {
     "title": "Microsoft’s AI Skills Repo Has a Lot of Potential.",
     "link": "https://www.brentozar.com/archive/2026/11/microsofts-ai-skills-repo-has-a-lot-of-potential/",
     "summary": "AI models were trained on the entire contents of the Internet: Stack Overflow answers, tutorials on web sites, the contents of open source apps, and so on. Some of that stuff hasn&#8217;t been updated in decades, and some of it wasn&#8217;t even right in the first place. Skills, like the Microsoft-SQL agent skills for Claude Code, [&#8230;]",
@@ -1788,15 +1797,6 @@
     "source": "SQL Server Central",
     "tag": "Community",
     "pub": "Wed, 19 Aug 2026 00:00:07 +0000",
-    "ai_summary": ""
-  },
-  {
-    "title": "Single-Query Tuning Versus Workload Tuning",
-    "link": "https://blog.sqlauthority.com/2026/08/19/single-query-tuning-versus-workload-tuning/?utm_source=rss&utm_medium=rss&utm_campaign=single-query-tuning-versus-workload-tuning",
-    "summary": "Single-query tuning versus workload tuning decides whether one fast victory becomes a durable performance improvement.\nFirst appeared on Single-Query Tuning Versus Workload Tuning",
-    "source": "SQL Authority (Pinal Dave)",
-    "tag": "Tips",
-    "pub": "Wed, 19 Aug 2026 01:30:08 +0000",
     "ai_summary": ""
   }
 ]
